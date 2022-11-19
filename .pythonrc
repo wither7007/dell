@@ -1,0 +1,3 @@
+import requests
+import pyperclip
+print("this is from ~/.pythonrc")

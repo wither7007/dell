@@ -1,0 +1,5 @@
+#!/usr/bin/python3.10
+def count(w):
+    print(f'there are {len(w)} in {w}')
+
+count('jim')

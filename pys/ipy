@@ -1,0 +1,2 @@
+/usr/bin/python3.10 ~/pys/ipysql.py
+nvim -c "normal G" ~/pys/ipy_linux3

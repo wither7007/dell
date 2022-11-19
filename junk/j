@@ -1,0 +1,6 @@
+#!/bin/bash
+red='\033[1;31m';
+
+red='\033[1;31m'; printf "%b\n" "${red}text";
+printf '%s\n' "------------ ${red}$1"
+cat $1

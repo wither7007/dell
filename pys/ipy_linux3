@@ -1,0 +1,3065 @@
+q
+get_ipython().run_line_magic('history', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('whos', '')
+import mysql.connector
+db=mysql.connector.connect()
+db=mysql.connector.connect(host="localhost" ,user="root", passwd="stars1")
+print('thursday')
+import sys
+sys.executable
+db=mysql.connector.connect()
+db=mysql.connector.connect(host="localhost" ,user="root", passwd="stars1")
+import mysql.connector
+db=mysql.connector.connect()
+db=mysql.connector.connect(host="localhost" ,user="root", passwd="stars1")
+mycursor=db.cursor()
+mycursor.execute("CREATE DATABASE testdatabase")
+def ex(sq):
+    mycursor.execute(sq)
+    
+ex('use testdatabase')
+ex('CREATE DATABASE second')
+ex('use second')
+ex('CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),
+       species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);')
+ex('CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20), species VARCHAR(20), sex CHAR(1), birth DATE, death DATE);')
+import sys
+sys.executable
+import sys
+sys.executable
+import mysql.connector
+import mysql.connector
+db=mysql.connector.connect(host="localhost" ,user="root", passwd="rootpress")
+mycursor=db.cursor()
+mycursor.execute("CREATE DATABASE testdatabase")
+def ex(sq):
+    mycursor.execute(sq)
+    
+ex('show tables')
+ex('use sys')
+myresult = mycursor.fetchall()
+for x in myresult:
+  print(x)
+  
+ex('show tables')
+myresult = mycursor.fetchall()
+for x in myresult:
+  print(x)
+  
+for x in {2, 1, 3}: ... print(x) 1 2 3
+get_ipython().run_line_magic('whos', '')
+print('thursday')
+print('friday')
+import sys
+dir(sys)
+get_ipython().run_line_magic('whos', '')
+import clipboard
+a=[1,2,3]
+a in [4,5]
+a in [3,4,5]
+a
+1 in [1,3]
+1 in [2,3]
+for p in a:
+    print(p)
+    
+for p in a:
+    if p in a:
+      print('yes')
+      
+for p in a:
+    print(p)
+    if p in a:
+      print('yes')
+      
+set(a)
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('run', 'test.py')
+import test.py
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+doub([1,3,4])
+get_ipython().run_line_magic('who', '')
+dir(doub)
+print(dir(doub))
+x="April is the cruellest month, breeding
+Lilacs out of the dead land, mixing"
+x='''ok'''
+x
+x='''April is the cruellest month, breeding
+Lilacs out of the dead land, mixing'''
+x
+print(x)
+x
+x.replace('\n',' ')
+x
+import re
+re.sub(r"\s", "x", x)
+re.sub(r"\s", "x", x)
+re.sub(r",", "", x)
+re.sub(r"[,\n]", "", x)
+re.sub(r"[,\n]", " ", x)
+re.sub(r"[^a-z]", " ", x)
+re.sub(r"[^a-zA-Z]", " ", x)
+re.sub(r"[^a-zA-Z]", "", x)
+re.sub(r"[^a-zA-Z]", " ", x)
+x
+y=re.sub(r"[^a-zA-Z]", " ", x)
+y
+re.sub(r"\s+", " ", y)
+z=re.sub(r"\s+", " ", y)
+z
+z
+z.split(' ')
+from pathlib import Path
+here = Path(".")
+files = here.glob("**/*")
+for item in files:
+    print(item)
+    
+from pathlib import Path
+here = Path(".")
+files = here.glob("**/*")
+for item in files:
+    print(item)
+    
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('pwd', '')
+from pathlib import Path
+here = Path(".")
+files = here.glob("**/*")
+for item in files:
+    print(item)
+    
+get_ipython().run_line_magic('pwd', '')
+import sys
+print(sys.path)
+f'{{ {4*10} }}'
+b='hi'
+f' {b} there'
+k=f' {b} there'
+k
+lt
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+cls
+c
+'abc'.replace('a','x')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('whos', '')
+y=re.sub(r"[^a-zA-Z]", " ", x)
+import re
+y=re.sub(r"[^a-zA-Z]", " ", x)
+y
+re.sub(r"\s+", " ", y)
+re.sub(r"\{1,}", " ", y)
+re.sub(r"\s{1,}", " ", y)
+re.sub(r"\s{1,}", " ", 'nothing    nothing')
+re.sub(r"\s{2,}", " ", 'nothing    nothing')
+re.sub(r"\s{8,}", " ", 'nothing    nothing')
+re.sub(r"\s{1,}", " ", 'nothing    nothing          a')
+re.sub(r"x{1,}", " ", 'nothing    nothing    x      a')
+re.sub(r"x{1,}", " ", 'nothing    nothing    xxxx      a')
+re.sub(r"x{1,}", " ", 'nothing    nothing    xbxxx      a')
+re.sub(r"x{0,}", " ", 'nothing    nothing    xbxxx      a')
+re.sub(r"j{0,}", " ", 'nothing    nothing    xbxxx      a')
+re.sub(r"j+", " ", 'nothing    nothing    xbxxx      a')
+y=re.sub(r'[^a-zA=Z]', ' ' x)
+y=re.sub(r'[^a-zA=Z]', ' ' ,x)
+y
+re.sub(r"\s+", " ", y)
+re.sub(r"\s+", " ", y).split(' ')
+z=re.sub(r"\s+", " ", y).split(' ')
+z
+get_ipython().run_line_magic('run', 'test.py')
+z
+get_ipython().run_line_magic('run', 'test.py')
+set(z)
+print(set(z))
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+cls
+get_ipython().run_line_magic('whos', '')
+print(z)
+z.sort()
+print(z)
+z.sort(key=len)
+print(z)
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+v=sorted(z)
+print(v)
+print(z)
+len(z)
+f'{len(z)} v is {len(v)}'
+print(set(v))
+print(sorted(set(v)))
+print(sorted(set(v), key=str.lower))
+'jim'[1]
+print(sorted(set(v), key=lambda x:x[1]))
+print(sorted(set(v), key=lambda x: x[1]))
+print(sorted(set(v), key=lambda x:x[1]))
+sorted(v)
+people = [('Anna', 'New York', 'Data Analyst'),('Chris', 'Berlin', 'Software Developer'),('Nancy', 'Toronto', 'Data Scientist')]
+sorted(people, key=lambda x:x[1])
+sorted(people, key=lambda x:x[1][1])
+type(people)
+people.append('xxx','xxx','xxx')
+people.append('xxx')
+people
+people.append(('xxx','yyy','zzz'))
+people
+sorted(people, key=lambda x:x[1][1])
+'xxx' in people
+'xxxx' in people
+people.remove('xxx')
+people
+sorted(people, key=lambda x:x[1][1])
+people.append(('aaa','b','c'))
+sorted(people, key=lambda x:x[1][1])
+people
+'aaa' in people
+enumerate(people)
+print(enumerate(people))
+list(enumerate(people))
+people.pop(4)
+list(enumerate(people))
+sorted(people, key=lambda x:x[1][1])
+people.append(('aaa','bbb','ccc'))
+sorted(people, key=lambda x:x[1][1])
+people.append(('  ','  ','ccc'))
+sorted(people, key=lambda x:x[1][1])
+type(people[1])
+people.pop(0)
+people
+list(enumerate(people))
+list(enumerate(people))[1]
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+doub(v)
+doub(z)
+get_ipython().run_line_magic('whos', '')
+doub(x)
+get_ipython().run_line_magic('run', 'test.py')
+a(3)
+cls
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('run', 'test.py')
+a(3)
+a(3,2)
+a(3,2)
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+set(z)
+get_ipython().run_line_magic('run', 'test.py')
+a([2,2])
+def a(p):
+    return p
+    
+a([2,2])
+get_ipython().run_line_magic('whos', '')
+def a(p):
+    return set(p)
+    
+a([2,2])
+def a(p):
+    return set(p)
+print(f'the set is {a([4,4,5,6])}')
+a("jim")
+sorted(a("jim"))
+a("jimxad")
+a("zjimxad")
+a("zjimxad")==a("zjimxad")
+a("zjimxad")==a("zjimxadc")
+set([8,9,20,1,3])
+import random
+random.random()
+random.random()*50
+for a in range(10):
+    random.random()
+    
+for a in range(10):
+    print(random.random())
+    
+for a in range(10):
+    print(random.random())*50
+    
+for a in range(10):
+    print(random.random()*50)
+    
+s=[]
+for a in range(10):
+    s.append(random.random*50)
+    print(random.random()*50)
+    
+for a in range(10):
+    s.append(random.random()*50)
+    print(random.random()*50)
+    
+s
+set(s)
+for a in range(100):
+    s.append(random.random()*50)
+    
+s
+set(s)
+print(s)
+print(set(s))
+print(sorted(set(s)))
+sorted(set(s))==sorted(set(s))
+def a(x):
+    if len(x)>3:
+        return x[2]
+        
+a("jim")
+print(a("jim"))
+"jim"[2]
+len("jim")
+print(a("jimste"))
+"steffes"[2:4]
+list(enumerate(s))
+s[33:40]
+s[-5]
+a=10
+if(a>10):
+    print("Value of a is greater than 10")
+else :
+    print("Value of a is 10")
+    
+a=10
+if(a>10):
+    print("Value of a is greater than 10")
+else:
+    print("Value of a is 10")
+    
+s
+list(enumerate(s))
+s.remove(s[108])
+list(enumerate(s))
+s.remove(s[10:100])
+s[10:20]
+s.clear()
+s
+get_ipython().run_line_magic('whos', '')
+dir(doub)
+import inspect
+inspect.getsource(doub)
+print(inspect.getsource(doub))
+get_ipython().run_line_magic('whos', '')
+for a in range(30):
+    s.append(random.random()*50)
+    
+s
+print(s)
+round(s[1])
+s.clear()
+for a in range(30):
+    s.append(round(random.random()*50))
+    
+s
+print(s)
+print(s)
+print(sorted(s))
+def u(p):
+    p=sorted(p)
+    return p
+    
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+z
+z[10:20]
+print(list(enumerate(z[20:30])))
+s
+get_ipython().run_line_magic('run', 'test.py')
+s
+s.clear()
+for a in range(30):
+    s.append(round(random.random()*50))
+    
+s
+set(s)
+print(f's is {len(s)} and set is {len(set(s))}')
+print(s)
+print(sorted(s))
+s.count(15)
+print(s)
+u(s)
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('clear', '')
+credits
+date
+import datetime
+date
+clear
+get_ipython().run_line_magic('clear', '')
+clear
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+import inspect
+print(inspect.getsource(doub))
+s
+s
+[x for x in s]
+[x*200 for x in s]
+round(s[1])
+[round(x) for x in s]
+s=[round(x) for x in s]
+s
+print(s)
+sorted(s)
+print(sorted(s))
+[x for x in range(100)]
+[x for x in range(100)]
+print([x for x in range(100)])
+print(['z' for x in range(100)])
+import random
+random.random()*50
+round(randome.random())
+round(random.random())
+round(random.random()*100)
+def k:
+    return round(random.random()*100)
+def k():
+    return round(random.random()*100)
+    
+k
+p=k
+p
+p=k()
+p
+print([k() for x in range(100)])
+get_ipython().run_line_magic('whos', '')
+print(inspect.getsource(s))
+get_ipython().run_line_magic('whos', '')
+print(inspect.getsource(u))
+print(inspect.getsource(k))
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+x
+cls
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('whos', '')
+a
+s
+s=[round(x) for x in s]
+for l in enumerate(s):
+    print(l)
+    
+t=sorted(s)
+cls
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+s
+get_ipython().run_line_magic('whos', '')
+z
+get_ipython().run_line_magic('whos', '')
+z
+[x for x in z]
+[x for x in z if x='in']
+[x for x in z if x=='in']
+[enumerate(x) for x in z if x=='in']
+[str(enumerate(x)) for x in z if x=='in']
+[x for x in enumerate(z) if x=='in']
+get_ipython().run_line_magic('whos', '')
+[x for x in enumerate(z) if x.startswith=='a']
+[x for x in enumerate(z) if x.startswith'a']
+[x for x in enumerate(z) if x.startswith('a')]
+[x for x  if x.startswith('a')]
+[x for x if x.startswith('a')]
+[x for x in z if x.startswith('a')]
+[x for x in z if not x.startswith('a')]
+[x for x in z if not x.contains('a')]
+[x for x in z if not x.startswith(('a','b'))]
+[x for x in z if not x.startswith(('a'))]
+[x for x in z if not x.startswith('a'))]
+[x for x in z if not x.startswith('a')]
+[x for x in z if  x.startswith('a')]
+[x for x in z if  x.startswith('a','b')]
+[x for x in z if  x.startswith(('a','b'))]
+[x for x in z if  x.startswith(('a','b'))]
+get_ipython().run_line_magic('whos', '')
+x
+x.replace('\n',' ')
+x.replace('\n',' ').replace('  ','')
+x.replace('\s','xxx')
+x.replace(' ','xxx')
+x.replace(' ','\t')
+q== 'one\ntwo\r\nthree'
+q= 'one\ntwo\r\nthree'
+q
+print(q)
+print(repr(q))
+get_ipython().run_line_magic('whos', '')
+print(repr(x))
+y
+print(repr(y))
+s.find('the')
+str(s).find('the')
+str(s)
+type(y)
+y.find('the')
+y[10]
+y.find('  ')
+y.split('  ')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('whos', '')
+x=whos
+random.random()*50
+s
+get_ipython().run_line_magic('whos', '')
+re.search('a',y)
+re.search('\s',y)
+re.search('\s+',y)
+s[10]
+y[10]
+y[:10]
+re.search('\s{2}',y)
+re.findall(r"\w+ly\b", y)
+re.findall(r"\w+y\b", y)
+re.findall("\w+y\b", y)
+re.findall(r"\w+y\b", y)
+re.findall(r"\.+y\b", y)
+re.findall(r"\.*y\b", y)
+re.findall(r"\w+y\b", y)
+y
+y.strip()
+y.strip().replace('  ', ' ')
+y.strip().replace('  ', ' ').split(' ')
+f=y.strip().replace('  ', ' ').split(' ')
+print(f)
+[a for a in f]
+myString='and'
+pattern = r'\b' + re.escape(myString) + r'\b'
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+s
+s.pop()
+s
+list(enumerate(s))
+s.pop()
+list(enumerate(s))
+s.pop(1)
+list(enumerate(s))
+s.find(50)
+list(enumerate(s))
+print(s)
+s.remove(8)
+print(s)
+s=sorted(s)
+print(s)
+s.remove(37)
+print(s)
+del s[0]
+print(s)
+del s[-1]
+print(s)
+del s[0:10]
+print(s)
+del s[:3]
+print(s)
+del s[:]
+print(s)
+get_ipython().run_line_magic('whos', '')
+k=random.random()
+k
+k=round(random.random()*100)
+k
+k
+def k():
+    return round(random.random()*100)
+    
+k()
+k()
+[k() for k in range(3)]
+[k for k in range(3)]
+k()
+print([k() for x in range(100)])
+[k() for x in range(3)]
+[n in [k() for x in range(3)]]
+[n for n in [k() for x in range(3)]]
+[n for n in [k() for x in range(30)]]
+[n for n in [k() for x in range(10)]]
+[n for n in [k() for x in range(10)]]
+[n for n in [k() for x in range(10)] and n %2==0]
+[n for n in [k() for x in range(10)] if n %2==0]
+[n for n in [k() for x in range(10)] if n %2==0]
+[n for n in [k() for x in range(10)] if n %2==0]
+[n for n in [k() for x in range(10)] if n %2==1]
+[n for n in [k() for x in range(10)] if n %2==1]
+[n for n in [k() for x in range(10)] if n %2==1]
+[n for n in [k() for x in range(10)] if n %2==1]
+[n for n in [k() for x in range(10)] if n %3==1]
+[n for n in [k() for x in range(10)] if n %3==0]
+[n for n in [k() for x in range(10)] if n %7==0]
+[n for n in [k() for x in range(10)] if n %7==0]
+[n for n in [k() for x in range(100)] if n %7==0]
+84/7
+[n for n in [k() for x in range(100)] if n %7==0]/7
+[n for n in [k() for x in range(100)] if n %7==0]
+[n for n in [k() for x in range(100)] if n %13==0]
+del [n for n in [k() for x in range(100)] if n %13==0][:2]
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+def n(a):
+    print(type(n))
+    
+n('a')
+def n(a):
+    print(type(a))
+    
+n('a')
+n(n)
+n([1])
+n((2))
+n((2,3))
+[1,2,3].count(1)
+[1,1,2,3].count(1)
+def n(a):
+    if type(a)==list:
+        print('list')
+    else:
+        print(type(n))
+        
+n(a)
+def n(a):
+    if type(a)==list:
+        print('list')
+    else:
+        print(type(a))
+        
+n(a)
+a
+n([1,2,3])
+def n(a):
+    if type(a)==list:
+        print(f'a list {a.count(1)} has 1\'s')
+        print('list')
+    else:
+        print(type(a))
+        
+n([1,2,3])
+n([1,1,2,3])
+def n(a):
+    if type(a)==list:
+        print(f'a list  has {a.count(1)} 1\'s')
+        print('list')
+    else:
+        print(type(a))
+        
+n([1,1,2,3])
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+z[10:20]
+print(z)
+a[0]
+z[0]
+z[0]==null
+z[0]==none
+z[0] is None
+z[0] = None
+print(z)
+len(z[0])
+z[0] = ''
+len(z[0])
+print(z)
+z=[a for a in z if len(a) !=0]
+print(z)
+str(z)
+a=''
+a=z[2]+z[3]
+a
+str(z)
+eleven = None
+print(eleven is None)
+eleven
+print(eleven)
+repr(eleven)
+repr(z)
+for n in z:
+    a+=n
+    
+a
+for n in z:
+    a+=' '+n
+    
+a
+a=''
+for n in z:
+    a+=' '+n
+    
+a
+def python_none():
+    pass
+    
+python_none()
+print(python_none())
+repr(python_none())
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+print(z)
+a=[a for a in z if len(a)!=0]
+print(z)
+z=[a for a in z if len(a)!=0]
+print(z)
+len(z)
+print(enumerate(z))
+print(list(enumerate(z)))
+s=0
+def summer(a):
+    for x in range(10):
+        s+=x
+    return set(p)
+    
+s=0
+def summer(a):
+    for x in range(10):
+        s+=x
+    return s
+    
+summer(2)
+def summer(a):
+    s=0
+    for x in range(10):
+        s+=x
+    return s
+    
+summer(2)
+def summer(a):
+    s=0
+    for x in range(10):
+        print(f'{s} + {x} = {s+x}')
+        s+=x
+    return s
+    
+summer(2)
+summer(2)
+def summer():
+    s=0
+    for x in range(10):
+        print(f'{s} + {x} = {s+x}')
+        s+=x
+    return s
+    
+summer(2)
+summer()
+summer()
+def summer(n):
+    s=0
+    for x in range(n):
+        print(f'{s} + {x} = {s+x}')
+        s+=x
+    return s
+    
+summer(8)
+summer(8)
+get_ipython().run_line_magic('whos', '')
+def k():
+    return round(random.random()*1000)
+myA=[k() for x in range(5)]
+k()
+myA
+def summer(n):
+    s=0
+    for x in n:
+        print(f'{s} + {x} = {s+x}')
+        s+=x
+    return s
+    
+summer(myA)
+def summer(n):
+    s=0
+    for x in n:
+        print(f'{s} * {x} = {s*x}')
+        s+=x
+    return s
+    
+summer(myA)
+def summer(n):
+    s=0
+    for x in n:
+        print(f'{s} * {x} = {s*x}')
+        s*=x
+    return s
+    
+summer(myA)
+def summer(n):
+    s=1
+    for x in n:
+        print(f'{s} * {x} = {s*x}')
+        s*=x
+    return s
+    
+summer(myA)
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+def k():
+    return round(random.random()*1000)
+myA=[k() for x in range(5)]
+myA
+set(myA)
+list(set(myA))
+list(sorted(set(myA)))
+list(sorted(set(myA)))=sorted(myA)
+list(sorted(set(myA)))==sorted(myA)
+def dif(a):
+    if list(sorted(set(a)))==sorted(a):
+        print(f'list {a} is unique')
+    else:
+        print(f'list {a} in NOT')
+        
+dif([1,2])
+dif([1,2,1])
+def dif(a):
+    if type(a)!=list:
+       print('input must be list') 
+    else:
+        if list(sorted(set(a)))==sorted(a):
+            print(f'list {a} is unique')
+        else:
+            print(f'list {a} in NOT')
+            
+dif('jim')
+dif([3])
+dif([38,2,4])
+dif([38,2,4,6,22,4])
+dif(['a','b'])
+dif(['a','b','a'])
+'aeio'.split('')
+'aeio'.split('e')
+[*'ae']
+[*'aeiou']
+for a in 'aeiou':
+    print(a)
+    
+clear
+get_ipython().run_line_magic('whos', '')
+d=[*'aeiou']
+d
+d=[*'ae']
+len(d)
+d=[*'ae']
+for n in range(len(d)):
+    print(d[n])
+    
+d=[*'ae']
+for n in range(len(d)):
+    print(d[n] + d [n+1])
+    
+d=[*'ae']
+for n in range(len(d)):
+    print(n)
+    print(d[n] + d [n+1])
+    
+d=[*'ae']
+for n in range(len(d)):
+    print(n)
+    print(d[n] + d[n+1])
+    
+for n in range(len(d)):
+    print(n)
+    print(n+1)
+    
+d[1]
+d[2]
+for n in range(len(d)):
+    print(n)
+    
+n
+print(d[0]+d[1])
+def permutations(elements):
+    if len(elements) <= 1:
+        yield elements
+        return
+    for perm in permutations(elements[1:]):
+        for i in range(len(elements)):
+            # nb elements[0:1] works in both string and list contexts
+            yield perm[:i] + elements[0:1] + perm[i:]
+            
+permutations([1,2])
+list(permutations([1,2]))
+list(permutations([1,2,3]))
+list(permutations(*'aeiou'))
+list(permutations([*'aeiou']))
+print(list(permutations([*'aeiou'])))
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('whos', '')
+random.shuffle([*'aeiou'])
+print(random.shuffle([*'aeiou']))
+[*'aeiou']
+random.shuffle('aeiou')
+char_list = ['a','e','i','o','u']
+random.shuffle(char_list)
+print(''.join(char_list))
+print(random.shuffle([*'aeiou']))
+[*'aeiou']
+d=[*'aeiou']
+d
+random.shuffle(d)
+type(d)
+get_ipython().run_line_magic('whos', '')
+random.shuffle('aeiou')
+random.shuffle(char_list)
+print(random.shuffle(char_list))
+type(random.shuffle(char_list))
+print(random.shuffle(char_list))
+char_list
+k=random.shuffle([*12345])
+print(k)
+k=random.shuffle([*"12345"])
+k
+print(k)
+j=[*"12345"]
+k=random.shuffle()
+print(k)
+j
+j=[*"12345"]
+k=random.shuffle(j)
+print(k)
+j
+j
+random.shuffle(j)
+j
+random.shuffle(j)
+j
+get_ipython().run_line_magic('whos', '')
+s
+print(sorted(s))
+print(sorted(s), key=lambda k: k)
+print(sorted(s, key=lambda k: k))
+print(sorted(s, key=lambda k: str(k)))
+get_ipython().run_line_magic('whos', '')
+y
+z
+z=[a for a in z if len(a)!=0]
+z
+sorted(a, key=lambda k: k)
+sorted(z, key=lambda k: k)
+print(sorted(z, key=lambda k: k))
+print(sorted(z, key=lambda k: lower(k)))
+Lower('j')
+print(sorted(z, key=lambda k: k.lower))
+print(sorted(z, key=lambda k: k.lower()))
+print(sorted(z, key=lambda k: k.lower()))
+print(sorted(z, key=lambda k: random.random()))
+print(sorted(z, key=lambda k: random.random()))
+z
+get_ipython().run_line_magic('run', 'test.py')
+z
+print(sorted(z, key=lambda k: random.random()))
+z
+print(z)
+get_ipython().run_line_magic('run', 'test.py')
+print(s)
+s[1]
+s[1][1]
+str(s[1][1])
+str(s[1])
+str(s[1])[1]
+[str(a) for a in s]
+s=[a for a in s and 1>9]
+s=[a for a in s and a>9]
+s
+s=[a for a in s and a == 9]
+type(s[1])
+s=[a for a in s]
+s
+[type(a) for a in s]
+[type(a) for a in s and a == 2]
+[type(a) for a in s if a == 2]
+[type(a) for a in s if a > 9]
+[a for a in s if a > 9]
+s=[a for a in s if a > 9]
+s
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('whos', '')
+def p(x):
+    print(x)
+    
+p(s)
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('whos', '')
+p(x)
+p(y)
+y
+get_ipython().run_line_magic('whos', '')
+z
+z=[a for a in z if len(a)!=0]
+z
+p(z)
+p(sorted(z, key=lambda k:k[-1]))
+p(sorted(z, key=lambda k:len(k)))
+def f(x):
+    return [a for a in x if a.startswith('t')]
+    
+f(z)
+[a for a in z if a > 9]
+[a for a f(z)]
+[a for a in f(z)]
+[a for a in f(z) if a[1]=='h']
+def t(x):
+    try:
+        return 9/x
+    except ZeroDivisionError:
+        print("You can't divide by zero!")
+        
+t(3)
+t(0)
+def t(x):
+    try:
+        return x[3]
+    except ZeroDivisionError:
+        print("You can't divide by zero!")
+        
+t('thisi')
+t('th')
+def t(x):
+    try:
+        return x[3]
+    except ZeroDivisionError:
+        print("You can't divide by zero!")
+    finally:
+        print("didn't work")
+        
+t('th')
+get_ipython().run_line_magic('whos', '')
+import inspect
+p
+p(sorted(z, key=lambda k:len(k)))
+p(inspect.getsource(t))
+def t(x):
+    try:
+        new= x[3]
+    except:
+        print("didn't work index")
+    finally:
+        print("didn't work")
+        
+t('frumious')
+t('fr')
+def t(x):
+    try:
+        new= x[3]
+    except:
+        print("didn't work index")
+
+    return new
+    
+t('fr')
+def t(x):
+    try:
+        new= x[3]
+        return new
+    except:
+        print("didn't work index")
+        
+t('fr')
+t('frumi')
+def t(x):
+    try:
+        new= x[3]
+        return new
+    except:
+        return 0
+        # print("didn't work index")
+        
+t('fr')
+t('frumi')
+k='''After the try clause, we can'''.split(' ')
+k
+[t(a) for a in k]
+t(k[2])
+import timeit
+get_ipython().run_line_magic('ls', '')
+'c:\all'.replace('\\','\/')
+r'c:\all'.replace('\\','\/')
+r'c:\all'.replace('\','\/')
+r'c:\all'.replace('\','/')
+r'\'.replace('\','x')
+r'JIm'.replace('j','xx')
+r'JIm'.replace('J','xx')
+r'\JIm'.replace('\J','xx')
+r'\JIm'.replace('\J','/')
+r'c:\JIm'.replace('\J','/')
+r'c:\JIm'.replace('\','/')
+r'c:\JIm'.replace('\\','/')
+r'c:\JIm'.replace('\\','/').replace('c:\','/mnt/c')
+r'c:\JIm'.replace('\\','/').replace('c:\','\/mnt\/c')
+r'c:\JIm'.replace('\\','/').replace('c:\\','\/mnt\/c')
+r'c:\JIm'.replace('c:\\','\/mnt\/c').replace('\\','/')
+r'c:\JIm'.replace('c:\\','/mnt/c').replace('\\','/')
+r'c:\JIm'.replace('c:\\','/mnt/c/').replace('\\','/')
+def wincon(a):
+    r'a'.replace('c:\\','/mnt/c/').replace('\\','/')
+    
+wincon('c:\jim')
+a
+r'c:\jim'
+a='c:\jim'
+r(a)
+r{a}
+repr(a)
+a
+a
+a.replace('c:\\','/mnt/c/')
+def wincon(a):
+    a.replace('c:\\','/mnt/c/').replace('\\','/')
+    
+wincon('c:\jim')
+a
+def wincon(a):
+    return a.replace('c:\\','/mnt/c/').replace('\\','/')
+    
+wincon('c:\jim')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('whos', '')
+def wincon(a):
+    import sys
+    print(type(sys.argv))
+    for i in sys.argv:
+        print(i)
+    return a.replace('c:\\','/mnt/c/').replace('\\','/')
+    
+wincon('c:\jim')
+def wincon(a):
+    import sys
+    print(type(sys.argv))
+    for i in sys.argv:
+        print(enumerate(i))
+    return a.replace('c:\\','/mnt/c/').replace('\\','/')
+    
+wincon('c:\jim')
+def wincon(a):
+    import sys
+    print(type(sys.argv))
+    for i in sys.argv:
+        print(list(enumerate(i)))
+    return a.replace('c:\\','/mnt/c/').replace('\\','/')
+ wincon('c:\jim')
+def wincon(a):
+    import sys
+    print(type(sys.argv))
+    for i in sys.argv:
+        print(list(enumerate(i)))
+    return a.replace('c:\\','/mnt/c/').replace('\\','/')
+    
+wincon('c:\jim')
+def wincon(a):
+    import sys
+    print(type(sys.argv))
+    for i in sys.argv:
+        print(i)
+    return a.replace('c:\\','/mnt/c/').replace('\\','/')
+    
+wincon('c:\jim')
+def wincon(a):
+    import sys
+    print(type(sys.argv))
+    for i in sys.argv:
+        print(f'first i is {i}')
+    return a.replace('c:\\','/mnt/c/').replace('\\','/')
+    
+wincon('c:\jim')
+get_ipython().run_line_magic('run', 'test.py')
+import timeit
+ 
+# code snippet to be executed only once
+setup_details = "import random"
+# code snippet whose execution time is to be measured
+samplecode = '''
+def example():
+    somenumber = random.randit(0,50)
+    return somenumber
+'''
+# timeit statement
+print ("Execution time of program:-", timeit.timeit(setup = setup_details,
+                     stmt = samplecode,
+                     number = 10000))
+somenumber = random.randit(0,50)
+import random
+somenumber = random.randit(0,50)
+# testing timeit()
+import timeit
+import_module = "import random"
+testcode = ''' 
+def test(): 
+    return random.randint(10, 100)
+'''
+print(timeit.repeat(stmt=testcode, setup=import_module, repeat=5))
+somenumber = random.randit(0,50)
+import random
+random.randint(10,100)
+somenumber = random.randint(0,50)
+somenumber
+somenumber = random.randint(0,50000000)
+somenumber
+print ("Execution time of program:-", timeit.timeit(setup = setup_details,
+                     stmt = samplecode,
+                     number = 10000))
+dir_path = r'C:\\all\\'
+
+# list to store files
+res = []
+
+# Iterate directory
+for path in os.listdir(dir_path):
+    # check if current path is a file
+    if os.path.isfile(os.path.join(dir_path, path)):
+        res.append(path)
+print(res)
+import os
+dir_path = r'C:\\all\\'
+
+# list to store files
+res = []
+
+# Iterate directory
+for path in os.listdir(dir_path):
+    # check if current path is a file
+    if os.path.isfile(os.path.join(dir_path, path)):
+        res.append(path)
+print(res)
+dir_path = r'/mnt/c/all'
+
+# list to store files
+res = []
+
+# Iterate directory
+for path in os.listdir(dir_path):
+    # check if current path is a file
+    if os.path.isfile(os.path.join(dir_path, path)):
+        res.append(path)
+print(res)
+samplecode = '''
+dir_path = r'/mnt/c/all'
+
+# list to store files
+res = []
+
+# Iterate directory
+for path in os.listdir(dir_path):
+    # check if current path is a file
+    if os.path.isfile(os.path.join(dir_path, path)):
+        res.append(path)
+print(res)
+'''
+print ("Execution time of program:-", timeit.timeit(setup = setup_details,
+                     stmt = samplecode,
+                     number = 10000))
+setup_details = "import os"
+print ("Execution time of program:-", timeit.timeit(setup = setup_details,
+                     stmt = samplecode,
+                     number = 10000))
+print("Execution time of program:-", timeit.timeit(setup = setup_details, stmt = samplecode, number = 10))
+samplecode = '''
+dir_path = r'/mnt/c/'
+
+# list to store files
+res = []
+
+# Iterate directory
+for path in os.listdir(dir_path):
+    # check if current path is a file
+    if os.path.isfile(os.path.join(dir_path, path)):
+        res.append(path)
+print(res)
+'''
+print("Execution time of program:-", timeit.timeit(setup = setup_details, stmt = samplecode, number = 10))
+res
+setup_details = "from os import walk"
+samplecode='''
+dir_path = r'/mnt/c/'
+res = []
+for (dir_path, dir_names, file_names) in walk(dir_path):
+    res.extend(file_names)
+print(res)
+'''
+print("Execution time of program:-", timeit.timeit(setup = setup_details, stmt = samplecode, number = 10))
+setup_details = "from os import walk"
+samplecode='''
+dir_path = r'/mnt/c/all'
+res = []
+for (dir_path, dir_names, file_names) in walk(dir_path):
+    res.extend(file_names)
+print(res)
+'''
+print("Execution time of program:-", timeit.timeit(setup = setup_details, stmt = samplecode, number = 10))
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('whos', '')
+import requests
+r = requests.get('https://www.dataquest.io/')
+print(r)
+dir(r)
+get_ipython().run_line_magic('history', '')
+[r in r]
+r
+[r in dir(r)]
+type(dir(r))
+[a for r in dir(r)]
+[a for a in dir(r)]
+[a for a in dir(r) if not a.startswith('__')]
+[a for a in dir(r) if not a.startswith('_')]
+r.text
+get_ipython().run_line_magic('history', '')
+[a for a in dir(r) if not a.startswith('_')][1:3]
+r.text[0:2]
+r.text[0:22]
+print(r.text)
+print(*r.text)
+print(r)
+print(r.text)
+print(r.text[:20])
+print(r.text[:220])
+type(r.text)
+def p(x):
+    print(x)
+    
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+len(x)
+p(x)
+p(x).split('\n')
+x.split('\n')
+len(x.split('\n'))
+l=len(x.split('\n'))
+p(x[:l])
+def p(w):
+    l=len(w.split('\n'))
+    print(w[:l])
+    
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('run', 'test.py')
+def p(w):
+    l=len(w.split('\n'))
+    print(w[:l])
+    
+get_ipython().run_line_magic('whos', '')
+p(y)
+x,y=1,2
+x
+if 2==3:
+    x,y=3,4
+else:
+    x,y=None, None
+    
+x
+print(x)
+repr(x)
+len(x)
+type(x)
+if 2==2:
+    x,y=3,4
+else:
+    x,y=None, None
+    
+x
+2=3 if 3==3
+a=3 if 3==3
+lt
+get_ipython().run_line_magic('ls', '')
+from IPython.core.magic_arguments import argument, magic_arguments
+ipy = get_ipython()
+ipy.define_macro('d', 'date')
+date
+ipy = get_ipython()
+ipy.define_macro('h', 'history')
+history
+get_ipython().run_line_magic('history', '')
+ipy = get_ipython()
+ipy.define_macro('h', 'history')
+ipy = get_ipython()
+ipy.define_macro('h', 'import')
+import
+import
+ipy = get_ipython()
+ipy.define_macro('h', '@history')
+@history
+ipy = get_ipython()
+ipy.define_macro('h', '%whos')
+%whos
+get_ipython().run_line_magic('whos', '')
+date
+%whos
+get_ipython().run_line_magic('pinfo', 'dir')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('pinfo', 'd')
+date
+import datetime as date
+date
+date
+d.now
+d.now()
+date.date()
+date.date('2022')
+date.date(2022)
+get_ipython().run_line_magic('pinfo', 'date')
+get_ipython().run_line_magic('magic', '')
+k=get_ipython().run_line_magic('magic', '')
+k
+get_ipython().run_line_magic('magic', '')
+get_ipython().run_line_magic('alias', 'w %whos')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('alias', 'wh %whos')
+get_ipython().run_line_magic('wh', '')
+get_ipython().run_line_magic('run', 'test.py')
+x
+get_ipython().run_line_magic('whos', '')
+z
+get_ipython().run_line_magic('less', 'z')
+z %less 
+get_ipython().run_line_magic('page', 'z')
+z
+get_ipython().run_line_magic('page', 'z')
+get_ipython().run_line_magic('page', 'print(z)')
+print(z)
+get_ipython().run_line_magic('whos', '')
+dir(whos)
+dir(random)
+get_ipython().run_line_magic('page', 'dir(random)')
+get_ipython().run_line_magic('automagic', '1')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('quickref', '')
+q
+get_ipython().run_line_magic('quickref', '')
+get_ipython().run_line_magic('quickref', '')
+get_ipython().run_line_magic('time', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('run', 't')
+clear
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('quickref', '')
+get_ipython().run_line_magic('alias', 'c clear')
+clear
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('alias', '')
+get_ipython().run_line_magic('lf', '')
+get_ipython().run_line_magic('lx', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('history', '')
+get_ipython().run_line_magic('timeit', 'x=x=range(100)')
+get_ipython().run_line_magic('timeit', 'x=x=range(100)')
+get_ipython().run_line_magic('timeit', "x=x=range(100) print('hi')")
+get_ipython().run_line_magic('timeit', "x=x=range(100): print('hi')")
+get_ipython().run_line_magic('timeit', "x=range(100): print('hi')")
+get_ipython().run_line_magic('timeit', 'x=range(100)')
+x
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('pdef', '(a)')
+get_ipython().run_line_magic('pdef', '(print)')
+get_ipython().run_line_magic('pdoc', '(print)')
+get_ipython().run_line_magic('pdoc(print)', '')
+pyvar = 'Hello world'
+get_ipython().system('echo "A python variable: {pyvar}"')
+get_ipython().system('echo "A python variable: {$PATH}"')
+__
+___
+get_ipython().run_line_magic('dhist', '')
+globals()
+get_ipython().run_line_magic('less', 'globals()')
+n=globals
+n
+n=globals()
+n
+get_ipython().run_line_magic('less', 'n')
+get_ipython().run_line_magic('less', 'z')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('less', 'z')
+get_ipython().run_line_magic('less', 'ls')
+get_ipython().run_line_magic('less', 'n')
+get_ipython().run_line_magic('less', 'z')
+z %less
+print(z)
+get_ipython().run_line_magic('env', '')
+get_ipython().run_line_magic('lsmagic', '')
+get_ipython().run_line_magic('matplotlib', '--list')
+get_ipython().run_line_magic('sx', 'fd')
+sd fd -epy
+get_ipython().run_line_magic('sx', 'fd -epy')
+get_ipython().run_line_magic('sx', 'lt -lhrt')
+get_ipython().run_line_magic('sx', 'ls -lhrt')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('pycat', 'sheets.py')
+get_ipython().run_line_magic('pycat', 't.py')
+get_ipython().run_line_magic('reset', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('reset', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('lsmagic', '')
+get_ipython().run_line_magic('alias', '')
+lt
+get_ipython().run_line_magic('unalias', 'less')
+less z
+less(z)
+less z
+get_ipython().run_line_magic('less', 'z')
+get_ipython().run_line_magic('alias', '')
+get_ipython().run_line_magic('more', 'z')
+get_ipython().run_line_magic('quickref', '')
+get_ipython().run_line_magic('magic', '')
+get_ipython().run_line_magic('alias_magic', 'w %whos')
+get_ipython().run_line_magic('w', '')
+v=1
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('alias_magic', 'currdir pwd')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('alias_magic', 'h history')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('env', '')
+ss=env
+print(env)
+ss=env
+get_ipython().run_line_magic('history', '5')
+get_ipython().run_line_magic('history', '50')
+dir(history)
+get_ipython().run_line_magic('history', '10')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('run', 'test.py')
+h
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('run', 'test.py')
+w
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('load', 'test.py')
+# %load test.py
+import re
+def doub(arr):
+    for a in arr:
+        print(a)
+
+x=''' April is the cruellest month, breeding
+Lilacs out of the dead land, mixing
+Memory and desire, stirring
+Dull roots with spring rain.
+Winter kept us warm, covering
+Earth in forgetful snow, feeding
+A little life with dried tubers.
+Summer surprised us, coming over the Starnbergersee
+With a shower of rain; we stopped in the colonnade,
+And went on in sunlight, into the Hofgarten,
+And drank coffee, and talked for an hour.
+Bin gar keine Russin, stamm’ aus Litauen, echt deutsch.
+And when we were children, staying at the arch-duke’s,
+My cousin’s, he took me out on a sled,
+And I was frightened. He said, Marie,
+Marie, hold on tight. And down we went.
+In the mountains, there you feel free.
+I read, much of the night, and go south in the winter.'''
+print(f'The wasteland \n{x}')
+
+y=re.sub(r'[^a-zA-Z]', ' ' ,x)
+z=re.sub(r"\s+", " ", y).split(' ')
+import random
+s=[]
+print(z)
+def a(p):
+    return set(p)
+print(f'the set is {a([4,4,5,6])}')
+def a(x):
+    if len(x)>3:
+        return x[2]
+for a in range(30):
+    s.append(round(random.random()*50))
+def u(p):
+    p=sorted(p)
+    return p
+    
+get_ipython().run_line_magic('whos', '')
+w
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('less', 'z')
+get_ipython().run_line_magic('clear', '')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('pinfo2', 'square')
+get_ipython().run_line_magic('pinfo', 'square')
+get_ipython().run_line_magic('pinfo2', 'len')
+import filelock
+get_ipython().run_line_magic('w', '')
+x = os.environ.keys()
+import os
+x = os.environ.keys()
+get_ipython().run_line_magic('page', 'x')
+get_ipython().run_line_magic('page', 'z')
+get_ipython().run_line_magic('w', '')
+x
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('page', 'z')
+get_ipython().run_line_magic('page', 'print(z)')
+print(z)
+z=[a for a in z if len(a)!=0]
+print(z)
+import sys
+[for a in dir(sys) if not a.startswith('_')]
+[a for a in dir(sys) if not a.startswith('_')]
+print([a for a in dir(sys) if not a.startswith('_')])
+n='sys'
+dir(n)
+dir(sys)
+n
+dir(r'n')
+type(n)
+import n
+n
+get_ipython().run_line_magic('page', 'dir(sys)')
+dir(sys)
+f'{dir(sys)}'
+f'{[dir(sys)]}'
+f'{[a for a in dir(sys)] }'
+def plus:
+    print('plus')
+def plus():
+    print('plus')
+    
+plus()
+def z(z):
+    print(dir(z))
+    
+z(a)
+z(sys)
+def z(z):
+    print([a for a in dir(z) if not a.startswith('_']))
+def z(z):
+    print([a for a in dir(z) if not a.startswith('_')])
+    
+get_ipython().run_line_magic('whos', '')
+z(sys)
+import requests
+z(requests)
+help(requests)
+help(requests)
+get_ipython().run_line_magic('history', '')
+z=history
+zz=get_ipython().run_line_magic('history', '')
+zz
+print(zz)
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_cell_magic('time', '', 'import random\nfor i in range(0, 1000000):\n    random.random()\n    \n')
+def x():
+    import random
+        for i in range(0, 1000000):
+        random.random()
+def x():
+for i in range(0, 1000000):
+    random.random()
+def xx():
+    for i in range(0, 1000000):
+    random.random()
+def xx():
+    for i in range(0, 1000000):
+        random.random()
+        
+xx()
+get_ipython().run_cell_magic('time', '', 'xx()\n\n')
+get_ipython().run_cell_magic('time', '', 'xx()\n\n')
+def xx():
+    for i in range(0, 100000000):
+        random.random()
+        
+get_ipython().run_cell_magic('time', '', 'xx()\n\n')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('alias', '')
+get_ipython().run_line_magic('man', 'ls')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('alias', '')
+get_ipython().run_line_magic('page', 'z')
+get_ipython().run_line_magic('page', 'y')
+y=y y y
+y=y + y + y
+y
+for z in range(30):print(z)
+for z in range(30):y+=y
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('alias', '')
+get_ipython().run_line_magic('ldir', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('lx', '')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('run', 'test.py')
+get_ipython().run_line_magic('w', '')
+w
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('whos', '')
+impor os
+import os
+get_ipython().run_line_magic('w', '')
+import os
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('whos', '')
+import requests
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('w', '')
+w
+get_ipython().run_line_magic('w', '')
+import requests
+get_ipython().run_line_magic('w', '')
+print('okkkk')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('whos', '')
+info reqests
+info reqqests
+get_ipython().run_line_magic('pinfo', 'requests')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('w', '')
+vip
+import requests
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('whos', '')
+import requests
+wexport PYTHONSTARTUP=~/.pythonrc
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('whos', '')
+import os
+get_ipython().run_line_magic('whos', '')
+import collections
+get_ipython().run_line_magic('whos', '')
+os
+requests
+z(requests)
+zdir(requests)
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('edit', '1')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('edit', '0')
+get_ipython().run_line_magic('edit', '2')
+get_ipython().run_line_magic('edit', '4')
+get_ipython().run_line_magic('h', '')
+type(h)
+get_ipython().run_line_magic('alias', '')
+get_ipython().run_line_magic('man', 'alias')
+get_ipython().run_line_magic('man', 'find')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('edit', '3')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('whos', '')
+clipboard
+get_ipython().run_line_magic('who', '')
+zdir(clipboard)
+help(clipboard)
+import pyperclip
+help(pyperclip)
+help(pyperclip)
+zdir(hyperclip)
+zdir(pyperclip)
+pyperclip.copy(str(dir(os)))
+zdir(os)
+print(zdir(os))
+for a in zdir(os):
+    print(a)
+    
+vip
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('whos', '')
+os
+clipboard
+clipboard
+get_ipython().run_line_magic('whos', '')
+zdir(os)
+zdir(os)
+print(zdir(os))
+[a for a in zdir(os)]
+print([a for a in zdir(os)])
+zdir(pyperclip)
+print(zdir(pyperclip))
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('whos', '')
+import pyperclip
+get_ipython().run_line_magic('whos', '')
+dir()
+[for a in dir() if not a.startswith('_')]
+[a for a in dir() if not a.startswith('_')]
+dir()
+d()
+dir()
+d()
+def d():
+  print([a for a in dir() if not a.startswith('_')])
+  
+d()
+[a for a in dir() if not a.startswith('_')]
+print([a for a in dir() if not a.startswith('_')])
+d()
+globals
+globals()
+[a for a in globals()]
+def d():
+  print([a for a in globals() if not a.startswith('_')])
+  
+d()
+d()
+d
+d()
+d()
+inspect.getsource(exit)
+inspect.getsource(d)
+d()
+inspect.getsource(os)
+d()
+inspect.getsource(ipy)
+d()
+d()
+zdir(pyperclip)
+dir()
+d()
+zdir(pyperclip)
+print())zdir(pyperclip)
+print(zdir(pyperclip))
+dir()
+d()
+get_ipython().run_line_magic('run', 'test.py')
+d()
+get_ipython().run_line_magic('page', 'y')
+get_ipython().run_line_magic('page', 'z')
+z=[a for a in z if len(a)!=0]
+z
+print(str(z))
+[str(a) for a in z]
+[str(a) for a in z]
+print(" ".join(z))
+print("  - ".join(z))
+print(z)
+z.append(1)
+print(z)
+print("  - ".join(z))
+str(1)
+map(str, z)
+list(map(str, z))
+list(map(upper, z))
+Upper('z')
+get_ipython().run_line_magic('man', 'lower')
+help(lower)
+z
+[str(a) for a in z]
+" ".join([str(a) for a in z])
+" ".join([str(a).upper() for a in z])
+" ".join([str(a).lower() for a in z])
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('alias', '')
+get_ipython().run_line_magic('ldir', '')
+get_ipython().run_line_magic('lx', '')
+d()
+inspect.getsource(d)
+inspect.getsource(d).replace('a','xxx')
+inspect.getsource(d).replace('\n','xxx')
+inspect.getsource(d).replace('\n','')
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+def tracer(x):
+    def wrapper():
+        print('header')
+        x()
+        print('footer') 
+    return wrapper
+
+@tracer
+def h():
+    print(f'[a for a in dir()]')
+    
+h()
+def h():
+    print(f'{[a for a in dir()]}')
+    
+h()
+def tracer(x):
+    def wrapper():
+        print('header')
+        x()
+        print('footer') 
+    return wrapper
+
+@tracer
+def h():
+    print(f'{[a for a in dir()]}')
+    
+h()
+d()
+inspect.getsource(d)
+@tracer
+def h():
+    print(f'{[a for a in globals]}')
+    
+h()
+[a for a in globals()]
+def tracer(x):
+    def wrapper():
+        print('header')
+        x()
+        print('footer') 
+    return wrapper
+
+@tracer
+def h():
+    print(f'{[a for a in globals()]}')
+    
+h()
+help(lower)
+help(upper)
+h
+get_ipython().run_line_magic('history', '')
+help(print)
+help(h)
+help(os)
+get_ipython().run_line_magic('ls', '')
+d()
+import requests
+[a for a in d()]
+def filt(x):
+    return [a for a in x not if a.startswith('_')]
+def filt(x):
+    return [a for a in x  if not a.startswith('_')]
+    
+[n for n in globals() if filt(n)]
+[n for n in globals() if filt(n)]
+get_ipython().run_line_magic('history', '')
+filt('xxx')
+filt('xx_x')
+globals()
+d()
+[n for n in globals() if not a.startswith('_')]
+[n for n in globals() if not n.startswith('_')]
+[n for n in globals() ]
+[f for f in [n for n in globals() ]]
+[f for f in [n for n in globals() ]][4]
+[f for f in [n for n in globals() ]][4:8]
+def starts(x):
+    return x.startswith('a')
+    
+starts('jim')
+starts('ajim')
+list('jim')
+[t for t in list('jim') if starts(t)]
+[t for t in list('ajim') if starts(t)]
+def starts(x):
+    return not x.startswith('a')
+    
+[t for t in list('ajim') if starts(t)]
+[t for t in list('ajim') if starts(t)]
+def starts(x):
+    return not x.startswith('_')
+    
+[t for t in globals() if starts(t)]
+d()
+d()
+zdir(d)
+inspect.getsource(d)
+inspect.getsource(zdir)
+dir(zdir)
+print(dir(zdir))
+zdir.__dict__
+import re
+text = 'a11 b213 a13 x15 c21 a40 a55 m34'
+for match in re.finditer(r'a\d*\W', text):
+    print (match[0])
+    
+re.finditer(r'.*', text)
+[a for a in re.finditer(r'.*', text)]
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('c', '')
+import requests
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+r=requests(url)
+url
+dir()
+d()
+r=requests.get(url)
+print(r)
+type(r)
+r.headers
+type(r.headers)
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('edit', '_2')
+get_ipython().run_line_magic('edit', '_1')
+get_ipython().run_line_magic('edit', '_1')
+get_ipython().run_line_magic('edit', '1')
+get_ipython().run_line_magic('edit', '3')
+get_ipython().run_line_magic('edit', '8')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('edit', '11')
+get_ipython().run_line_magic('c', '')
+r
+get_ipython().run_line_magic('h', '')
+r.headers
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('edit', '')
+s=r.headers
+s
+s.get('Server')
+s.items()
+print(s.items())
+get_ipython().run_line_magic('edit', '')
+fd
+fd.items()
+fd.keys()
+fd.values()
+fd.pop('name')
+fd
+fd.popitem()
+fd
+fd.keys()
+fd.popitem()
+fd.keys()
+fd.update{
+    "name": "freeCodeCamp", 
+    "founder": "Quincy Larson",
+    "type": "charity", 
+    "age": 8, 
+    "price": "free", 
+    "work-style": "remote",
+}
+fd
+fd.update({'new': 'item new'})
+fd
+dir()
+d()
+d()
+import requests
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs";
+r=requests.get(url)
+get_ipython().run_line_magic('h', '')
+url = 'http://httpbin.org/json'
+r = requests.get(url)
+r
+zdir(r)
+r.headers
+r.headers.keys()
+r.headers.items()
+r.text
+r.text.replace('\n','')
+print(r.text)
+type(r.text)
+d()
+url = 'http://httpbin.org/get'
+payload = {
+    'website':'dataquest.io',
+    'courses':['Python','SQL']
+    }
+r = requests.get(url, params=payload)
+print('Response Content:\n',r.text)
+get_ipython().run_line_magic('man', 'jq')
+manv jq
+get_ipython().run_line_magic('alias', 'manv')
+get_ipython().run_line_magic('man', 'jq')
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs";
+r=requests.get(url)
+r.text
+j=json.loads(r.text)
+import json
+j=json.loads(r.text)
+j
+j.keys()
+type(j)
+j.range
+d()
+print(j)
+import pprint
+pprint(j)
+import pprint as pprint
+pprint(j)
+from pprint import pprint
+pprint(j)
+d(0)
+get_ipython().run_line_magic('run', 'test.py')
+z
+pprint(z)
+pprint(z, depth=1)
+pprint(j, depth=1)
+import json
+import pprint
+from urllib.request import urlopen
+with urlopen('https://pypi.org/pypi/sampleproject/json') as resp:
+    project_info = json.load(resp)['info']
+    
+project_info
+import json
+import pprint
+from urllib.request import urlopen
+with urlopen('https://pypi.org/pypi/sampleproject/json') as resp:
+    project_info = json.load(resp)['info']
+    
+project_info
+pprint(project_info, depth=1)
+from pprint import pprint
+pprint(project_info, depth=1)
+get_ipython().run_line_magic('c', '')
+pprint(project_info, depth=1)
+get_ipython().run_line_magic('page', 'pprint(project_info)')
+get_ipython().run_line_magic('page', 'z')
+pprint(project_info, depth=1, width=60)
+j=pprint(project_info, depth=1, width=60)
+j
+get_ipython().run_line_magic('page', 'project_info')
+with urlopen('https://pypi.org/pypi/requests/json') as resp:
+    project_info = json.load(resp)['info']
+    
+get_ipython().run_line_magic('page', 'project_info')
+import requests
+from pprint import pprint
+import json
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs";
+r=requests.get(url)
+j=json.loads(r.text)
+j
+pprint(j)
+j.keys()
+len(j)
+for a in j:
+    print(a)
+    
+hash(1)
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('edit', '-1')
+get_ipython().run_line_magic('edit', '1')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('c', '')
+print(hash(a))
+print(hash(1))
+print(hash('jim'))
+dictionary[42] = "the answer to the ultimate question of life, the universe, and everything."
+dictionary={}
+dictionary[42] = "the answer to the ultimate question of life, the universe, and everything."
+print(dictionary)
+get_ipython().system('ls')
+x=get_ipython().getoutput('ls')
+x
+get_ipython().run_line_magic('edit', '4')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('history', '')
+get_ipython().run_line_magic('edit', '22')
+get_ipython().run_line_magic('edit', '222')
+get_ipython().run_line_magic('his', '-n')
+get_ipython().run_line_magic('history', '-n')
+get_ipython().run_line_magic('edit', '31')
+get_ipython().run_line_magic('edit', '7')
+get_ipython().run_line_magic('history', '-ng')
+get_ipython().run_line_magic('alias_magic', 'h history -n')
+get_ipython().run_line_magic('h', '-n')
+get_ipython().run_line_magic('h', '-ng')
+get_ipython().run_line_magic('page', 'h -n')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('h', '-n')
+get_ipython().run_line_magic('recall', '1-5')
+import requests
+from pprint import pprint
+import json
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs";
+r=requests.get(url)
+j=json.loads(r.text)
+j
+pprint(j)
+j.keys()
+len(j)
+ls
+ls
+print
+get_ipython().run_line_magic('c', '')
+ls
+print('hello')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('h', '-n')
+get_ipython().run_line_magic('edit', '44-45')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('c', '')
+d()
+pprint(dictionary)
+dictionary.update[1,'this']
+add_characters_3 = [
+    ("Rubeus Hagrid", "Gryffindor"),
+    ("Minerva McGonagall", "Gryffindor")
+]
+dictionary.update[add_characters_3]
+dictionary
+dictionary.clear()
+dictionary
+d={}
+add_characters_1 = {
+    "Albus Dumbledore": "Gryffindor",
+    "Luna Lovegood": "Ravenclaw"
+}
+d.update(add_characters_1)
+d
+d.update(1,'not')
+d.update([1,'not'])
+d.update({[1,'not']})
+d.update({1,'not'})
+d
+d.update({'x','not'})
+get_ipython().run_line_magic('h', '')
+d.update({'x':'not'})
+d
+d()
+d()
+import requests
+from pprint import pprint
+import json
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs";
+r=requests.get(url)
+j=json.loads(r.text)
+j.keys()
+[a for a in j.keys()]
+[a for a in j.keys()]
+j.get('range')
+j.get('values')
+for a in j.get('values'):
+    print(a)
+    
+j.get('values2')
+j.get('values2','noth')
+k=j.keys()
+k
+k=[a for a in j.keys()]
+k
+[for j[l] for l in k ]
+[l  for l in k ]
+for a in [l  for l in k ]:
+    print(a)
+    
+for a in [l  for l in k ]:
+    print(k[a])
+    
+k[1]
+j='''Krishnamurti was born in South India, in what is now the modern-day'''
+j
+d()
+import re
+d()
+re.sub(r'\s','','jim ste')
+re.sub(r'[^a-zA-Z0-9]','','jim ste')
+re.sub(r'[^a-zA-Z0-9]','','jim ste%%%')
+re.sub(r'[^a-zA-Z0-9]','',j)
+re.sub(r'[^a-zA-Z0-9]',' ',j)
+k=re.sub(r'[^a-zA-Z0-9]',' ',j)
+k
+l=re.sub(r'\s+',' ',k)
+l
+def junk(a):
+  return re.sub(r'[^a-zA-Z0-9]',' ',a)
+  
+get_ipython().run_line_magic('whos', '')
+junk(j)
+j
+get_ipython().run_line_magic('c', '')
+def junk(a):
+  b= re.sub(r'[^a-zA-Z0-9]',' ',a)
+  return re.sub(r'\s+',' ',b)
+  
+junk(j)
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('cd', '..')
+get_ipython().run_line_magic('cd', '..')
+get_ipython().run_line_magic('cd', 'all')
+get_ipython().run_line_magic('cd', 'bash')
+get_ipython().run_line_magic('ls', '')
+l
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('whos', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('c', '')
+l
+get_ipython().run_line_magic('ls', '')
+get_ipython().system('nvim')
+get_ipython().system('nvim b.json')
+d()
+type(d)
+print(sorted([a for a in globals() if not a.startswith('_')]))
+def d():
+  print(sorted([a for a in globals() if not a.startswith('_')]))
+  
+d()
+get_ipython().run_line_magic('c', '')
+d()
+dir(a)
+type(a)
+dir(a)
+d()
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('pwd', '')
+d()
+def foo(x):
+    global tt
+    tt = x*2
+    
+tt
+foo(1)
+tt
+def d():
+    global dd=sorted([a for a in globals() if not a.startswith('_')])
+    print(dd)
+def d():
+    global dd
+    dd=sorted([a for a in globals() if not a.startswith('_')])
+    print(dd)
+    
+d()
+dd
+get_ipython().run_line_magic('c', '')
+def d():
+    global dd
+    dd=sorted([a for a in globals() if not a.startswith('_')])
+    print(dd)
+
+def p(a):
+    print(a)
+    
+p(dd)
+type(dd)
+import requests
+from pprint import pprint
+import json
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs";
+r=requests.get(url)
+j=json.loads(r.text)
+j
+pprint(j)
+page = requests.get("https://en.wikipedia.org/wiki/Main_Page")
+ 
+# display status code
+print(page.status_code)
+ 
+# display scrapped data
+print(page.content)
+get_ipython().system('pip list')
+n=get_ipython().getoutput('pip list')
+n
+print(n)
+d()
+j
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/eliot?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs";
+r=requests.get(url)
+j=json.loads(r.text)
+j
+type(j)
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('edit', '-p')
+ev
+dir(ev)
+ev
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('edit', '-2')
+get_ipython().run_line_magic('edit', '22')
+get_ipython().run_line_magic('cd', '/tmp')
+lt
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('ls', 'py*')
+get_ipython().run_line_magic('ls', '')
+get_ipython().system('ls')
+get_ipython().system('ls -lhrt')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().system('cd ..')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('cd', '..')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('ls', '')
+get_ipython().system('pwd')
+get_ipython().run_line_magic('cd', '/mnt/c')
+get_ipython().run_line_magic('cd', 'bash')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('cd', 'all/bash')
+get_ipython().run_line_magic('ls', '')
+d()
+d
+dd
+get_ipython().run_line_magic('edit', '')
+d()
+dd
+import requests
+from pprint import pprint
+import json
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/eliot?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs";
+r=requests.get(url)
+j=json.loads(r.text)
+
+import json
+r=requests.get(url)
+r
+r.text
+j=json.loads(r.text)
+j
+j.keys()
+for a in j.keys():
+    print(a)
+    
+[a for a in j.keys()]
+[a for a in j.keys()][1]
+j[a for a in j.keys()][1]
+j
+j[[a for a in j.keys()][1]]
+j[[a for a in j.keys()][2]]
+len(j.keys())
+a=range(len(j.keys()))
+a
+for x in a:
+    p(x)
+    
+for x in a:
+    print(j[[a for a in j.keys()][x]])
+    
+for x in a:
+    print(f'x is ' {j[[a for a in j.keys()][x]]})
+for x in a:
+    print(f'x is  {j[[a for a in j.keys()][x]]}')
+    
+j.keys()
+j.keys()[0]
+type(j.keys())
+list(j.keys())[0]
+list(j.keys())[0]
+for x in a:
+    print(f'x is  {list(j.keys())[x]} {j[[a for a in j.keys()][x]]}')
+    
+j
+j['values']
+type(j['values']]
+type(j['values'])
+j['values'][1]
+j.get('values2','noth')
+j.get('values','noth')
+j.get('values',None)
+j.get('valuesx',None)
+j.get('valuesx')
+get_ipython().run_line_magic('c', '')
+repr(j.get('valuesx'))
+print(j.get('valuesx'))
+j
+for a in j:
+    print(a)
+    
+for a in j:
+    print(a, j[a])
+    
+for a in j:
+    print(f'{a} j[a]')
+    
+for a in j:
+    print(f'{a} -- {j[a]}')
+    
+' '.join(j['values'])
+k=j['values']
+k
+' '.join(k)
+k
+for b in k:
+    p(b)
+    
+for b in k:
+    p(str(b))
+    
+k
+str(k)
+[a for a in k]
+[a[1] for a in k]
+k[1]
+l=''
+for a in k:
+    l+=a
+    
+for a in k:
+    l+=str(a)
+    
+a
+k[-1]
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('cd', '..')
+get_ipython().run_line_magic('cd', '%%bash')
+get_ipython().run_line_magic('cd', '../all')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('ls', '*.json')
+get_ipython().system('ls *.json')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('cd', 'bash/')
+get_ipython().run_line_magic('ls', '')
+get_ipython().system('ls -lhrt')
+get_ipython().run_line_magic('c', '')
+dd
+import json
+d()
+' '.join(k[0])
+k
+k[0]
+len(k)
+' '.join(k)
+get_ipython().run_line_magic('c', '')
+for key, value in j.items():
+    print(f'{key} {value}')
+    
+j.items()
+for key, value in j.items():
+    print(f'{key}\n {value}')
+    
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('edit', '-p')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('ls', '')
+with open('b.json', 'r') as b:
+    bj=json.load(b)
+    
+bj
+bj.keys()
+bj['urls']
+list(bj.keys())
+bjl=list(bj.keys())
+p(bjl)
+p(sorted(bjl))
+str(sorted(bjl))
+json.dumps(bjl)
+dd
+get_ipython().run_line_magic('h', '')
+pprint(bjl)
+get_ipython().run_line_magic('h', '')
+pprint(bj)
+pprint(bj['urls'])
+bj['urls']
+type(bj['urls'])
+bj['urls'].split('\n')
+bj['urls'].split('t')
+bj['urls'].split('\n')
+dd
+get_ipython().run_line_magic('c', '')
+d()
+dd
+import json
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('cd', '..')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('cd', '../all')
+get_ipython().run_line_magic('cd', 'bash/')
+get_ipython().run_line_magic('ls', '')
+with open('b.json', 'r') as b:
+    bj=json.load(b)
+    
+bj
+bjk=bj.keys()
+bjk
+bjk=list(bj.keys())
+print(bjk)
+dd
+d()
+dd
+os.getcwd()
+get_ipython().run_line_magic('pwd', '')
+os.chdir('/mnt')
+get_ipython().run_line_magic('pwd', '')
+os.chdir('/mnt/c/all')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('cd', 'bash/')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('timeit', "x=x=range(100): print('hi')")
+get_ipython().run_line_magic('timeit', 'd()')
+dir_path = r'.'
+
+# list to store files
+res = []
+
+# Iterate directory
+for path in os.listdir(dir_path):
+    # check if current path is a file
+    if os.path.isfile(os.path.join(dir_path, path)):
+        res.append(path)
+print(res)
+def ti():
+    dir_path = r'.'
+
+    # list to store files
+    res = []
+
+    # Iterate directory
+    for path in os.listdir(dir_path):
+        # check if current path is a file
+        if os.path.isfile(os.path.join(dir_path, path)):
+            res.append(path)
+    print(res)
+    
+ti()
+get_ipython().run_line_magic('timeit', 'ti()')
+def ti():
+    dir_path = r'/mnt/c'
+
+    # list to store files
+    res = []
+
+    # Iterate directory
+    for path in os.listdir(dir_path):
+        # check if current path is a file
+        if os.path.isfile(os.path.join(dir_path, path)):
+            res.append(path)
+    print(res)
+
+ti()
+get_ipython().run_line_magic('timeit', 'ti()')
+get_ipython().run_line_magic('quickref', '')
+whos_ls
+get_ipython().run_line_magic('whos_ls', '')
+get_ipython().run_cell_magic('time', '', '\nimport numpy as np\nfor i in range(1000):\n    np.random.random_sample()\n    \n')
+get_ipython().run_cell_magic('writefile', 'test.py', '\na = 5\nb = 10\na, b = b, a\nprint("a =", a)\nprint("b =", b)\n\n')
+get_ipython().run_line_magic('ls', '')
+get_ipython().system('ls -lhrt')
+get_ipython().system('nvim test.py')
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_line_magic('edit', '')
+get_ipython().run_cell_magic('writefile', 'test.py', '\na = 5\nb = 10\na, b = b, a\nprint("a =", a)\nprint("b =", b)\n\n')
+get_ipython().run_line_magic('system', "echo 'Hello World'")
+get_ipython().run_line_magic('timeit', 'out = [i*i for i in range(1000000)]')
+out
+dir_path = r'/mnt/c'
+for path in os.scandir(dir_path):
+    if path.is_file():
+        print(path.name)
+        
+import sys
+print(f'version is {sys.version}')
+import requests
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+r=requests.get(url)
+dir(r)
+a=range(5)
+a
+for b in a:
+    print(b)
+    
+get_ipython().run_line_magic('whos', '')
+import pyperclip
+help(pyperclip)
+cls
+get_ipython().run_line_magic('c', '')
+d=''
+d+='jim'
+d
+for b in a:
+    d+=b
+    
+for b in a:
+    d+=str(b)
+    
+d
+for b in a:
+    d+=f'{str(b)}'
+    
+d
+del d
+d
+d=''
+for b in a:
+    d+=f'{str(b)}\n'
+d
+print(d)
+for b in a:
+    d+=f'line {str(b)}\n'
+    
+d
+print(d)
+type d
+type(d)
+d=''
+for b in a:
+    d+=f'line {str(b)}\n'
+    
+pyperclip.copy(d)
+pyperclip.copy("jim")
+get_ipython().run_line_magic('c', '')
+with open('AnyFile.txt', 'w') as j:
+    print('this is j' file=j)
+with open('AnyFile.txt', 'w') as j:
+    print('this is j', file=j)
+    
+get_ipython().run_line_magic('ls', '')
+get_ipython().system('cat AnyFile.txt')
+get_ipython().run_line_magic('history', '-ng')
+d
+with open('AnyFile.txt', 'w') as j:
+    print(d, file=j)
+    
+get_ipython().run_line_magic('pwd', '')
+import pyperclip
+pyperclip.copy("jim")
+import pyperclip
+pyperclip.copy("jim")
+get_ipython().run_line_magic('ls', '')
+with open("mp3_to_link", "r") as lt:
+    ltl=lt.read()
+    
+ltl
+for a in ltl:
+    print(a)
+    
+for a in ltl:
+    print(a)
+    
+print(ltl)
+type(ltl)
+with open("mp3_to_link", "r") as lt:
+    ltl=lt.readlines()
+    
+ltl
+ltl[1]
+alist = [line.rstrip() for line in open('mp3_to_link')]
+alist
+alist[1]
+alist[1:10]
+alist[-1:10]
+alist[-1:-2]
+get_ipython().run_line_magic('c', '')
+[a for a in alist]
+[len(a) for a in alist]
+print([len(a) for a in alist])
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('whos', '')
+print([len(a) for a in alist if len(a)==0])
+print([len(a) for a in alist if len(a)=>2])
+print([len(a) for a in alist if len(a)>2])
+print([a for a in alist if len(a)12])
+print([a for a in alist if len(a)>12])
+print([a for a in alist if len(a)>20])
+print([a for a in alist if len(a)<20])
+get_ipython().run_line_magic('c', '')
+def jj(a):
+    return f'jim is {a} forever'
+    
+jj('pp')
+list(map(jj,alist))
+2000/60
+alist = [line.rstrip() for line in open('mp3_to_link')]
+alist
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path {a} -Target {a}'
+    
+list(map(jj,alist))
+b=list(map(jj,alist))
+type(b)
+for q in b:
+    print(q)
+    
+alist
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path c:\\you\\kb\\{a} -Target {a}'
+    
+b=list(map(jj,alist))
+b
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path c:\you\kb\{a} -Target {a}'
+    
+b=list(map(jj,alist))
+b
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path c:\you\kb\{a} -Target {a}'
+    
+b=list(map(jj,alist))
+b
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path c:\you\kb\{a} -Target {a}'
+    
+f'\c:\'
+f'c'
+f'c\'
+f'c\\'
+repr('c\\')
+repr('c\')
+print(r'c:\')
+print(r'c:\\')
+print(f'c:\\')
+def nn(a):
+    return f'c:\{a}'
+    
+nn('jim')
+def nn(a):
+    return '\'
+def nn(a):
+    return '\\'
+    
+nn('jim')
+r'tt'
+r'\tt'
+r'\\tt'
+r'/\tt'
+f'c\\'
+r(f'c\\')
+r(f'c:\\')
+r'\tt'
+a=r'c:\all'
+p a
+print(a)
+a
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path r'c:\you\kb\'{a} -Target {a}'
+d=r'c:\you\kb\'
+a=r'c:\all\'
+a=r'c:\all\\'
+print(a)
+a=r'c:\all\\jim'
+a=r'c:\all\jim'
+a=r'\'
+a=r'\\'
+f'{a}'
+f'{a\}'
+repr(a)
+get_ipython().run_line_magic('c', '')
+def jj(a):
+    return fr'{a}'
+    
+jj('pp')
+def jj(a):
+    return fr'c:\{a}'
+    
+jj('pp')
+r'jj('pp')'
+print(jj('pp'))
+f' {jj('pp')}
+f' {jj("pp")}'
+cmd_drive = r"\\"
+    local_hostname = "hostname"
+    current_sid = "SID"
+    currentline_instance_number = "04"
+    cmd_pf = os.path.join(cmd_drive, local_hostname, "sapmnt", current_sid, "SYS", "profile")
+    cmd_pf = cmd_pf + "\\" + str(current_sid) + "_*" + str(currentline_instance_number) + "_" + str(currentline_host)
+    cmd_pf = "dir " + cmd_pf + " /b /a-d"
+    print(cmd_pf)`
+str(jj("pp"))
+file_name = 'C:/Users/Alice/Desktop/example.txt'
+
+# 👇️ C:/Users/Bob/Desktop/example.txt
+print(file_name)
+name = 'Bob'
+
+my_str = fr'Alice\{name}\Carl'
+my_str
+print(my_str)
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path c:\you\kb\{a} -Target {a}'
+    
+jj('pp')
+print(jj('pp'))
+nn=print(jj('pp'))
+nn
+nn=1
+from io import StringIO
+buffer = StringIO()
+sys.stdout = buffer
+import sys
+buffer = StringIO()
+sys.stdout = buffer
+print('This will be stored in the print_output variable')
+print_output = buffer.getvalue()
+print_output
+buffer
+print('xxx')
+buffer
+buffer.getvalue()
+a=buffer.getvalue()
+dir(buffer)
+sys.stdout = sys.__stdout__
+example = 'hello 123'
+
+# 👇️ remove call to print() to assign to a variable
+my_str = str(example)
+print(my_str) # 👉️ hello 123
+
+# -------------------------------------
+
+# ✅ Redirect print() output to a variable
+
+buffer = StringIO()
+sys.stdout = buffer
+
+print('This will be stored in the print_output variable')
+print_output = buffer.getvalue()
+
+# 👇️ restore stdout to default for print()
+sys.stdout = sys.__stdout__
+
+# 👇️ -> This will be stored in the print_output variable
+print('->', print_output)
+print_output
+r=r'\\'
+r
+print(r)
+r=r'\'
+r=rf'\'
+get_ipython().run_line_magic('c', '')
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path c:\you\kb\{a} -Target {a}'
+    
+jj('pp')
+jj('pp').replace("/", "\\/")
+jj('pp').replace("/0", "\\/")
+jj('pp').replace("o", "\\/")
+jj('pp').replace("]]", "\\/")
+jj('pp').replace("\\", "\\/")
+jj('pp').replace("\\", "\")
+jj('pp').replace("\\", "\\")
+print(jj('pp').replace("\\", "\\"))
+print(jj('pp'))
+crumb = 'abc\xyz'
+crumb.encode('string-escape')
+crumb = 'abc\xyz'
+crumb = r'abc\xyz'
+crumb
+f'{crumb}
+f'{crumb}'
+f'r{crumb}'
+repr(crumb)
+fr'r{crumb}'
+fr'{crumb}'
+fr"{crumb}.replace('u','xxx')"
+fr"{crumb}".replace('u','xxx')
+fr"{crumb}".replace('\','\')
+fr"{crumb}".replace('\','\\')
+fr"{crumb}".replace('\\','\\')
+def jj(a):
+    return f" ni -ItemType SymbolicLink -Path fr'c:\you\kb\'{a} -Target {a}"
+    
+jj('pp')
+def jj(a):
+    return f" ni -ItemType SymbolicLink -Path {fr'c:\you\kb\'}{a} -Target {a}"
+def jj(a):
+    return f" ni -ItemType SymbolicLink -Path {r'c:\you\kb\'}{a} -Target {a}"
+a={chr(92)}
+a
+print(a)
+print(fr'{a}')
+print(fr'{a}\')
+print(fr'{a}\\')
+my_string = f"🍔foo{bar}".replace("🍔", "\\")
+bar='ha'
+my_string = f"🍔foo{bar}".replace("🍔", "\\")
+my_string
+print(my_string)
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path c:\you\kb\{a} -Target {a}'
+    
+b=list(map(jj,alist))
+b
+print(b[3])
+def jj(a):
+    return f' ni -ItemType SymbolicLink -Path c:\you\kb\{a} -Target c:\you\crows\{a}'
+    
+b=list(map(jj,alist))
+b
+print(b[3])
+print(b[5])
+for q in b:
+    print(q)
+    
+print('This message will be displayed on the screen.')
+
+with open('filename.txt', 'w') as f:
+    print('This message will be written to a file.', file=f)
+    
+get_ipython().run_line_magic('ls', '')
+get_ipython().system('nvim filename.txt')
+with open('filename.txt', 'a') as f:
+  for q in b:
+      print(q, file=f)
+      
+get_ipython().system('nvim filename.txt')
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('pwd', '')
+200/60
+with Popen(["ifconfig"], stdout=subprocess.PIPE) as proc:
+   print(proc.stdout.read())
+   
+import subprocess
+with Popen(["ifconfig"], stdout=subprocess.PIPE) as proc:
+   print(proc.stdout.read())
+   
+import os
+
+cmd = "git --version"
+
+returned_value = os.system(cmd)  # returns the exit code in unix
+print('returned value:', returned_value)
+import requests
+from pprint import pprint
+import json
+url = "https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/eliot?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs";
+r=requests.get(url)
+j=json.loads(r.text)
+for key, value in j.items():
+    print(f'{key} {value}')
+    
+j
+pprint(bj['urls'])
+type(j)
+get_ipython().run_line_magic('c', '')
+j
+url
+import pyperclip
+pyperclip.copy("jim")
+import pyperclip
+pyperclip.copy("jim")
+import pyperclip
+pyperclip.copy("jim")
+import pyperclip
+pyperclip.copy("jim steffes")
