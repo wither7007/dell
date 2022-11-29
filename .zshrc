@@ -10,8 +10,8 @@ source $ZSH/oh-my-zsh.sh
 #
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=90000
+SAVEHIST=90000
 HISTFILE=~/.cache/zsh/history
 autoload -U compinit
 zstyle ':completion:*' menu select
@@ -71,9 +71,9 @@ source ~/.bash_aliases
 #source ~/setup.sh
 source ~/functions.sh
 # Avoid accidental deletion
-alias rm='rm -i'
-alias mv='mv -i'
-alias cp='cp -i'
+#alias rm='rm -i'
+#alias mv='mv -i'
+#alias cp='cp -i'
 # Prevent rm -f from asking for confirmation on things like `rm -f *.bak`.
 export EDITOR=nvim
 source "$HOME/.cargo/env"

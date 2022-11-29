@@ -1,0 +1,11 @@
+apt list --installed | rg 'maria'
+mariadb --version
+sudo /etc/init.d/mysql start
+ps -aux | rg "mar"
+sudo /etc/init.d/mysql status
+c
+sudo mariadb
+
+
+C:\Program Files\MySQL\MySQL Workbench 8.0 CE .\mysql.exe  -u root -p <none>
+

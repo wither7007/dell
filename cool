@@ -1,0 +1,11 @@
+#!/usr/bin/bash -v
+echo "Youtube audio downloader"
+echo "-----------------------------"
+cd /mnt/c/you
+fd . -td -d 1 | column
+cd -
+read -p 'Enter DL youtube directory: ' DIRY
+newdir="/mnt/c/you/$DIRY"
+echo "$newdir"
+mkdir -p $newdir
+cd $newdir

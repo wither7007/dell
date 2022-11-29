@@ -2,11 +2,11 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 twin-cities.umn.edu	0	0	1668228499	31536000
-raw.githubusercontent.com	0	0	1667088943	31536000
+raw.githubusercontent.com	0	0	1669576684	31536000
 launchpad.net	0	0	1660940472	15552000
 www.ibm.com	0	0	1668228509	31536000
 ibm.com	0	0	1668228509	3600
 www.podchaser.com	0	0	1644973174	15552000
-github.com	0	1	1663229422	31536000
+github.com	0	1	1669525792	31536000
 accounts.google.com	0	1	1661319245	31536000
 teddysun.net	0	0	1668228764	31536000

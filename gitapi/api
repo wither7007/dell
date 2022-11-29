@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+gh api --header 'Accept: application/vnd.github+json' --method GET /repos/octocat/Spoon-Knife/issues -F per_page=2 | jq '.[] | {title: .title, authorID: .user.id}'

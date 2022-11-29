@@ -1,0 +1,6 @@
+
+red=$(tput setaf 1)
+  green=$(tput setaf 2)
+  blue=$(tput setaf 4)
+  reset=$(tput sgr0)
+  printf "\[$red\]\u\[$reset\]@\[$green\]\h\[$reset\]:\[$blue\]\w\[$reset\]\$ "

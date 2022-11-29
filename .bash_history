@@ -1,6 +1,3 @@
-v .bash_aliases
-cd ..
-exit
 ye
 ps
 ye
@@ -497,4 +494,7 @@ p $PI
 exit
 exx
 p $PATH
+exit
+neo.sh 
+exit
 exit

@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+DIRY="111111111"
+newdir="/mnt/c/you/$DIRY"
+echo "$newdir"
+mkdir -p $newdir
+cd $newdir

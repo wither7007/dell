@@ -12,10 +12,9 @@ take () { mkdir -p -- "$1" && cd -P -- "$1"; }
 rgg () { rg $1 /mnt/c/all/gcloud_his $HISTFILE }
 
 chah()  {
-fda -tf --changed-within=$1hours |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g" }
+fda -tf -L --changed-within=$1hours |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g" }
 cham() {
-   fd -H -I --changed-within $1mins | rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat --format="%n %x" | column -t
-}
+fda -tf -L --changed-within=$1minutes |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g" }
 hit() { history | tail -n $1 }
 
 #https://raw.githubusercontent.com/nickjj/dotfiles/master/.config/zsh/.aliases

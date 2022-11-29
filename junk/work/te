@@ -1,0 +1,24 @@
+#!/bin/bash
+printf '%s\n' "This is the color \e[31mRed"
+
+  printf 'work\n\n'
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+printf "This is the color ${RED}Red${NC}"
+echo "$1"
+#echo "$f"
+if [[ -e $1 ]] 
+then
+  printf 'work\n\n'
+  echo "${RED}File exists." 
+else
+  printf 'work\n\n'
+  echo "File does not exist"
+
+  printf "${RED}File exists." 
+fi
+
+blue=$(tput setaf 4)
+normal=$(tput sgr0)
+
+printf "%s\n" "${blue}This text is blue${normal}"
