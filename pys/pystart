@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-nvim  /home/steff007/.ipython/profile_default/startup
+nvim  /home/steff007/.ipython/profile_default/startup/start.py

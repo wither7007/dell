@@ -1,9 +1,0 @@
-#!/usr/bin/bash -v
-        local c i j
-
-        printf "Colors 0 to 15 for the standard 16 colors\n"
-        for ((c = 0; c < 16; c++)); do
-                printf "|%s%3d%s" "$(tput setaf "$c")" "$c" "$(tput sgr0)"
-        done
-        printf "|\n\n"
-

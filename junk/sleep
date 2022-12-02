@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+#https://stackoverflow.com/questions/49053707/executing-one-shell-command-after-a-background-command-execution
+echo Starting at $(date)
+( echo Starting background process at $(date); sleep 5; echo Ending background process at $(date) ) & 
+echo Last command in script at $(date)

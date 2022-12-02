@@ -14,3 +14,5 @@
   log = false
   diff = false
   show = false
+[safe]
+	directory = /etc/ssh

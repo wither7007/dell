@@ -1,0 +1,11 @@
+#!/bin/bash
+#important
+#good color demo
+source n
+if [[ -e $1 ]] 
+then
+  printf "%s\n" "${BLUE}File exists." 
+else
+  printf "%s\n" "${RED}File does not exist"
+fi
+

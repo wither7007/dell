@@ -1,6 +1,4 @@
 ye
-ps
-ye
 $PATH
 $path
 echo $path
@@ -497,4 +495,6 @@ p $PATH
 exit
 neo.sh 
 exit
+exit
+ echo -e '1 0 A\n2 1 AA\n3 1 AB\n4 2 AAA\n5 2 AAB' | column --tree-id 1 --tree-parent 2 --tree 3
 exit

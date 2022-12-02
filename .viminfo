@@ -278,6 +278,12 @@ $
 # Jumplist (newest first):
 -'  1  0  ~/hyper/test.sh
 |4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
 -'  8  0  ~/hyper/j.sh
 |4,39,8,0,1667925651,"~/hyper/j.sh"
 -'  8  0  ~/hyper/j.sh
@@ -290,6 +296,46 @@ $
 |4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
 -'  1  0  /mnt/c/Users/jayst/.wslconfig
 |4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
 -'  1  0  /mnt/c/all/kottkeLink.txt
 |4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
 -'  1  0  /mnt/c/all/kottkeLink.txt
@@ -354,86 +400,38 @@ $
 |4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
 -'  1  0  /mnt/c/all/kottkeLink.txt
 |4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
--'  1  0  ~/.config/nvim/init.vim
-|4,39,1,0,1666670963,"~/.config/nvim/init.vim"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/all/kottkeLink.txt
+|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
 -'  1  0  ~/.config/nvim/init.vim
 |4,39,1,0,1666670963,"~/.config/nvim/init.vim"
 -'  1  0  ~/.config/nvim/init.vim

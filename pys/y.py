@@ -3,7 +3,7 @@ import os
 import datetime
 
 now = datetime.datetime.now()
-ago = now - datetime.timedelta(minutes=30)
+ago = now - datetime.timedelta(minutes=3330)
 
 path = '.'
 
