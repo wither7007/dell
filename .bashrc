@@ -1,6 +1,6 @@
 # If set, the pattern "**" used in a pathname expansion context will
 #misc functions
-source ~/functions.sh
+#source ~/functions.sh
 echo "frumious"
 alias memHogsPs='ps wwaxm -o pid,stat,vsize,rss,time,command | head -10'
 

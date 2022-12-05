@@ -6647,3 +6647,9 @@ pd()
 statement=
 statement
 statement.strip()
+import sqlite3
+conn = sqlite3.connect("ok")
+c = conn.cursor()
+ip = c.execute("SELECT source from history")
+ipl=list(ip)
+ipl

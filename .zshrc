@@ -69,7 +69,7 @@ setopt HIST_SAVE_NO_DUPS
 tmux
 source ~/.bash_aliases
 #source ~/setup.sh
-source ~/functions.sh
+#source ~/functions.sh
 # Avoid accidental deletion
 #alias rm='rm -i'
 #alias mv='mv -i'

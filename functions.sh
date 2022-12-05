@@ -1,21 +1,23 @@
-#!/usr/bin/env bash
+#!/bin/bash
 p() { printf '%s\n' "$1"; }
-se () {    history | rg -i $1; }
-manv () { man $1 | v -c 'set nonumber' - }
-#wi () { whereis $1}
-ex () { exiftool -j $1 | v - }
+se () {    history | rg -i "$1"; }
+manv () { man "$1" | v -c 'set nonumber' - ; }
+#wi () { whereis "$1"}
+ex () { exiftool -j "$1" | v - ;}
 lcd () { 
   echo  ${FUNCNAME[0]}
   ls -d */
 }
 take () { mkdir -p -- "$1" && cd -P -- "$1"; } 
-rgg () { rg $1 /mnt/c/all/gcloud_his $HISTFILE }
+rgg () { rg "$1" /mnt/c/all/gcloud_his $HISTFILE ;}
 
 chah()  {
-fda -tf -L --changed-within=$1hours |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g" }
+fda -tf -L --changed-within=$1hours |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g" ; }
 cham() {
-fda -tf -L --changed-within=$1minutes |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g" }
-hit() { history | tail -n $1 }
+fda -tf -L --changed-within=$1minutes |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g"; }
+hit() {
+  history | tail -n "$1"; 
+}
 
 #https://raw.githubusercontent.com/nickjj/dotfiles/master/.config/zsh/.aliases
 vdiff () {
@@ -65,3 +67,8 @@ function myip() {
 hisf () {
 	omz_history | cut -c 1-7 --complement > hf
 }
+
+#awsq () {
+	#awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
+	#nvim ~/.sqlite_history
+#}
