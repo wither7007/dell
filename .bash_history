@@ -1,10 +1,3 @@
-echo $path
-printenv | rg path
-htop
-exit
-cd bin
-v ye
-y3
 ye
 htop
 lt
@@ -497,4 +490,11 @@ exit
 exit
 exit
 bash -v
+exit
+zsh
+exit
+exit
+exit
+exit
+exit
 exit

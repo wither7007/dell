@@ -77,7 +77,6 @@ source ~/.bash_aliases
 # Prevent rm -f from asking for confirmation on things like `rm -f *.bak`.
 export EDITOR=nvim
 source "$HOME/.cargo/env"
-source ~/functions.sh
 source ~/path
 printf '%s%s%s\n' $(date '+%F - %S')
 printf 'epoch is %s\n' $(date '+%s')

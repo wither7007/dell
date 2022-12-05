@@ -68,7 +68,7 @@ hisf () {
 	omz_history | cut -c 1-7 --complement > hf
 }
 
-#awsq () {
-	#awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
-	#nvim ~/.sqlite_history
-#}
+awsq () {
+  awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
+  nvim ~/.sqlite_history
+}
