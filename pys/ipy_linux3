@@ -5850,3 +5850,800 @@ logging.error('error')
 get_ipython().run_line_magic('ls', '')
 get_ipython().run_line_magic('edit', '54')
 logging.error('error')
+import logging
+logging.basicConfig(level=logging.INFO, filename="log.log", filemode="a",
+format='%(asctime)s %(levelname)s:%(name)s:%(message)s')
+x=41
+logging.error('The lady doth protest too much, methinks')
+logging.info(f"the value of x is {x}")
+get_ipython().run_line_magic('c', '')
+import logging
+logging.basicConfig(level=logging.INFO, filename="log.log", filemode="a",
+format='%(asctime)s %(levelname)s:%(name)s:%(message)s')
+x=41
+logging.error('The lady doth protest too much, methinks')
+logging.info(f"asdffffffffffffffffffffffffffffffffof x is {x}")
+get_ipython().run_line_magic('c', '')
+try:
+    10/0
+except ZeroDivisionError as e:
+    logging.exception("zero")
+    
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('pwd', '')
+os.mkdir('decor')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('ls', '')
+os.chdir('decor')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('c', '')
+get_ipython().system('touch one.py')
+get_ipython().run_line_magic('ls', '')
+def one(f):
+    print('this is f')
+    f()
+
+def two(g):
+    print('this is g')
+    
+two(2)
+one(two())
+one(two(1))
+get_ipython().run_line_magic('c', '')
+one(two)
+def two():
+    print('this is g')
+    
+one(two)
+one(two)
+@one
+def three():
+    print('this is three')
+    
+three()
+get_ipython().run_line_magic('c', '')
+def make_pretty(func):
+    def inner():
+        print("I got decorated")
+        func()
+    return inner
+
+
+def ordinary():
+    print("I am ordinary")
+    
+ordinary()
+make_pretty()
+make_pretty()
+def a():
+    print('a)
+def a():
+    print('a')
+    
+make_pretty(a)
+make_pretty(a())
+make_pretty(a())()
+make_pretty(a())
+ss=make_pretty(a())
+ss()
+ss
+get_ipython().run_line_magic('c', '')
+@one
+def two():
+    print('this is g')
+    
+two()
+two
+p(tow)
+t(two)
+get_ipython().run_line_magic('c', '')
+def one(f):
+    print('this is f')
+    f()
+
+@one
+def two():
+    print('this is g')
+    
+two()
+two(one)
+t(two)
+def two():
+    print('this is g')
+    
+get_ipython().run_line_magic('c', '')
+def(two)
+t(two)
+one(two)
+d()
+d()
+get_ipython().run_line_magic('c', '')
+print(d())
+get_ipython().run_line_magic('w', '')
+get_ipython().run_line_magic('w', '')
+def pd():
+    print(d())
+    
+pd()
+get_ipython().run_line_magic('h', '')
+pd()
+get_ipython().run_line_magic('c', '')
+pd()
+def gs(func):
+    print("Good morning")
+    func()
+
+def sn():
+    print("John")
+    
+sn()
+gs(sn)
+nn=gs(sn)
+nn
+nn()
+get_ipython().run_line_magic('c', '')
+def ok():
+    def x():
+        print('this is x ok')
+        
+    return x()
+    
+ok()
+ok
+ins(ok)
+j=ok
+ins(j)
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('h', '')
+get_ipython().run_line_magic('c', '')
+pd()
+print('testing script')
+print('another test')
+def ok(fu):
+    def x():
+        print('this is x ok')
+        fu()
+    return x
+def dec():
+    print('this is dec')
+    
+ok(dec)
+ok(dec())
+o=ok(dec())
+o()
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('h', '')
+o
+o()
+ins(o)
+print('another 3 test')
+def increase_number(func):
+    def increase_by_one():
+        print("incrementing number by 1 ...")
+        number_plus_one = func()  + 1
+        return number_plus_one
+    return increase_by_one 
+    
+@increase_number    
+def get_number():
+    return 5
+    
+print(get_number())
+print(get_number())
+def increase_number(func):
+    def increase_by_one():
+        print("incrementing number by 2 ...")
+        number_plus_one = func()  + 2
+        return number_plus_one
+    return increase_by_one
+    
+print(get_number())
+get_ipython().run_line_magic('h', '()')
+h9()
+hi()
+@increase_number    
+def get_number():
+    return 5
+    
+print(get_number())
+get_number()
+get_number()
+def gn():
+    print(2)
+    
+go=gn()+4
+gn()
+def go():
+    def inn():
+        i=gn()+2
+        return i
+     return inn
+def go():
+    def inn():
+        i=gn()+2
+        return i
+    return inn
+    
+go()
+gg=go()
+gg()
+ins(go)
+ins(gg)
+def go(func):
+    def inn():
+        i=func()+2
+        return i
+    return inn
+def gn():
+    return 2    
+go(gn)
+go(gn())
+s=go(gn())
+s()
+print(go(gn))
+def go(func):
+    def inn():
+        i=func()+2
+        return i
+    return inn
+def gn():
+    return 2    
+g2=go(gn)
+print(g2)
+print(g2())
+ins(g2)
+get_ipython().run_line_magic('c', '')
+def go(func):
+    def inn():
+        i=func()+" within new"
+        return i
+    return inn
+def gn():
+    return "name"    
+g2=go(gn)
+print(g2())
+@go
+def ggn()
+@go
+def ggn():
+    return "should be "
+    
+ggn()
+def go(func):
+    def inn():
+        i="before " +func()+" within new"
+        return i
+    return inn
+def gn():
+    return "name"    
+
+g2=go(gn)
+print(g2())
+@go
+def px():
+    return " px is in the middle "
+    
+px()
+g3=go(px)
+p3()
+g3()
+get_ipython().run_line_magic('c', '')
+df gx():
+    print('gx')
+def gx():
+    print('gx')
+    
+pd()
+go(gx())
+go(g2)
+go(g2())
+gx()
+get_ipython().run_line_magic('c', '')
+g2=go(gn)
+print(g2())
+g2
+get_ipython().run_line_magic('h', '')
+print(go(gx()))
+pd()
+get_ipython().run_line_magic('c', '')
+def go(func):
+    def inn():
+        i="before " +func()+" within new"
+        return i
+    return inn
+    
+pd()
+ins(go)
+def gx():
+    print('gx')
+    
+gx()
+go(gx())
+get_ipython().run_line_magic('edit', '8')
+def gn():
+    return "name"
+    
+go(gn())
+print(go(gn()))
+get_ipython().run_line_magic('c', '')
+def go(func):
+    def inn():
+        i="before " +func()+" within new"
+        return i
+    return inn
+def gn():
+    return "name"    
+def gx():
+    print('gx')
+g2=go(gn)
+print(g2())
+g3=go(gx)
+print(g3())
+def gx():
+    return 'gx'
+    
+g3=go(gx)
+print(g3())
+gx()
+get_ipython().run_line_magic('c', '')
+print('inner stuff\n')
+def go(func):
+    def inn():
+        print('inner stuff\n')
+        i="before " +func()+" within new"
+        return i
+    return inn
+    
+go(gn())
+print(go(gn()))
+def go(func):
+    def inn():
+        print('inner stuff\n')
+        i="before " +func()+" within new"
+        return i
+    return inn
+def gn():
+    return "name"    
+def gx():
+    return 'gx'
+g2=go(gn)
+print(g2())
+def go(func):
+    def inn():
+        print('inner stuff\n')
+        i="before " +func()+" within new"
+        print('more stuff\n')
+        return i
+    return inn
+    
+g2=go(gn)
+print(g2())
+get_ipython().run_line_magic('ls', '')
+get_ipython().run_line_magic('pwd', '')
+get_ipython().run_line_magic('c', '')
+get_ipython().run_line_magic('c', '')
+def go(func):
+    def inn():
+        i="before " +func()+" within new"
+        return i
+    return inn
+def gn():
+    return "name"    
+
+g2=go(gn())
+print(f" g2 is {g2}")
+print(g2())
+gn()
+def go(func):
+    def inn():
+        print("before " +func()+" within new")
+        return i
+    return inn
+def gn():
+    return "name"    
+
+g2=go(gn())
+print(f" g2 is {g2}")
+g2()
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        # print("before " +func()+" within new")
+        # return i
+    return inn
+def gn():
+    return "name"
+    
+print(go(gn()))
+print(go(gn))
+pd()
+get_ipython().run_line_magic('c', '')
+pd()
+gn()
+i="ss" + gn()
+i
+i="ss" + gn() + gn()
+i
+def gg(func):
+    def i():
+        func()
+    
+def gg(func):
+    def i():
+        func()
+        return i
+        
+gg(gn)
+get_ipython().run_line_magic('edit', '19')
+ins(gg)
+h=gg(gn)
+h
+t(h)
+gg(gn)
+h
+get_ipython().run_line_magic('c', '')
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        # i="before " +func()+" within new"
+        return i
+    return inn
+def gn():
+    return "name"    
+
+g2=go(gn())
+print(f" g2 is {g2}")
+ins(g2)
+g3=go(gn)
+print(g3)
+gn()
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        # i="before " +func()+" within new"
+        return i
+    return inn
+def gn():
+    return "name"    
+
+g2=go(gn())
+print(f" g2 is {g2}")
+def make_pretty(func):
+    def inner():
+        print("I got decorated")
+        func()
+    return inner
+
+
+def ordinary():
+    print("I am ordinary")
+    
+def w(): print('s')
+w()
+make_pretty(w())
+x=make_pretty(w())
+print(x())
+x=make_pretty(w)
+print(x())
+x()
+x()
+print(x())
+ins(x)
+func()
+get_ipython().run_line_magic('c', '')
+hi()
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        # i="before " +func()+" within new"
+        return i
+    return inn
+def gn():
+    return "name"
+    
+gn()
+x=go(gn)
+x()
+print(x())
+pd()
+for x in pd():
+    del x
+    
+pd()
+x=pd()
+x
+ins(pd)
+for x in d():
+    del x
+    
+pd()
+del Out
+pd()
+for x in d():
+    print(x)
+    
+for x in d():
+    del x
+    
+pd()
+del d
+pd()
+pd()
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        # i="before " +func()+" within new"
+        return i
+    return inn
+def gn():
+    return "name"
+    
+x=go(gn)
+x
+x()
+del go
+del gn
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        # i="before " +func()+" within new"
+        # return i
+    return inn
+def gn():
+    return "name"
+    
+x=go(gn)
+x()
+gn()
+print(x())
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        # i="before " +func()+" within new"
+        # return i
+    return inn
+def gn():
+    print("name")
+    
+x=go(gn)
+x()
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        print('this is after func')
+        # i="before " +func()+" within new"
+        # return i
+    return inn
+    
+x=go(gn)
+x()
+ins(x)
+x()
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        print('this is after func')
+        i="before " +func()+" within new"
+        print(i)
+    return inn
+    
+x=go(gn)
+x()
+get_ipython().run_line_magic('c', '')
+def go(func, func2):
+    def inn():
+        print('this is gn function\n')
+        func()
+        print('this is after func')
+        i="before " +func2()+" within new"
+        print(i)
+    return inn
+def gn():
+    print("name")
+def gp():
+    return " gp "
+
+g2=go(gn, gp)
+g2()
+def go(func):
+    def inn():
+        print('this is gn function\n')
+        func()
+        print('this is after func')
+        # i="before " +func()+" within new"
+        # return i
+    return inn
+def gn():
+    print("name")
+
+g2=go(gn())
+g2()
+g2=go(gn)
+g2()
+get_ipython().run_line_magic('c', '')
+@go
+def new():
+    print('new decorated')
+    
+new()
+ins(new)
+def divide(a, b):
+    print(a/b)
+    
+divide(2,3)
+divide(2,0)
+def wrap(fink):
+    print('top')
+    fink()
+
+def kk():
+    print("fink")
+    
+wrap(kk)
+ss=wrap(kk)
+ss()
+ss
+ins(ss)
+get_ipython().run_line_magic('h', '')
+wrap(kk)
+get_ipython().run_line_magic('edit', '46')
+get_ipython().run_line_magic('edit', '45')
+type(wrap(kk))
+type(xcv)
+get_ipython().run_line_magic('c', '')
+def wrap(fink):
+    def inn():
+        print('top')
+        fink()
+    return inn
+def kk():
+    print("fink")
+    
+x=wrap(kk)
+x()
+def wrap(fink):
+    def inn():
+        print('top')
+        fink()
+    def innn():
+        print('innn')
+        fink()
+    return innn
+def kk():
+    print("fink")
+    
+get_ipython().run_line_magic('h', '')
+x=wrap(kk)
+x()
+get_ipython().run_line_magic('c', '')
+def smart_divide(func):
+    def inner(a, b):
+        print("I am going to divide", a, "and", b)
+        if b == 0:
+            print("Whoops! cannot divide")
+            return
+
+        return func(a, b)
+    return inner
+@smart_divide
+def divide(a, b):
+    print(a/b)
+    
+divide(2,0)
+divide(2,2)
+ins(divide)
+get_ipython().run_line_magic('c', '')
+ins(divide)
+def divide(a, b):
+    print(a/b)
+def star(func):
+    def inner(*args, **kwargs):
+        print("*" * 30)
+        func(*args, **kwargs)
+        print("*" * 30)
+    return inner
+
+
+def percent(func):
+    def inner(*args, **kwargs):
+        print("%" * 30)
+        func(*args, **kwargs)
+        print("%" * 30)
+    return inner
+
+
+@star
+@percent
+def printer(msg):
+    print(msg)
+
+
+printer("Hello")
+@star
+def mystar(x):
+    print(x)
+    
+mystar('this is me')
+print('-'*30)
+pd()
+dir(gn)
+gn.__closure__
+t(x)
+x.__closure__
+get_ipython().run_line_magic('ls', '')
+f = open("voice.js",'r',encoding = 'utf-8')
+t(f)
+f.read(4)
+f.read(444)
+get_ipython().run_line_magic('h', '')
+hh
+get_ipython().run_line_magic('h', '')
+f.read()
+f.tell()
+f.read(2)
+f.read(22)
+f.seek(0)
+f.tell()
+print(f.read())
+for x in f:
+    print(x)
+    
+f.seek(0)
+for x in f:
+    print(x)
+    
+f.tell()
+f.seek(0)
+for x in f:
+    print(x, end='')
+    
+f.tell()
+f.readline()
+f.seek(0)
+f.readline()
+f.readline()
+f.readline()
+f.readline()
+f.readlines()
+f.readlines()
+f
+import sqlite3
+conn = sqlite3.connect("/home/steff007/.ipython/profile_default/history.sqlite")
+c = conn.cursor()
+ip = c.execute("SELECT source from history")
+ipl=list(ip)
+ipl
+len(ipl)
+import sqlite3
+conn = sqlite3.connect("/home/steff007/.ipython/profile_default/history.sqlite")
+c = conn.cursor()
+ip = c.execute("SELECT source from history")
+statement='''
+SELECT source from history
+'''
+ipl=list(ip)
+fileName = r"/home/steff007/pys/ipy_linux3"
+fileName=r"nothing"
+with open(fileName, "w", encoding="utf-8") as f:
+    mapping = dict.fromkeys(range(32))
+    for row in ipl:
+        # print(len(str(row)))
+        # myRow = row[0].translate(mapping)
+        if len(row) != 0:
+            # print(row[0])
+            print(row[0], file=f)
+            
+pd()
+statement=
+statement
+statement.strip()

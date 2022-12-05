@@ -13,10 +13,11 @@ echo $PATH
 # alias for python
 #use for sd 
 source "$HOME/.cargo/env"
-
+#fix stupid corrupt history
 source ~/scripts/zcorrupt.sh
 source ~/.bash_aliases
 #figure out where old path comes from
+
 source ~/path
 #ln -s /usr/bin/python3.10 python3
 printf '%s/n' "ttttttttttttttttttttttttttttt"
