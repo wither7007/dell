@@ -1,9 +1,0 @@
-#!/usr/bin/python3.10
-import sys
-def wincon(a):
-    return a.replace('c:\\','/mnt/c/').replace('\\','/')
-a=sys.argv[1]
-print(wincon(a))
-print(sys.argv[1])
-#for i in sys.argv:
-#    print(f'first i is {i}')

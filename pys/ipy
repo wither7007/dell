@@ -1,4 +1,0 @@
-/usr/bin/python3.10 ~/pys/ipysql.py
-#uniq py output !!tried this but screwed order
-#awk '!a[$0]++' ~/pys/ipy_linux3 > ip_sql.txt
-nvim -c "normal G" ~/pys/ipy_linux3

@@ -1,6 +1,0 @@
-#!/bin/bash -v
-n=$(echo 'fd "[^a-zA-Z0-9\.]" -exec rename "s/[^a-zA-Z0-9\.]/_/g"')
-m=$(echo 'fd "_+" -exec rename "s/_+/_/g"')
-eval $n
-eval $m
-
