@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+echo "here"
+echo $1

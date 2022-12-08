@@ -4,7 +4,7 @@ GRANT ALL PRIVILEGES ON * . * TO 'steff007'@'localhost';
 FLUSH PRIVILEGES;
 apt list --installed | rg 'maria'
 mariadb --version
-sudo /etc/init.d/mysql start
+sudo /etc/init.d/mysql start 
 sudo /etc/init.d/mysql stop
 ps -aux | rg "mar"
 sudo /etc/init.d/mysql status
