@@ -1,14 +1,8 @@
+!/home/steff007/.config/nvim/init.vim
 sql_hist
 .git
 ~/.bash_aliases
 *.mp3
-/*gitignore*/
-/*.gitignore*/
-/*~/.gitignore*/
-/*/jgit*/
-/*.config/nvim*/
-/*.config/*/
-/*/.config/nvim*/
 .zcompdump-DESKTOP-8JMUDRE-5.8
 ~/.zcomp*
 .oh-my-zsh/
@@ -161,4 +155,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 jgit
-.bash_aliases
+/*.bash_aliases*/
