@@ -1,3 +1,0 @@
-echo "hello"
-printf '%s\n' "$(date)"
-ls /home/steff007/junk

@@ -1,8 +1,0 @@
-#!/bin/bash
-read -p cnt
-echo $cnt
-while [ $cnt -ne 1000 ]
-do
-        echo $cnt >> file
-        let cnt=cnt+1
-done

@@ -4,6 +4,10 @@ se () {    history | rg -i "$1"; }
 manv () { man "$1" | v -c 'set nonumber' - ; }
 #wi () { whereis "$1"}
 ex () { exiftool -j "$1" | v - ;}
+
+gith(){
+git "$1" --help | nvim - 
+}
 lcd () { 
   echo  ${FUNCNAME[0]}
   ls -d */

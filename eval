@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# USING BASH
+# FILE: bash_mariadb.sh
+
+foo="\`name\`"
+bar="value"
+
+invoke="mysql -p -D information_schema"
+opts=" --init-command='SET @$foo:=\"$bar\"'"
+invoke+=$opts
+eval $invoke
