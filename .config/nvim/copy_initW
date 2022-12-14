@@ -1,0 +1,2 @@
+good copy wsl vim init to windows
+cp /home/steff007/.config/nvim/init.vim /mnt/c/Users/jayst/.config/nvim/winit.vim

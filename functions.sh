@@ -1,4 +1,12 @@
 #!/bin/bash
+
+#Fri Dec  9 17:05:06 CST 2022
+vman() {
+man $1 | nvim -
+}	
+windir () {
+pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
+}
 p() { printf '%s\n' "$1"; }
 se () {    history | rg -i "$1"; }
 manv () { man "$1" | v -c 'set nonumber' - ; }

@@ -1,0 +1,60 @@
+Traceback (most recent call last):
+  File "/bin/trash-empty", line 5, in <module>
+    sys.exit(main())
+  File "/usr/lib/python2.7/dist-packages/trashcli/cmds.py", line 39, in empty
+    ).run(*argv)
+  File "/usr/lib/python2.7/dist-packages/trashcli/empty.py", line 48, in run
+    parse(argv)
+  File "/usr/lib/python2.7/dist-packages/trashcli/trash.py", line 110, in __call__
+    self.default_action()
+  File "/usr/lib/python2.7/dist-packages/trashcli/empty.py", line 83, in empty_all_trashdirs
+    trashdirs.list_trashdirs()
+  File "/usr/lib/python2.7/dist-packages/trashcli/trash.py", line 151, in list_trashdirs
+    self._for_each_volume_trashcan()
+  File "/usr/lib/python2.7/dist-packages/trashcli/trash.py", line 158, in _for_each_volume_trashcan
+    self.emit_trashcans_for(volume)
+  File "/usr/lib/python2.7/dist-packages/trashcli/trash.py", line 161, in emit_trashcans_for
+    self.emit_trashcan_2_for(volume)
+  File "/usr/lib/python2.7/dist-packages/trashcli/trash.py", line 174, in emit_trashcan_2_for
+    self.on_trash_dir_found(alt_top_trashdir, volume)
+  File "/usr/lib/python2.7/dist-packages/trashcli/empty.py", line 89, in delete_all_things_under_trash_dir
+    harvester.analize_trash_directory(trash_dir_path, volume_path)
+  File "/usr/lib/python2.7/dist-packages/trashcli/trash.py", line 189, in analize_trash_directory
+    trashdir.each_trashinfo(self.on_trashinfo_found)
+  File "/usr/lib/python2.7/dist-packages/trashcli/trash.py", line 267, in each_trashinfo
+    action(os.path.join(self._info_dir(), entry))
+  File "/usr/lib/python2.7/dist-packages/trashcli/empty.py", line 93, in delete_trashinfo_and_backup_copy
+    self._dustman.delete_if_ok(trashinfo_path, trashcan)
+  File "/usr/lib/python2.7/dist-packages/trashcli/empty.py", line 141, in delete_if_ok
+    trashcan.delete_trashinfo_and_backup_copy(trashinfo_path)
+  File "/usr/lib/python2.7/dist-packages/trashcli/trash.py", line 345, in delete_trashinfo_and_backup_copy
+    self._file_remover.remove_file_if_exists(backup_copy)
+  File "/usr/lib/python2.7/dist-packages/trashcli/empty.py", line 121, in remove_file_if_exists
+    return self.file_remover.remove_file_if_exists(path)
+  File "/usr/lib/python2.7/dist-packages/trashcli/fs.py", line 27, in remove_file_if_exists
+    if os.path.exists(path): self.remove_file(path)
+  File "/usr/lib/python2.7/dist-packages/trashcli/fs.py", line 25, in remove_file
+    shutil.rmtree(path)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 270, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/usr/lib/python2.7/shutil.py", line 273, in rmtree
+    os.remove(fullname)
+KeyboardInterrupt

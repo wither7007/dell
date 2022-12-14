@@ -20,5 +20,6 @@ source ~/scripts/zcorrupt.sh
 source ~/path
 source ~/functions.sh
 #ln -s /usr/bin/python3.10 python3
-printf '%s/n' "ttttttttttttttttttttttttttttt"
+~/script/neo.sh
+#printf '%s/n' "ttttttttttttttttttttttttttttt"
 #export PS1="${cyan}\u@\h ${grey}\w ${cyan}\$ $reset"

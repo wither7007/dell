@@ -3,6 +3,7 @@ sql_hist
 .git
 ~/.bash_aliases
 *.mp3
+*.jpg
 .zcompdump-DESKTOP-8JMUDRE-5.8
 ~/.zcomp*
 .oh-my-zsh/

@@ -106,6 +106,5 @@ alias fdd="fd -d 1"
 alias vmn="nvim /mnt/c/all/note/notes"
 alias sl="sqlite3"
 alias heds="head -n8 $(ls *) | less -NX | v -"
-alias man="manv "
 alias sql="mysql -u root -pstars1"
-
+alias python='python3.10'

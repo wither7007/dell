@@ -5,7 +5,7 @@
 "Thu Dec  8 14:23:39 CST 2022
 "set hight light color
 let @b='this is this is my thing'
-set undodir=C:\Users\jayst\.config\nvim\undodir
+set undodir=~\.config\nvim\undodir
 " set undofile
 "/home/steff007/.config/nvim/init.vim
 "handle silly quotes
@@ -32,6 +32,7 @@ inoremap \fp <C-R>=getcwd()<CR>
 "ap gp :bp<cr>
 "ap gd :bd<cr>
 "ap gw <C-W>_
+"map to copy to end of line
 noremap Y vg_y
 "coc shortcut
   set updatetime=300
@@ -43,7 +44,9 @@ nnoremap <leader>r :!%:p
 nnoremap <leader>t :suspend
 "delete to blackhole
 vnoremap <leader>b "_x
-nnoremap <leader>a :suspend
+nnoremap <leader>a :suspend<cr>
+nnoremap <leader>d ggVGy
+noremap <leader>; vg_y
 set list listchars=tab:\ \ ,trail:·
 " Remap a few keys for Windows behavior
 source $VIMRUNTIME/mswin.vim
@@ -110,6 +113,7 @@ map <C-N> <C-W>n
 map gd :bd!<cr>
 map gn :bn<cr>
 map gp :bp<cr>
+map gl vg_y
 "this automically runs?
 "ls
 map <silent> <C-t> :NERDTreeFocus<CR>
@@ -127,12 +131,13 @@ let g:user_emmet_leader_key=','
 "noremap <Leader>p "*p
 "map ctrl c and v to windows
 
-noremap <Leader>y "*y
+noremap <Leader>y vg_y
 "map ctrl c and v to windows
 vnoremap <C-C> "+y
 map <C-V>      "+gP
 "done
 "select only text from line
+noremap Y vg_y
 noremap <leader>l ^vg_y
 noremap <leader>q :qa!<cr>
 noremap <leader>w :wqa<cr>

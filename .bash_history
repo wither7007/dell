@@ -1,8 +1,3 @@
-ye
-htop
-lt
-v yv
-md /mnt/c/youv/jazz
 v -d ye yv
 yv https://www.youtube.com/watch?v=88WHFIkaDHM
 yv
@@ -497,4 +492,9 @@ exit
 exit
 exit
 exit
+exit
+docker
+exit
+exit
+mem
 exit
