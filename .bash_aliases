@@ -109,4 +109,7 @@ alias heds="head -n8 $(ls *) | less -NX | v -"
 alias sql="mysql -u root -pstars1"
 alias python='python3.10'
 alias memHogsPs='ps wwaxm -o pid,stat,vsize,rss,time,command | head -10'
+<<<<<<< Updated upstream
 alias vim="nvim"
+=======
+>>>>>>> Stashed changes
