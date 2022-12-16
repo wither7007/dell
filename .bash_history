@@ -1,6 +1,9 @@
+<<<<<<< Updated upstream
 v -d ye yv
 yv https://www.youtube.com/watch?v=88WHFIkaDHM
 yv
+=======
+>>>>>>> Stashed changes
 v ye
 ye
 v yv
@@ -498,3 +501,9 @@ exit
 exit
 mem
 exit
+<<<<<<< Updated upstream
+=======
+exit
+echo "123456789" | awk '{ printf("%'"'"'d\n",$1); }'
+exit
+>>>>>>> Stashed changes

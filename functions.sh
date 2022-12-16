@@ -1,6 +1,10 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+deci() {
+echo "$1" | rev | sed -E 's/([0-9]{3})/\1,/g' | rev
+}
+#https://shallowsky.com/blog/linux/cmdline/sed-insert-commas.html
 vman() {
 man $1 | nvim -
 }	

@@ -254,30 +254,46 @@ $
 # File marks:
 'M  10  0  ~/.bashrc
 |4,77,10,0,1627248397,"~/.bashrc"
-'0  12  0  /mnt/c/projects/script/a.sql
-|4,48,12,0,1670907584,"/mnt/c/projects/script/a.sql"
-'1  1  0  ~/hyper/test.sh
-|4,49,1,0,1667959707,"~/hyper/test.sh"
-'2  8  0  ~/hyper/j.sh
-|4,50,8,0,1667925651,"~/hyper/j.sh"
-'3  1  0  /mnt/c/Users/jayst/.wslconfig
-|4,51,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
-'4  1  0  /mnt/c/all/kottkeLink.txt
-|4,52,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
-'5  1  0  /mnt/c/all/kottkeLink.txt
-|4,53,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
-'6  1  0  ~/.config/nvim/init.vim
-|4,54,1,0,1666670963,"~/.config/nvim/init.vim"
-'7  1  0  ~/.config/nvim/init.vim
-|4,55,1,0,1666669351,"~/.config/nvim/init.vim"
+'0  1  0  /etc/crontab
+|4,48,1,0,1671156702,"/etc/crontab"
+'1  1  0  /etc/crontab
+|4,49,1,0,1671156660,"/etc/crontab"
+'2  12  0  /mnt/c/projects/script/a.sql
+|4,50,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+'3  1  0  ~/hyper/test.sh
+|4,51,1,0,1667959707,"~/hyper/test.sh"
+'4  8  0  ~/hyper/j.sh
+|4,52,8,0,1667925651,"~/hyper/j.sh"
+'5  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,53,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+'6  1  0  /mnt/c/all/kottkeLink.txt
+|4,54,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
+'7  1  0  /mnt/c/all/kottkeLink.txt
+|4,55,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
 '8  1  0  ~/.config/nvim/init.vim
-|4,56,1,0,1666661498,"~/.config/nvim/init.vim"
+|4,56,1,0,1666670963,"~/.config/nvim/init.vim"
 '9  1  0  ~/.config/nvim/init.vim
-|4,57,1,0,1666661498,"~/.config/nvim/init.vim"
+|4,57,1,0,1666669351,"~/.config/nvim/init.vim"
 
 # Jumplist (newest first):
+-'  1  0  /etc/crontab
+|4,39,1,0,1671156702,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1671156660,"/etc/crontab"
 -'  12  0  /mnt/c/projects/script/a.sql
 |4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
 -'  1  0  /mnt/c/projects/script/a.sql
 |4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
 -'  1  0  ~/hyper/test.sh
@@ -288,6 +304,78 @@ $
 |4,39,1,0,1667959707,"~/hyper/test.sh"
 -'  1  0  ~/hyper/test.sh
 |4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  8  0  ~/hyper/j.sh
+|4,39,8,0,1667925651,"~/hyper/j.sh"
 -'  8  0  ~/hyper/j.sh
 |4,39,8,0,1667925651,"~/hyper/j.sh"
 -'  8  0  ~/hyper/j.sh
@@ -336,148 +424,64 @@ $
 |4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
 -'  1  0  /mnt/c/Users/jayst/.wslconfig
 |4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947178,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
--'  1  0  /mnt/c/all/kottkeLink.txt
-|4,39,1,0,1666947163,"/mnt/c/all/kottkeLink.txt"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
+-'  1  0  /mnt/c/Users/jayst/.wslconfig
+|4,39,1,0,1667172031,"/mnt/c/Users/jayst/.wslconfig"
 
 # History of marks within files (newest to oldest):
+
+> /etc/crontab
+	*	1671156644	0
+	"	1	0
 
 > /mnt/c/projects/script/a.sql
 	*	1670907582	0

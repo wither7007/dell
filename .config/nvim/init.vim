@@ -22,25 +22,26 @@ set expandtab
 set splitright
 "cool vim tip paste work d in insert
 inoremap \fp <C-R>=getcwd()<CR>
+inoremap \fn <C-R>=expand("%:p:h")<CR>
 "Why visually select the line....and why :r!pwd even. Simply !!pwd on a line will replace it with the output of the pwd command. Personally my favorite external command setup is to mark the top of the region with an "a" mark the bottom of the region with a "s" and then :`a,`s !sort or any other command. Even better if you map a key to :`a,`s. E.g.
 
 "map - :`a,`s
 "mark region with "a" and "s"
 "- !sort
 "Capital y will copy without cr
-"map gn :bn<cr>
-"ap gp :bp<cr>
-"ap gd :bd<cr>
+map gn :bn<cr>
+map gp :bp<cr>
+map gd :bd<cr>
+map gi /diff --git<cr>zz
+map gf :let @+ = expand("%:p")<cr>
 "ap gw <C-W>_
 "map to copy to end of line
-noremap Y vg_y
 "coc shortcut
   set updatetime=300
   set signcolumn=yes
 let mapleader = ","
 set statusline+=%F
 "Run current buffer
-nnoremap <leader>r :!%:p
 nnoremap <leader>t :suspend
 "delete to blackhole
 vnoremap <leader>b "_x
@@ -69,7 +70,7 @@ endif
 set pastetoggle=<F2>
 set pastetoggle=<leader>o
 call plug#begin()
-Plug 'myhere/vim-nodejs-complete'
+"Plug 'myhere/vim-nodejs-complete'
 "Plug 'b3nj5m1n/kommentary'
 Plug 'preservim/nerdcommenter'
 " Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -91,7 +92,7 @@ Plug 'https://github.com/scrooloose/nerdtree'
 "Plug 'https://github.com/numEricL/nerdtree-live-preview'
 
 "Plug 'jpalardy/vim-slime', { 'for': 'python' }
-Plug 'hanschen/vim-ipython-cell', { 'for': 'python' }
+"Plug 'hanschen/vim-ipython-cell', { 'for': 'python' }
 "Plug 'https://github.com/davidhalter/jedi-vim'
 "Plug 'mattn/emmet-vim'
 call plug#end()
