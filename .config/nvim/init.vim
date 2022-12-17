@@ -42,6 +42,11 @@ map gf :let @+ = expand("%:p")<cr>
 let mapleader = ","
 set statusline+=%F
 "Run current buffer
+nnoremap <silent> <C-Right> <c-w>l
+nnoremap <silent> <C-Left> <c-w>h
+nnoremap <silent> <C-Up> <c-w>k
+nnoremap <silent> <C-Down> <c-w>ji
+
 nnoremap <leader>t :suspend
 "delete to blackhole
 vnoremap <leader>b "_x
@@ -79,7 +84,7 @@ Plug 'preservim/nerdcommenter'
 "Plug 'mattn/emmet-vim'
 "Plug 'scrooloose/syntastic'
 "Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-Plug 'itchyny/lightline.vim'
+"Plug 'itchyny/lightline.vim'
 "Plug 'mhinz/vim-startify'
 "Plug 'jupyter-vim/jupyter-vim'
 "Plug 'valloric/youcompleteme'
@@ -88,7 +93,8 @@ Plug 'itchyny/lightline.vim'
 "Plug 'https://github.com/tpope/vim-commentary'
 Plug 'https://github.com/vim-airline/vim-airline'
 "Plug 'https://tpope.io/vim/sensible.git'
-Plug 'https://github.com/scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
+"Plug 'https://github.com/scrooloose/nerdtree'
 "Plug 'https://github.com/numEricL/nerdtree-live-preview'
 
 "Plug 'jpalardy/vim-slime', { 'for': 'python' }
@@ -124,7 +130,7 @@ nnoremap <Leader>o <C-w>o
 " select all
 nnoremap <leader>j :exec '!'.getline('.')
 nnoremap <leader>t :tabnew<CR>
-nnoremap <leader>c :tabclose!<CR>
+nnoremap <leader>x :tabclose!<CR>
 nnoremap <leader> <Space> :nohlsearch<Bar>:echo<CR>
 "--Emmet config
 "redefine trigger key

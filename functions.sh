@@ -4,6 +4,11 @@
 deci() {
 echo "$1" | rev | sed -E 's/([0-9]{3})/\1,/g' | rev
 }
+
+gitree() {
+echo "git log --oneline --graph --decorate --all"
+git log --oneline --graph --decorate --all
+}
 #https://shallowsky.com/blog/linux/cmdline/sed-insert-commas.html
 vman() {
 man $1 | nvim -

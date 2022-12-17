@@ -1,4 +1,6 @@
 !/home/steff007/.config/nvim/init.vim
+.config/nvim/plugged/
+gitapi/
 sql_hist
 .git
 ~/.bash_aliases
