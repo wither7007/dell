@@ -1,0 +1,6 @@
+.cargo
+.rustup
+.local
+.cache
+.tldr
+.npm

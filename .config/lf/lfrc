@@ -22,6 +22,9 @@ cmd trash ${{
   trash-put "$f"
 }}
 
+cmd touch ${{
+  touch "$f"
+}}
 # Archive bindings
 cmd unarchive ${{
   case "$f" in
@@ -84,10 +87,7 @@ map dr restore_trash
 
 # Movement
 map gd cd ~/documents
-map gD cd ~/downloads
-map gp cd ~/pictures
+map gh cd ~/
 map gc cd ~/.config
-map gr cd ~/repos
-map gv cd ~/videos/recordings
 map gs cd ~/.local/bin
 map gt cd ~/.local/share/Trash/files

@@ -131,6 +131,8 @@ nnoremap <Leader>o <C-w>o
 nnoremap <leader>j :exec '!'.getline('.')
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>x :tabclose!<CR>
+nnoremap <leader>z :close!<CR>
+
 nnoremap <leader> <Space> :nohlsearch<Bar>:echo<CR>
 "--Emmet config
 "redefine trigger key

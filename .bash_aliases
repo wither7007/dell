@@ -109,7 +109,7 @@ alias heds="head -n8 $(ls *) | less -NX | v -"
 alias sql="mysql -u root -pstars1"
 alias python='python3.10'
 alias memHogsPs='ps wwaxm -o pid,stat,vsize,rss,time,command | head -10'
-<<<<<<< Updated upstream
 alias vim="nvim"
-=======
->>>>>>> Stashed changes
+alias lf="lfcd"
+alias lfc="v ~/.config/lf/lfrc"
+alias vset="v -O /mnt/c/Users/jayst/AppData/Roaming/Code/User/keybindings.json /mnt/c/Users/jayst/AppData/Roaming/Code/User/settings.json"

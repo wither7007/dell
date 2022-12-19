@@ -86,7 +86,7 @@ function myip() {
 }
 
 hisf () {
-	omz_history | cut -c 1-7 --complement > hf
+	omz_history | cut -c 1-7 --complement > ~/hf
 }
 
 awsq () {
