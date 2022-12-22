@@ -80,5 +80,6 @@ source "$HOME/.cargo/env"
 source ~/functions.sh
 #source ~/path
 PATH=/bin:/home/steff007:/home/steff007/.cargo/bin:/home/steff007/.local/bin:/home/steff007/jq:/home/steff007/script:/sbin:/usr/bin:/usr/games:/usr/lib/wsl/lib:/usr/local/bin:/usr/local/games:/usr/local/sbin:/usr/sbin:
+export PYTHONPATH=/mnt/c/projects/p3/modules
 printf '%s%s%s\n' $(date '+%F - %S')
 printf 'epoch is %s\n' $(date '+%s')

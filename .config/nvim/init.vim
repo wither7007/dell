@@ -106,10 +106,8 @@ call plug#end()
 colorscheme elflord
 hi Search guibg=peru guifg=wheat
 hi Search cterm=None ctermfg=grey ctermbg=blue
-let g:user_emmet_leader_key=','
 imap jj <Esc>
 let NERDTreeShowHidden=1
-let g:user_emmet_leader_key=','
 map <C-H> <C-W>h
 map <C-J> <C-W>j
 map <C-K> <C-W>k
@@ -126,6 +124,8 @@ map gl vg_y
 map <silent> <C-t> :NERDTreeFocus<CR>
 nnoremap <Leader>f :NERDTreeToggle<Enter>
 nnoremap <Leader>o <C-w>o
+nnoremap <Leader>m "Ayy
+
 
 " select all
 nnoremap <leader>j :exec '!'.getline('.')
