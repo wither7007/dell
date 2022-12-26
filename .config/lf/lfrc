@@ -10,6 +10,12 @@ cmd mkdir ${{
   mkdir $ans
 }}
 
+cmd rename ${{
+  printf "New name"
+  read newName
+  mv "$f" $newName
+}}
+
 cmd mkfile ${{
   printf "File Name: "
   read ans
@@ -81,6 +87,7 @@ map mf mkfile
 map md mkdir
 map bg setwallpaper
 map C clear
+map n rename 
 
 map dd trash
 map dr restore_trash

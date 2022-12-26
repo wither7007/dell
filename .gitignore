@@ -1,4 +1,6 @@
+tmp/
 !/home/steff007/.config/nvim/init.vim
+.python_history
 jgit/
 .config/nvim/plugged/
 .cache/

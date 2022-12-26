@@ -5,6 +5,10 @@ deci() {
 echo "$1" | rev | sed -E 's/([0-9]{3})/\1,/g' | rev
 }
 
+pyclean () {
+        find . -type f -name "*.py[co]" -delete
+        find . -type d -name "__pycache__" -delete
+}
 gitree() {
 echo "git log --oneline --graph --decorate --all"
 git log --oneline --graph --decorate --all
