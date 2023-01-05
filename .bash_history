@@ -1,103 +1,3 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-v -d ye yv
-yv https://www.youtube.com/watch?v=88WHFIkaDHM
-yv
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-v ye
-ye
-v yv
-yv
-exit
-zsh
-htop
-exit
-tmux ls
-ps
-exit
-md /home/steff007/.cache/zsh/history
-md /home/steff007/.cache
-md /home/steff007/.cache/zsh
-md /home/steff007/.cache/zsh/history
-exit
-cd  /home/steff007/.cache/zsh
-lt
-rm history/
-rd history/
-rmdir history/
-lt
-touch history
-exit
-lt
-c
-cd all\bash
-cd all/bash
-ye
-ls
-bash ye
-ls *a*
-bash ye
-echo $COMP
-$USERVAR
-export USERVAR=https://www.youtube.com/watch\?v\=ZO0PXYMVGSU echo "USERVAR IS: ${USERVAR}"
-export USERVAR=https://www.youtube.com/watch\?v\=ZO0PXYMVGSU
-echo "USERVAR IS: ${USERVAR}"
-COMP=$(echo "$USERVAR" | rg "=(.*)" -o | sed 's/=//')
-echo $COMP
-ls $COMP
-ls ZO0PXYMVGSU
-ls "*ZO0PXYMVGSU"
-ls a*
-ls
-ls d.*
-ls | rg a
-ls | rg x
-echo $COMP
-ls | rg $COMP
-TFILE=$(ls | rg *$COMP*) # TFILE=$(ls)
-echo $TFILE
-touch $TFILE
-LS
-ls
-lt
-touch ${TFILE}
-lt
-ri of
-rm of
-lt
-rm Oral, History
-rm Oral
-ls
-lt
-date
-rm Bjarne Stroustrup-ZO0PXYMVGSU.mp3 
-lt
-zsh
-exit
-cd bin
-lt
-ye.sh
-htop
-lt
-ye.sh
-htop
-exit
-ls
-cd bin
-exit
-c
-cd projects/github/
-lt
-cd wither7007.github.io/
-lt
-ls -a
-git verify-pack -v .git/objects/pack/pack-{hash}.idx | sort -k 3 -n | tail -n 20
-git verify-pack -v .git/objects/pack/pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.idx | sort -k 3 -n | tail -n 20
-git verify-pack -v .git/objects/pack/pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.idx | sort -k 3 -n | tail -n 20 > blop
-lt
 git verify-pack -v .git/objects/pack/pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.idx | sort -k 3 -n | tail -n 5 > blob
 git rev-list --objects --all | grep 2ac2d87754f80665d0e2879aeb1d9bf690298d78
 git filter-branch --index-filter 'git rm --cached --ignore-unmatch ./path/to/resource/*.mp3' --tag-name-filter cat -- --all
@@ -513,3 +413,88 @@ exit
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+cd env
+lt
+pip list
+lt
+ls
+als
+source ~/bash_aliases
+tmux
+cd
+v .bashrc
+fd alias
+fda alias
+l
+ls
+nvim .bash_aliases
+source ~/.bash_aliases
+v .bashrc
+mps
+..
+u
+lt
+cd env/
+lt
+penv
+pipenv --rm
+pipenv shell
+pipenv --rm
+v pipfile
+p $SHELL
+EXIT
+exit
+ps -p $$
+penv
+als
+nvim ~/.bashrc
+./~/.bashrc
+als
+exit
+als
+alias
+source ~/.bash_aliases
+als
+v .bashrc
+exit
+als
+la
+ls -a
+nvim .bashrc
+bash
+exit
+alias
+source ~/bash_aliases
+nvim .bashrc
+exit
+ . /home/steff007/.local/share/virtualenvs/env-EJOzueYa/bin/activate
+pip list
+ls
+v Pipfile
+deactivate
+penv
+deactivate
+pipenv --rm
+penv
+pypenv shell
+pipenv shell
+mem
+ . /home/steff007/.local/share/virtualenvs/env-EJOzueYa/bin/activate
+pipenv list
+exit
+als
+mps
+..
+u
+lt
+cd env
+penv
+pipenv shell
+penv
+pipenv shell
+pyenv
+als
+penv
+pipenv --rm
+penv
+exit

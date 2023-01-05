@@ -1,5 +1,7 @@
 # If set, the pattern "**" used in a pathname expansion context will
 #misc functions
+
+source ~/.bash_aliases
 echo "frumious"
 alias memHogsPs='ps wwaxm -o pid,stat,vsize,rss,time,command | head -10'
 
@@ -19,7 +21,8 @@ source ~/scripts/zcorrupt.sh
 
 source ~/path
 source ~/functions.sh
+
 #ln -s /usr/bin/python3.10 python3
-~/script/neo.sh
+#~/script/neo.sh
 #printf '%s/n' "ttttttttttttttttttttttttttttt"
 #export PS1="${cyan}\u@\h ${grey}\w ${cyan}\$ $reset"

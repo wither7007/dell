@@ -4,6 +4,9 @@
 deci() {
 echo "$1" | rev | sed -E 's/([0-9]{3})/\1,/g' | rev
 }
+exd() {
+exiftool -j "$1" | jq '.[0] | { Description }' | sed 's/\\n/\n/g' | v - #!good description
+}
 
 pyclean () {
         find . -type f -name "*.py[co]" -delete
@@ -15,7 +18,7 @@ git log --oneline --graph --decorate --all
 }
 #https://shallowsky.com/blog/linux/cmdline/sed-insert-commas.html
 vman() {
-man $1 | nvim -
+man "$1" | nvim -
 }	
 windir () {
 pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'

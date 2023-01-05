@@ -1,3 +1,0 @@
-echo 'this is a here file'
-printf '%s\n' "nothing"
-EOF

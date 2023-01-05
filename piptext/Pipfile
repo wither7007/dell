@@ -94,4 +94,4 @@ yt-dlp = "==2022.7.18"
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.10"
