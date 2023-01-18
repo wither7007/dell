@@ -51,7 +51,7 @@ nnoremap <leader>t :suspend
 "delete to blackhole
 vnoremap <leader>b "_x
 nnoremap <leader>a :suspend<cr>
-nnoremap <leader>d ggVGyq!
+nnoremap <leader>d ggVGy:q!
 noremap <leader>; vg_y
 set list listchars=tab:\ \ ,trail:·
 " Remap a few keys for Windows behavior

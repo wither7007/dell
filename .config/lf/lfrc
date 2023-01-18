@@ -98,3 +98,5 @@ map gh cd ~/
 map gc cd ~/.config
 map gs cd ~/.local/bin
 map gt cd ~/.local/share/Trash/files
+map sa :set sortby atime; set info atime
+map sc :set sortby ctime; set info ctime

@@ -1,5 +1,3 @@
-git verify-pack -v .git/objects/pack/pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.idx | sort -k 3 -n | tail -n 5 > blob
-git rev-list --objects --all | grep 2ac2d87754f80665d0e2879aeb1d9bf690298d78
 git filter-branch --index-filter 'git rm --cached --ignore-unmatch ./path/to/resource/*.mp3' --tag-name-filter cat -- --all
 gs
 git add .
@@ -497,4 +495,6 @@ als
 penv
 pipenv --rm
 penv
+exit
+PS1="[\d \t \u@\h:\w ] $ "
 exit
