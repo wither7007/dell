@@ -53,6 +53,7 @@ vnoremap <leader>b "_x
 nnoremap <leader>a :suspend<cr>
 nnoremap <leader>d ggVGy:q!
 noremap <leader>; vg_y
+noremap <leader>c :let @c=@"<cr>
 set list listchars=tab:\ \ ,trail:·
 " Remap a few keys for Windows behavior
 source $VIMRUNTIME/mswin.vim

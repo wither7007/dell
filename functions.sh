@@ -98,5 +98,5 @@ hisf () {
 
 awsq () {
   awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
-  nvim ~/.sqlite_history
+  nvim ~/.sqlite_history -c "normal Gzz"  
 }
