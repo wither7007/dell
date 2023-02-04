@@ -1,6 +1,9 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+sq3() {
+sqlite3 "$1" -cmd ".tables" -cmd ".mode column"
+}
 deci() {
 echo "$1" | rev | sed -E 's/([0-9]{3})/\1,/g' | rev
 }
@@ -97,6 +100,6 @@ hisf () {
 }
 
 awsq () {
-  awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
+  #awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
   nvim ~/.sqlite_history -c "normal Gzz"  
 }

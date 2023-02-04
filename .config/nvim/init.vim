@@ -20,6 +20,7 @@ set softtabstop=2
 set tabstop=2
 set expandtab
 set splitright
+set hidden
 "cool vim tip paste work d in insert
 inoremap \fp <C-R>=getcwd()<CR>
 inoremap \fn <C-R>=expand("%:p:h")<CR>
@@ -33,6 +34,7 @@ map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr>
 map gi /diff --git<cr>zz
+"copy file name and path to clip!!!
 map gf :let @+ = expand("%:p")<cr>
 "ap gw <C-W>_
 "map to copy to end of line
