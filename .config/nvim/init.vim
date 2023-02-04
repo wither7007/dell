@@ -9,6 +9,30 @@ set undodir=~\.config\nvim\undodir
 " set undofile
 "/home/steff007/.config/nvim/init.vim
 "handle silly quotes
+
+let mapleader = ","
+nnoremap <leader>t :suspend
+vnoremap <leader>b "_x
+nnoremap <leader>a :suspend<cr>
+nnoremap <leader>d ggVGy:q!
+noremap <leader>; vg_y
+noremap <leader>c :let @c=@"<cr>
+set pastetoggle=<leader>o
+nnoremap <Leader>f :NERDTreeToggle<Enter>
+nnoremap <Leader>o <C-w>o
+nnoremap <Leader>m "Ayy
+nnoremap <leader>j :exec '!'.getline('.')
+nnoremap <leader>t :tabnew<CR>
+nnoremap <leader>x :tabclose!<CR>
+nnoremap <leader>z :close!<CR>
+nnoremap <leader> <Space> :nohlsearch<Bar>:echo<CR>
+let g:user_emmet_leader_key=','
+"noremap <Leader>p "*p
+noremap <Leader>y vg_y
+noremap <leader>l ^vg_y
+noremap <leader>q :qa!<cr>
+noremap <leader>w :wqa<cr>
+noremap <leader>k :call delete(expand('%'))
 set fileencoding=utf-8
 set splitright
 set autoindent
@@ -41,7 +65,6 @@ map gf :let @+ = expand("%:p")<cr>
 "coc shortcut
   set updatetime=300
   set signcolumn=yes
-let mapleader = ","
 set statusline+=%F
 "Run current buffer
 nnoremap <silent> <C-Right> <c-w>l
@@ -49,13 +72,7 @@ nnoremap <silent> <C-Left> <c-w>h
 nnoremap <silent> <C-Up> <c-w>k
 nnoremap <silent> <C-Down> <c-w>ji
 
-nnoremap <leader>t :suspend
 "delete to blackhole
-vnoremap <leader>b "_x
-nnoremap <leader>a :suspend<cr>
-nnoremap <leader>d ggVGy:q!
-noremap <leader>; vg_y
-noremap <leader>c :let @c=@"<cr>
 set list listchars=tab:\ \ ,trail:·
 " Remap a few keys for Windows behavior
 source $VIMRUNTIME/mswin.vim
@@ -76,7 +93,6 @@ endif
 "set search highlight
 "set toggle space
 set pastetoggle=<F2>
-set pastetoggle=<leader>o
 call plug#begin()
 "Plug 'myhere/vim-nodejs-complete'
 "Plug 'b3nj5m1n/kommentary'
@@ -125,35 +141,20 @@ map gl vg_y
 "this automically runs?
 "ls
 map <silent> <C-t> :NERDTreeFocus<CR>
-nnoremap <Leader>f :NERDTreeToggle<Enter>
-nnoremap <Leader>o <C-w>o
-nnoremap <Leader>m "Ayy
 
 
 " select all
-nnoremap <leader>j :exec '!'.getline('.')
-nnoremap <leader>t :tabnew<CR>
-nnoremap <leader>x :tabclose!<CR>
-nnoremap <leader>z :close!<CR>
 
-nnoremap <leader> <Space> :nohlsearch<Bar>:echo<CR>
 "--Emmet config
 "redefine trigger key
-let g:user_emmet_leader_key=','
-"noremap <Leader>p "*p
 "map ctrl c and v to windows
 
-noremap <Leader>y vg_y
 "map ctrl c and v to windows
 vnoremap <C-C> "+y
 map <C-V>      "+gP
 "done
 "select only text from line
 noremap Y vg_y
-noremap <leader>l ^vg_y
-noremap <leader>q :qa!<cr>
-noremap <leader>w :wqa<cr>
-noremap <leader>k :call delete(expand('%'))
 
 if has('nvim')
   tnoremap <Esc> <C-\><C-n>
