@@ -3130,3 +3130,31 @@ alias wi='whereis '
 : 1675742272:0;git add . -v --dry-run 
 : 1675742290:0;rm hist/hereiam
 : 1675742294:0;git add .
+: 1675742309:0;git commit -m 'fed up history'
+: 1675742311:0;gst
+: 1675747252:0;git add .
+: 1675747265:0;git add -i .
+: 1675747283:0;his
+: 1675747291:0;cd1
+: 1675747335:0;v ~/functions.sh
+: 1675747361:0;awsq
+: 1675747366:0;his
+: 1675747441:0;vinit
+: 1675747661:0;fun
+: 1675747668:0;alias fun="v ~/functions.sh"
+: 1675747670:0;fun
+: 1675747780:0;trash-list
+: 1675747805:0;echo $HISTFILE
+: 1675747824:0;pystart
+: 1675747876:0;mps
+: 1675747886:0;fd sql
+: 1675747901:0;cd p3/modules
+: 1675747902:0;lt
+: 1675747916:0;fd -a -d 1 | v -
+: 1675747954:0;sqpy
+: 1675747975:0;gst
+: 1675747981:0;cd
+: 1675747983:0;gst
+: 1675748003:0;git diff hist/history
+: 1675748015:0;gst
+: 1675748031:0;git add .

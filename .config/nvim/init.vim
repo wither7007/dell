@@ -30,7 +30,7 @@ noremap <leader>c :let @c=@"<cr>
 noremap <leader>k :call delete(expand('%'))
 noremap <leader>l ^vg_y
 noremap <leader>q :qa!<cr>
-noremap <leader>w :wa<cr>
+noremap <leader>w :wa<cr>:qa!
 set pastetoggle=<leader>o
 vnoremap <leader>b "_x
 set fileencoding=utf-8
