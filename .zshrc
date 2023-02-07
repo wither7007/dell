@@ -13,7 +13,8 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 PROMPT='%/ %# '
 HISTSIZE=90000
 SAVEHIST=90000
-HISTFILE=~/.cache/zsh/history
+HISTFILE=/home/steff007/hist/history
+#/.cache/zsh/history
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
