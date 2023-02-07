@@ -11,28 +11,28 @@ set undodir=~\.config\nvim\undodir
 "handle silly quotes
 
 let mapleader = ","
-nnoremap <leader>t :suspend
-vnoremap <leader>b "_x
+"noremap <Leader>p "*p
+let g:user_emmet_leader_key=','
+nnoremap <Leader>f :NERDTreeToggle<Enter>
+nnoremap <Leader>m "Ayy
+nnoremap <Leader>o <C-w>o
+nnoremap <leader> <Space> :nohlsearch<Bar>:echo<CR>
 nnoremap <leader>a :suspend<cr>
 nnoremap <leader>d ggVGy:q!
-noremap <leader>; vg_y
-noremap <leader>c :let @c=@"<cr>
-set pastetoggle=<leader>o
-nnoremap <Leader>f :NERDTreeToggle<Enter>
-nnoremap <Leader>o <C-w>o
-nnoremap <Leader>m "Ayy
 nnoremap <leader>j :exec '!'.getline('.')
+nnoremap <leader>t :suspend
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>x :tabclose!<CR>
 nnoremap <leader>z :close!<CR>
-nnoremap <leader> <Space> :nohlsearch<Bar>:echo<CR>
-let g:user_emmet_leader_key=','
-"noremap <Leader>p "*p
 noremap <Leader>y vg_y
+noremap <leader>; vg_y
+noremap <leader>c :let @c=@"<cr>
+noremap <leader>k :call delete(expand('%'))
 noremap <leader>l ^vg_y
 noremap <leader>q :qa!<cr>
-noremap <leader>w :wqa<cr>
-noremap <leader>k :call delete(expand('%'))
+noremap <leader>w :wa<cr>
+set pastetoggle=<leader>o
+vnoremap <leader>b "_x
 set fileencoding=utf-8
 set splitright
 set autoindent
@@ -58,6 +58,7 @@ map gn :bn<cr>
 map gp :bp<cr>
 map gd :bd<cr>
 map gi /diff --git<cr>zz
+map gw :s/\/mnt\/c\//c:\:s/\//\\/g
 "copy file name and path to clip!!!
 map gf :let @+ = expand("%:p")<cr>
 "ap gw <C-W>_
