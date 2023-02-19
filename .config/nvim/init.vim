@@ -1,9 +1,3 @@
-" Vim with all enhancements
-"source $VIMRUNTIME/vimrc_example.vim
-"not in git
-"
-"Thu Dec  8 14:23:39 CST 2022
-"set hight light color
 let @b='this is this is my thing'
 set undodir=~\.config\nvim\undodir
 " set undofile
@@ -11,7 +5,6 @@ set undodir=~\.config\nvim\undodir
 "handle silly quotes
 
 let mapleader = ","
-"noremap <Leader>p "*p
 let g:user_emmet_leader_key=','
 nnoremap <Leader>f :NERDTreeToggle<Enter>
 nnoremap <Leader>m "Ayy
@@ -31,6 +24,16 @@ noremap <leader>k :call delete(expand('%'))
 noremap <leader>l ^vg_y
 noremap <leader>q :qa!<cr>
 noremap <leader>w :wa<cr>:qa!
+
+map gl vg_y
+map gn :bn<cr>
+map gp :bp<cr>
+map gD :bd<cr>
+map gi /diff --git<cr>zz
+"switch line to windows
+map gw :s/\/mnt\/c\//c:\:s/\//\\/g
+"copy file name and path to clip!!!
+map gf :let @+ = expand("%:p")<cr>
 set pastetoggle=<leader>o
 vnoremap <leader>b "_x
 set fileencoding=utf-8
@@ -54,13 +57,7 @@ inoremap \fn <C-R>=expand("%:p:h")<CR>
 "mark region with "a" and "s"
 "- !sort
 "Capital y will copy without cr
-map gn :bn<cr>
-map gp :bp<cr>
-map gd :bd<cr>
-map gi /diff --git<cr>zz
-map gw :s/\/mnt\/c\//c:\:s/\//\\/g
-"copy file name and path to clip!!!
-map gf :let @+ = expand("%:p")<cr>
+
 "ap gw <C-W>_
 "map to copy to end of line
 "coc shortcut
@@ -114,6 +111,7 @@ Plug 'preservim/nerdcommenter'
 Plug 'https://github.com/vim-airline/vim-airline'
 "Plug 'https://tpope.io/vim/sensible.git'
 Plug 'preservim/nerdtree'
+Plug 'tpope/vim-surround'
 "Plug 'https://github.com/scrooloose/nerdtree'
 "Plug 'https://github.com/numEricL/nerdtree-live-preview'
 
@@ -135,10 +133,6 @@ map <C-L> <C-W>l
 map <c-'> `
 " map <C-U> <C-W>n:terminal<CR>
 map <C-N> <C-W>n
-map gd :bd!<cr>
-map gn :bn<cr>
-map gp :bp<cr>
-map gl vg_y
 "this automically runs?
 "ls
 map <silent> <C-t> :NERDTreeFocus<CR>
