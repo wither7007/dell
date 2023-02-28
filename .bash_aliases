@@ -34,7 +34,7 @@ alias gcount='git shortlog -sn'
 alias gcp='git cherry-pick'
 alias gitsall="git status -vv | v -"
 alias gl='git pull'
-alias glg='git log --stat --max-count=5'
+alias glg='git log --stat | v  -'
 alias glgg='git log --graph --max-count=5'
 alias gm='git merge'
 alias gp='git push'

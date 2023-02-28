@@ -1,6 +1,9 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+myst() {
+stat "$1" --format='acc: %x mod: %y  change: %z'
+}
 sq3() {
 sqlite3 "$1" -cmd ".tables" -cmd ".mode column"
 }

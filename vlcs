@@ -1,0 +1,14 @@
+vlc --no-video-title  c:\you\gut\unknown --start-time 232 --stop-time 236
+c:\you\gut\clips\unknown
+vlc --no-video-title  c:\you\gut\unknown --start-time 232 --stop-time 236
+c:\you\gut\clips\unknown
+vlc --no-video-title  c:\you\gut\unknown.mp4 --start-time 232 --stop-time 236
+c:\you\gut\clips\unknown.mp4
+vlc --no-video-title  c:\you\gut\unknown.mp4 --start-time 232 --stop-time 236
+c:\you\gut\clips\unknown.mp4
+vlc --no-video-title  c:\you\gut\unknown.mp4 --start-time 232 --stop-time 236
+c:\you\gut\clips\unknown.mp4
+vlc --no-video-title  c:\you\gut\unknown.mp4 --start-time 232 --stop-time 236
+c:\you\gut\clips\unknown.mp4
+vlc --no-video-title  c:\you\gut\knocking.mp4 --start-time 362 --stop-time 379
+c:\you\gut\clips\knocking.mp4
