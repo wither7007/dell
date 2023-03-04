@@ -16,7 +16,7 @@ alias duh='du -h --max-depth=1'
 alias e='echo $?'
 alias ehis="v $(echo $HISTFILE)"
 alias f1='fd --changed-within 1day'
-alias fda="fd -H -I "
+alias fda="fd -H --no-ignore-vcs "
 alias fday="find ~ -mtime -1 -ls"
 alias fdc="fd -H -I -d 1  -td | column"
 alias fdd="fd -H -I   -tf | column"
@@ -124,3 +124,4 @@ alias codes="nvim /mnt/c/Users/jayst/AppData/Roaming/Code/User/keybindings.json 
 #alias fdc="fd -H -I -tf -L --changed-within=24hours" 
 alias fun="v ~/functions.sh"
 alias cdir="cd '/mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default' "
+alias sup="v /mnt/c/Users/jayst/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"

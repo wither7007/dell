@@ -24,7 +24,6 @@
 *.tar
 .cargo/
 .config/nvim/plugged/
-.ipython/
 .local/
 .npm/
 .oh-my-zsh/

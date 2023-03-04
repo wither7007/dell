@@ -1,6 +1,15 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+esc()
+{
+cat "$1" | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | nvim -
+}
+fdmp()
+{
+fileN=$( date +"%m-%d-%H-%M-%S""_mps.txt" )
+( find /mnt/c/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/$fileN 2>/mnt/c/temp/yy &)
+}
 myst() {
 stat "$1" --format='acc: %x mod: %y  change: %z'
 }
@@ -27,7 +36,7 @@ vman() {
 man "$1" | nvim -
 }	
 windir () {
-pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
+pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' | v -
 }
 p() { printf '%s\n' "$1"; }
 se () {    history | rg -i "$1"; }

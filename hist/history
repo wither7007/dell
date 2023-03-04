@@ -476,7 +476,6 @@ git push -u origin main
 : 1660716414:0;cd $HOME/dotfiles
 : 1660716500:0;config git-log
 : 1660716619:0;config add .
-: 1660716663:0;git log
 : 1660716744:0;config checkout
 : 1660716772:0;config branch
 : 1660716787:0;config log
@@ -1270,7 +1269,6 @@ ex () { exiftool -j $1 | v - }
 : 1661038110:0;fd 'py$'
 : 1661038124:0;fd 'e$'
 : 1661038142:0;fd 'mp4$'
-: 1661038149:0;fd 'mp3$'
 : 1661038167:0;fd -I 'mp4$'
 : 1661038223:0;fd -I 'mp\d$'
 : 1661038237:0;fd -I 'mp3$'
@@ -1358,7 +1356,6 @@ make install
 : 1661053154:0;alias cdc
 : 1661053191:0;echo test | clip
 : 1661053204:0;echo date
-: 1661053211:0;echo $(date)
 : 1661053217:0;echo $(date) | clip
 : 1661053287:0;v $(echo $HISTFILE)
 : 1661053378:0;alias ehis="v $(echo $HISTFILE)"
@@ -1622,7 +1619,6 @@ sudo apt install zsh-autosuggestions
 : 1661145089:0;ls rea*
 : 1661145314:0;exa -F
 : 1661145346:0;lr -h
-: 1661145386:0;cd lnl
 : 1661145404:0;rm lnl
 : 1661145442:0;cd tpro
 : 1661145470:0;rd tpro
@@ -1637,7 +1633,6 @@ sudo apt install zsh-autosuggestions
 : 1661146166:0;rg -m 1 python
 : 1661146209:0;rg -max-depth 1 python
 : 1661146222:0;rg -max-depth 1 bash
-: 1661146237:0;rgh
 : 1661146261:0;rg --max-depth 1 bash
 : 1661146306:0;rg --max-depth 1 googl
 : 1661146329:0;rg --max-depth 2 googl
@@ -1719,7 +1714,6 @@ sudo apt install zsh-autosuggestions
 : 1661223484:0;netstat -anp | tail n2
 : 1661223498:0;netstat -anp | tail -
 : 1661223501:0;netstat -anp | tail -n2
-: 1661223519:0;netstat -anp | tail -n2 2>a
 : 1661223718:0;ls > x
 : 1661223738:0;sed 's/h/xxx/g' x
 : 1661223750:0;sed -i 's/h/xxx/g' x
@@ -1858,7 +1852,6 @@ sudo apt install zsh-autosuggestions
 : 1661310633:0;ps | awk  '{print $2 " " $1}'
 : 1661310674:0;pst
 : 1661310687:0;pstree #! system tree
-: 1661310700:0;htop
 : 1661310831:0;exiftool -T -Description -FileModifyDate ex.mp4
 : 1661310863:0;exiftool -T -Description -FileModifyDate ex.mp4 |awk  '{print $2 " " $1}'
 : 1661310914:0;exiftool -j -Description -FileModifyDate ex.mp4
@@ -1945,7 +1938,6 @@ done < "$input"
 : 1661406623:0;ls -ltr
 : 1661406638:0;tldr ps
 : 1661406692:0;ls find
-: 1661407241:0;v .fdignore
 : 1661407269:0;fd -H -I .
 : 1661407291:0;fd -H -I -E .cache
 : 1661407302:0;fd -H -I -E .cache -E .local
@@ -2097,7 +2089,6 @@ done < "$input"
 : 1661482140:0;fd -a -e py -x stat
 : 1661482148:0;fd -a -e py -x stat | v -
 : 1661482211:0;fd -a -e py -x stat > /mnt/c/all/pss &
-: 1661482225:0;ps
 : 1661492707:0;fd -a -e py | awk '{for (i=1;i<3;i++) {getline};\
 print NR,$0}'
 : 1661493138:0;v employee.txt
@@ -2207,7 +2198,6 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661579889:0;xxx npm
 : 1661579925:0;rm -rf npm
 : 1661580325:0;lr
-: 1661580332:0;v duh.txt
 : 1661580372:0;find AndroidStudioProjects
 : 1661580388:0;rm -rf AndroidStudioProjects
 : 1661580430:0;fd stree
@@ -2397,7 +2387,6 @@ echo "$fileName size = ${mfs}"
 : 1661734793:0;cat /etc/passwd | grep 'nol'
 : 1661734802:0;cat /etc/passwd | grep -v 'nol'
 : 1661734887:0;fd . | grep 'awk'
-: 1661734930:0;manv find
 : 1661734992:0;find . -iregex 'awk'
 : 1661735072:0;find . -regex 'awk'
 : 1661735087:0;find . -regex 'awk.*'
@@ -2606,7 +2595,6 @@ done
 : 1661792798:0;cd all/bas
 : 1661792802:0;cd all/bash
 : 1661792810:0;fd -e mp4
-: 1661792819:0;fd -emp4
 : 1661792827:0;fd -I -H -emp4
 : 1661792898:0;fd -I -H -emp4 -x mv /mnt/c/all/bash/
 : 1661794256:0;ln -l .bash_history /mnt/c/all/bhist
@@ -2755,7 +2743,6 @@ done
 : 1661882957:0;hpyerfine bash -c "echo jim; echo steffes; find ."
 : 1661882980:0;hyperfine bash -c "echo jim; echo steffes; find ."
 : 1661895722:0;time bash -c "echo jim; echo steffes; find ."
-: 1661921330:0;cd you
 : 1661921380:0;fd . --changed-within=5mins
 : 1661921390:0;fd . --changed-within=5months
 : 1661921400:0;fd . --changed-within=1months
@@ -2998,13 +2985,10 @@ alias wi='whereis '
 : 1675887279:0;sq3 db.sqlite3
 : 1675897226:0;v results.txt
 : 1675908514:0;v up.sh
-: 1675982061:0;cd ditto
-: 1675982073:0;./ditto.py
 : 1675982135:0;cd cd C:/Users/jayst/AppData/Roaming/Ditto/
 : 1675982140:0;V
 : 1675982145:0;cd C:/Users/jayst/AppData/Roaming/Ditto/
 : 1675982185:0;cd C:/Users/jayst/AppData/Roaming
-: 1675982202:0;v ditto.py
 : 1675994714:0;git clone git@github.com:CoreyMSchafer/code_snippets.git
 : 1675994903:0;cd Python-Regular-Expressions
 : 1675995163:0;lt *.txt
@@ -3022,7 +3006,6 @@ alias wi='whereis '
 : 1675995782:0;rg 'abcd' *
 : 1675995803:0;fd -a simpl 
 : 1675995806:0;fd -a simpl | cl
-: 1675996025:0;2
 : 1675996032:0;v snippets.txt
 : 1675996041:0;v simple.py
 : 1676002539:0;wget https://content.libsyn.com/p/8/6/7/86754470cb154f45/LNL215.mp3 && touch LNL215.mp3
@@ -3069,9 +3052,7 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676129267:0;einh
 : 1676129468:0;trash-empty
 : 1676149889:0;t rege.py
-: 1676184361:0;cd AppData
 : 1676184371:0;fd chrome
-: 1676184393:0;cd Local
 : 1676184411:0;fd -d 1 chr
 : 1676184442:0;fd -d 1 | column
 : 1676184450:0;cd Google
@@ -3139,7 +3120,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676267813:0;tmus
 : 1676267929:0;cp Bookmarks ..
 : 1676267968:0;cp chrome/Bookmarks .
-: 1676319028:0;cd wither7007.github.io
 : 1676319046:0;cd notes
 : 1676319808:0;rm -rf travis vim pycon
 : 1676320167:0;fd -a duh2.txt| cl
@@ -3196,7 +3176,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676420085:0;cd /mnt/c/projects/bookmark
 : 1676427389:0;ipysql.py
 : 1676427428:0;awsq
-: 1676427449:0;fun
 : 1676428068:0;v joo.txt
 : 1676428099:0;cdc
 : 1676428175:0;lyt
@@ -3254,15 +3233,12 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676577275:0;fda -d 1 Book
 : 1676577285:0;fda -d 1 Book -x ls -lhrt
 : 1676577297:0;v Bookmarks
-: 1676583137:0;cd OneDrive
 : 1676583162:0;fd --changed-within=10min
-: 1676583169:0;cd Documents
 : 1676583321:0;v e9ddd95e64142756
 : 1676584232:0;fd -a down
 : 1676584256:0;fd -a down | nvim -
 : 1676584397:0;t m.mp4
 : 1676586854:0;windir | cl
-: 1676586868:0;windir
 : 1676587532:0;cat marks.txt
 : 1676587538:0;v marks
 : 1676587552:0;v 9679f8492331b9b6 #unknown
@@ -3275,7 +3251,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676588031:0;git stash pop
 : 1676588553:0;cd p3/junk
 : 1676588560:0;v simp.py
-: 1676594448:0;cd phone
 : 1676594464:0;fd -a unknown.mp4
 : 1676594469:0;fd -a unknown.mp4 | cl
 : 1676654208:0;wget https://twit.cachefly.net/audio/ww/ww0816/ww0816.mp3 && touch ww0816.mp3
@@ -3351,7 +3326,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676777576:0;md barr
 : 1676777591:0;se 'seq'
 : 1676777616:0;for I in $(seq -w 5) ; do touch file-$I ; done
-: 1676777641:0;fda | nvim -
 : 1676777748:0;cd barr
 : 1676777821:0;fda . barr
 : 1676777852:0;git -stat
@@ -3366,9 +3340,7 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676778359:0;echo $(seq -w 5)
 : 1676778518:0;fda bookmark
 : 1676778534:0;cd bookmark
-: 1676778869:0;fda --changed-within=2days
 : 1676778905:0;fd --changed-within=2days
-: 1676778925:0;fd --changed-within=3days
 : 1676778971:0;./simp.py
 : 1676779244:0;cd cool
 : 1676779279:0;fd -x head -n2
@@ -3390,7 +3362,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676781231:0;wincon "c:\projects"
 : 1676781407:0;git log --oneline | head
 : 1676781419:0;git checkout c39f3
-: 1676781455:0;rm -rf *
 : 1676781513:0;md aaa
 : 1676781542:0;mkcd bbb
 : 1676781557:0;for I in $(seq -w 5) ; do touch xxx-$I ; done
@@ -3403,7 +3374,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676781823:0;git rm bbb
 : 1676781826:0;git rm bbb -r
 : 1676781839:0;git rm bbb -r --cached
-: 1676781872:0;fda
 : 1676782131:0;rsync -v bbb/ aaa/
 : 1676782142:0;fda . aaa
 : 1676782184:0;rsync -av bbb/ aaa/
@@ -3451,14 +3421,12 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 wget https://twit.cachefly.net/audio/ww/ww0816/ww0816.mp3 && touch ww0816.mp3\
 
 : 1676849409:0;git commit -am "Sun"
-: 1676849431:0;.
 : 1676849491:0;glg | v -
 : 1676849522:0;las
 : 1676849607:0;alias glg='git log --stat | v  -'
 : 1676849608:0;glg
 : 1676875063:0;fd the
 : 1676930106:0;simp.py
-: 1676930249:0;tree
 : 1676930291:0;ex unkClip.mp4
 : 1676932313:0;v /mnt/c/projects/p3/modules/export.py
 : 1676935510:0;v fileA
@@ -3487,7 +3455,6 @@ mv PXL_20230221_041356388.jpg seven.jpg\
 : 1676957317:0;md img
 : 1676957348:0;fd -epng -X mv img/
 : 1676957362:0;fd -epng -x mv img/
-: 1676957383:0;fd -epng
 : 1676957411:0;fd -epng -x mv {/} img/
 : 1676957419:0;fd -epng -x mv {} img/
 : 1676957427:0;fd . img
@@ -3508,7 +3475,6 @@ mv PXL_20230221_041356388.jpg seven.jpg\
 : 1676973315:0;rm WATERLOO_1970_FAN_CUT_in_1080HD.mp3
 : 1677007431:0;wget https://twit.cachefly.net/audio/twit/twit0915/twit0915.mp3 && touch twit0915.mp3
 : 1677021955:0;vz
-: 1677032896:0;cd OneDrive/Pictures
 : 1677032912:0;ex bass.jpg
 : 1677032931:0;fd -ejpg
 : 1677032936:0;fda -ejpg
@@ -3520,7 +3486,6 @@ mv PXL_20230221_041356388.jpg seven.jpg\
 : 1677039453:0;mkcd music
 : 1677039488:0;lt | head
 : 1677039525:0;cp Angel_from_Montgomery.mp3 /mnt/c/projects/music/afm.mp3
-: 1677039539:0;cd physics
 : 1677039572:0;cp Frequency.mp4 /mnt/c/projects/music/freq.mp4
 : 1677039619:0;cp PythonPhysics.mp4 /mnt/c/projects/music/pp.mp4
 : 1677039653:0;lt | tai
@@ -3541,7 +3506,6 @@ mv PXL_20230221_041356388.jpg seven.jpg\
 : 1677040172:0;fd twi
 : 1677040177:0;fd twig
 : 1677040236:0;fd twig -x cp {} /mnt/c/projects/music/junk 
-: 1677040279:0;rm *
 : 1677047236:0;t musc.py
 : 1677048112:0;ex pp.mp4
 : 1677048155:0;fd -a 915
@@ -3553,7 +3517,6 @@ mv PXL_20230221_041356388.jpg seven.jpg\
 : 1677096469:0;fda -a 12
 : 1677096489:0;fda -a 12 | pc
 : 1677096927:0;fda -a 12 | cl
-: 1677097268:0;md junk
 : 1677097383:0;fd -d 1 -x  {} mv {} /mnt/c/twit/junk
 : 1677097405:0;fd -d 1 -x  mv {} /mnt/c/twit/junk
 : 1677097428:0;fd . junk
@@ -3611,12 +3574,8 @@ img.save('result.png')
 : 1677140009:0;df
 : 1677140132:0;rm -rf django djangoTut
 : 1677140146:0;df -h
-: 1677140232:0;duh > duh2.txt &
-: 1677140266:0;v duh2.txt
-: 1677140353:0;fdh
 : 1677140418:0;fd --size +5m
 : 1677140432:0;fd --size +5m -x lshrt
-: 1677140471:0;date
 : 1677140502:0;v objects/a5/f96e8a95fa131980c1fb6e1085a5896989b12e
 : 1677142655:0;fd --size +5m -x ls -lhrt
 : 1677188714:0;wget https://twit.cachefly.net/audio/twig/twig0704/twig0704.mp3
@@ -3681,7 +3640,6 @@ img.save('result.png')
 : 1677226742:0;v apt/term.log
 : 1677226895:0;echo test | sha512sum
 : 1677226934:0;echo -n test | sha512sum
-: 1677228367:0;cd alb
 : 1677229078:0;ls -rt
 : 1677229102:0;ls -rt |head -n20
 : 1677229119:0;ls -rt | tail -n20
@@ -3744,7 +3702,6 @@ img.save('result.png')
 : 1677301471:0;fd Roland  -exec rename "s/In_Our.*_S//g" {} \;
 : 1677301562:0;md temp
 : 1677301581:0;cp In_Our_Time_S24_01_The_Evolution_of_Crocodiles_Sept_16_2021_.mp3 temp/
-: 1677301589:0;cd temp
 : 1677301610:0;rename 'v' '_' *
 : 1677301626:0;se 'rename'
 : 1677301708:0;rename "s/v/x/g" *
@@ -3758,7 +3715,6 @@ img.save('result.png')
 : 1677301978:0;fd  | sed -e 's/In.*_?/out/g'
 : 1677302000:0;fd  | sed -e 's/In._?/out/g'
 : 1677302026:0;fd  | sed -e 's/\d/out/g'
-: 1677302151:0;h3
 : 1677302231:0;rename "s/In_Our_Times_S\d//g" *
 : 1677302255:0;rename "s/In_Our_Times_S/g" *
 : 1677302270:0;rename "s/In_Our_Times_S//g" *
@@ -3827,7 +3783,6 @@ There are so many cats there.' | sed 's/cats\?\b/(&)/g'
 : 1677354995:0;wi grep
 : 1677355014:0;grep
 : 1677355033:0;for path in $(grep ^/ paths_to_check.txt); do echo $path; echo BAE_URL; done
-: 1677355065:0;axit
 : 1677355659:0;cd /mnt/c/projects/junk
 : 1677355714:0;curl $BAE_URL
 : 1677355722:0;BAE_URL="${BASE_URL:-https://alexwlchan.net}"\
@@ -3903,7 +3858,6 @@ done\
 : 1677359570:0;sc check
 : 1677359582:0;source check
 : 1677359599:0;v check
-: 1677359658:0;echo $url
 : 1677359664:0;pin $url
 : 1677359704:0;ping $url
 : 1677359718:0;ping twit.cachefly.net
@@ -3936,7 +3890,6 @@ for a in items:\
     except Exception as e:\
         myitems.append(f'{a} - can\'t {e}')\
 
-: 1677371455:0;cd gut
 : 1677371508:0;#fd -d 1 -x  mv {} /mnt/c/twit/junk
 : 1677371525:0;fd barr
 : 1677371534:0;fd -tf barr
@@ -3949,15 +3902,9 @@ for a in items:\
 : 1677378904:0;fd -td -d 1
 : 1677378930:0;fd -td -d 1 prog
 : 1677378946:0;cd Program\ Files\ \(x86\)
-: 1677378949:0;fdc
-: 1677379532:0;fd syn
 : 1677379900:0;fdd
-: 1677379904:0;fd
-: 1677379919:0;cd midi
-: 1677379996:0;wing
 : 1677380022:0;cd Music
 : 1677380063:0;fd 'mid'
-: 1677380086:0;cd mid
 : 1677380091:0;fd suic
 : 1677380121:0;cp SuicideIsPainless.mid /mnt/c/Users/jayst/Music
 : 1677380212:0;fd youn
@@ -3969,15 +3916,11 @@ for a in items:\
 : 1677382120:0;ex ObjectBad.mp3
 : 1677382152:0;rm somefile.txt
 : 1677382165:0;ex BrianGreen.mp3
-: 1677382445:0;cd script
-: 1677382528:0;d
 : 1677382530:0;\1
-: 1677382532:0;1
 : 1677382553:0;la
 : 1677384264:0;files = glob.glob("*.mp3")[-5:]
 : 1677384344:0;ex _Death_of_the_Wehrmacht_The_German_Campaigns_of_1942_by_Dr_Robert_Citino.mp3
 : 1677384362:0;rm _Death_of_the_Wehrmacht_The_German_Campaigns_of_1942_by_Dr_Robert_Citino.mp3
-: 1677384965:0;rename "s/^_//g" *
 : 1677385400:0;rm *.jpg
 : 1677385423:0;git -rm *.jpg
 : 1677385436:0;git -rm 12.jpg
@@ -3992,11 +3935,8 @@ for a in items:\
 : 1677385854:0;git commit -am "Added music"
 : 1677385932:0;rm -rf .git
 : 1677385937:0;git init
-: 1677385951:0;git add .
 : 1677385988:0;git commit -am "Initial"
 : 1677385995:0;cd .git
-: 1677385997:0;duh
-: 1677386183:0;cd music
 : 1677386214:0;git diff
 : 1677386254:0;fd sql_his
 : 1677386285:0;git ls-files | v -
@@ -4005,7 +3945,6 @@ for a in items:\
 : 1677386393:0;git rm -f script/sql_hist\
 git rm -f script/sql_hist_awk\
 
-: 1677386397:0;gst
 : 1677390278:0;fd guid
 : 1677390285:0;lt Guid*
 : 1677390297:0;rm Guido.mp3
@@ -4063,7 +4002,6 @@ for fi in files:\
 : 1677396162:0;v t.sh
 : 1677396193:0;fd . time21
 : 1677396237:0;cd time21
-: 1677396238:0;lf
 : 1677396355:0;mv Song_of_Roland Song_of_Roland.mp3
 : 1677396369:0;mv Tang_poetry Tang_poetry.mp3
 : 1677396422:0;fd mindTime
@@ -4078,8 +4016,6 @@ for fi in files:\
 : 1677396622:0;fd . timep
 : 1677396635:0;cd timep
 : 1677399629:0;wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL215.mp3
-: 1677399659:0;winh
-: 1677399661:0;cd Downloads
 : 1677399672:0;fd lnl
 : 1677399695:0;fd lnl -x mv {} /mnt/c/twit/
 : 1677399733:0;mv TWI3808846385.mp3 /mnt/c/twit
@@ -4087,7 +4023,6 @@ for fi in files:\
 : 1677399840:0;v LNL217.mp3
 : 1677400076:0;ex LNL217.mp3
 : 1677401078:0;p3 -m pip install sympy
-: 1677435552:0;vinit
 : 1677435720:0;cd "/mnt/c/Program Files/MuseScore 4"
 : 1677438561:0;fd -ewebm
 : 1677438569:0;fd -ewebm -x rm
@@ -4103,21 +4038,17 @@ for fi in files:\
 : 1677439617:0;p3
 : 1677440746:0;rm example.log
 : 1677440811:0;rm myapp.log
-: 1677446892:0;fd -epy
 : 1677446921:0;fd -epy -x rg 'read'
 : 1677446938:0;fda -epy -x rg 'read'
 : 1677446953:0;fda -epy -x rg 'read' | v -
-: 1677447007:0;sqpy
 : 1677448206:0;ex lnl215.mp3
 : 1677448285:0;wget https://cdn.twit.tv/audio/twiet/twiet0532/twiet0532.mp3 && touch twiet0532.mp3
 : 1677448307:0;ex twiet0532.mp3
 : 1677449833:0;fd Late
 : 1677449837:0;fd Late -x rm
 : 1677451668:0;t TWI3808846385.mp3
-: 1677453119:0;ls
 : 1677453160:0;ex TWI3808846385.mp3
 : 1677453184:0;v The_Moment_of_Confusion.mp3
-: 1677453198:0;fc
 : 1677453204:0;e The_Moment_of_Confusion.mp3
 : 1677453216:0;ex The_Moment_of_Confusion.mp3
 : 1677460000:0;v myapp.log
@@ -4148,7 +4079,6 @@ for fi in files:\
 : 1677469094:0;lt data*
 : 1677470303:0;se 'p3.*insta'
 : 1677470318:0;p3 -m pip install tinytag
-: 1677471228:0;ipy
 : 1677471547:0;ex /mnt/c/you/mcoding/_Python_Performance_Matters_by_Emery_Berger_Strange_Loop_2022_.mp4
 : 1677472670:0;fd -d 1 -tf | rg -v '\.mp3'
 : 1677472700:0;fd -d 1 -tf | rg '_mp4'
@@ -4175,47 +4105,25 @@ for fi in files:\
 : 1677474468:0;cd 063_find_why_your_python_code_is_slow_using_this_essential_tool_dot___feat_dot__async_await_
 : 1677474477:0;v needs_profiling.py
 : 1677474934:0;fd -empe
-: 1677474940:0;fd -emp3
 : 1677474972:0;stat Diagnose_slow_Python_code_Feat_async_await
 : 1677474997:0;stat Diagnose_slow_Python_code_Feat_async_await.mp4
 : 1677475048:0;fd no
 : 1677475056:0;ex 25_nooby_Python_habits_you_need_to_ditch.mp3
-: 1677476673:0;mem
-: 1677476810:0;cd mcoding
-: 1677476940:0;u
-: 1677476963:0;i3
 : 1677477170:0;fd fren
 : 1677477189:0;rm FrenchR.mp3
-: 1677477973:0;fg
-: 1677478026:0;cd lazy
 : 1677478028:0;v all
-: 1677478138:0;fd | nvim -
-: 1677478228:0;lts
-: 1677478333:0;df -Th 
-: 1677479595:0;yv
-: 1677484633:0;ye
-: 1677484811:0;stat bhagavad2.mp3
 : 1677485792:0;git clone git@github.com:ZSendokame/CScrape.git
-: 1677488060:0;cdy
-: 1677488062:0;cd intime
-: 1677488074:0;lt | awk '{print $9}'  | v -
-: 1677520585:0;mps
 : 1677520594:0;chah 24
-: 1677520614:0;ld
 : 1677520651:0;fda -d 1 -td --changed-within=2days
 : 1677520666:0;fda -d 1 -td --changed-within=5days
-: 1677520704:0;t n
 : 1677520706:0;fda -d 1 -tf --changed-within=5days
-: 1677520709:0;rm n
 : 1677520765:0;fda CScrape
 : 1677520777:0;cd CScrape
 : 1677520794:0;cat requirements.txt
 : 1677520806:0;v requirements.txt
 : 1677521011:0;p3 -m pip install arguing
 : 1677521064:0;cd cscrape
-: 1677521072:0;..
 : 1677521092:0;pip install git+https://github.com/ZSendokame/CScrape.git
-: 1677521111:0;v README.md
 : 1677521124:0;python -m cscrape --url https://alansierra.pages.dev/blog/  # URL to scrape\
                   --select "a > h2"  # CSS Selector to use\
                   --oneliner "'\n'.join([tag.text for tag in nodes])"  # Optional oneliner\
@@ -4224,162 +4132,71 @@ for fi in files:\
 : 1677521297:0;python -m cscrape --url https://alansierra.pages.dev/blog/   --select "a > h2"
 : 1677521347:0;python -m cscrape --url https://startribune.com   --select "a > h2"
 : 1677521361:0;python -m cscrape --url https://startribune.com   --select "a"
-: 1677521405:0;cd
-: 1677521509:0;c
 : 1677521620:0;python -m cscrape --url https://twit.tv   --select "body > div.site-container > main > div.home-teasers-container > div > div.latest-episodes > div > div:nth-child(1) > h3"
 : 1677521717:0;wget https://twit.cachefly.net/audio/twit/twit0916/twit0916.mp3 && touch twit0916.mp3
-: 1677521797:0;his
 : 1677521835:0;python -m cscrape --url https://twit.tv   --select "body > div.site-container > main > div.home-teasers-container > div > div.latest-episodes > div > div:nth-child(2) > h3"
-: 1677521908:0;mc
-: 1677521911:0;cd twit
-: 1677521913:0;v
 : 1677521945:0;wget https://dcs.megaphone.fm/TWI2256805664.mp3\?key\=b89eb386caad90ac87e2c3c6d4fae9e6
-: 1677522055:0;lt
 : 1677522081:0;stat twit0916.mp3
-: 1677522295:0;pc
 : 1677522849:0;exit5
-: 1677522852:0;exit
-: 1677522859:0;lt
-: 1677522878:0;date
-: 1677523094:0;cdy
-: 1677523097:0;cd lazy
-: 1677523098:0;lt
 : 1677523130:0;mv Episode_1963_Sun_26_Feb_2023.mp3 Fetch_Happens.mp3 /mnt/c/twit
-: 1677523141:0;mc
-: 1677523144:0;cd twit
-: 1677523146:0;lt
-: 1677523278:0;..
-: 1677523282:0;cd music
-: 1677523283:0;tree
-: 1677523299:0;lf
 : 1677523432:0;cd young
-: 1677523435:0;..
-: 1677537634:0;yv
-: 1677538644:0;u
-: 1677538648:0;cd intime
 : 1677547912:0;md /mnt/c/projects/train
-: 1677547930:0;lt
-: 1677547937:0;cdy
 : 1677547943:0;cd mcoding
 : 1677547947:0;fd -emp3
 : 1677547963:0;lt not_title.mp3
-: 1677547975:0;..
-: 1677547978:0;cd intime
-: 1677547979:0;lt
 : 1677548019:0;cp bhagavad2.mp3 /mnt/c/projects/train
-: 1677548025:0;..
-: 1677548033:0;fdc
-: 1677548045:0;cd physics
-: 1677548046:0;lt
 : 1677548075:0;cp binomialTher.mp4 /mnt/c/projects/train
 : 1677548103:0;ls | tail
 : 1677548112:0;ls | tail -n4
-: 1677548122:0;his
 : 1677548369:0;fd | tail -n4
 : 1677548405:0;fd | tail -n2 | xargs -0 cp -t ~/
 : 1677548419:0;fd | tail -n2 | xargs cp -t ~/
-: 1677548431:0;cd
-: 1677548433:0;lt
-: 1677548441:0;fd -emp4
 : 1677548445:0;fd -emp4 -x rm
-: 1677548446:0;d
-: 1677548449:0;1
-: 1677548450:0;lt
-: 1677548469:0;fd | tail -n2 | xargs cp -t /mnt/c/projects/train
 : 1677548485:0;fd /mnt/c/projects/train
 : 1677548489:0;fc
-: 1677548498:0;fd . /mnt/c/projects/train
-: 1677548510:0;his
 : 1677548516:0;fd . /mnt/c/projects/train
-: 1677548536:0;his
 : 1677548543:0;fda . /mnt/c/projects/train
-: 1677548555:0;..
-: 1677548561:0;cd alb
-: 1677548565:0;his
-: 1677548582:0;fd -emp3 | tail -n3
 : 1677548604:0;fd 'temp'
 : 1677548610:0;fd 'temp' -x rm
 : 1677548621:0;fd -emp3 | tail -n3
-: 1677548632:0;his
 : 1677548644:0;#fd | tail -n2 | xargs cp -t /mnt/c/projects/train
 : 1677549206:0;fd | tail -n2 | xargs cp -t /mnt/c/projects/train
 : 1677549830:0;s
-: 1677549834:0;his
-: 1677549849:0;cd /mnt/c/projects/train
-: 1677549851:0;lt
-: 1677549869:0;i3
 : 1677550212:0;vset
-: 1677551035:0;ipy
-: 1677551120:0;mps
 : 1677551125:0;cd ditto
-: 1677551126:0;lt
 : 1677551144:0;v ditto.py
 : 1677551175:0;./ditto.py
 : 1677551188:0;p3 ditto.py
-: 1677551226:0;c
-: 1677551227:0;lt
 : 1677551236:0;v ditto16
-: 1677551300:0;v ditto14
 : 1677551327:0;v ditto
-: 1677551335:0;gst
-: 1677551353:0;c
-: 1677551356:0;lt
 : 1677551365:0;rg 'xv' *
-: 1677551381:0;lt
-: 1677551388:0;v x6
 : 1677551419:0;v ditto14
 : 1677551438:0;v x6
-: 1677551795:0;c
-: 1677555110:0;ipy
 : 1677555642:0;stat bhagavad2.mp3
 : 1677555650:0;stat bhagavad2.mp3 | cl
-: 1677555653:0;fg
-: 1677555785:0;d
-: 1677555789:0;lt
-: 1677555807:0;cdy
-: 1677555813:0;cd alb
-: 1677556020:0;..
 : 1677556022:0;find -maxdepth 1 -type d | sort | while read -r dir; do n=$(find "$dir" -type f | wc -l); printf "%4d : %s\n" $n "$dir"; done
 : 1677556041:0;find -maxdepth 1 -type d | sort | while read -r dir; do n=$(find "$dir" -type f | wc -l); printf "%4d : %s\n" $n "$dir"; done | nvim -
-: 1677556176:0;lt
-: 1677556185:0;v dircounts.txt
-: 1677556194:0;his
-: 1677556266:0;find -maxdepth 1 -type d | sort | while read -r dir; do n=$(find "$dir" -type f | wc -l); printf "%4d : %s\n" $n "$dir"; done | nvim - ##!cool direct cnt
-: 1677556289:0;cd kb
-: 1677556312:0;lt
-: 1677556348:0;ls
 : 1677556357:0;lt fall*
 : 1677556386:0;cp fall_to_pieces.mp3 /mnt/c/projects/train
-: 1677556390:0;his
 : 1677556407:0;cd /mnt/c/projects/train
-: 1677556409:0;lt
 : 1677556425:0;stat fall_to_pieces.mp3
-: 1677556520:0;d
 : 1677556549:0;fd '^f'
 : 1677556567:0;fd '^f' -x ls -lhrt
 : 1677556602:0;cp -p Frank_Sinatra_Bye_Bye_Blackbird.mp3 /mnt/c/projects/train
-: 1677556608:0;lt
 : 1677556620:0;stat Frank_Sinatra_Bye_Bye_Blackbird.mp3
-: 1677556705:0;lt
 : 1677556858:0;stat bhagavad2.mp3 --format=%z 
 : 1677556887:0;stat bhagavad2.mp3 --format=%z %y
 : 1677556897:0;stat bhagavad2.mp3 --format='%z %y'
 : 1677556908:0;stat bhagavad2.mp3 --format='%z  -- %y'
 : 1677556939:0;stat bhagavad2.mp3 --format='acces: %z  -- %y'
 : 1677557028:0;stat bhagavad2.mp3 --format='acc: %x mod: %y  change: %z'
-: 1677557050:0;his
-: 1677557056:0;fun
 : 1677557112:0;myst() {\
 stat "$1" --format='acc: %x mod: %y  change: %z'\
 }\
 
-: 1677557115:0;lt
-: 1677557122:0;myst Frank_Sinatra_Bye_Bye_Blackbird.mp3
 : 1677557156:0;ex Frank_Sinatra_Bye_Bye_Blackbird.mp3
-: 1677557212:0;pc
 : 1677557490:0;myst Frank_Sinatra_Bye_Bye_Blackbird.mp3
 : 1677557529:0;fd -x myst
-: 1677557536:0;fd
 : 1677557557:0;fda -x myst
 : 1677557572:0;myst binomialTher.mp4
 : 1677557592:0;fda -X myst
@@ -4388,90 +4205,518 @@ stat "$1" --format='acc: %x mod: %y  change: %z'\
 : 1677557638:0;fd | xargs myst
 : 1677557644:0;fd | xargs echo
 : 1677557662:0;fda | xargs myst
-: 1677557665:0;fda
-: 1677557685:0;fun
 : 1677557715:0;fda | xargs stat {/} --format='acc: %x mod: %y  change: %z' 
 : 1677557737:0;fda | xargs stat {} --format='acc: %x mod: %y  change: %z' 
-: 1677557757:0;fda | xargs stat -t --format='acc: %x mod: %y  change: %z' 
-: 1677557761:0;c
-: 1677557763:0;fda | xargs stat -t --format='acc: %x mod: %y  change: %z' 
 : 1677557786:0;fda | xargs stat -t --format='%n acc: %x mod: %y  change: %z' 
 : 1677557797:0;fda | xargs stat -t --format='acc: %x mod: %y  change: %z' 
-: 1677560577:0;lt
 : 1677560994:0;cd alp
-: 1677560999:0;cdy
-: 1677561002:0;cd alb
 : 1677561025:0;fd | head -n30
-: 1677561041:0;his
 : 1677561152:0;fd | head -n25 | xargs cp -p -t /mnt/c/projects/train
-: 1677561163:0;d
 : 1677561166:0;2
-: 1677561167:0;lt
-: 1677561195:0;mem
-: 1677561202:0;fg
-: 1677561238:0;lt
-: 1677561244:0;fg
-: 1677561299:0;lt
-: 1677561352:0;fg
-: 1677561592:0;mps
-: 1677561612:0;fdc
-: 1677561632:0;ld
-: 1677561633:0;lt
-: 1677561637:0;cd train
-: 1677561640:0;lt
-: 1677561643:0;rm *
-: 1677562758:0;cdy
-: 1677562773:0;lt
-: 1677562777:0;v dircounts.txt
 : 1677562791:0;cd letit
-: 1677562792:0;lt
-: 1677562826:0;ls
-: 1677562854:0;his
 : 1677562880:0;cp * /mnt/c/projects/train
-: 1677562962:0;lt
-: 1677563130:0;fd | nvim -
-: 1677563139:0;fda | nvim -
 : 1677563181:0;ex BEATLES_And_Your_Bird_Can_Sing.mp3
 : 1677563214:0;fda | nvim -
-: 1677563327:0;pc
-: 1677563532:0;..
-: 1677563538:0;lt
 : 1677563542:0;v dircounts.txt
 : 1677563557:0;cd evans
-: 1677563558:0;lt
-: 1677563570:0;..
-: 1677563572:0;lt
-: 1677563581:0;cd willie
-: 1677563582:0;lt
-: 1677563601:0;..
-: 1677563603:0;lt
-: 1677563613:0;fda -emp4
 : 1677563646:0;cd physics
-: 1677563647:0;pc
-: 1677563695:0;lt
-: 1677563739:0;..
 : 1677563742:0;fda -emp4
 : 1677563829:0;cd windows
-: 1677563831:0;lt
-: 1677563855:0;..
 : 1677563866:0;fda -emp4 | nvim -
-: 1677564081:0;mps
-: 1677564082:0;gst
-: 1677564089:0;git add .
 : 1677564106:0;git commit -am "Music good tiny"
-: 1677564118:0;cd music
-: 1677564120:0;lt
 : 1677564139:0;cp tiny.py ~/script/
-: 1677564144:0;cd
-: 1677564148:0;cd script
-: 1677564149:0;lt
 : 1677564177:0;v -O ipysql.py tiny.py
 : 1677564213:0;v tiny.py
-: 1677564221:0;lt
-: 1677564313:0;..
-: 1677564314:0;gst
-: 1677564328:0;git add .
 : 1677564340:0;rm help\(wget\).py
 : 1677564349:0;git rm help\(wget\).py
-: 1677564353:0;gst
 : 1677564369:0;git commit -am "Monday"
+: 1677564666:0;rsync -avr AdvancedVideoSearch /mnt/c/projects
+: 1677564691:0;cd AdvancedVideoSearch
+: 1677564763:0;rg 'youtube'
+: 1677564887:0;curl https://www.googleapis.com/youtube/v3/videos\?id\=k8JD1A9uVaM\&part\=contentDetails\&key\=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao
+: 1677565352:0;curl "https://www.googleapis.com/youtube/v3/search\?key\=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao\&part\=snippet\&q\="Beatles"\&maxResults\=10\&publishedAfter\=2021-12-21T02:49:05.100Z\&publishedBefore\=2021-12-21T02:49:05.100Z\&order\=relevance\&videoDuration\=long\&type\=video"
+: 1677567390:0;curl "https://www.googleapis.com/youtube/v3/search\?key\=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao &part=snippet&q=paul simon&maxResults=10&publishedAfter=2023-02-28T06:54:44.437Z&publishedBefore=2023-02-28T06:54:44.437Z&order=relevance&videoDuration=any&type=video"
+: 1677567420:0;curl "https://www.googleapis.com/youtube/v3/search\?key\=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&part=snippet&q=paul simon&maxResults=10&publishedAfter=2023-02-28T06:54:44.437Z&publishedBefore=2023-02-28T06:54:44.437Z&order=relevance&videoDuration=any&type=video"
+: 1677568293:0;curl "https://www.googleapis.com/youtube/v3/search\?key\=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao\&part\=snippet\&q\=blaise+pascal\&maxResults\=10\&publishedAfter\=2021-12-21T02:49:05.100Z\&publishedBefore\=2021-12-21T02:49:05.100Z\&order\=relevance\&videoDuration\=long\&type\=video"
+: 1677568373:0;url="https://www.googleapis.com/youtube/v3/search?key=AIzaSyC4Yhlk-ADYBzSyiqD0QEgrvjB3plD4jao&part=snippet&q=blaise+pascal&maxResults=10&publishedAfter=2021-12-21T02:49:05.100Z&publishedBefore=2021-12-21T02:49:05.100Z&order=relevance&videoDuration=long&type=video"
+: 1677568397:0;curl $url
+: 1677570277:0;find . -mtime -1
+: 1677571859:0;lts | tail -n45 | nvim -
+: 1677613839:0;vlc sunshine.mp4
+: 1677613965:0;rg 'stop'
+: 1677613985:0;cd phone
+: 1677613989:0;v practice.ps1
+: 1677615351:0;find -regex '.*\.\(jpg\|png\)'
+: 1677615437:0;find -regex '.*\.\(mp4\|mp3\)' > temp/media.txt
+: 1677622638:0;cd train
+: 1677625852:0;fd > n &
+: 1677625873:0;fdk > n &
+: 1677625913:0;fdk > n & 2>&1
+: 1677625925:0;fdk 2>&1
+: 1677625987:0;fd >nul 2>nul 
+: 1677626002:0;fdk >nul 2>nul 
+: 1677626016:0;fdk >xx 2>yy 
+: 1677626024:0;v xx
+: 1677626043:0;fdk >xx 2>yy &
+: 1677626422:0;cd alb
+: 1677626438:0;find -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/median.txt 2>yy & 
+: 1677626500:0;v /mnt/c/temp/median.txt
+: 1677626560:0;ps
+: 1677626565:0;pc
+: 1677626584:0;man find
+: 1677626600:0;manv find
+: 1677626630:0;find ~/
+: 1677626812:0;sleep 2 &
+: 1677626831:0;(sleep 2 & )
+: 1677626878:0;echo $url > url
+: 1677626905:0;echo $time
+: 1677626911:0;echo $date
+: 1677626929:0;echo $(date)
+: 1677626953:0;echo $(date > date &)
+: 1677627076:0;(\
+ find /mnt/c/you/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/m.txt 2>yy & \
+ )
+: 1677627149:0;v m.txt
+: 1677627445:0;: $(date)
+: 1677627453:0;: $(date> date)
+: 1677627462:0;cat date
+: 1677627482:0;$(date> date)
+: 1677627529:0;cd tw
+: 1677627660:0;(wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL215.mp3 2>yy &)
+: 1677627797:0;stat LNL215.mp3
+: 1677644850:0;date --date="09/10/1960"
+: 1677644883:0;date +"Year: %Y, Month: %m, Day: %d"
+: 1677644908:0;date +"Year: %Y, Month: %m, Day: %d Min: %M"
+: 1677644919:0;date +"Year: %Y, Month: %m, Day: %d Min: %M sed:%S"
+: 1677645365:0;mc 
+: 1677645375:0;v media.txt
+: 1677645806:0;rm -rf /win11Linux\
+rm -rf /scores\
+rm -rf /q\
+rm -rf /pup\
+rm -rf /js\
+rm -rf /https\
+
+: 1677645874:0;rm -rf /win11Linux
+: 1677645878:0;fd win
+: 1677645928:0;fg
+: 1677646175:0;sc junk
+: 1677646184:0;find -maxdepth 1 -type d | sort | while read -r dir; do n=$(find "$dir" -type f | wc -l); printf "%4d : %s\n" $n "$dir"; done | nvim - ##!cool direct cnt
+: 1677646238:0;rm junk
+: 1677646243:0;v dirs.txt
+: 1677646367:0;fd -d 1 -tf --changed-within=5hours
+: 1677646376:0;fd -d 1 -tf --changed-within=7hours
+: 1677646414:0;fd -d 1 -tf --changed-within=6hours
+: 1677646442:0;fd -d 1 -tf --changed-within=7hours | xargs trash
+: 1677646481:0;rm -rf *
+: 1677646592:0;( find /mnt/c/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/allMps.txt 2>yy &  )
+: 1677651310:0;trash /mnt/c/lnl/
+: 1677651321:0;cd lnl
+: 1677651462:0;cd kb
+: 1677651486:0;ex Round_Midnight_Take_2_3LetPA4eH0A.mp3
+: 1677651530:0;ex Johnny_Cash_Sunday_Mornin_Comin_Down_Live_from_Austin_TX_.mp3
+: 1677651557:0;ex Ruby_My_Dear_K8ax81ZyQ_g.mp3
+: 1677651660:0;fd body
+: 1677651669:0;rm body.mp3
+: 1677651861:0;fd 'mp3$'
+: 1677651908:0;fd | rg -v 'mp3$'
+: 1677651924:0;rm mp3lyric.txt
+: 1677651966:0;rm rehab.mp3
+: 1677651970:0;rm rsMorph.mp3
+: 1677652130:0;rename "s/^_//g" *
+: 1677652472:0;cd woody
+: 1677652501:0;cd willie
+: 1677652557:0;fd julio
+: 1677654936:0;git clone git@github.com:CompVis/stable-diffusion.git
+: 1677654987:0;cd stable-diffusion/
+: 1677655009:0;fd -epy
+: 1677655112:0;git log
+: 1677656330:0;ye
+: 1677659518:0;lt | awk '{print $9}'  | v -
+: 1677679682:0;yvl
+: 1677680327:0;rf -rm npm-cache
+: 1677680340:0;rm -rf npm-cache
+: 1677680478:0;cd AppData
+: 1677680489:0;v duh4.txt
+: 1677680507:0;cd Local
+: 1677686498:0;v duh.txt
+: 1677686508:0;cd Package
+: 1677686511:0;cd PackageS
+: 1677686513:0;LT
+: 1677686621:0;d
+: 1677686624:0;1
+: 1677686671:0;fd Can
+: 1677686689:0;lts Canon*
+: 1677686695:0;cd CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc
+: 1677686744:0;cd LocalState
+: 1677686783:0;rm -rf kokoroko
+: 1677686815:0;type -f duh
+: 1677696179:0;rm yy myapp.log
+: 1677696189:0;rm LNL215.mp3
+: 1677696218:0;stat Fetch_Happens.mp3
+: 1677696628:0;wi gdb
+: 1677696720:0;(wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL218.mp3 2>yy &)
+: 1677697026:0;wget https://pdst.fm/e/cdn.twit.tv/audio/sn/sn0912/sn0912.mp3 && touch sn0912.mp3
+: 1677697267:0;(wget https://podtrac.com/pts/redirect.mp3/traffic.libsyn.com/latenightlinux/LNL217.mp3 2>>yy &)
+: 1677697738:0;netstat -anp | tail -n2 2>a
+: 1677697749:0;netstat -anp 
+: 1677703674:0;lhttps://www.youtube.com/watch\?v\=bKFMS5C4CG0t
+: 1677703697:0;t LNL217.mp3
+: 1677731738:0;cd gut
+: 1677731744:0;fd clip
+: 1677731749:0;fd clip -x trash
+: 1677731924:0;v allMps.txt
+: 1677731951:0;cd bat
+: 1677731959:0;rm -rf bat
+: 1677731992:0;date +"Year: %Y, Month: %m, Day: %d Min: %M sec: %S"
+: 1677732036:0;date +"%m-%d-%M-%S"
+: 1677732077:0;t $( date +"%m-%d-%M-%S" )
+: 1677732115:0;url="jjjj"
+: 1677732116:0;$url
+: 1677732129:0;echo $url
+: 1677732145:0;t $( date +"%m-%d-%M-%S"+$url )
+: 1677732177:0;t $( $url_date +"%m-%d-%M-%S" )
+: 1677732194:0;t $( $url date +"%m-%d-%M-%S" )
+: 1677732228:0;t $($url+ date +"%m-%d-%M-%S"$url )
+: 1677732253:0;t $($url+ date +"%m-%d-%M-%S"_$url )
+: 1677732280:0;t $( date +"%m-%d-%M-%S"$url )
+: 1677732292:0;fd 03 -x rm
+: 1677732329:0;t $( date +"%m-%d-%M-%S"" jim" )
+: 1677732345:0;t $( date +"%m-%d-%M-%S""_jim" )
+: 1677732624:0;fileN=$( date +"%m-%d-%M-%S""_jim" )\
+( find /mnt/c/you/intime -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/$fileN 2>yy &  )\
+
+: 1677732699:0;find /mnt/c/you/intime -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/$fileN 2>yy
+: 1677732719:0;f . /mnt/c/temp
+: 1677732732:0;fd . /mnt/c/temp
+: 1677732952:0;fdmp(\
+{\
+fileN=$( date +"%m-%d-%M-%S""_mps.txt" )\
+( find /mnt/c/you/intime -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/$fileN 2>yy)\
+}\
+
+: 1677732979:0;fdmp()\
+{\
+fileN=$( date +"%m-%d-%M-%S""_mps.txt" )\
+( find /mnt/c/you/intime -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/$fileN 2>yy)\
+}\
+
+: 1677732999:0;v 03-01-56-23_mps.txt
+: 1677733191:0;fdmp()\
+{\
+fileN=$( date +"%m-%d-%M-%S""_mps.txt" )\
+( find /mnt/c/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/$fileN 2>yy)\
+}\
+
+: 1677733236:0;v 03-01-59-54_mps.txt
+: 1677733339:0;rm *
+: 1677733348:0;h
+: 1677733395:0;sc ~/functions.sh
+: 1677733399:0;fdmp
+: 1677733412:0;cat yy
+: 1677733448:0;fda --changed-within=2days
+: 1677733630:0;alias fda="fd -H --no-ignore-vcs "
+: 1677733641:0;fd
+: 1677733675:0;fdh
+: 1677733723:0;type -f fda
+: 1677733738:0;v .fdignore
+: 1677733786:0;fda | head
+: 1677733811:0;fda -d 1
+: 1677733821:0;fda -d 1 -td
+: 1677733842:0;.
+: 1677733849:0;cd temp
+: 1677733878:0;date
+: 1677733909:0;t $( date +"%m-%d-%M-%S""jim" )
+: 1677733997:0;fileN=$( date +"%m-%d-%M-%S""_mps.txt" )
+: 1677734066:0;fileN=$( date +"%m-%d-%h-%M-%S""_mps.txt" )
+: 1677734108:0;fileN=$( date +"%m-%d-%H-%M-%S""_mps.txt" )
+: 1677734110:0;echo $fileN
+: 1677734165:0;fd jim
+: 1677734174:0;fd jim -x rm
+: 1677734246:0;v yy
+: 1677734298:0;v 03-01-03-19_mps.txt
+: 1677735462:0;u
+: 1677735472:0;tree
+: 1677735477:0;fd -emid
+: 1677735522:0;fd apr
+: 1677735534:0;cd mid
+: 1677735568:0;v april.mid
+: 1677735655:0;fd syn
+: 1677736550:0;fd strous
+: 1677737819:0;cd /mnt/c/Users/jayst/AppData/Roaming/vlc
+: 1677737927:0;wing
+: 1677737948:0;cd OneDrive/Pictures
+: 1677737984:0;cd Documents
+: 1677746569:0;cd intime
+: 1677746572:0;lts
+: 1677780140:0;wget https://twit.cachefly.net/audio/ww/ww0818/ww0818.mp3 && touch ww0818.mp3
+: 1677780746:0;wget https://twit.cachefly.net/audio/twig/twig0705/twig0705.mp3 && touch twig0705.mp3
+: 1677780844:0;cd OneDrive
+: 1677780934:0;v
+: 1677781171:0;yv
+: 1677786776:0;cd you
+: 1677787395:0;v /mnt/c/Users/jayst/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1
+: 1677787503:0;alias sup ="v /mnt/c/Users/jayst/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
+: 1677787540:0;alias sup="v /mnt/c/Users/jayst/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
+: 1677787542:0;sup
+: 1677787681:0;fda april
+: 1677787704:0;fda april | nvim -
+: 1677787768:0;vinit
+: 1677787825:0;fda -a april | nvim -
+: 1677792526:0;win
+: 1677792559:0;fun
+: 1677792587:0;windir () {\
+pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' | v -\
+}\
+
+: 1677792590:0;windir
+: 1677793682:0;fd --changed-within=3days
+: 1677793700:0;fda lone
+: 1677793738:0;fda -a 'ilone' | nvim -
+: 1677794186:0;cd c:\Users\jayst\OneDrive\midi\
+: 1677794192:0;cd c:\Users\jayst\OneDrive\midi
+: 1677794201:0;cd midi
+: 1677797390:0;md junk
+: 1677797437:0;fd -epng
+: 1677797445:0;fd -epng -x rm
+: 1677797484:0;fd --changed-within=3hours
+: 1677797501:0;fd --changed-within=3hours | nvim -
+: 1677797597:0;cat j
+: 1677797605:0;v j
+: 1677797614:0;trash aprilOne.mscz.autosave\
+trash aprilOneSnare.mid\
+
+: 1677797629:0;sc j
+: 1677797638:0;cource j
+: 1677797644:0;source j
+: 1677798029:0;cd /mnt/c/Users/jayst/OneDrive/Documents
+: 1677798044:0;lf
+: 1677806714:0;v takeout-20230213T205934Z-00
+: 1677806752:0;fd '001'
+: 1677806758:0;fd '001' -x nvim
+: 1677806806:0;fd z
+: 1677806810:0;v z.py
+: 1677806845:0;z.py takeout-20230213T205934Z-001.zip
+: 1677806908:0;htop
+: 1677806997:0;cd Drive
+: 1677807006:0;fda
+: 1677807033:0;fdc
+: 1677807139:0;h3
+: 1677807189:0;z.py takeout-20230213T205934Z-002.zip
+: 1677807258:0;#unzip -p bitwise.zip Bittwise.ttf
+: 1677807279:0;unzip -p takeout-20230213T205934Z-002.zip me
+: 1677807305:0;unzip -p takeout-20230213T205934Z-002.zip *
+: 1677807376:0;zipinfo takeout-20230213T205934Z-002.zip
+: 1677807399:0;zipinfo takeout-20230213T205934Z-001.zip
+: 1677807423:0;zipinfo takeout-20230213T205934Z-001.zip | nvim -
+: 1677807756:0;zipinfo takeout-20230213T205934Z-002.zip | nvim -
+: 1677807876:0;rm -rf napoleon
+: 1677807915:0;fd -emp4
+: 1677807942:0;duh > duh2.txt &
+: 1677807956:0;v duh2.txt
+: 1677808026:0;rm -rf brodie
+: 1677808030:0;df -Th 
+: 1677808127:0;fd | nvim -
+: 1677808137:0;fdd | nvim -
+: 1677808158:0;unzip takeout-20230213T205934Z-002.zip -d take2
+: 1677808176:0;cd take2
+: 1677808189:0;space
+: 1677808197:0;v All_mail_Including_Spam_and_Trash.mbox
+: 1677808296:0;rg 'outlook' All_mail_Including_Spam_and_Trash.mbox
+: 1677808343:0;rg 'steffes' All_mail_Including_Spam_and_Trash.mbox
+: 1677808407:0;rgh
+: 1677808590:0;rg -C2 'steffes' All_mail_Including_Spam_and_Trash.mbox
+: 1677808625:0;rg -C2 'steffes' All_mail_Including_Spam_and_Trash.mbox | nvim -
+: 1677810464:0;rg -C2 'outlook' All_mail_Including_Spam_and_Trash.mbox | nvim -
+: 1677810583:0;v archive_browser.html
+: 1677810601:0;cd Mail
+: 1677810613:0;ld
+: 1677810649:0;file d41586-022-02946-8_23485012.mpga
+: 1677810664:0;rm d41586-022-02946-8_23485012.mpga
+: 1677810680:0;cd Takeout
+: 1677810684:0;duh
+: 1677810715:0;duh | rg -v '^0'
+: 1677816471:0;winh
+: 1677816474:0;cd Downloads
+: 1677816482:0;v ABC_ImpEx-1.3.tar.gz
+: 1677816667:0;md ~/muse
+: 1677816684:0;tar -xvf ABC_ImpEx-1.3.tar.gz ~/muse/
+: 1677816690:0;tar -xvf ABC_ImpEx-1.3.tar.gz ~/muse
+: 1677816710:0;tar -xvf ABC_ImpEx-1.3.tar.gz
+: 1677816732:0;cd ABC_ImpEx-1.3
+: 1677816746:0;v README.md
+: 1677816790:0;v abc_ImpEx.qml
+: 1677817958:0;git clone git@github.com:animikatamon/MuseScorePlugins.git
+: 1677817970:0;cd MuseScorePlugins
+: 1677818019:0;cp * /mnt/c/Users/jayst/OneDrive/Documents/MuseScore4/Plugins 
+: 1677820759:0;trash-list | rg 'book'
+: 1677820805:0;trash-restore /mnt/c/Users/jayst/OneDrive/Documents/bookmarks_1_17_23.html
+: 1677823416:0;cd
+: 1677823589:0;fd -d 3 -I -H -epy | rg 'time.*' |xargs -n1 echo
+: 1677823598:0;fd -d 3 -I -H -epy | rg 'time.*'
+: 1677823663:0;fd -d 3 -I -H -epy -x rg 'time.*'
+: 1677823678:0;fd -d 3 -I -H -epy | xargs rg 'time.*'
+: 1677823736:0;t n
+: 1677823803:0;lt t*
+: 1677823863:0;./y.py
+: 1677823903:0;v y.py
+: 1677824702:0;cd music
+: 1677824728:0;fda -d 3 -I -H -epy | xargs rg 'console.*'
+: 1677824755:0;fd -d 3 -I -H -epy | xargs rg 'console.*'
+: 1677824764:0;fd -d 3 -I -H -epy 
+: 1677824813:0;fd -d 3 -I -H -epy | xargs rg -i 'rich'
+: 1677824843:0;fd -d 2 -I -H -epy | xargs rg -i 'rich'
+: 1677824877:0;v twit/ins.py
+: 1677824906:0;v script/simp.py
+: 1677825066:0;i3
+: 1677825157:0;sqpy
+: 1677826128:0;git diff y.py 
+: 1677826149:0;rm n
+: 1677826160:0;git add .
+: 1677826162:0;gst
+: 1677826175:0;git commit -am "Thurs"
+: 1677826478:0;cd script
+: 1677826499:0;mv y.py dateFilter.py
+: 1677826518:0;v dateFilter.py
+: 1677830161:0;mc
+: 1677830163:0;cd twit
+: 1677830173:0;fd non
+: 1677830193:0;lt Non
+: 1677830196:0;lt Non*
+: 1677830216:0;c
+: 1677830219:0;ls
+: 1677830238:0;type NONE.log
+: 1677830262:0;rm NONE.log
+: 1677830416:0;lt
+: 1677831310:0;cdy
+: 1677831313:0;cd lazy
+: 1677831319:0;lts | nvim -
+: 1677852672:0;ipy
+: 1677852750:0;mps
+: 1677852785:0;fd -d 2 -I -H -ejs | rg 'youtube' |xargs -n1 echo
+: 1677852818:0;..
+: 1677852820:0;fd -d 2 -I -H -epy | rg 'youtube' |xargs -n1 echo
+: 1677852842:0;his
+: 1677852914:0;cd wither7007.github.io
+: 1677852918:0;fd -d 2 -I -H -ejs | xargs rg -i 'youtube'
+: 1677852966:0;mem
+: 1677852990:0;axit
+: 1677852995:0;exit
+: 1677855124:0;yv
+: 1677855415:0;ye
+: 1677855671:0;yv
+: 1677864619:0;mps
+: 1677864622:0;code .
+: 1677864731:0;c
+: 1677864734:0;mps
+: 1677864743:0;cd script/
+: 1677864746:0;lt
+: 1677864761:0;fd -a datefil
+: 1677864788:0;cd script/ | nvim -
+: 1677864807:0;fd -a datefil | nvim -
+: 1677864837:0;mps
+: 1677864850:0;mc
+: 1677864854:0;cd twit
+: 1677864855:0;i3
+: 1677866112:0;sqpy
+: 1677866220:0;i3
+: 1677873133:0;ye
+: 1677878871:0;ipy
+: 1677881212:0;ye
+: 1677881464:0;i3
+: 1677882068:0;ipy
+: 1677882323:0;lt
+: 1677882328:0;v sysM
+: 1677882381:0;fg
+: 1677882734:0;sys
+: 1677882739:0;i3
+: 1677882870:0;fd tmp
+: 1677882874:0;md tmp
+: 1677882878:0;(ls -C; cmd_with_err) |& tee /tmp/out.log
+: 1677882887:0;lt
+: 1677882894:0;cd tmp
+: 1677882895:0;lt
+: 1677882908:0;rm *
+: 1677882910:0;lt
+: 1677882912:0;..
+: 1677882914:0;his
+: 1677882930:0;ls -C
+: 1677882933:0;ls
+: 1677882953:0;(ls -C; cmd_with_err) |& tee /tmp/out.log
+: 1677882975:0;fd ./tmp
+: 1677882984:0;his
+: 1677882999:0;(ls -C; cmd_with_err) |& tee ~/tmp/out.log
+: 1677883009:0;ls tmp
+: 1677884023:0;lt
+: 1677884029:0;fg
+: 1677884110:0;lt
+: 1677884115:0;v myf
+: 1677884138:0;fg
+: 1677884208:0;lt
+: 1677884210:0;cat myf | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g"
+: 1677884223:0;cat myf | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | v -
+: 1677884266:0;fun
+: 1677884332:0;esc()\
+{\
+cat "$1" | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | nvim -\
+}\
+
+: 1677884334:0;lt
+: 1677884339:0;esc myf
+: 1677884384:0;fg
+: 1677893364:0;ye
+: 1677893738:0;type -f ipy
+: 1677893750:0;v ipy
+: 1677893764:0;type -f i3
+: 1677893836:0;i3 --show-config-json
+: 1677894092:0;setenv
+: 1677894108:0;printenv | v -
+: 1677894136:0;cd /mnt/c/projects/p3/modules
+: 1677894137:0;lt
+: 1677894151:0;cd /mnt/c/projects/p3/modules
+: 1677894156:0;printenv | v -
+: 1677894178:0;PYTHONPATH=/mnt/c/projects/p3
+: 1677894181:0;i3
+: 1677894203:0;echo $PTYHONPATH
+: 1677894218:0;echo $PYTHONPATH
+: 1677894368:0;ie --help
+: 1677894372:0;i3 --help
+: 1677894394:0;..
+: 1677894406:0;i3 --help > iphelp.txt
+: 1677894418:0;v iphelp.txt
+: 1677900334:0;sqpy
+: 1677900474:0;ie
+: 1677900476:0;i3
+: 1677900813:0;cd .ipython
+: 1677900814:0;lt
+: 1677900835:0;fda
+: 1677900865:0;chah 24
+: 1677900923:0;lt
+: 1677900931:0;fda
+: 1677900946:0;cd profile_default
+: 1677900950:0;fda
+: 1677900962:0;v ipython_config.py
+: 1677900994:0;printenv | v -
+: 1677901032:0;gst
+: 1677901048:0;t n
+: 1677901050:0;gst
+: 1677901053:0;..
+: 1677901056:0;gst
+: 1677901066:0;fda n
+: 1677901076:0;chah 24
+: 1677901093:0;gst
+: 1677901097:0;duh
+: 1677901104:0;..
+: 1677901106:0;gst
+: 1677901115:0;v .gitignore
+: 1677901143:0;gst
+: 1677901155:0;git add .
+: 1677901157:0;gst
+: 1677901194:0;cd .ipython
+: 1677901196:0;fd
+: 1677901206:0;..
+: 1677901210:0;v .gitignore
+: 1677901268:0;gst
+: 1677901276:0;git add .
+: 1677901278:0;gst
+: 1677901318:0;git commit -am "Python Startup Added"
