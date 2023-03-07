@@ -2,6 +2,7 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 i.picsum.photos	0	0	1674693406	15552000
+ia903100.us.archive.org	0	0	1678085002	15724800
 picsum.photos	0	0	1677296520	15552000
 launchpad.net	0	0	1660940472	15552000
 raw.githubusercontent.com	0	0	1676655938	31536000
@@ -12,7 +13,9 @@ twin-cities.umn.edu	0	0	1668228499	31536000
 dcs.megaphone.fm	0	1	1677097510	15724800
 teddysun.net	0	0	1668228764	31536000
 ibm.com	0	0	1668228509	3600
+ia804603.us.archive.org	0	0	1678083434	15724800
 accounts.google.com	0	1	1661319245	31536000
 www.bbc.co.uk	0	0	1677300921	31536000
+archive.org	0	0	1678085001	15724800
 github.com	0	1	1669525792	31536000
 gist.githubusercontent.com	0	0	1670452632	31536000
