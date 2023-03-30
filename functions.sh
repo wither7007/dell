@@ -1,6 +1,19 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+pyse()
+{
+fd -a -epy -E mcoding |xargs rg "$1"
+}
+
+ltv()
+{
+ ls -lhrt | awk '{print $9}'  | nvim -
+}
+ltvs()
+{
+ ls -lhrt | awk '{print $9, "--" $5}'  | nvim -
+}
 esc()
 {
 cat "$1" | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | nvim -

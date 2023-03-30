@@ -12,6 +12,7 @@
 /home/steff007/.cache/yarn
 /home/steff007/.cache/youtube-dl
 /home/steff007/.cache/yt-dlp
+__pycache__
 .cache/
 # Logs
 *.bak

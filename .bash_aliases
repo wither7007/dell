@@ -17,6 +17,7 @@ alias e='echo $?'
 alias ehis="v $(echo $HISTFILE)"
 alias f1='fd --changed-within 1day'
 alias fda="fd -H --no-ignore-vcs "
+alias fdi="fd -H -I "
 alias fday="find ~ -mtime -1 -ls"
 alias fdc="fd -H -I -d 1  -td | column"
 alias fdd="fd -H -I   -tf | column"

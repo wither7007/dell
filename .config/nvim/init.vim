@@ -13,11 +13,9 @@ nnoremap <leader> <Space> :nohlsearch<Bar>:echo<CR>
 nnoremap <leader>a :suspend<cr>
 nnoremap <leader>d ggVGy:q!
 nnoremap <leader>j :exec '!'.getline('.')
-nnoremap <leader>t :suspend
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>x :tabclose!<CR>
 nnoremap <leader>z :close!<CR>
-noremap <Leader>y vg_y
 noremap <leader>; vg_y
 noremap <leader>c :let @c=@"<cr>
 noremap <leader>k :call delete(expand('%'))

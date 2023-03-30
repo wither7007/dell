@@ -1,0 +1,10 @@
+
+DUST_VERSION=$(curl -s "https://api.github.com/repos/bootandy/dust/releases/latest" | grep -Po '"tag_name": "v\K[0-9.]+')
+
+curl -Lo dust.tar.gz "https://github.com/bootandy/dust/releases/latest/download/dust-v${DUST_VERSION}-x86_64-unknown-linux-gnu.tar.gz"
+
+mkdir dust-temp
+tar xf dust.tar.gz --strip-components=1 -C dust-temp
+
+
+sudo mv dust-temp/dust /usr/local/bin
