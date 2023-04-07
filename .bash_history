@@ -1,11 +1,4 @@
 git filter-branch --index-filter 'git rm --cached --ignore-unmatch ./path/to/resource/*.mp3' --tag-name-filter cat -- --all
-gs
-git add .
-lt
-gs
-git commit -m "try and fix"
-git status
-git filter-branch --index-filter 'git rm --cached --ignore-unmatch ./path/to/resource/*.mp3' --tag-name-filter cat -- --all
 u
 1
 find . -type f -name "*.pack" | xargs du -h
@@ -497,4 +490,11 @@ pipenv --rm
 penv
 exit
 PS1="[\d \t \u@\h:\w ] $ "
+exit
+version=$(curl -s "${LR_URL}" \
+ grep -m 1 ffmpeg-n \
+ cut -d ':' -f2 \
+ cut -d '-' -f2 \
+ tr -d 'n' \
+ { read v; echo ${v::-2}; })
 exit

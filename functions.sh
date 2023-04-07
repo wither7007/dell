@@ -5,7 +5,10 @@ pyse()
 {
 fd -a -epy -E mcoding |xargs rg "$1"
 }
-
+lib()
+{
+echo 21972086245722 | cl
+}
 ltv()
 {
  ls -lhrt | awk '{print $9}'  | nvim -
