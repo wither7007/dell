@@ -146,7 +146,6 @@ sudo apt-get -y autoremove
 : 1660277484:0;fd pyt
 : 1660277510:0;md python
 : 1660277526:0;su
-: 1660278331:0;fd a
 : 1660278406:0;fd -d 1 a
 : 1660278425:0;fd -d 1 '\.a'
 : 1660278434:0;fd -d 1 '\.'
@@ -362,7 +361,6 @@ docker run -d -p 80:80 4dbccaee670e
 : 1660697020:0;se '\$0'
 : 1660697044:0;se '.*'
 : 1660697072:0;md dotfiles
-: 1660697517:0;lua
 : 1660697671:0;nnn
 : 1660706077:0;free
 : 1660706081:0;free -m
@@ -437,7 +435,6 @@ alias l.='exa -a | egrep "^\."'
 : 1660715006:0;alias rmt="trash-put "
 : 1660715339:0;tree link
 : 1660715348:0;tree powerlevel10k
-: 1660715403:0;md test
 : 1660715420:0;md normal bare
 : 1660715426:0;cd bare
 : 1660715432:0;git init --bare
@@ -614,7 +611,6 @@ git push -u origin main
 : 1660798435:0;curl https://api.github.com/users/wither7007/repos | v-
 : 1660798440:0;curl https://api.github.com/users/wither7007/repos | v 
 : 1660798665:0;curl https://api.github.com/users/wither7007/repos | rg 'clone'
-: 1660798700:0;man curl
 : 1660799094:0;curl --silent https://api.github.com
 : 1660799375:0;curl --silent https://api.github.com | tr ',' '\n'
 : 1660799396:0;curl --silent https://api.github.com | tr ',' ''
@@ -986,7 +982,6 @@ The file TestFile1 does not exist.
 : 1660947091:0;ffmpgeg --version
 : 1660947106:0;ffmpeg -V
 : 1660947116:0;ffmpeg --version
-: 1660947137:0;ffmpeg -h
 : 1660947285:0;se "python.*m"
 : 1660947354:0;p3 -m pip install ffprobe
 : 1660947379:0;p3 -m pip install ffmpeg
@@ -1405,7 +1400,6 @@ make install
 : 1661100864:0;fdi alp
 : 1661100896:0;fdi activ
 : 1661100909:0;fdi ss
-: 1661100926:0;tree | v -
 : 1661102803:0;se 'duh.txt'
 : 1661102871:0;rm -rf as-tree
 : 1661103223:0;fd -h
@@ -1469,7 +1463,6 @@ make install
 : 1661136967:0;fd -d 1 \.
 : 1661137048:0;v .tmux.conf
 : 1661137444:0;vim
-: 1661138301:0;cd Users
 : 1661138310:0;cd jayst
 : 1661138518:0;take jim
 : 1661138529:0;rd jim
@@ -2147,7 +2140,6 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661575508:0;/usr/bin/time -o /home/steff007/time-output.txt ping -c 5 howtoforge.com
 : 1661575519:0;v time-output.txt
 : 1661575866:0;script s
-: 1661575876:0;v s
 : 1661575910:0;cat s
 : 1661575926:0;script p
 : 1661576026:0;fd --changed-within=2m
@@ -2219,7 +2211,6 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661663187:0;se 'p3.*env'
 : 1661663221:0;fd act
 : 1661663245:0;source /bin/-activate
-: 1661663273:0;cd bin
 : 1661663282:0;source activate
 : 1661663305:0;pip list 2>/dev/null 
 : 1661663406:0;p3 -m pip install mariadb
@@ -2777,7 +2768,6 @@ done < ffm.py
 : 1661986375:0;tar -xf backup.tar.gz ~/tar/
 : 1661986411:0;tar -xf backup.tar.gz -C ~/tar/
 : 1661986417:0;cd tar
-: 1661986431:0;v ffm.py
 : 1661986443:0;cat plays
 : 1661986469:0;rm ffm.py
 : 1661986494:0;tar -xf backup.tar.gz ffm.py
@@ -2979,8 +2969,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676184411:0;fd -d 1 chr
 : 1676184442:0;fd -d 1 | column
 : 1676184450:0;cd Google
-: 1676184467:0;cd Chrome
-: 1676184471:0;cd User\ Data
 : 1676184583:0;fd --changed-within=10min 'book'
 : 1676186094:0;fd --changed-within=10min 'Book'
 : 1676186101:0;fd --changed-within=10min 
@@ -3044,7 +3032,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676319046:0;cd notes
 : 1676319808:0;rm -rf travis vim pycon
 : 1676320167:0;fd -a duh2.txt| cl
-: 1676320192:0;type -f cl
 : 1676320243:0;fd -a duh2.txt
 : 1676320266:0;echo 'jim'| cl
 : 1676320365:0;echo 'jim'| sed 's/^[[:blank:]]*//;s/[[:blank:]]*$//'
@@ -3116,7 +3103,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676528300:0;ls b*
 : 1676528315:0;fd 'Book.*'
 : 1676528476:0;lt book*
-: 1676528522:0;cd Default
 : 1676528637:0;fd --ignore-file tig --changed-within=1mins > 1mins
 : 1676528650:0;fd --changed-within=1mins > 1mins
 : 1676528673:0;fd book -X ls -lhrt
@@ -3131,14 +3117,12 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676529090:0;file Bookmarks
 : 1676529103:0;stat Bookmarks
 : 1676529212:0;fd .
-: 1676529231:0;fd -H
 : 1676529234:0;fd -I
 : 1676529295:0;fda -d 1 book
 : 1676529360:0;git commit -am "thurs"
 : 1676529378:0;fd tar
 : 1676529393:0;fda -d 1 tar
 : 1676529441:0;cp Bookmarks Bookmarks.bak
-: 1676531467:0;cd /mnt/c/projects
 : 1676531473:0;v filename.txt
 : 1676576598:0;mv Bookmarks OldBookmarks
 : 1676576956:0;v OldBookmarks
@@ -3207,7 +3191,6 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676685503:0;yt-dlp -h
 : 1676685520:0;yt-dlp -version
 : 1676685551:0;yt-dlp -h > ~/ytHelp.txt
-: 1676685564:0;cd 
 : 1676685573:0;v ytHelp.txt
 : 1676685609:0;yt-dlp   --version
 : 1676685627:0;rm yt-dlp.txt
@@ -3345,7 +3328,6 @@ mv PXL_20230221_041356388.jpg seven.jpg\
 : 1676957362:0;fd -epng -x mv img/
 : 1676957411:0;fd -epng -x mv {/} img/
 : 1676957419:0;fd -epng -x mv {} img/
-: 1676957427:0;fd . img
 : 1676969619:0;v  my_functions.c
 : 1676969630:0;cc -fPIC -shared -o my_functions.so my_functions.c
 : 1676969895:0;fda my_functions.so
@@ -3364,7 +3346,6 @@ mv PXL_20230221_041356388.jpg seven.jpg\
 : 1677032912:0;ex bass.jpg
 : 1677032963:0;ex two.jpg
 : 1677033588:0;exi
-: 1677033617:0;wsl
 : 1677039453:0;mkcd music
 : 1677039488:0;lt | head
 : 1677039525:0;cp Angel_from_Montgomery.mp3 /mnt/c/projects/music/afm.mp3
@@ -3400,7 +3381,6 @@ mv PXL_20230221_041356388.jpg seven.jpg\
 : 1677096927:0;fda -a 12 | cl
 : 1677097383:0;fd -d 1 -x  {} mv {} /mnt/c/twit/junk
 : 1677097405:0;fd -d 1 -x  mv {} /mnt/c/twit/junk
-: 1677097428:0;fd . junk
 : 1677097508:0;wget https://dcs.megaphone.fm/TWI6021185329.mp3
 : 1677098241:0;wget https://picsum.photos/600/400/\?random
 : 1677098317:0;wget https://picsum.photos/600/400/\?random -O mp.jpg
@@ -3452,7 +3432,6 @@ img.save('result.png')
 : 1677140009:0;df
 : 1677140132:0;rm -rf django djangoTut
 : 1677140146:0;df -h
-: 1677140418:0;fd --size +5m
 : 1677140432:0;fd --size +5m -x lshrt
 : 1677140502:0;v objects/a5/f96e8a95fa131980c1fb6e1085a5896989b12e
 : 1677188714:0;wget https://twit.cachefly.net/audio/twig/twig0704/twig0704.mp3
@@ -3589,7 +3568,6 @@ img.save('result.png')
 : 1677302255:0;rename "s/In_Our_Times_S/g" *
 : 1677302270:0;rename "s/In_Our_Times_S//g" *
 : 1677302284:0;rename "s/In_Our_Time_S//g" *
-: 1677302464:0;rename "s/\d{2}_//g" *
 : 1677302505:0;rename "s/In_Our_Time_S//g" *\
 rename "s/\d{2}_//g" *\
 
@@ -3650,7 +3628,6 @@ There are so many cats there.' | sed 's/cats\?\b/(&)/g'
 : 1677354995:0;wi grep
 : 1677355014:0;grep
 : 1677355033:0;for path in $(grep ^/ paths_to_check.txt); do echo $path; echo BAE_URL; done
-: 1677355659:0;cd /mnt/c/projects/junk
 : 1677355714:0;curl $BAE_URL
 : 1677355722:0;BAE_URL="${BASE_URL:-https://alexwlchan.net}"\
 echo $BAE_URL\
@@ -3791,7 +3768,6 @@ for a in items:\
 : 1677385829:0;git rm -f twit0915.mp3
 : 1677385854:0;git commit -am "Added music"
 : 1677385988:0;git commit -am "Initial"
-: 1677385995:0;cd .git
 : 1677386254:0;fd sql_his
 : 1677386323:0;gst | v -
 : 1677386393:0;git rm -f script/sql_hist\
@@ -3829,7 +3805,6 @@ git rm -f script/sql_hist_awk\
 : 1677395793:0;rm -rf ourtime
 : 1677395832:0;fd . ptime
 : 1677395843:0;rm -rf ptime
-: 1677395885:0;lt | wc
 : 1677395898:0;fd -td -d 1 time
 : 1677395925:0;workon t.sh
 : 1677396021:0;cd time3
@@ -3875,7 +3850,6 @@ for fi in files:\
 : 1677435720:0;cd "/mnt/c/Program Files/MuseScore 4"
 : 1677438561:0;fd -ewebm
 : 1677438569:0;fd -ewebm -x rm
-: 1677438584:0;fd -epart -x rm
 : 1677438589:0;fd | rg -v 'mp3'
 : 1677438640:0;ls | v -
 : 1677438864:0;mkcd logging
@@ -3984,7 +3958,6 @@ for fi in files:\
 : 1677548419:0;fd | tail -n2 | xargs cp -t ~/
 : 1677548445:0;fd -emp4 -x rm
 : 1677548485:0;fd /mnt/c/projects/train
-: 1677548489:0;fc
 : 1677548516:0;fd . /mnt/c/projects/train
 : 1677548543:0;fda . /mnt/c/projects/train
 : 1677548604:0;fd 'temp'
@@ -4066,7 +4039,6 @@ stat "$1" --format='acc: %x mod: %y  change: %z'\
 : 1677571859:0;lts | tail -n45 | nvim -
 : 1677613839:0;vlc sunshine.mp4
 : 1677613965:0;rg 'stop'
-: 1677613985:0;cd phone
 : 1677613989:0;v practice.ps1
 : 1677615351:0;find -regex '.*\.\(jpg\|png\)'
 : 1677615437:0;find -regex '.*\.\(mp4\|mp3\)' > temp/media.txt
@@ -4090,7 +4062,6 @@ stat "$1" --format='acc: %x mod: %y  change: %z'\
 : 1677626878:0;echo $url > url
 : 1677626905:0;echo $time
 : 1677626911:0;echo $date
-: 1677626929:0;echo $(date)
 : 1677626953:0;echo $(date > date &)
 : 1677627445:0;: $(date)
 : 1677627453:0;: $(date> date)
@@ -4160,7 +4131,6 @@ rm -rf /https\
 : 1677703674:0;lhttps://www.youtube.com/watch\?v\=bKFMS5C4CG0t
 : 1677703697:0;t LNL217.mp3
 : 1677731749:0;fd clip -x trash
-: 1677731924:0;v allMps.txt
 : 1677731951:0;cd bat
 : 1677731959:0;rm -rf bat
 : 1677731992:0;date +"Year: %Y, Month: %m, Day: %d Min: %M sec: %S"
@@ -4390,7 +4360,6 @@ cat "$1" | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | nvim -\
 : 1677997852:0;while read line; do echo $line; done < links
 : 1677997892:0;while read line; do wget $line; done < links
 : 1677998740:0;ex Steven_Nadler_on_Spinoza_on_Death.mp3
-: 1678040163:0;fd -epy
 : 1678040210:0;rm pp.mp4
 : 1678040226:0;v pf.txt
 : 1678040240:0;trash pf.txt x myapp.log
@@ -4428,7 +4397,6 @@ cat "$1" | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | nvim -\
 : 1678131257:0;( find /mnt/c/you/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/m.txt 2>yy &  )
 : 1678131342:0;find /mnt/c/music/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/m.txt 2>yy
 : 1678131375:0;find /mnt/c/music/ -regex '.*\.\(mid\)' > /mnt/c/temp/m.txt 2>yy
-: 1678131378:0;v m.txt
 : 1678131513:0;find /mnt/c/Users/jayst -regex '.*\.\(mid\)' > /mnt/c/temp/midi.txt 2>yy
 : 1678131852:0;v midi.txt
 : 1678132035:0;cd midi
@@ -4571,7 +4539,6 @@ export PROMPT='${COLOR_DIR}%~ ${COLOR_GIT}$(parse_git_branch)${COLOR_DEF}$'\
 : 1678696437:0;alias ltv="lt | awk '{print $9}'  | v -"
 : 1678747017:0;idle
 : 1678747430:0;cd gittest
-: 1678747437:0;cd test
 : 1678747452:0;test
 : 1678747461:0;type -f test
 : 1678747477:0;mv test testu
@@ -4597,7 +4564,6 @@ export PROMPT='${COLOR_DIR}%~ ${COLOR_GIT}$(parse_git_branch)${COLOR_DEF}$'\
 : 1678774510:0;fd -td less
 : 1678774521:0;fda -td less
 : 1678774748:0;trash gittest/ pdb playwright playwright-python-tutorial
-: 1678774802:0;cd AdventOfCode-2022
 : 1678774813:0;v day9.
 : 1678774818:0;v day9.py
 : 1678774956:0;fd -a youMPs.txt
@@ -4685,7 +4651,6 @@ rm -rf 	./train\
 : 1678998899:0;fdd --changed-before=6days
 : 1678998910:0;fdd --changed-before=6days -x rm
 : 1678998985:0;calendar
-: 1678999018:0;date
 : 1678999105:0;wget https://twit.cachefly.net/audio/twig/twig0707/twig0707.mp3 && touch twig0707.mp3
 : 1678999199:0;tree | nvim -
 : 1678999290:0;fd -a django
@@ -4710,9 +4675,7 @@ rm -rf 	./train\
 : 1679032034:0;v yy
 : 1679032039:0;rm yy
 : 1679032094:0;ex ATTG_Episode_1965_Sun_12_Mar_2023.mp3
-: 1679032265:0;fd -eps1
 : 1679032357:0;git commit -am "Init"
-: 1679032470:0;fd . clips/
 : 1679032480:0;fd clip
 : 1679032500:0;se 'fd.*mv'
 : 1679032531:0;fd -d 1 tf clip | xargs mv -t clips
@@ -4751,15 +4714,12 @@ rm -rf 	./train\
 : 1679176381:0;rg "insp" sql_hist.bak | nvim -
 : 1679180685:0;cd piano
 : 1679180693:0;vlc WarrenYesterday.mp4
-: 1679192951:0;g:
-: 1679192973:0;cd Documents
 : 1679193001:0;cp yester.docx /mnt/g/
 : 1679193011:0;cd mnt
 : 1679193017:0;cd /mnt
 : 1679193021:0;cd g
 : 1679193028:0;cd My\ Drive
 : 1679193054:0;md music
-: 1679193069:0;cd OneDrive/Documents
 : 1679193096:0;cp yester.docx /mnt/g/My\ Drive/music
 : 1679193257:0;cd MuseScore
 : 1679193896:0;fd autum
@@ -4775,7 +4735,6 @@ rm -rf 	./train\
 : 1679198004:0;fd -tf mn
 : 1679198013:0;fd -d 1 -tf mn
 : 1679198039:0;fd -d 1 -tf mn -X mv {} autumn/
-: 1679198057:0;fd yest
 : 1679198081:0;md yesterday
 : 1679198092:0;fd -tf -d 1
 : 1679198098:0;fd -tf -d 1 yes
@@ -4978,7 +4937,6 @@ lt | awk '{print $9}'  | nvim - \
 }\
 
 : 1679454654:0;cd p3/less
-: 1679454679:0;wi python
 : 1679454696:0;v google.py
 : 1679454715:0;./google.py | nvim -
 : 1679457976:0;fda -epy
@@ -5051,7 +5009,6 @@ tar xf dust.tar.gz --strip-components=1 -C dust-temp\
 : 1679475835:0;wget https://twit.cachefly.net/audio/twit/twit0919/twit0919.mp3 && touch twit0919.mp3
 : 1679475933:0;t LNL219.mp3
 : 1679476936:0;ls -t -1 | tac
-: 1679476976:0;cd alb
 : 1679477015:0;ls -t -1
 : 1679477901:0;myst BogusRedRiver.mp3
 : 1679477936:0;myst Mandolin_Orange_Boots_of_Spanish_Leather_Bob_Dylan_Cover_Audiotree_Live.mp3
@@ -5102,7 +5059,6 @@ tar xf dust.tar.gz --strip-components=1 -C dust-temp\
 : 1679541715:0;fda tail
 : 1679541799:0;fd .git
 : 1679541807:0;fda .git
-: 1679541827:0;ls -a
 : 1679542252:0;fdi tail
 : 1679542278:0;fdi -e node_modules tail
 : 1679542301:0;fdi tail -e node_modules 
@@ -5110,7 +5066,6 @@ tar xf dust.tar.gz --strip-components=1 -C dust-temp\
 : 1679542331:0;fdi -d 1 -e node_modules/ tail
 : 1679542358:0;fdi -d 1 -E node_modules/ tail
 : 1679542372:0;fdi -E node_modules/ tail
-: 1679542474:0;3
 : 1679543165:0;rsync -avr --progress img/ ..
 : 1679543178:0;fd .img
 : 1679543326:0;fd -H -I -d 1
@@ -5147,7 +5102,6 @@ tar xf dust.tar.gz --strip-components=1 -C dust-temp\
 : 1679550081:0;mv *.pdf /mnt/c/mmp
 : 1679550232:0;mv * /mnt/c/you/intime
 : 1679550243:0;rm -rf locke
-: 1679550491:0;cd temp
 : 1679550511:0;( find /mnt/c/you -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/Yous.txt 2>yy &  )
 : 1679551525:0;cd goodman
 : 1679551565:0;mv Stompin_at_the_Savoy.mp3 In_a_Sentimental_Mood_1991_Remastered_.mp3 Goodnight_My_Love_1991_Remastered_.mp3 ../alb
@@ -5159,7 +5113,6 @@ tar xf dust.tar.gz --strip-components=1 -C dust-temp\
 : 1679552129:0;rm Train_Drops_of_Jupiter_Official_Video_.mp3 Oh_Pretty_Woman.mp3 Rain.mp3 
 : 1679552177:0;rm Stuck_In_The_Middle_With_You.mp3 _Don_t_Fear_The_Reaper.mp3 _OH_PRETTY_WOMAN_Roy_Orbison_on_American_Bandstand_1966.mp3
 : 1679552231:0;rm Sister_Golden_Hair.mp3 Spirit_In_The_Sky.mp3 Staind_It_s_Been_Awhile_Official_Video_.mp3
-: 1679552238:0;fd | column
 : 1679552282:0;rm No_Rain.mp3 Uncle_Lucius_Keep_The_Wolves_Away_Official_Video_.mp3
 : 1679552317:0;vz
 : 1679552394:0;rm Running_Home.mp3 Sissel_Kyrkjeb_John_Martin_Bengtsson_Time_to_Say_Goodbye.mp3
@@ -5180,8 +5133,6 @@ tar xf dust.tar.gz --strip-components=1 -C dust-temp\
 : 1679558620:0;fd inou
 : 1679558628:0;fd inou -x touch
 : 1679558677:0;fd inou -x mv -t /mnt/c/you/audio/
-: 1679609559:0;trash-list
-: 1679609596:0;trash-empty
 : 1679626038:0;fd -epy -E mcoding |xargs rg 'trace'
 : 1679626127:0;pyse()\
 {\
@@ -5380,7 +5331,6 @@ touch tests/test_search.py\
 : 1680058054:0;dust
 : 1680058168:0;mdj createsuperuser
 : 1680058257:0;tree polls
-: 1680058382:0;fd admin
 : 1680058388:0;fd admin -X nvim
 : 1680065017:0;wget "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/https/vpid/p0dtdjh0.mp3" #cool BBC download
 : 1680065051:0;ex p0dtdjh0.mp3
@@ -5389,7 +5339,6 @@ touch tests/test_search.py\
 : 1680065494:0;wget "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-low/proto/https/vpid/m001cx0m.mp3" #cool BBC download
 : 1680065567:0;curl https://www.bbc.co.uk/programmes/m001cdsm 
 : 1680065577:0;curl https://www.bbc.co.uk/programmes/m001cdsm | rg mp3
-: 1680065649:0;curl https://www.bbc.co.uk/programmes/m001cdsm | rg mp3 | nvim -
 : 1680065766:0;wget "htpps://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0d2q0bl.mp3" -O sewage.mp3
 : 1680065790:0;wget "https://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download/proto/https/vpid/p0d2q0bl.mp3" -O sewage.mp3
 : 1680065901:0;fd jui
@@ -5448,7 +5397,6 @@ fd -a -epy -E mcoding |xargs rg "$1"\
 : 1680119221:0;cp detail.html polls
 : 1680119340:0;trash detail.html
 : 1680119345:0;fd -a detail
-: 1680119502:0;cd polls
 : 1680132220:0;v songCut.py
 : 1680133475:0;rm *.tmp
 : 1680133536:0;lt kno
@@ -5488,7 +5436,6 @@ fd -a -epy -E mcoding |xargs rg "$1"\
 : 1680144837:0;fd aqz-KE-bpKQ_https_-_www.youtube.com_
 : 1680144854:0;fd -d 1 | awk 'length($0) > 10'
 : 1680144865:0;v my_functions.so
-: 1680144881:0;rm *
 : 1680146825:0;apt list --upgradable | nvim -
 : 1680147036:0;v up.sh
 : 1680147135:0;e=$(date)
@@ -5502,7 +5449,6 @@ fd -a -epy -E mcoding |xargs rg "$1"\
 : 1680151998:0;se 'fd.*S'
 : 1680152035:0;fd --size +5m -x ls -lhrt
 : 1680152041:0;fda --size +5m -x ls -lhrt
-: 1680152083:0;cd .cache
 : 1680152103:0;rm -rf ms-playwright
 : 1680152125:0;rm -rf yarn
 : 1680152185:0;ls | wc
@@ -5521,7 +5467,6 @@ fd -a -epy -E mcoding |xargs rg "$1"\
 : 1680153807:0;sc ffmp
 : 1680154099:0;cd letit
 : 1680154247:0;cd hem
-: 1680154253:0;.
 : 1680154274:0;rm -rf hem
 : 1680154309:0;df -Th 
 : 1680154404:0;rm -rf oldproject
@@ -5580,7 +5525,6 @@ sudo rm  /etc/apt/sources.list.d/savoury1-ubuntu-ffmpeg4-focal.list.save\
 : 1680158547:0;sudo apt purge ffmpeg
 : 1680158677:0;sudo apt install ffmpeg | tee ffmpeg.txt
 : 1680158693:0;v ffmpeg.txt
-: 1680160722:0;pwd
 : 1680161239:0;sudo apt remove --purge --auto-remove -y ffmpeg
 : 1680161313:0;v allout.txt
 : 1680161331:0;hi
@@ -5624,7 +5568,6 @@ dl_name="${dl_filename::-7}"
 : 1680163118:0;man tail f
 : 1680163155:0;lsof
 : 1680163212:0;fuser
-: 1680165100:0;type -f fdd
 : 1680165125:0;fda -d 1 | rg "ps1'
 : 1680165135:0;fda -d 1 | xargs rg "ps1'
 : 1680165169:0;fda -d 1
@@ -5679,8 +5622,6 @@ echo $e\
 : 1680216848:0;fd --size -1m
 : 1680216864:0;fd --size -1m -X ls -lhrt
 : 1680216969:0;fd --size -1m -X rm
-: 1680216984:0;lts | tac
-: 1680217029:0;v ~/script/tiny.py
 : 1680217133:0;fd -emp4
 : 1680217247:0;v knocking-6_4-6_43.ps1
 : 1680217270:0;fd unk
@@ -5688,13 +5629,11 @@ echo $e\
 : 1680219205:0;vlc --no-video-title  c:\you\gut\knocking.mp4 --start-time 364 --stop-time 403\
 vlc --no-video-title  c:\you\gut\RedRiver.mp4 --start-time 67 --stop-time 88\
 
-: 1680219218:0;v vlcs
 : 1680219252:0;v x.ps1
 : 1680223735:0;fda -a | nvim -
 : 1680223771:0;fd -d 1 -tf -a -emp4 | nvim -
 : 1680223806:0;fda -d 1 -tf -a -emp4 | nvim -
 : 1680224318:0;rm RedRiver-1_7-1_28TEMP_MPY_wvf_snd.mp3
-: 1680224444:0;fdd
 : 1680224483:0;ldf syn*
 : 1680224491:0;lt syn*
 : 1680224501:0;cp syncopated.mp4 /mnt/c/projects/music
@@ -5729,7 +5668,6 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680236514:0;ld kno*
 : 1680236522:0;ls kno*
 : 1680236590:0;songCut.py
-: 1680239066:0;cd music
 : 1680245504:0;fd schop
 : 1680245531:0;cd philos
 : 1680247719:0;fda -emp3
@@ -5771,8 +5709,6 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680316500:0;gb OldWorks
 : 1680316512:0;git switch OldWorks
 : 1680316551:0;git switch master
-: 1680316751:0;apps
-: 1680316764:0;apps | nvim -
 : 1680316975:0;type -f gs
 : 1680317065:0;gss
 : 1680317093:0;fd .x
@@ -5805,7 +5741,6 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680321619:0;for a in {1..5}; do touch "$a"; done
 : 1680321729:0;v 5
 : 1680321782:0;rm -rfv *
-: 1680321788:0;fdi
 : 1680321928:0;rm -rfv .git
 : 1680321933:0;lsa
 : 1680322000:0;#for I in $(seq -w 5) ; do touch yyy-$I ; done\
@@ -5813,7 +5748,6 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 
 : 1680322025:0;for a in $(seq 3); do echo $a; done
 : 1680322167:0;git add . && git commit -m $(date)
-: 1680322181:0;git add . && git commit -am $(date)
 : 1680322248:0;git checkout -b nb
 : 1680322280:0;alias gs='git switch'
 : 1680322504:0;fd -x cat
@@ -5852,7 +5786,6 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680324720:0;v y-1
 : 1680324735:0;cat y-1
 : 1680324816:0;git stash list
-: 1680324821:0;git stash
 : 1680324840:0;git pop
 : 1680324856:0;git stash pop
 : 1680324911:0;gs gn
@@ -5865,11 +5798,8 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680325389:0;cd mysite/polls
 : 1680325421:0;ldf templates
 : 1680325433:0;mv detail.html templates/polls
-: 1680326140:0;rm -rf {,.[*
 : 1680326165:0;rm -rf {,.[* 
-: 1680326222:0;git init
 : 1680326227:0;for a in $(seq 3); do touch y-$a; done
-: 1680326250:0;rm -rf * .*
 : 1680326385:0;asdfa
 : 1680326387:0;echo $?
 : 1680333217:0;git diff OldWorks master --name-only
@@ -5907,7 +5837,6 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680336418:0;mv results.html templates/polls
 : 1680339339:0;git commit -am "Sat AM good working"
 : 1680339550:0;mdj runserver 2> err
-: 1680339577:0;v err
 : 1680377723:0;fd -ehmtl | rg 'wind'
 : 1680377738:0;fd -ehtml | xargs rg "tail" 
 : 1680377764:0;v script/tail.html
@@ -5929,12 +5858,9 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680410478:0;cd multistep-form-with-tailwindcss-and-alpinejs
 : 1680410494:0;cd src
 : 1680410499:0;v index.html
-: 1680414672:0;cd OneDrive
 : 1680414687:0;fd "jpg|png"
 : 1680414703:0;cd Pictures
-: 1680414724:0;space
 : 1680414730:0;fd "\s"
-: 1680415789:0;cd junk
 : 1680416951:0;fdi -ehpy | xargs rg "sqlite3" > filter
 : 1680416957:0;v filter
 : 1680416985:0;fdi -ehpy | xargs rg "sqlite3" | less
@@ -5944,7 +5870,6 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680417137:0;fdi -ehpy -E sql_hist.txt | xargs rg "sqlite3" | nvim -
 : 1680417218:0;#p3/sql_hist.txt
 : 1680417296:0;fdi -epy  | xargs rg "sqlite3" | nvim -
-: 1680419079:0;yel
 : 1680419759:0;htop
 : 1680422715:0;echo "$(date)" "[PYTHON] running naive.py (10_000_000) inserts"
 : 1680422749:0;lt > "$(date)" "[PYTHON] running naive.py (10_000_000) inserts"
@@ -5958,19 +5883,15 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680478786:0;cd p3
 : 1680478803:0;mkcd class
 : 1680478811:0;t start.py
-: 1680479436:0;tmux
 : 1680489925:0;t what
 : 1680512935:0;fd -emp3 --changed-within=24days
 : 1680550782:0;type -f sqpy
-: 1680550865:0;cd songs
 : 1680550943:0;fdi knock
 : 1680550987:0;fdi let
 : 1680551019:0;trash phone/letBhook.mp4
 : 1680551061:0;cd mmp
-: 1680551448:0;y3
 : 1680551619:0;fd knock
 : 1680551670:0;cp alb/dylanKnock.mp3 /mnt/c/you/gut
-: 1680551830:0;fd -emp3
 : 1680551837:0;fdi -emp3
 : 1680551870:0;fd songs
 : 1680551897:0;mv LetBe.mp3 dylanKnock.mp3 songs
@@ -5994,7 +5915,6 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680567863:0;cp sql_hist_awk sql_hist
 : 1680567940:0;v newhist
 : 1680567975:0;cp newhist sql_hist
-: 1680568823:0;ipy
 : 1680583703:0;echo 21972086245722 | cl
 : 1680583788:0;lib()\
 {\
@@ -6006,33 +5926,20 @@ echo 21972086245722 | cl\
 : 1680583978:0;cd /mnt/c/projects/p3/class
 : 1680583990:0;z.py Ex_Files_Python_Object_Programming.zip
 : 1680584004:0;rm *.zip
-: 1680584009:0;ll
-: 1680586413:0;fdh 2
 : 1680586427:0;chah 1
 : 1680586437:0;v class.py
 : 1680586450:0;v start.py
-: 1680597478:0;fdc
 : 1680597482:0;cd Ideas
-: 1680597576:0;fd | nvim -
 : 1680597654:0;rename "s/.*\d.*-//g" *
 : 1680597689:0;vlc .
-: 1680632249:0;chah 24
 : 1680632515:0;fd --changed-within=2days | rg -v Ex
-: 1680633161:0;cd img
 : 1680633168:0;fdi -a
 : 1680646706:0;fd 
 : 1680646878:0;fd -td
-: 1680646894:0;fd -td -d 1
-: 1680646997:0;fd
 : 1680647027:0;md sql
 : 1680647324:0;p3 -m django --version
-: 1680647653:0;git reset --hard
-: 1680647682:0;git log --oneline
-: 1680647695:0;v .gitignore
 : 1680647872:0;gs
 : 1680647942:0;v         mysite/polls/migrations/0002_new.py
-: 1680647984:0;git diff
-: 1680648125:0;git diff --staged | nvim -
 : 1680648168:0;cd mysite/polls/migrations/
 : 1680648180:0;v 0002_new.py
 : 1680648358:0;mdj sqlmigrate polls 0001
@@ -6049,14 +5956,12 @@ echo 21972086245722 | cl\
 : 1680662838:0;lt > x
 : 1680662850:0;pr -t -2 x
 : 1680662870:0;man pr
-: 1680663286:0;cd script
 : 1680663297:0;pyse "sqlite3" | nvim -
 : 1680663317:0;v /mnt/c/projects/script/ipysql.py
 : 1680663478:0;fd -a database | nvim -
 : 1680664232:0;cd evans
 : 1680664294:0;#duh > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g').txt
 : 1680664335:0;fd -a | sed 's/mnt/ ____ /g'
-: 1680664754:0;windir
 : 1680664777:0;fd -a | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' 
 : 1680664823:0;fd -a | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' # linux to windows 
 : 1680664877:0;fd -a | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' > /mnt/c/projects/sql/evans.txt # linux to windows 
@@ -6076,7 +5981,6 @@ echo 21972086245722 | cl\
 : 1680665812:0;cp tailwind/map.py sql
 : 1680665823:0;cd sq
 : 1680665929:0;head evans.txt
-: 1680667112:0;sqpy
 : 1680667897:0;v new
 : 1680667962:0;v evans.txt
 : 1680668290:0;awk '{print $0, "F11"}' evans.txt
@@ -6124,7 +6028,6 @@ echo 21972086245722 | cl\
 : 1680671735:0;v results.csv
 : 1680671887:0;/mnt/c/twit
 : 1680671900:0;#ffmpeg -i /mnt/c/you/gut/unknown.mp4 -ss 345 -to 362 -vcodec libx264 -acodec copy /mnt/c/you/gut/clips/unknown.mp4_345_362.mp4 
-: 1680672124:0;v t
 : 1680672162:0;#ffprobe -loglevel error -show_entries format=duration -of default=nk=1:nw=1
 : 1680672188:0;ffprobe -loglevel error -show_entries format=duration -of default=nk=1:nw=1 ww0822.mp3
 : 1680672251:0;calc
@@ -6132,39 +6035,29 @@ echo 21972086245722 | cl\
 : 1680672573:0;2
 : 1680673413:0;mdj server
 : 1680676384:0;fdi --changed-within=1days
-: 1680676450:0;axit
 : 1680679195:0;fdy
 : 1680679203:0;cd physics
-: 1680679933:0;yv
 : 1680683068:0;uu
-: 1680683074:0;lts
 : 1680683968:0;mkcd 5
-: 1680683977:0;cd Downloads
 : 1680683989:0;fd Inour
 : 1680684001:0;fd in
 : 1680684047:0;#fd cloth -tf -d 1 | xargs mv -t ../Cloth.mp3
 : 1680684106:0;#fd cloth -tf -d 1 | xargs mv -t /mnt/c/you/audio/5
 : 1680684127:0;fd in -tf -d 1 | xargs mv -t /mnt/c/you/audio/5
-: 1680702861:0;mc
-: 1680702868:0;cd twit
 : 1680702938:0;t=twig0709.mp3
 : 1680702943:0;echo $t
 : 1680702997:0;t=twig0709.mp3 && ffmpeg -ss 8 -i $t -c copy $t
 : 1680703026:0;echo $t-8
 : 1680703046:0;echo 8$t
 : 1680703063:0;t=twig0709.mp3 && ffmpeg -ss 8 -i $t -c copy 8$t
-: 1680703123:0;l
 : 1680703154:0;ffprobe -loglevel error -show_entries format=duration -of default=nk=1:nw=1 8$t
 : 1680703163:0;ffprobe -loglevel error -show_entries format=duration -of default=nk=1:nw=1 $t
-: 1680704212:0;cd gut
 : 1680704330:0;t=knocking.mp4\
 ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 
 : 1680709453:0;v mysite/old
-: 1680709759:0;fun
 : 1680709775:0;pyse "\.db"
 : 1680709867:0;fd setup
-: 1680709875:0;tree
 : 1680709883:0;fd setti
 : 1680709892:0;v mysite/settings.py
 : 1680710031:0;rm database.db
@@ -6174,10 +6067,7 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680710978:0;v results.txt
 : 1680712730:0;sl
 : 1680726291:0;/dev
-: 1680726297:0;fda 
-: 1680726302:0;duh
 : 1680726356:0;ls -l /dev | grep "sda"
-: 1680726401:0;sudo fdisk -l
 : 1680726414:0;sudo fdisk -l | nvim -
 : 1680726492:0;lsblk
 : 1680742228:0;ldf s*
@@ -6191,7 +6081,6 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680742580:0;cat /dev/zero > xx
 : 1680742595:0;lt xx*
 : 1680742603:0;v xx
-: 1680742830:0;1
 : 1680742834:0;fd ran
 : 1680742838:0;cat random
 : 1680742878:0;echo $RANDOM
@@ -6205,8 +6094,6 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680743761:0;ldf sq*
 : 1680743773:0;man sqldiff
 : 1680743914:0;git clone https://github.com/lerocha/chinook-database.git
-: 1680743972:0;fda
-: 1680744006:0;ld
 : 1680744011:0;cd ChinookDatabase
 : 1680744029:0;fd .*db
 : 1680744060:0;fd .*sql
@@ -6214,20 +6101,14 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680744119:0;cd DdlStrategies
 : 1680744139:0;fd | xargs head -n4
 : 1680744561:0;fd | xargs head -n2
-: 1680744581:0;cd
 : 1680744586:0;df -Th | nvim -
 : 1680744598:0;whinh
-: 1680744603:0;winh
 : 1680744611:0;cd Local\ Settings
-: 1680744649:0;duh > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g').txt 2>err &
-: 1680744674:0;mem
-: 1680745439:0;d
 : 1680745455:0;cd chinook-database
 : 1680745458:0;fd chin
 : 1680745481:0;cd ChinookDatabase/Data
 : 1680745498:0;cd ChinookDatabase/DataSources
 : 1680745627:0;sl none
-: 1680745955:0;lf
 : 1680746423:0;fd myc
 : 1680746434:0;v mysite/myc
 : 1680746721:0;fd -edb
@@ -6241,25 +6122,16 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680747490:0;fd -a sqlit
 : 1680747495:0;fd -a sqlit | cl
 : 1680747742:0;cd willie
-: 1680747758:0;fd -a
 : 1680747794:0;fd -a > /mnt/c/projects/django/mysite/song.txt
 : 1680749206:0;trash database.db
 : 1680754597:0;v schema.txt
-: 1680756328:0;mdj makemigrations polls
 : 1680756355:0;v polls/migrations/0003_schema.py
 : 1680756410:0;mdj sqlmigrate polls 0003
-: 1680756497:0;mdj migrate
-: 1680756578:0;mdj shell
-: 1680756835:0;awsq
-: 1680757038:0;...
 : 1680757043:0;cd sql
-: 1680757050:0;fd --changed-within=2days
 : 1680757060:0;v map.py
-: 1680757086:0;fd --changed-within=4hours
 : 1680757091:0;v db.py
 : 1680757135:0;cp db.py ../django/mysite
 : 1680757182:0;cd ../django
-: 1680761226:0;glg
 : 1680761271:0;git diff models.py
 : 1680761293:0;git diff mysite/polls/models.py
 : 1680761332:0;git diff | nvim -
@@ -6270,28 +6142,10 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680761630:0;git diff mysite/results.xx | nvim -
 : 1680761655:0;v mysite/results.xx
 : 1680761701:0;git diff --name-only
-: 1680761737:0;git add .
-: 1680761746:0;git commit -am "wed good working"
-: 1680761760:0;..
 : 1680761770:0;v results.xx
 : 1680761777:0;rm results.xx
-: 1680761779:0;gst
 : 1680761788:0;git ls-files | v -
-: 1680761811:0;c
-: 1680763322:0;ye
-: 1680764470:0;ls
-: 1680764486:0;pc
-: 1680764491:0;cd /mnt/c/projects/django/mysite
-: 1680764495:0;i3
-: 1680765391:0;mps
-: 1680765395:0;cd django
-: 1680765398:0;cd mysite
-: 1680765400:0;ldf
 : 1680765416:0;sl db.py
-: 1680765493:0;v schema
-: 1680766689:0;sl db.sqlite3
-: 1680766937:0;mdj runserver
-: 1680768966:0;cd audio
 : 1680769007:0;#rename "s/.*\d.*-//g" *
 : 1680769081:0;fd '\d.*_.*_'
 : 1680769138:0;rename "s/\d.*_.*_//g" *
@@ -6299,20 +6153,17 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680769171:0;file 5
 : 1680769199:0;ldf 5
 : 1680769204:0;rm -rf 5
-: 1680769211:0;ltv
 : 1680810732:0;ls -lu
 : 1680810761:0;ls -lu | head
 : 1680810885:0;cd kb
 : 1680810887:0;ls -ltu
 : 1680810913:0;ls -ltu | nvim -
 : 1680811014:0;ls -lt --time atime
-: 1680828724:0;u
 : 1680828731:0;cd gut/songs
 : 1680828825:0;ffmpeg -i ItsOnlyLove.mp3 -ss 00 -to 20 -vcodec libx264 -acodec copy output.mp4
 : 1680828854:0;mv output.mp4 output.mp3
 : 1680828862:0;cat output.mp3
 : 1680829034:0;mv output.mp3 itsonlylove_20.mp3
-: 1680829162:0;fg
 : 1680829204:0;ffmpeg -i LetBe.mp3 -ss 97 -to 17 -vcodec libx264 -acodec copy LetBe_97_17.mp3
 : 1680829229:0;ffmpeg -i LetBe.mp3 -ss 97 -to 107 -vcodec libx264 -acodec copy LetBe_97_17.mp3
 : 1680829291:0;rm LetBe_97_17.mp3
@@ -6322,22 +6173,10 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680829908:0;ffmpeg -i LetBe.mp3 -ss 1:48 -to 1:50 -vcodec libx264 -acodec copy LetBe_cut.mp3
 : 1680830008:0;ffmpeg -i LetBe.mp3 -ss 1:38 -to 1:50 -vcodec libx264 -acodec copy LetBe_cut.mp3
 : 1680830060:0;rm LetBe_cut.mp3
-: 1680830062:0;his
 : 1680830088:0;ffmpeg -i LetBe.mp3 -ss 1:45 -to 1:59 -vcodec libx264 -acodec copy LetBe_cut.mp3
-: 1680834498:0;cdy
-: 1680834500:0;lt
 : 1680834515:0;v Thu_Mar_30_17:43:08.txt
-: 1680834784:0;h3
-: 1680834795:0;exit
-: 1680834802:0;axit
 : 1680834805:0;wsl
-: 1680834813:0;tmux
-: 1680834824:0;cdy
-: 1680834826:0;lt
-: 1680834867:0;grep -E 'a' dates.txt
 : 1680834890:0;file dates.txt
-: 1680834906:0;v dates.txt
-: 1680834955:0;grep -E 'a' dates.txt
 : 1680834968:0;grep -E 'x' dates.txt
 : 1680834997:0;awk '/e' dates.txt
 : 1680835006:0;awk 'e' dates.txt
@@ -6350,6 +6189,736 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680835189:0;grep 'a' dates.txt
 : 1680835236:0;grep "a" dates.txt
 : 1680835252:0;grep --version
-: 1680835325:0;gst
-: 1680835329:0;git add .
-: 1680835332:0;git commit -am "wed good working"
+: 1680835369:0;grep "a" dick.txt
+: 1680835433:0;grep -w "beat" dick.txt
+: 1680835451:0;man grep
+: 1680835548:0;grep -n -w "beat" dick.txt
+: 1680835685:0;alias h1='history | tail -n 10'
+: 1680835698:0;h3
+: 1680835846:0;lt *.bak
+: 1680836372:0;ls russ
+: 1680836413:0;ls phile
+: 1680836501:0;mkcd tAud
+: 1680836526:0;fd /mnt/c/you/alb
+: 1680836539:0;fd "let" /mnt/c/you/alb
+: 1680836551:0;fd "let" /mnt/c/you/kb
+: 1680836590:0;cp /mnt/c/you/alb/Let_It_Be_Remastered_2009_.mp3 Let.mp3
+: 1680836611:0;windir
+: 1680836764:0;cat attempts
+: 1680838199:0;workon t
+: 1680838263:0;cat t
+: 1680838299:0;v attempts
+: 1680838311:0;v t
+: 1680838324:0;mv t tt
+: 1680838334:0;ll
+: 1680838478:0;tail attempts
+: 1680839384:0;cat tt
+: 1680839473:0;ffmpeg -h
+: 1680839489:0;ffmpeg -h | nvim -
+: 1680839615:0;cd /mnt/c/projects/tAud
+: 1680840075:0;ex Let.mp3
+: 1680840466:0;ss=1:10\
+to=1:20\
+
+: 1680840468:0;$ss
+: 1680840483:0;echo $ss_$to
+: 1680840499:0;echo "$ss_$to"
+: 1680840526:0;echo "$to"
+: 1680840548:0;echo "$ss:$to"
+: 1680840556:0;echo "$ss-$to"
+: 1680840565:0;echo $ss-$to
+: 1680843265:0;song=Let.mp3
+: 1680843312:0;echo "$song"
+: 1680843317:0;echo "$song.mp3"
+: 1680843345:0;ss=1:44\
+to=1:59\
+
+: 1680843363:0;echo "$song-$ss.mp3"
+: 1680843402:0;song=Let
+: 1680843404:0;echo "$song-$ss-$to.mp3"
+: 1680843749:0;rm trim_opseek_encode.mp3
+: 1680844003:0;ss=1:44\
+to=1:59\
+song=Let\
+echo "$song_$ss_$to.mp3"\
+
+: 1680844029:0;echo "$song_$ss_$to.mp3"
+: 1680844081:0;echo $ss
+: 1680844111:0;echo $song
+: 1680844114:0;echo $song_
+: 1680844127:0;echo $song$ss
+: 1680844140:0;echo "$song$ss"
+: 1680844147:0;echo "$song_$ss"
+: 1680844179:0;echo "$song _$ss"
+: 1680844227:0;echo "$song-$ss"
+: 1680844250:0;echo "$song-$ss$tt"
+: 1680844257:0;echo "$song$ss$tt"
+: 1680844282:0;printf "$song$ss$tt"
+: 1680844394:0;echo '$song$ss$tt'
+: 1680844433:0;echo "$song"$ss$tt'
+: 1680844441:0;echo "$song"'$ss$tt'
+: 1680844469:0;echo "$song"'_''$ss$tt'
+: 1680844505:0;echo "$song"'_''"$ss"'_'"$tt""
+: 1680844519:0;echo "$song"'_''"$ss"'_'"$tt"
+: 1680844530:0;echo "$song"'_''"$ss"'_'
+: 1680844541:0;echo "$song"'_''"$ss"
+: 1680844547:0;echo "$song"'_'"$ss"
+: 1680844557:0;echo "$song"'_'"$ss"'_'
+: 1680844612:0;echo "$tt"
+: 1680844673:0;tt=2:44
+: 1680844677:0;echo "$song"'_'"$ss"'_'"$tt"
+: 1680844732:0;"$song"'_'"$ss"'_'"$tt"
+: 1680844754:0;echo "$song"'_'"$ss"'_'"$tt"'.mp3'
+: 1680844962:0;t 2:33
+: 1680845770:0;cp Let_1-44-1-59.mp3 /mnt/c/you/gut/clips
+: 1680845900:0;cd songs
+: 1680845957:0;cp ItsOnlyLove.mp3 /mnt/c/projects/tAud
+: 1680848603:0;cd phone
+: 1680849264:0;fda 
+: 1680849307:0;fd -d 1 '^sc'
+: 1680849326:0;cat script.sh
+: 1680849346:0;fd -d 1 '^sc.*-'
+: 1680849386:0;fd -d 1 '^sc.*_' | xargs mv -t junk
+: 1680849391:0;fd -d 1 '^sc.*_'
+: 1680849428:0;md todo
+: 1680849469:0;fd -d 1 -emp4 | nvim -
+: 1680849485:0;fd -H -d 1 -emp4 | nvim -
+: 1680849650:0;mv FirstGuitar.mp4 todo/\
+mv GoodGuitar.mp4 todo/\
+mv GutTheory.mp4 todo/\
+mv norwegian.mp4 todo/\
+mv preludeC.mp4 toodo/\
+mv tamborine.mp4 toodo/\
+
+: 1680849698:0;fd -I -d 1 -emp4 | nvim -
+: 1680849732:0;mv FingerPatterns.mp4 todo/\
+mv YesterG.mp4 todo/\
+
+: 1680850645:0;v tt
+: 1680850694:0;tt
+: 1680850890:0;rename "s/\:/-/g" *
+: 1680850975:0;cp ItsOnlyLove_0-00-0-15.mp3 ItsOnlyLove_0-00-0-35.mp3 RedRiver_1-10-1-37.mp4 /mnt/c/you/gut/clips
+: 1680853595:0;git commit -am "wed good working"
+: 1680853768:0;cd /mnt/c/projects/django/mysite
+: 1680853794:0;mv garbage.php garbage.sql
+: 1680855712:0;fd -a /mnt/c/you/alb > alb.txt
+: 1680855725:0;fd . -a /mnt/c/you/alb > alb.txt
+: 1680855729:0;v alb.txt
+: 1680857220:0;cd "/Users/jayst/AppData/Local/Google/Chrome/User Data/Default"
+: 1680857274:0;fd -td -d 1 us
+: 1680857280:0;cd Users
+: 1680857309:0;cd jayst/AppData/Local/Google
+: 1680857325:0;zsort > duhGood &
+: 1680857365:0;cd Chrome
+: 1680857379:0;cd Default
+: 1680857400:0;file History
+: 1680857482:0;v schema
+: 1680858152:0;sl History
+: 1680858489:0;v listtables.txt
+: 1680858612:0;cd cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User\ Data/Default
+: 1680858695:0;cd User\ Data
+: 1680858734:0;cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data
+: 1680858745:0;cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User\ Data
+: 1680858790:0;cd /mnt/c/Users/jayst/AppData/Local/Google/Chrome/User\ Data 
+: 1680859691:0;awsq
+: 1680859992:0;v History.html
+: 1680860517:0;curl https://www.bbc.co.uk/programmes/m001cdsm | rg mp3 | nvim -
+: 1680860561:0;curl https://www.bbc.co.uk/sounds/play/p0f7sjkw | rg mp3 | nvim -
+: 1680860589:0;curl https://www.bbc.co.uk/sounds/play/p0f7sjkw |  nvim -
+: 1680898917:0;cd OneDrive
+: 1680898925:0;fd --changed-within=4hours
+: 1680898964:0;mv vlcsnap-00004.png /mnt/c/you/gut/img/red2.png
+: 1680906392:0;lua
+: 1680906475:0;apps
+: 1680906490:0;apps | nvim -
+: 1680906535:0;sudo apt install build-essential libreadline-dev
+: 1680906577:0;mkcd luabuild
+: 1680906592:0;man curl
+: 1680906639:0;manv curl
+: 1680906698:0;curl -R -O http://www.lua.org/ftp/lua-5.4.4.tar.gz
+: 1680906717:0;v lua-5.4.4.tar.gz
+: 1680906787:0;manv tar
+: 1680906866:0;tar -xvf lua-5.4.4.tar.gz
+: 1680906879:0;fd a
+: 1680907133:0;wi cc
+: 1680907146:0;which cc
+: 1680907168:0;apps | grep gcc
+: 1680908086:0;v a.out
+: 1680908994:0;v h.c
+: 1680909008:0;cc h.c
+: 1680909011:0;a.out
+: 1680909050:0;make linux test
+: 1680909066:0;fd make
+: 1680909085:0;cd lua-5.4.4
+: 1680909098:0;v README
+: 1680909217:0;manv mkdir
+: 1680909379:0;stat xxx
+: 1680909449:0;v Makefile
+: 1680911887:0;sudo make install 2>err
+: 1680911932:0;sudo make install > e1 2>err
+: 1680911945:0;v -O e1 err
+: 1680911965:0;v e1
+: 1680911984:0;sudo mkdir -p /usr/local/bin /usr/local/include /usr/local/lib /usr/local/man/man1 /usr/local/share/lua/5.4 /usr/local/lib/lua/5.4
+: 1680911998:0;sudo make install
+: 1680912034:0;fd . -td /usr/local/bin
+: 1680918194:0;v         mysite/polls/migrations/0004_dsongs.py
+: 1680918239:0;sl mysite/db.sqlite3
+: 1680918344:0;git diff --staged | nvim -
+: 1680918420:0;fd admin
+: 1680918505:0;cat db.py
+: 1680918658:0;cd mysite
+: 1680918676:0;sl db.sqlite3 ".schema"
+: 1680918719:0;sl db.sqlite3 ".output s" ".schema"
+: 1680918722:0;v s
+: 1680918771:0;sl db.sqlite3 ".output s" ".schema" | rg 'table'
+: 1680918784:0;sl db.sqlite3 ".output s" ".schema" | rg -i 'table'
+: 1680918796:0;sl db.sqlite3 ".output s" ".schema" | rg -i 'T'
+: 1680918809:0;sl db.sqlite3 ".output s" ".schema" | rg 'T'
+: 1680918833:0;echo "jim" | rg 'i'
+: 1680918868:0;sl db.sqlite3  ".schema" | rg 'T'
+: 1680918880:0;sl db.sqlite3  ".schema" | rg -i 'Table'
+: 1680918891:0;sl db.sqlite3  ".schema" | rg -i 'Table' | nvim -
+: 1680919205:0;sl db.sqlite3  ".schema" | rg -i 'song' | nvim -
+: 1680919548:0;mdj makemigrations polls 2>err
+: 1680919553:0;v err
+: 1680919619:0;mdj makemigrations polls 2>err2
+: 1680919625:0;v err2
+: 1680919670:0;pyse "Dsong"
+: 1680919886:0;mdj makemigrations polls
+: 1680919977:0;cd polls
+: 1680919983:0;cd migrations
+: 1680920046:0;mdj sqlmigrate polls 0005
+: 1680920103:0;mdj migrate
+: 1680923871:0;sl db.sqlite3
+: 1680923985:0;mdj runserver
+: 1680924046:0;cd django
+: 1680924080:0;git commit -am "fri good working"
+: 1680924122:0;pyse "songss"
+: 1680924271:0;pyse "Xso"
+: 1680924303:0;#fd -a -epy -E mcoding |xargs rg "$1"
+: 1680924333:0;fd -epy | xargs rg "Xson"
+: 1680924346:0;v mysite/polls/admin.py
+: 1680924804:0;fd -epy
+: 1680925089:0;fd -epy | xargs rg 'a'
+: 1680925095:0;fd -epy | xargs rg 'x'
+: 1680925114:0;fd -epy | xargs rg 'xSongs'
+: 1680925120:0;fd -epy | xargs rg 'xSongss'
+: 1680925158:0;pyse "xSon"
+: 1680925241:0;fd -etxt
+: 1680928545:0;fd index
+: 1680928558:0;fd index -x nvim
+: 1680928567:0;fd index -X nvim
+: 1680928997:0;mdj shell
+: 1680937970:0;sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' allMps.txt
+: 1680938009:0;sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' 
+: 1680938035:0;cat allMps.txt | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
+: 1680938067:0;cat allMps.txt | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' > winSongs
+: 1680940760:0;fd jones
+: 1680941739:0;fd -td -d 1
+: 1680941749:0;fd -td -d 1 | nvim -
+: 1680941948:0;ldf 2
+: 1680941977:0;ldf cb
+: 1680942011:0;ldf cp
+: 1680942030:0;ldf crash
+: 1680942061:0;ldf javs
+: 1680942092:0;ldf jc
+: 1680942135:0;ldf phile
+: 1680942172:0;ldf shop
+: 1680942381:0;v direct.txt
+: 1680942533:0;mk spoken
+: 1680942541:0;md spoken
+: 1680942626:0;cat spoken | column
+: 1680942643:0;cat spoken.txt| colum
+: 1680942649:0;cat spoken.txt| column
+: 1680942672:0;mv crash spoken
+: 1680942683:0;lsd spoken
+: 1680942690:0;ldf spoken
+: 1680943069:0;pidoff ls
+: 1680943502:0;ps -p $$
+: 1680945675:0;y3
+: 1680945735:0;v spoken
+: 1680945744:0;v spoken.txt
+: 1680945922:0;sc sh.tmp
+: 1680946577:0;fd redem
+: 1680981718:0;l
+: 1680981901:0;fd -a -emp3
+: 1680981973:0;v second.m3u
+: 1680982233:0;cat second.m3u
+: 1680982351:0;v sat.xspf
+: 1680982497:0;fd -d 1 let
+: 1680982506:0;fd -d 1 let | cl
+: 1680982901:0;v 01_Summertime.mp3.xspf
+: 1680983038:0;v LetItBe.m3u
+: 1680983200:0;fd -d 1 -emp3
+: 1680983246:0;mv april.mp3 /mnt/c/you/gut/songs
+: 1680983399:0;fdd -emp3
+: 1680983409:0;fdd -emp3 -x rm
+: 1680983443:0;fd -emp3 | head
+: 1680988816:0;mv 01_My_Funny_Valentine.mp3 ..\My_Funny_Valentine.mp3\
+mv 01_Summertime.mp3 ..\Summertime.mp3\
+mv 02_Lullabye_Of_Birdland.mp3 ..\Lullabye_Of_Birdland.mp3\
+
+: 1680992335:0;fdd junk
+: 1680992364:0;fdd -tf junk | xargs -t mv junk/
+: 1680992392:0;fdd -tf junk -X mv junk/
+: 1680992444:0;fdd -tf junk | xargs  mv -t junk/
+: 1680992451:0;fdd -tf junk
+: 1680992460:0;fd . junk
+: 1680992483:0;fd . ../
+: 1680992508:0;fd . img
+: 1680992522:0;cd img
+: 1680992547:0;v pic
+: 1680993027:0;zsort > /mnt/c/temp/duhGood &
+: 1680993120:0;zsort > /mnt/c/temp/m.txt 2>yy & 
+: 1680993173:0;zsort
+: 1680993231:0;du -sh * | sort -h > /mnt/c/temp/root
+: 1680993308:0;du -sh * | sort -h > /mnt/c/temp/root 2>/mnt/c/temp/xxx
+: 1680998972:0;fdh 2
+: 1680999150:0;chah()  {\
+fd -H -I -tf -L --changed-within=$1hours |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%n   %.19z" | sort | sed -e "s/[0-9]*\:.*00\///g" ; }\
+cham() {\
+fd -H -I -tf -L --changed-within=$1minutes |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g"; }\
+
+: 1680999156:0;chah 24
+: 1680999176:0;fd -d 1 --changed-within=2days
+: 1680999215:0;v winSongs
+: 1680999232:0;cd ..
+: 1680999340:0;fd -I funny
+: 1680999354:0;fd -I "funny"
+: 1680999361:0;fd autu
+: 1680999377:0;fd funny
+: 1680999429:0;cd /mnt/c/music
+: 1680999434:0;fd '..'
+: 1680999444:0;fd '\.\.'
+: 1680999649:0;t ..jim
+: 1680999728:0;fd -H -I funny
+: 1680999735:0;ls -a
+: 1680999749:0;fd -H -I summ
+: 1681002619:0;fda
+: 1681002625:0;fda fun
+: 1681002646:0;fdi
+: 1681002652:0;fun
+: 1681002686:0;fd -H -I 
+: 1681002690:0;fd -H -I '\.\.'
+: 1681002708:0;mv ..Summertime.mp3 Summertime.mp3
+: 1681002714:0;rm ..jim
+: 1681002718:0;fd summ
+: 1681003155:0;fd > th
+: 1681003160:0;v th
+: 1681009588:0;fd | head
+: 1681009616:0;fd 02_Someone_To_Watch_Over_Me.mp3 ..\xx
+: 1681009973:0;mv 02_Someone_To_Watch_Over_Me.mp3 ../Someone_To_Watch_Over_Me.mp3\
+mv 03_Skylark.mp3 ../Skylark.mp3\
+mv 03_You_Don_t_Know_What_Love_Is.mp3 ../You_Don_t_Know_What_Love_Is.mp3\
+
+: 1681010174:0;fd -d 1 -tf -X mv {/} jazz
+: 1681010274:0;fd | column
+: 1681010284:0;type -f fdd
+: 1681010383:0;alias fdf="fd -H -I -d 1  -tf | column"
+: 1681010423:0;cat th
+: 1681010490:0;h H
+: 1681010500:0;q :q
+: 1681010537:0;h head
+: 1681015667:0;p3 -m pip install num2words
+: 1681017469:0;fd -H -I -d 1  -td | column
+: 1681017743:0;cd jazz
+: 1681017746:0;cp 02_Someone_To_Watch_Over_Me.mp3 ../vlc/zero.mp3\
+cp 03_Skylark.mp3 ../vlc/one.mp3\
+cp 03_You_Don_t_Know_What_Love_Is.mp3 ../vlc/two.mp3\
+
+: 1681017769:0;fd 02
+: 1681017788:0;fdf
+: 1681017825:0;fd -emp3 
+: 1681017832:0;fd -emp3 > th
+: 1681017963:0;cp 04_Let_s_Do_It_Let_s_Fall_In_Love_.mp3 ../vlc/zero.mp3
+: 1681017973:0;cp 04_Strange_Fruit.mp3 ../vlc/one.mp3\
+cp 05_Stormy_Weather.mp3 ../vlc/two.mp3\
+
+: 1681017977:0;u
+: 1681018867:0;v zero.m3u
+: 1681019135:0;cd alb
+: 1681019143:0;fd -a -emp3 | head
+: 1681020405:0;( find /mnt/c/you -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/allMps.txt 2>yy &  )
+: 1681023343:0;v duhGood
+: 1681023566:0;v m.txt
+: 1681023617:0;rm -rf pycon2022
+: 1681023629:0;rm -rf windows
+: 1681024320:0;cp allMps.txt /mnt/c/music/vlc
+: 1681024428:0;v zero2.m3u
+: 1681024485:0;cp new.m3u /mnt/c/music/vlc
+: 1681024725:0;fd spok
+: 1681025037:0;cd playingChange
+: 1681025075:0;ex The_Weight_Featuring_Ringo_Starr_and_Robbie_Robertson_Playing_For_Change_Song_Around_The_World.mp3
+: 1681025104:0;ex Clandestino_feat_Manu_Chao_Playing_For_Change_Song_Around_The_World.mp3
+: 1681025203:0;rename "s/Playing_For_Change_Song_Around_The_World//g"
+: 1681025220:0;rename "s/Playing_For_Change_Song_Around_The_World//g" *
+: 1681025941:0;wi ye
+: 1681026115:0;wc allMps.txt
+: 1681026128:0;wc allMpsN.txt
+: 1681026185:0;tail allMps.txt
+: 1681026192:0;tail allMpsN.txt
+: 1681026581:0;v new.m3u
+: 1681027409:0;ipy
+: 1681027797:0;cd liteClass
+: 1681027887:0;fd -epart
+: 1681027896:0;fd -epart -x rm
+: 1681027902:0;lts | tac
+: 1681027957:0;cd nedrorem
+: 1681027959:0;space
+: 1681028002:0;( find /mnt/c/you -regex '.*\.\(mp4\|mp3\)' > /mnt/c/music/vlc/allMpsN.txt 2>yy &  )
+: 1681028307:0;fd | rg '\s'
+: 1681028618:0;fda all
+: 1681028641:0;fd -a allm
+: 1681029314:0;workon allMps
+: 1681029526:0;ex /mnt/c/you/nedrorem/_O_you_whom_I_often_and_silently_come_.mp3
+: 1681030269:0;yv
+: 1681075151:0;p3/sql_hist.txt
+: 1681075162:0;v p3/sql_hist.txt
+: 1681075423:0;#find /mnt/c/you -regex '.*\.\(mp4\|mp3\)' > /mnt/c/projects/music/vlc/allMps.txt 2>yy &
+: 1681075457:0;md vlc
+: 1681075483:0;find /mnt/c/you -regex '.*\.\(mp4\|mp3\)' > /mnt/c/projects/music/vlc/allMps.txt 2>yy &
+: 1681075987:0;v ~/script/tiny.py
+: 1681076091:0;fd -a
+: 1681076097:0;fd -a | cl
+: 1681076251:0;cd ...
+: 1681076303:0;mv vlc.py ../projects/music/vlc
+: 1681080159:0;sqpy
+: 1681088140:0;workon xx.sh
+: 1681088251:0;wi python | nvim -
+: 1681088268:0;cd /usr
+: 1681088275:0;cd bin
+: 1681088290:0;type xargs
+: 1681088296:0;file xargs
+: 1681088310:0;file mandb
+: 1681088345:0;file mandb | more
+: 1681088358:0;ldf | more
+: 1681088394:0;ldf | head
+: 1681088409:0;fd | | nvim -
+: 1681088453:0;editor
+: 1681088489:0;file mawk
+: 1681088498:0;man mawk
+: 1681088569:0;mand mdig
+: 1681088573:0;mdnv mdig
+: 1681088581:0;man file
+: 1681088776:0;axit
+: 1681088782:0;tmux
+: 1681088801:0;pwd
+: 1681088825:0;p3 process.py
+: 1681088867:0;cd /mnt/c/projects/junk
+: 1681089037:0;sleep 2 
+: 1681089054:0;v xx.sh
+: 1681089066:0;xx.sh
+: 1681089619:0;wi allMps
+: 1681089697:0;v /mnt/c/projects/script/allMps
+: 1681089732:0;cd vlc
+: 1681089998:0;wi allMps | nvim -
+: 1681098393:0;v dates.txt
+: 1681098484:0;cd /mnt/c/projects/music/vlc/
+: 1681098914:0;fd -d 1 Apr
+: 1681098920:0;fd -d 1 Apr -x rm
+: 1681099342:0;v playlist.m3u
+: 1681099480:0;rg -v 'zzz' playlist.m3u
+: 1681099500:0;wc playlist.m3u
+: 1681099537:0;rg -v 'zzz' playlist.m3u | nvim -
+: 1681099615:0;fd zzz -x rm
+: 1681099620:0;fd zz
+: 1681099626:0;fd zzz
+: 1681099636:0;wc
+: 1681100054:0;fd all
+: 1681100064:0;v vlc/allMps.txt
+: 1681100084:0;cd 2
+: 1681100109:0;mv -r 2 spoken
+: 1681100133:0;mv 2 spoken/
+: 1681100221:0;mv mcoding spoken
+: 1681100255:0;fd -d 2 -emp4
+: 1681100271:0;fdc
+: 1681100375:0;fd -tf -d 1 | xargs rg "zz"
+: 1681100449:0;fd -tf -d 1 | xargs rg "zz" | nvim -
+: 1681100549:0;v Apr-9-909499.m3u
+: 1681100668:0;fc
+: 1681100685:0;ldf
+: 1681100710:0;sed -i 'zzz' playlist.m3u
+: 1681100728:0;sed -i 'zzz/d' playlist.m3u
+: 1681100772:0;sed -i '/zzz/d' playlist.m3u
+: 1681100777:0;rg 'zzz' playlist.m3u
+: 1681100784:0;fd -tf -d 1 | xargs rg "zzzz" | nvim -
+: 1681103297:0;g:
+: 1681103357:0;v allMps
+: 1681103508:0;Allmp3mp4 &
+: 1681103564:0;v mpsErr
+: 1681104795:0;v Allmp3-4.txt
+: 1681105036:0;cd ~/script
+: 1681105045:0;v Allmp3mp4
+: 1681105093:0;find /mnt/c/
+: 1681105212:0;v -O Allmp3mp4 allMps
+: 1681105260:0;Allmp3mp4
+: 1681109134:0;fd -emp3 > mp3s &
+: 1681109834:0;fdisk -l
+: 1681109848:0;sudo fdisk -l
+: 1681109982:0;most
+: 1681110161:0;less mp3s
+: 1681110280:0;cd Music/Dylan
+: 1681110330:0;rename "s/\d{2}_//g" *
+: 1681110367:0;mv Dylan /mnt/c/you
+: 1681110387:0;cd GDrive
+: 1681110430:0;cd Dylan
+: 1681110449:0;lt | wc
+: 1681110466:0;3
+: 1681112398:0;allMps
+: 1681112595:0;v allMps.txt
+: 1681113671:0;fd '^L[NL]'
+: 1681113711:0;fd '^L[ND]' | xargs mv -t /mnt/c/twit
+: 1681113717:0;fd '^L[ND]'
+: 1681113726:0;cd twit
+: 1681116031:0;v aprilGood-Guitar.mxl
+: 1681116056:0;v aprilGood.mxl
+: 1681116192:0;.
+: 1681116245:0;fd --changed-within=2hours
+: 1681116270:0;cd Documents
+: 1681116282:0;rm stpaul.pdf
+: 1681116306:0;v aprilGood.mscz
+: 1681116356:0;fd | nvim -
+: 1681116632:0;cd new
+: 1681116650:0;v new.mscx
+: 1681117657:0;cd spoken
+: 1681117659:0;cd audio
+: 1681117684:0;ltv
+: 1681150405:0;ls
+: 1681150439:0;md ffm.py
+: 1681150465:0;wi python
+: 1681150489:0;wi python | awk '{print $3}'
+: 1681150505:0;type -f cl
+: 1681150595:0;rm -rf ffm.py
+: 1681150603:0;t ffm.py
+: 1681151176:0;fd 'only.*lov'
+: 1681151206:0;fd 'her.*ev'
+: 1681151262:0;fd 'every'
+: 1681151335:0;fd yest
+: 1681151371:0;fd -I yest
+: 1681151434:0;cp RedRiver.mp4 /mnt/c/projects/music/rr.mp4
+: 1681153643:0;ffmpeg -i rr.mp4 -ss None -to 1:59 -vcodec libx264 -acodec copy rr.mp4_1:45-1:59.mp4
+: 1681153742:0;ffmpeg -i rr.mp4 -ss 1:45 -to 1:59 -vcodec libx264 -acodec copy rr.mp4_1:45-1:59.mp4
+: 1681163768:0;shuf Apr-9-625153.m3u > shuf.m3u
+: 1681163867:0;git add .
+: 1681163894:0;glg
+: 1681164077:0;v .gitignore
+: 1681164205:0;i3
+: 1681164791:0;ffmpeg -i rr.mp4 -ss 1:45 -to 1:59 -vcodec libx264 -acodec copy rr_1-45-1-59.mp4
+: 1681164875:0;fd 'rr.*1'
+: 1681164895:0;fd -I 'rr.*1'
+: 1681164900:0;fd -I 'rr.*1' -x rm
+: 1681165091:0;ffmpeg -i rr.mp4 -ss 1:09 -to 1:25 -vcodec libx264 -acodec copy rr_1-09-1-25.mp4
+: 1681184888:0;fd -H -I --size +5m
+: 1681185093:0;fd . /
+: 1681185108:0;fd ./ -H -I --size +5m
+: 1681185114:0;fd . / -H -I --size +5m
+: 1681185204:0;fd . / -H -I --size +5m > /mnt/c/temp/AllF5m 2>/mnt/c/temp/allFerr &
+: 1681185249:0;fd --size +5m
+: 1681185258:0;fd --size +1m
+: 1681185374:0;cd .git
+: 1681185376:0;duh
+: 1681185408:0;git log --oneline
+: 1681185434:0;git checkout b14eb6a 
+: 1681185452:0;git stash
+: 1681185561:0;tree | v -
+: 1681186236:0;type -f zsort
+: 1681186302:0;( du -sh * | sort -h > allSize &)
+: 1681188077:0;cd spoken/audio
+: 1681188102:0;ex JimKeller.mp3
+: 1681188229:0;cd //mnt/c/projects
+: 1681188335:0;cat cutter
+: 1681188344:0;sc cutter
+: 1681189612:0;fd gut
+: 1681189778:0;rm -rf playwright-python-tutorial
+: 1681189798:0;v allSize
+: 1681189811:0;cd tAud
+: 1681189840:0;trash-list
+: 1681189854:0;trash-empty
+: 1681189911:0;winh
+: 1681189914:0;cd Downloads
+: 1681189945:0;rm ffmpeg-release-amd64-static\ \(1\).tar.xz.crdownload
+: 1681189957:0;rm ffmpeg-6.0.tar.xz
+: 1681189979:0;lts
+: 1681190016:0;v mp3s
+: 1681190052:0;cd OneDrive/Documents
+: 1681190058:0;rm -rf Biograph
+: 1681190072:0;fd -emp3
+: 1681190119:0;rm -rf gut
+: 1681190150:0;#cp -Rv gut /mnt/c/projects/music
+: 1681190158:0;cp -Rv gut /mnt/c/projects/music
+: 1681190303:0;cd script
+: 1681190314:0;v clips.ps1
+: 1681190374:0;v pic.ps1
+: 1681190410:0;md test
+: 1681190417:0;cp * test
+: 1681190430:0;fd . test
+: 1681190439:0;cd test
+: 1681191291:0;tar -cvf *
+: 1681191319:0;tar -cvf a.tar *
+: 1681191326:0;v a.tar
+: 1681191410:0;fd -eps1
+: 1681191415:0;fd -eps1 -x rm
+: 1681191627:0;sed -i '/you\gut\/xxx' song.ps1
+: 1681191658:0;sed -i 's/you\gut\/xxx' song.ps1
+: 1681191683:0;sed -i '/you\gut\/xxx/g' song.ps1
+: 1681191716:0;rg '/you/'*
+: 1681191723:0;rg '/you'*
+: 1681191728:0;rg '\/you'*
+: 1681191735:0;rg '\/you' *
+: 1681191742:0;rg '/you' *
+: 1681191756:0;rg '\you' *
+: 1681191772:0;rg '\\you' *
+: 1681191804:0;h1
+: 1681191848:0;sed -i '/you/xxx/g' song.ps1
+: 1681191858:0;sed -i 's/you/xxx/g' song.ps1
+: 1681191897:0;sed -i 's/xxx\gut/yyy/g' song.ps1
+: 1681191963:0;sed -i 's/xxx\gut.*yyy/g' song.ps1
+: 1681192005:0;sed -i 's/xxx/gut\yyy/g' song.ps1
+: 1681192128:0;tar -xvf a.tar
+: 1681192189:0;#sed -i 's/xxx/gut\yyy/g' song.ps1
+: 1681192265:0;git init
+: 1681192278:0;git add . && git commit -am $(date)
+: 1681192305:0;echo $(date)
+: 1681192330:0;git commit -am "mon good working"
+: 1681192407:0;sed -i 's/you\gut\/xxx/g' song.ps1
+: 1681192447:0;sed -i 's/you\\gut\\/xxx\\/g' song.ps1
+: 1681192598:0;sed -i 's|you\\gut\\|xxx\\|g' song.ps1
+: 1681192705:0;sed -i 's|you\\gut\\|projects\\music\\|g' song.ps1
+: 1681192708:0;cat song.ps1
+: 1681193833:0;sed -i 's|you\\gut\\|projects\\music\\gut\\|g' song.ps1
+: 1681193840:0;...
+: 1681193841:0;fd
+: 1681193845:0;fdd
+: 1681193939:0;sed -i 's|you\\gut\\|projects\\music\\gut\\|g' *
+: 1681193945:0;lf
+: 1681193998:0;git reset --hard
+: 1681194079:0;git init && git add . && git commit -am "temp"
+: 1681194086:0;gst
+: 1681194111:0;sed -i 's|you\\gut\\|projects\\music\\gut\\|g' * 
+: 1681194122:0;git diff
+: 1681194145:0;cat clips.ps1
+: 1681194941:0;ld
+: 1681194949:0;trash text
+: 1681194958:0;trash test
+: 1681194979:0;tree
+: 1681195045:0;sed -i 's|you\\gut\\|projects\\music\\gut\\|g' vlcs
+: 1681195049:0;v vlcs
+: 1681195083:0;fd . clips/
+: 1681195091:0;fdi . clips
+: 1681197023:0;mc
+: 1681197028:0;cd temp
+: 1681197236:0;cd /mnt/c/Users/jayst/AppData/Local/pip/cache
+: 1681197258:0;mem
+: 1681197286:0;v Tue_Apr_11_02:14:10.txt
+: 1681197323:0;duh > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g').txt 2>err &
+: 1681197389:0;v Tue_Apr_11_02:15:23.txt
+: 1681197407:0;date
+: 1681197435:0;cd http
+: 1681197459:0;rm -rf * .*
+: 1681197479:0;d
+: 1681197486:0;1
+: 1681197631:0;rm -rf {,.[*
+: 1681197653:0;rm -rf http
+: 1681197721:0;df -Th
+: 1681197740:0;v AllF5m
+: 1681197831:0;cd 
+: 1681197835:0;cd .cache
+: 1681197857:0;zsort > zzz 2>/dev/null
+: 1681197863:0;v zzz
+: 1681200069:0;cd
+: 1681200071:0;ye
+: 1681200304:0;yel
+: 1681201049:0;cd AdventOfCode-2022
+: 1681201063:0;v day1.py
+: 1681201135:0;v ffm.py
+: 1681201173:0;fd --changed-within=2days
+: 1681201188:0;cd music/vlc
+: 1681201193:0;v vlc.py
+: 1681201406:0;v day6.py
+: 1681203430:0;p3 -m pip install opencv-python 
+: 1681203502:0;cd /mnt/c/projects
+: 1681203577:0;wget https://picsum.photos/600/400/\?random -O s.jpg 
+: 1681204010:0;cd junk
+: 1681204021:0;mv jj jj.jpg
+: 1681204026:0;jj.jpg
+: 1681204034:0;cat jj.jpg
+: 1681204136:0;c
+: 1681205926:0;fg
+: 1681239072:0;mkcd googleP
+: 1681239079:0;#gphotos-sync
+: 1681239103:0;p3 -m pip install gphotos-sync
+: 1681244325:0;cdy
+: 1681244354:0;cd /mnt/c/you/gut
+: 1681244361:0;mps
+: 1681244363:0;cd music
+: 1681244372:0;cd gut
+: 1681244384:0;fd -H
+: 1681244403:0;fd -H -emp4
+: 1681244413:0;fd -I -emp4
+: 1681244447:0;fd -I -emp4 -x ls -lhrt
+: 1681244606:0;rsync . /mnt/c/projects/music/gut/todo 
+: 1681244632:0;pc
+: 1681244654:0;rsync  /mnt/c/you/gut/todo /mnt/c/projects/music/gut/todo
+: 1681244687:0;his
+: 1681244699:0;rsync -a  /mnt/c/you/gut/todo /mnt/c/projects/music/gut/todo
+: 1681244805:0;rm *
+: 1681244813:0;cd todo
+: 1681244821:0;cp * ..
+: 1681244858:0;lt
+: 1681244866:0;rm -rf todo
+: 1681244878:0;..
+: 1681244899:0;trash gut
+: 1681244907:0;md gut
+: 1681245016:0;exit
+: 1681245018:0;c
+: 1681245021:0;..
+: 1681245041:0;fd -I --changed-within=1days
+: 1681245063:0;cd junk
+: 1681245064:0;lf
+: 1681245490:0;lt
+: 1681245515:0;fd | nvim -
+: 1681245570:0;rename "s/junk_script_///g" *
+: 1681245609:0;rename "s/junk_script_//g" *
+: 1681245612:0;lt
+: 1681245641:0;cat knocking_6_4_6_43.ps1
+: 1681246444:0;sed -i 's|you\\gut\\|projects\\music\\gut\\|g' *
+: 1681246450:0;cat knocking_6_4_6_43.ps1
+: 1681246462:0;lt
+: 1681246470:0;cat RedRiver_1_7_1_28.ps1
+: 1681246518:0;his
+: 1681246571:0;#fd -d 1 -tf -X mv {/} jazz
+: 1681246648:0;fd -tf -d 1 -eps1 -X mv {/} ../script 
+: 1681246652:0;lt
+: 1681246655:0;u
+: 1681246658:0;cd script
+: 1681246659:0;lt
+: 1681246673:0;v x.ps1
+: 1681246725:0;mv x.ps1 Sunshine.ps1
+: 1681257314:0;mps
+: 1681257328:0;cd music
+: 1681257331:0;gst
+: 1681257712:0;winh
+: 1681257713:0;lt
+: 1681257718:0;cd Downloads
+: 1681257719:0;lt
+: 1681257727:0;v Savings2.csv
+: 1681257741:0;v client_secret_816860715035-dlouf7pfvdkivmd9mb85ss27ov1545ce.apps.googleusercontent.com.json
+: 1681257758:0;..
+: 1681257770:0;fd -I -d 1 ph
+: 1681257774:0;lt
+: 1681257779:0;cd googleP
+: 1681257780:0;lt
+: 1681257784:0;pc
+: 1681257834:0;cp client_secret_816860715035-dlouf7pfvdkivmd9mb85ss27ov1545ce.apps.googleusercontent.com.json /mnt/c/projects/googleP secret.json
+: 1681257851:0;cp client_secret_816860715035-dlouf7pfvdkivmd9mb85ss27ov1545ce.apps.googleusercontent.com.json /mnt/c/projects/googleP/secret.json
+: 1681257856:0;lt
+: 1681257876:0;cd 
+: 1681257881:0;cd .config
+: 1681257882:0;lt
+: 1681257917:0;ldf
+: 1681257935:0;gst
+: 1681257949:0;..
+: 1681257951:0;gst
+: 1681257955:0;git add .
+: 1681257958:0;gst
+: 1681257968:0;git commit -am "tues good working"

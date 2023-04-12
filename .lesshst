@@ -1,5 +1,7 @@
 .less-history-file:
 .search
 "desc
-.search
 "print
+"line
+.search
+"-r
