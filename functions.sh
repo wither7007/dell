@@ -9,9 +9,16 @@ lib()
 {
 echo 21972086245722 | cl
 }
+wind(){
+fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
+}
 ltv()
 {
  ls -lhrt | awk '{print $9}'  | nvim -
+}
+winf()
+{
+fd -a "$1" | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
 }
 ltvs()
 {

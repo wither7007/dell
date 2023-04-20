@@ -81,7 +81,7 @@ export EDITOR=nvim
 source "$HOME/.cargo/env"
 source ~/functions.sh
 #source ~/path
-PATH=/opt/bld:/usr/local/bin:/bin:/home/steff007:/home/steff007/.cargo/bin:/home/steff007/.local/bin:/home/steff007/jq:/home/steff007/script:/sbin:/usr/bin:/usr/games:/usr/lib/wsl/lib:/usr/local/bin:/usr/local/games:/usr/local/sbin:/usr/sbin:
+PATH=/opt/bld:/usr/local/bin:/bin:/home/steff007:/home/steff007/.cargo/bin:/home/steff007/.local/bin:/home/steff007/jq:/home/steff007/script:/sbin:/usr/bin:/usr/games:/usr/lib/wsl/lib:/usr/local/bin:/usr/local/games:/usr/local/sbin:/usr/sbin:/mnt/c/projects/p3/work: 
 export PYTHONPATH=/mnt/c/projects/p3/modules
 source ~/scripts/zcorrupt.sh
 printf '%s%s%s\n' $(date '+%F - %S')
@@ -97,3 +97,13 @@ COLOR_DIR=$'%F{197}'
 COLOR_GIT=$'%F{39}'
 setopt PROMPT_SUBST
 export PROMPT='${COLOR_DIR}%~ ${COLOR_GIT}$(parse_git_branch)${COLOR_DEF}$ '
+# Load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+# Format the vcs_info_msg_0_ variable
+zstyle ':vcs_info:git:*' formats 'on %b'
+# Set up the prompt (with git branch name)
+setopt PROMPT_SUBST
+PROMPT='${PWD/#$HOME/~} ${vcs_info_msg_0_}
+%# '
