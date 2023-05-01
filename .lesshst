@@ -3,5 +3,13 @@
 "desc
 "print
 "line
-.search
 "-r
+"url
+"file
+"file.*name
+.search
+"out
+"outmpl
+"meta
+"skip
+"outtmp
