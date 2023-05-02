@@ -8328,3 +8328,19 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682985207:0;git add .
 : 1682985211:0;gst
 : 1682985221:0;git commit -am "Monday"
+: 1683010474:0;git checkout 23b8634f57cd18c84
+: 1683010482:0;gb
+: 1683010484:0;gst
+: 1683010497:0;git pop
+: 1683010532:0;git stash list
+: 1683010541:0;git stash pop
+: 1683010678:0;git stash show -p | git apply && git stash drop
+: 1683010685:0;gst
+: 1683010691:0;git log
+: 1683010698:0;git log | head
+: 1683010707:0;c
+: 1683010709:0;git log | head
+: 1683010724:0;git stash list
+: 1683010736:0;gst
+: 1683010767:0;git add .
+: 1683010773:0;git commit -am "Monday"
