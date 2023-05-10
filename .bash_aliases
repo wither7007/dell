@@ -127,3 +127,4 @@ alias codes="nvim /mnt/c/Users/jayst/AppData/Roaming/Code/User/keybindings.json 
 alias fun="v ~/functions.sh"
 alias cdir="cd '/mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default' "
 alias sup="v /mnt/c/Users/jayst/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
+alias po="poetry"

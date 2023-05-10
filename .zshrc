@@ -4,6 +4,7 @@ fi
 cd ~
 unsetopt BEEP
 export ZSH="/home/steff007/.oh-my-zsh"
+export python="/usr/bin/python3.10"
 ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh

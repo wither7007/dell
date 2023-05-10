@@ -9,6 +9,11 @@ lib()
 {
 echo 21972086245722 | cl
 }
+
+f2() {
+  echo "fd -a -tf --changed-within 2d | more"
+fd -a -tf --changed-within 2d | more
+}
 wind(){
 fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
 }

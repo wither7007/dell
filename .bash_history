@@ -1,5 +1,3 @@
-git filter-branch --index-filter 'git rm --cached --ignore-unmatch ./path/to/resource/*.mp3' --tag-name-filter cat -- --all
-u
 1
 find . -type f -name "*.pack" | xargs du -h
 rm -rf ./.git/objects/pack/pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.pack
@@ -497,4 +495,6 @@ version=$(curl -s "${LR_URL}" \
  cut -d '-' -f2 \
  tr -d 'n' \
  { read v; echo ${v::-2}; })
+exit
+ps h -p $$ -o args=''
 exit
