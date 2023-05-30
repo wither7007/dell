@@ -9,6 +9,10 @@ lib()
 {
 echo 21972086245722 | cl
 }
+cputest()
+{
+  sysbench cpu run > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g')cpu.txt
+}
 
 f2() {
   echo "fd -a -tf --changed-within 2d | more"
