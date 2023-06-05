@@ -38,7 +38,6 @@
 : 1660085213:0;se ln
 : 1660085317:0;ln -s /home/steff007 /mnt/c/projects/zsh/z
 : 1660085339:0;cd z
-: 1660089158:0;cd /bin
 : 1660089293:0;man () {man $1 | v -}
 : 1660089298:0;man fd
 : 1660145595:0;ps | rg linu > clip
@@ -1286,7 +1285,6 @@ make install
 : 1661052102:0;compgen -A function | column | rg -v "^_"
 : 1661052113:0;ii
 : 1661052137:0;ls -sh
-: 1661052156:0;dpkg -l
 : 1661052279:0;sudo apt-qq list p7Zip-full
 : 1661052285:0;sudo apt list p7Zip-full
 : 1661052621:0;free -h 
@@ -2176,7 +2174,6 @@ sudo dpkg -i hyperfine_1.14.0_amd64.deb
 : 1661664082:0;p3 -m pip install mysqlclient 2> er
 : 1661664087:0;v er
 : 1661664286:0;rm -rf maria
-: 1661665286:0;pipenv shell
 : 1661665327:0;pip3 install pipenv
 : 1661665341:0;p3 -m pip install pipenv
 : 1661665397:0;p3 -m venv db
@@ -3187,9 +3184,7 @@ wget https://twit.cachefly.net/audio/twig/twig0702/twig0702.mp3 && touch twig070
 : 1676782317:0;rsync -avr ~/script aaa
 : 1676782398:0;rm aaa/script
 : 1676782439:0;rm aaa/*
-: 1676782452:0;mkcd test
 : 1676782455:0;for I in $(seq -w 5) ; do touch yyy-$I ; done
-: 1676782493:0;rm -rf test
 : 1676782502:0;rsync -vr ~/script/ aaa
 : 1676782513:0;rsync -avr ~/script/ aaa
 : 1676782538:0;rm -rf aaa
@@ -3360,7 +3355,6 @@ img.save('result.png')
 : 1677213596:0;p3 pf.txt
 : 1677213646:0;p3 ins.py
 : 1677213661:0;p3 ins.py > x.txt
-: 1677213668:0;v x.txt
 : 1677213740:0;p3 ins.py > x.txt && v x.txt
 : 1677213757:0;cat x.txt
 : 1677216386:0;ex Parallels_Desktop_18_for_Mac_AI_anthropomorphism_WinUI_3_WinAppSDK.mp3
@@ -3909,7 +3903,6 @@ stat "$1" --format='acc: %x mod: %y  change: %z'\
 : 1677557786:0;fda | xargs stat -t --format='%n acc: %x mod: %y  change: %z' 
 : 1677557797:0;fda | xargs stat -t --format='acc: %x mod: %y  change: %z' 
 : 1677560994:0;cd alp
-: 1677561025:0;fd | head -n30
 : 1677561152:0;fd | head -n25 | xargs cp -p -t /mnt/c/projects/train
 : 1677562880:0;cp * /mnt/c/projects/train
 : 1677563181:0;ex BEATLES_And_Your_Bird_Can_Sing.mp3
@@ -4520,7 +4513,6 @@ rm -rf 	./train\
 : 1678998830:0;fdd -df
 : 1678998846:0;fdd -tf
 : 1678998855:0;ex ww0819.mp3
-: 1678998899:0;fdd --changed-before=6days
 : 1678998910:0;fdd --changed-before=6days -x rm
 : 1678998985:0;calendar
 : 1678999105:0;wget https://twit.cachefly.net/audio/twig/twig0707/twig0707.mp3 && touch twig0707.mp3
@@ -4806,8 +4798,6 @@ lt | awk '{print $9}'  | nvim - \
 : 1679459190:0;fd wils | xargs mv -t  ../alb
 : 1679459196:0;fd wills | xargs mv -t  ../alb
 : 1679459221:0;fd crazy | xargs mv -t  ../alb
-: 1679459552:0;fd fun
-: 1679459560:0;sc functions.sh
 : 1679460571:0;fd young
 : 1679460601:0;cd young
 : 1679460635:0;cp Helpless.mp3 ../alb
@@ -5119,11 +5109,9 @@ touch tests/test_search.py\
 : 1680040611:0;cd jjj
 : 1680040629:0;rm -rf jjj
 : 1680040678:0;fd -a man
-: 1680040715:0;python manage.py runserver
 : 1680040825:0;manage.py startapp polls
 : 1680041119:0;t urls.py
 : 1680041848:0;file db.sqlite3
-: 1680042135:0;v settings.py
 : 1680042224:0;p3 makemigrations polls 
 : 1680042304:0;v polls/migrations/0001_initial.py
 : 1680042319:0;chah 2
@@ -5176,7 +5164,6 @@ touch tests/test_search.py\
 : 1680067445:0;rename "s/DownloadsIOT_//g" *
 : 1680067476:0;rename "s/DownloadsTLS_//g" *
 : 1680067503:0;mv * /mnt/c/you/audio
-: 1680070115:0;mkcd templates
 : 1680070759:0;cd /mnt/c/projects/django/mysite/polls/templates/polls
 : 1680070795:0;git commit -am "Mon one"
 : 1680079127:0;v duh4.txt
@@ -5303,7 +5290,6 @@ sudo rm  /etc/apt/sources.list.d/savoury1-ubuntu-ffmpeg4-focal.list.save\
 : 1680156848:0;cat nn
 : 1680156996:0;ls | tee test.txt | grep 'n'
 : 1680157006:0;cat test.txt
-: 1680157072:0;ls | tee test.txt
 : 1680157087:0;lt test.txt
 : 1680157170:0;jjj &> file.txt
 : 1680157223:0;sudo apt install ffmpeg &> file.txt
@@ -5611,8 +5597,6 @@ clip1.write_videofile('edited.mp4',codec='libx264')
 : 1680335174:0;fd detail | nvim 
 : 1680335182:0;fd detail -x nvim 
 : 1680335192:0;fd detail -X nvim 
-: 1680335299:0;fd view
-: 1680335308:0;fd view -X nvim
 : 1680336229:0;fd results
 : 1680336247:0;cd polls/templates
 : 1680336271:0;mv results.html ..
@@ -5696,7 +5680,6 @@ echo 21972086245722 | cl\
 : 1680597689:0;vlc .
 : 1680632515:0;fd --changed-within=2days | rg -v Ex
 : 1680633168:0;fdi -a
-: 1680646878:0;fd -td
 : 1680647027:0;md sql
 : 1680647942:0;v         mysite/polls/migrations/0002_new.py
 : 1680648168:0;cd mysite/polls/migrations/
@@ -5945,7 +5928,6 @@ ffmpeg -i $t -ss 00:00:00 -t 00:00:28 part1.mp4\
 : 1680838199:0;workon t
 : 1680838263:0;cat t
 : 1680838299:0;v attempts
-: 1680838334:0;ll
 : 1680838478:0;tail attempts
 : 1680839384:0;cat tt
 : 1680839473:0;ffmpeg -h
@@ -6057,7 +6039,6 @@ mv YesterG.mp4 todo/\
 : 1680898925:0;fd --changed-within=4hours
 : 1680898964:0;mv vlcsnap-00004.png /mnt/c/you/gut/img/red2.png
 : 1680906392:0;lua
-: 1680906475:0;apps
 : 1680906535:0;sudo apt install build-essential libreadline-dev
 : 1680906577:0;mkcd luabuild
 : 1680906592:0;man curl
@@ -6074,7 +6055,6 @@ mv YesterG.mp4 todo/\
 : 1680909008:0;cc h.c
 : 1680909011:0;a.out
 : 1680909050:0;make linux test
-: 1680909066:0;fd make
 : 1680909085:0;cd lua-5.4.4
 : 1680909098:0;v README
 : 1680909217:0;manv mkdir
@@ -6226,7 +6206,6 @@ cp 03_Skylark.mp3 ../vlc/one.mp3\
 cp 03_You_Don_t_Know_What_Love_Is.mp3 ../vlc/two.mp3\
 
 : 1681017769:0;fd 02
-: 1681017788:0;fdf
 : 1681017825:0;fd -emp3 
 : 1681017832:0;fd -emp3 > th
 : 1681017963:0;cp 04_Let_s_Do_It_Let_s_Fall_In_Love_.mp3 ../vlc/zero.mp3
@@ -6257,7 +6236,6 @@ cp 05_Stormy_Weather.mp3 ../vlc/two.mp3\
 : 1681027896:0;fd -epart -x rm
 : 1681027957:0;cd nedrorem
 : 1681028002:0;( find /mnt/c/you -regex '.*\.\(mp4\|mp3\)' > /mnt/c/music/vlc/allMpsN.txt 2>yy &  )
-: 1681028307:0;fd | rg '\s'
 : 1681028618:0;fda all
 : 1681028641:0;fd -a allm
 : 1681029314:0;workon allMps
@@ -6333,7 +6311,6 @@ cp 05_Stormy_Weather.mp3 ../vlc/two.mp3\
 : 1681110330:0;rename "s/\d{2}_//g" *
 : 1681110367:0;mv Dylan /mnt/c/you
 : 1681110387:0;cd GDrive
-: 1681110430:0;cd Dylan
 : 1681112398:0;allMps
 : 1681113671:0;fd '^L[NL]'
 : 1681113711:0;fd '^L[ND]' | xargs mv -t /mnt/c/twit
@@ -6422,7 +6399,6 @@ cp 05_Stormy_Weather.mp3 ../vlc/two.mp3\
 : 1681197323:0;duh > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g').txt 2>err &
 : 1681197389:0;v Tue_Apr_11_02:15:23.txt
 : 1681197435:0;cd http
-: 1681197459:0;rm -rf * .*
 : 1681197631:0;rm -rf {,.[*
 : 1681197653:0;rm -rf http
 : 1681197740:0;v AllF5m
@@ -6448,7 +6424,6 @@ cp 05_Stormy_Weather.mp3 ../vlc/two.mp3\
 : 1681244606:0;rsync . /mnt/c/projects/music/gut/todo 
 : 1681244654:0;rsync  /mnt/c/you/gut/todo /mnt/c/projects/music/gut/todo
 : 1681244699:0;rsync -a  /mnt/c/you/gut/todo /mnt/c/projects/music/gut/todo
-: 1681244813:0;cd todo
 : 1681244821:0;cp * ..
 : 1681244866:0;rm -rf todo
 : 1681244899:0;trash gut
@@ -6731,7 +6706,6 @@ id(x)
 : 1681588654:0;cd /mnt/c/projects/p3/work
 : 1681588676:0;./com.py
 : 1681598174:0;fd | column
-: 1681598213:0;g:
 : 1681599129:0;fd yest
 : 1681599339:0;fd -epy | rg 'ffm'
 : 1681599658:0;v /mnt/c/projects/music/ffm.py 
@@ -6763,7 +6737,6 @@ id(x)
 : 1681617306:0;fd -I -epy --changed-within=3days
 : 1681617604:0;PATH=/opt/bld:/usr/local/bin:/bin:/home/steff007:/home/steff007/.cargo/bin:/home/steff007/.local/bin:/home/steff007/jq:/home/steff007/script:/sbin:/usr/bin:/usr/games:/usr/lib/wsl/lib:/usr/local/bin:/usr/local/games:/usr/local/sbin:/usr/sbin:/mnt/c/projects/p3/work:
 : 1681617611:0;HIS
-: 1681617662:0;cd highway61
 : 1681617728:0;cd koln
 : 1681618061:0;cd garybb
 : 1681619849:0;sort_by_date.py -t "a"
@@ -7033,7 +7006,6 @@ fd -a "$1" | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'\
 : 1681893685:0;gcc modtime.c
 : 1681893905:0;v time.c
 : 1681893930:0;gcc time.c
-: 1681894008:0;v test.txt
 : 1681945335:0;v vlc/allMps.txt
 : 1681945449:0;fd -d 1 apr
 : 1681966345:0;md Apr19
@@ -7058,7 +7030,6 @@ fd -a "$1" | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'\
 : 1681972522:0;mv html.py ..
 : 1681972655:0;wi http.server
 : 1681972754:0;ssp
-: 1681972808:0;apps | nvim -
 : 1681972879:0;printenv | less
 : 1681972942:0;printenv | | nvim -
 : 1681972967:0;cd /mnt/c/projects/p3/modules
@@ -7291,7 +7262,6 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682236511:0;ex Noam_Chomsky___Hume_s_Paradox_VF8DsIVWDcs.mp3
 : 1682236542:0;mv Some_Other_Time_from__The_Tony_Bennett_Bill_Evans_Album_.mp3 ../../alb
 : 1682236653:0;fd -I -emp3  --size +10m
-: 1682236664:0;fd -I -emp3  --size +30m
 : 1682236675:0;fd -I -emp3  --size +80m
 : 1682281152:0;rm -rf Apr17
 : 1682281188:0;cd Images
@@ -7320,7 +7290,6 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682314227:0;lt -lrt
 : 1682314303:0;cd /mnt/c/projects/Camera/Apr23
 : 1682317000:0;fd -epy | xargs rg 'pdb'
-: 1682318261:0;df
 : 1682319118:0;rm rot.jpg
 : 1682319152:0;rm here1.jpg love1.jpg love2.jpg
 : 1682319179:0;mv * ../Apr21
@@ -7501,7 +7470,6 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682473234:0;ffmpeg -i knocking.mp4 -ss 0 -to 85 -vcodec libx264 -acodec copy knocking_0-00-1-25.mp4
 : 1682474560:0;sudo apt-get install -y sysbench
 : 1682474580:0;sysbench
-: 1682474607:0;sysbench cpu run
 : 1682474693:0;wi 7z
 : 1682474708:0;7z b
 : 1682475266:0;ffmpeg -i strum2.mp4 -ss 296 -to 384 -vcodec libx264 -acodec copy strum2_4-56-6-24.mp4
@@ -7556,7 +7524,6 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682488504:0;v first.ahk
 : 1682488577:0;fdi -a --changed-within=1days | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g' | v -
 : 1682488684:0;clips
-: 1682497125:0;fdd
 : 1682497160:0;ffc
 : 1682524479:0;trash-empty
 : 1682524694:0;v zz
@@ -7641,7 +7608,6 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682628333:0;git add . && git commit -am $(date)
 : 1682628397:0;md=$(date | sed 's/\s/_/g' | sed 's/_CDT.*//g'| sed 's/:/-/g')
 : 1682628406:0;git add . && git commit -am $md
-: 1682628480:0;fd -a
 : 1682628487:0;fd -a | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
 : 1682628503:0;fd -a | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g' | v -
 : 1682651755:0;fd -epy | xargs rg -i 'with.*open'
@@ -7732,7 +7698,6 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682756433:0;fd --changed-before=2days
 : 1682756482:0;mv WW2_From_the_German_Perspective_Full_Documentary_Animated_History.m4a /mnt/c/you/spoken/audio
 : 1682756488:0;cd audio
-: 1682756491:0;ltv
 : 1682806493:0;( du -h > duh.txt &)
 : 1682806597:0;rm -rf koln
 : 1682806750:0;son
@@ -7856,12 +7821,10 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682842377:0;wget https://raw.githubusercontent.com/nickjj/dotfiles/769402bc839e11f7b0a8a37664391a899b03021b/.vimrc -o vimSamplerc.txt
 : 1682842411:0;wget https://raw.githubusercontent.com/nickjj/dotfiles/769402bc839e11f7b0a8a37664391a899b03021b/.vimrc -O vimSamplerc.txt
 : 1682885272:0;fd -ogg
-: 1682885276:0;fd -eogg
 : 1682885398:0;fdi -eogg -d 1 -0 | xargs -r0 cp -t /mnt/c/you/alb
 : 1682885464:0;git diff models ll | nvim -
 : 1682885547:0;git diff  ll models | nvim -
 : 1682885638:0;git diff | nvim -
-: 1682885683:0;v locallibrary/catalog/models.py
 : 1682885842:0;#sl db.sqlite3 ".output sc" ".schema"
 : 1682885861:0;#sl db.sqlite3  ".schema" | nvim -
 : 1682885869:0;sl db.sqlite3  ".schema" | nvim -
@@ -7886,13 +7849,11 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682903003:0;fd -a -d1 db
 : 1682903010:0;fd -a -d 1 db
 : 1682903024:0;fdi -a -d 1 db
-: 1682903103:0;fd -epy
 : 1682903110:0;v ipysql.py
 : 1682911531:0;mv locallibrary mdn
 : 1682911694:0;tree django-locallibrary-tutorial
 : 1682911893:0;git commit -am "added admin python sql"
 : 1682911906:0;git ls-files | v -
-: 1682912367:0;tree | nvim -
 : 1682912451:0;mdcd redit
 : 1682912458:0;mkcd redit
 : 1682912486:0;rm -rf redit
@@ -7914,7 +7875,6 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682917716:0;wind redit.py | cl
 : 1682917984:0;kill -9 14853
 : 1682918046:0;./redit.py
-: 1682922987:0;v x6
 : 1682923947:0;cd /mnt/c/projects/music/gut
 : 1682924331:0;fd -x touch
 : 1682924356:0;cp * /mnt/c/projects/music/gut/songs
@@ -7971,7 +7931,6 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 : 1682931371:0;printf "%s\n" $a
 : 1682931379:0;printf "%s\n" $(ls)
 : 1682931401:0;me=$(printf "%s\n" $(ls))
-: 1682931403:0;me
 : 1682931419:0;printf "%s\n" $me
 : 1682969143:0;mkcd class
 : 1682969152:0;t first.py
@@ -7995,7 +7954,6 @@ fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'\
 fd -a -tf --changed-within 2d | more\
 }\
 
-: 1683062605:0;lt fun*
 : 1683062633:0;git ls-files | rg 'func'
 : 1683062665:0;git diff functions.sh
 : 1683064531:0;./logging.py
@@ -8036,14 +7994,12 @@ fd -a -tf --changed-within 2d | more\
 : 1683099964:0;cd cd /mnt/c/projects/class
 : 1683099968:0;cd /mnt/c/projects/class
 : 1683102098:0;chr te.html
-: 1683110635:0;fd -emp3
 : 1683110668:0;vlc InOurTime-19981029-SciencesRevelations.mp3 InOurTime-19981119-TheBrainAndConsciousness.mp3 InOurTime-19981203-HistorysRelevanceInThe20thCentury.mp3 InOurTime-19981217-TheAmericanCentury.mp3 InOurTime-19981231-TheBritishEmpiresLegacy.mp3 InOurTime-19990624-Capitalism.mp3 InOurTime-19990701-Intelligence.mp3 InOurTime-19990722-Pain.mp3 InOurTime-19990923-GeneticDeterminism.mp3 InOurTime-19991021-TheIndividual.mp3
 : 1683146878:0;pyse "set.*trace"
 : 1683147981:0;git diff 5698782 1416089
 : 1683147997:0;git diff 5698782 1416089 | nvim -
 : 1683148094:0;git diff --name-only 5698782 1416089 | nvim -
 : 1683148176:0;git diff 6d28846 9f0653b | v -
-: 1683148261:0;v locallibrary/urls.py
 : 1683148373:0;cd /mnt/c/projects/djan/locallibrary
 : 1683148399:0;git commit -am "my.sql"
 : 1683148414:0;fd ins
@@ -8082,7 +8038,6 @@ fd -a -tf --changed-within 2d | more\
 : 1683176363:0;python3 -m venv ll
 : 1683179437:0;p3 manage.py collectstatic
 : 1683180224:0;python3 manage.py makemigrations
-: 1683180235:0;python3 manage.py migrate
 : 1683180247:0;python3 manage.py collectstatic
 : 1683180259:0;python3 manage.py test # Run the standard tests. These should all pass.
 : 1683180954:0;ython3 manage.py runserver
@@ -8115,7 +8070,6 @@ fd -a -tf --changed-within 2d | more\
 : 1683189129:0;fd -emp3 | nvim -
 : 1683189165:0;while read -r file ; do mv "$file" /mnt/c/you/spoken/intime; done < mp3
 : 1683189187:0;cd infidels
-: 1683189204:0;cd intime
 : 1683189431:0;cd worker
 : 1683189576:0;ffmpeg -i NaziMem.mp3 -f null - 
 : 1683189740:0;ffmpeg -v quiet -stats -i input.mp3 -f null -
@@ -8177,10 +8131,8 @@ fd -a -tf --changed-within 2d | more\
 : 1683229083:0;touch -a -m -t 202305181205.09 tgs.txt
 : 1683229231:0;git commit -am "after install"
 : 1683230000:0;v /mnt/c/projects/django/django-locallibrary-tutorial/locallibrary/settings.py
-: 1683230140:0;p3 manage.py runserver 
 : 1683230219:0;wind read
 : 1683230226:0;wind read | cl
-: 1683237450:0;tmus
 : 1683237574:0;p3 manage.py runserver 2>err
 : 1683238469:0;git commit -am "jim mods"
 : 1683239422:0;git set-url origin git@github.com:wither7007/ll.git
@@ -8281,23 +8233,19 @@ python3 manage.py runserver
 : 1683640188:0;v h
 : 1683662908:0;fdi poet
 : 1683663275:0;cd .local
-: 1683663282:0;cd bin
 : 1683663332:0;curl -sSL https://install.python-poetry.org | python3 - 
 : 1683663379:0;file poetry
 : 1683663411:0;poetry
 : 1683663485:0;poetry new library
 : 1683664587:0;poetry add requests
-: 1683664922:0;fdi
 : 1683677273:0;md pdjango
 : 1683677460:0;poetry add django
 : 1683677717:0;cd pdjango
 : 1683678629:0;pipenv
-: 1683678696:0;pipenv graph
 : 1683681091:0;mkcd tues
 : 1683681514:0;poetry init -n
 : 1683681960:0;poetry 
 : 1683681979:0;poetry | more
-: 1683682567:0;poetry init
 : 1683684093:0;poetry env remove --all
 : 1683684220:0;poetry shell
 : 1683684231:0;cd /home/steff007/tues/django-locallibrary-tutorial
@@ -8307,11 +8255,9 @@ python3 manage.py runserver
 : 1683698554:0;man poetry
 : 1683698601:0;poetry help | nvim -
 : 1683698653:0;poetry help list | nvim -
-: 1683699855:0;cd alb
 : 1683699915:0;mv tikHyper.mp3 ../spoken/intime
 : 1683700531:0;python -m site 
 : 1683738991:0;.. 
-: 1683739122:0;cd vlc
 : 1683739179:0;fd 212
 : 1683739195:0;fd 212 | cl
 : 1683739379:0;mkcd Django
@@ -8335,7 +8281,6 @@ python3 manage.py runserver
 : 1683742786:0;v known_hosts
 : 1683743355:0;cd ~/.ssh
 : 1683755709:0;cd .ssh
-: 1683755714:0;ssh-keyscan github.com >> ~/.ssh/known_hosts 
 : 1683756220:0;fit add .
 : 1683756374:0;git remote add origin https://github.com/wither7007/ll.git 
 : 1683756422:0;git push origin master 
@@ -8376,10 +8321,8 @@ python3 manage.py runserver
 : 1683863200:0;poetry env 
 : 1683863213:0;poetry env list
 : 1683863228:0;poetry env info
-: 1683863731:0;v pyproject.toml
 : 1683863877:0;p3 --version
 : 1683863962:0;poetry env use  /bin/python3.10 
-: 1683863977:0;poetry install
 : 1683864013:0;./x.py
 : 1683874563:0;wget https://gist.githubusercontent.com/McUsr/38c7d59d7009ad8b77c505259154b2b9/raw/9f2e1d45c52bd63b7daafe4afd52e180ea4c3991/chunk.c -O chunk.c
 : 1683874638:0;cc -o chunk chunk.c 
@@ -8416,13 +8359,10 @@ python3 manage.py runserver
 : 1684013380:0;./configure --prefix=$HOME/python3.10 --enable-optimizations
 : 1684018641:0;cd com
 : 1684018686:0;./configure --prefix=$HOME/python3.10 --enable-optimizations 
-: 1684020783:0;./python
 : 1684021248:0;fdi python
-: 1684021276:0;fd python
 : 1684021331:0;rm -rf com
 : 1684021392:0;mkcd cpy
 : 1684021397:0;git clone https://github.com/python/cpython 
-: 1684024357:0;mkcd p11
 : 1684032178:0;v config.log
 : 1684032289:0;git branch 
 : 1684032392:0;git checkout projects 
@@ -8551,9 +8491,7 @@ python3 manage.py runserver
 : 1684218245:0;cd j3
 : 1684220267:0;cat install
 : 1684220284:0;python3 manage.py createsuperuser # Create a superuser
-: 1684221737:0;wi python3
 : 1684221748:0;wi p3
-: 1684227782:0;cd ditto
 : 1684227785:0;u
 : 1684227853:0;ldf | nvim -
 : 1684228000:0;tar -zvcf ../ll.gz --exclude-from=ex
@@ -8574,7 +8512,6 @@ python3 manage.py runserver
 : 1684271618:0;v ll.tar.gz
 : 1684271671:0;sc library/bin/activate
 : 1684273820:0;rm ll.gz
-: 1684273868:0;fd -ehtml
 : 1684274298:0;v ex
 : 1684275758:0;git log | head
 : 1684276215:0;git remote set-url origin https://github.com/wither7007/locallib 
@@ -8623,14 +8560,12 @@ gh api \\
 : 1684284420:0;gh repo list wither7007 | nvim - 
 : 1684287406:0;cd django-locallibrary-tutorial
 : 1684287423:0;rm -rf git
-: 1684287428:0;rm -rf .git
 : 1684287516:0;zsort
 : 1684287594:0;p3 -m venv myenv
 : 1684288262:0;git rm example.midi
 : 1684288322:0;git push
 : 1684288351:0;git push --force 
 : 1684288650:0;git commit -am "initial"
-: 1684288748:0;pip freeze
 : 1684290447:0;git commit -am "ig"
 : 1684290515:0;git remote add origin git@github.com:wither7007/localDj.git
 : 1684290541:0;git branch -M ll
@@ -8648,13 +8583,9 @@ git push -u origin main
 : 1684303486:0;python3
 : 1684304115:0;export PYTHONSTARTUP=startup.py
 : 1684304225:0;export PYTHONSTARTUP=~/start.py
-: 1684304338:0;v .zshrc
-: 1684304366:0;v start.py
 : 1684307723:0;pyse "model"
 : 1684307781:0;pyse "model" | nvim -
 : 1684320638:0;ex twit0927.mp3
-: 1684322804:0;v .python_history
-: 1684323057:0;fg
 : 1684323216:0;vlc twit0927.mp3
 : 1684324119:0;ex lnl215.mp3
 : 1684324137:0;ex LNL05-17-23_Late_Night_Linux_22
@@ -8718,10 +8649,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/\
 : 1684442456:0;from pathlib import Path
 : 1684442457:0;# Build paths inside the project like this: BASE_DIR / 'subdir'.
 : 1684442457:0;BASE_DIR = Path(__file__).resolve().parent.parent
-: 1684442508:0;python -m django --version
 : 1684442988:0;pip install Django==4.2.1
-: 1684443045:0;python -m django --version 
-: 1684443251:0;python
 : 1684443310:0;pip3 install Django==4.2.1
 : 1684451020:0;fdi manage
 : 1684451062:0;cd 42/lib/python3.10/site-packages/django/core/management 
@@ -8739,7 +8667,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684458422:0;ldf 42/lib
 : 1684458444:0;find 42
 : 1684458560:0;find 
-: 1684458652:0;git add . --dry-run | nvim -
 : 1684458857:0;rm .gitignore
 : 1684458938:0;.
 : 1684459964:0;git rev-parse --abbrev-ref HEAD  --show-toplevel #show repo top
@@ -8772,14 +8699,12 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684473783:0;cd 42/lib/python3.10/site-packages/django/core/management/commands/
 : 1684473796:0;v runserver.py
 : 1684473818:0;python runserver.py
-: 1684473898:0;htop
 : 1684474172:0;git rm mysite/__pycache__/urls.cpython-310.pyc
 : 1684474186:0;git rm -f mysite/__pycache__/urls.cpython-310.pyc
 : 1684476776:0;v mym.py
 : 1684476814:0;python manage.py makemigrate mym.py
 : 1684476874:0;python manage.py makemigrations mym.py 
 : 1684477005:0;python manage.py migrations 
-: 1684477038:0;python manage.py makemigrations 
 : 1684477846:0;cd migrations
 : 1684477858:0;v 0001_initial.py
 : 1684477935:0;python manage.py sqlmigrate polls 0001 
@@ -8790,7 +8715,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684485574:0;pandoc
 : 1684485662:0;curl -sS https://example.com | pandoc -f html -o page.md 
 : 1684485947:0;cat page.md
-: 1684517595:0;mem
 : 1684518112:0;v page.md
 : 1684518978:0;fd --changed-within=12min
 : 1684519000:0;fd -td polls
@@ -8808,7 +8732,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684525518:0;fd "\s" -x rm
 : 1684527344:0;mkcd polls
 : 1684527350:0;t index.html
-: 1684535658:0;(find /mnt/c/you -regex '.*\.mp3' > /mnt/c/projects/music/vlc/allMps.txt 2>/mnt/c/temp/myerr &)
 : 1684535747:0;mc 
 : 1684535773:0;v /all/ps/son.ps1
 : 1684535803:0;v mnt/c/all/ps/son.ps1
@@ -8816,7 +8739,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684535828:0;cd ps
 : 1684535836:0;v son.ps1
 : 1684535981:0;v 42/bin/activate
-: 1684536814:0;git --version
 : 1684536985:0;git help add
 : 1684537099:0;git add -A .
 : 1684537212:0;git commit -am "migrate"
@@ -8852,7 +8774,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684617420:0;#rename "s/InOu.*-.*-//g" *
 : 1684617530:0;fd 2022
 : 1684617620:0;#fd -d 1 -tf '_mp4' -exec rename "s/_mp4/\.mp4/g" {} \;
-: 1684617713:0;v ~/script/tiny.py
 : 1684619315:0;fda | nvim -
 : 1684619493:0;cd Downloads/
 : 1684619548:0;ex 1.mp3
@@ -8904,7 +8825,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684735975:0;which apt yum dnf pacman emerge zypper | xargs -n1 basename 
 : 1684736314:0;sudo apt install -y cmake
 : 1684736353:0;cmake --version 
-: 1684743452:0;yv
 : 1684793702:0;fd -ec
 : 1684793723:0;mkcd cfun
 : 1684793838:0;#fd -tf -d1 '^\d' -x mv -t /mnt/c/phone
@@ -8912,7 +8832,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684794031:0;#gcc po.c -S 
 : 1684794041:0;gcc po.c
 : 1684794052:0;./a.out
-: 1684794065:0;gcc --version
 : 1684794159:0;man gcc
 : 1684794194:0;gcc po.c -S 
 : 1684794205:0;v po.s
@@ -8957,7 +8876,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684821901:0;git clone git@github.com:wither7007/localDj.git .
 : 1684822078:0;virtualenv --version 
 : 1684822139:0;virtualenv venv 
-: 1684822280:0;sc venv/bin/activate
 : 1684822437:0;cat requirements.txt
 : 1684823739:0;sc install
 : 1684825069:0;cd 
@@ -8973,19 +8891,15 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684876961:0;cp /mnt/c/projects/Django/first/mysite/requirements.txt .
 : 1684876974:0;pip3 install -r requirements.txt 
 : 1684877864:0;wi pip3
-: 1684877870:0;wi pip
 : 1684877920:0;python3 --version
 : 1684877950:0;python3 manage.py startapp catalog 
-: 1684878199:0;git log
 : 1684878269:0;gb -m master mycat
 : 1684878300:0;t x
 : 1684878319:0;git diff --staged
 : 1684878338:0;rm locallibrary/x x
 : 1684878357:0;git commit -am "catalog"
-: 1684878360:0;glg
 : 1684878436:0;fd urls | nvim -
 : 1684878463:0;v locallibrary/locallibrary/urls.py
-: 1684878822:0;v urls.py
 : 1684879884:0;fdi --changed-within=12min
 : 1684888112:0;cd ps03
 : 1684888411:0;fdi --changed-within=42min
@@ -9020,7 +8934,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684942432:0;cd Django/mycat
 : 1684944817:0;cd scripts
 : 1684945164:0;mv sql_hist sql_hist.bak
-: 1684959972:0;fdh
 : 1684960014:0;fdi -E git --changed-within=1days
 : 1684960128:0;fdi -E .git -E site.* --changed-within=1days
 : 1684960140:0;fdi -E .git -E site* --changed-within=1days
@@ -9028,21 +8941,15 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1684960375:0;cd /mnt/c/projects/django/mycat
 : 1684960832:0;git commit -am "new model"
 : 1684961856:0;p3 schema.py
-: 1684997114:0;p3
 : 1684997544:0;ls -X
 : 1684997612:0;ls -h
 : 1685038304:0;cd /mnt/c/projects/django/mycat/locallibrary
 : 1685038368:0;git commit -am "thurs"
-: 1685038451:0;mc
-: 1685038453:0;cd twit
 : 1685038466:0;rm 20230517_fa_b0755d75-f35d-4493-bcf1-3d51339add7d.mp3_ywr3ahjkcgo_16552eb2958910866f862fb649d12b27_46519817.mp3
 : 1685038483:0;ex ww0830.mp3
-: 1685038498:0;tiny.py
 : 1685038519:0;ex WW05-25-23_Windows_Is_My_Copilot.mp3
 : 1685038540:0;vlc WW05-25-23_Windows_Is_My_Copilot.mp3
-: 1685043705:0;df -Th
 : 1685045614:0;v /mnt/c/projects/django/mycat/cat/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py 
-: 1685047725:0;v models.py
 : 1685061465:0;sc cat/bin/activate
 : 1685061760:0;mkcd mdnDjan
 : 1685061783:0;git clone git@github.com:mdn/django-locallibrary-tutorial.git .
@@ -9050,33 +8957,24 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1685062142:0;git remote -v
 : 1685062170:0;git branch -M mdn
 : 1685062210:0;virtualenv mdn
-: 1685062330:0;sc mdn/bin/activate
-: 1685062360:0;pip3 list
 : 1685062449:0;pip install -r requirements.txt
-: 1685063165:0;python manage.py createsuperuser
 : 1685063592:0;cd mycat
 : 1685063627:0;diff schema.py ../schema.py
 : 1685063651:0;ldf ../i*
 : 1685063690:0;ldf ..
 : 1685063707:0;cp insert.py ..
-: 1685063727:0;fd --changed-within=1days
 : 1685063764:0;cp myaut ...
 : 1685063790:0;rm -rf mycat
 : 1685063909:0;mkcd myMdn
-: 1685063923:0;git init
 : 1685063935:0;wget https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore -O .gitignore
 : 1685063960:0;git branch -M myMdn
-: 1685063983:0;git commit -am "Initial"
 : 1685064033:0;git branch -M master myMdn
 : 1685064072:0;virtualenv myMdn
-: 1685064309:0;pip list
-: 1685064466:0;pip3 install django~=4.0
 : 1685064740:0;pip freeze > freeze.txt
 : 1685064754:0;pip --version
 : 1685064770:0;pip3 --version
 : 1685064791:0;v freeze.txt
 : 1685064901:0;django-admin startproject locallibrary
-: 1685064941:0;python --version
 : 1685064988:0;p3 manage.py startapp catalog
 : 1685065131:0;fdi apps
 : 1685065157:0;fdi a
@@ -9093,7 +8991,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1685069852:0;fdi sql
 : 1685069858:0;fdi s
 : 1685069977:0;fdi sq
-: 1685070050:0;fd migr
 : 1685070058:0;cd catalog/migrations
 : 1685070072:0;fdi mig
 : 1685071650:0;git add -A . 
@@ -9107,11 +9004,9 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1685075714:0;fd model
 : 1685075724:0;fd model -X v
 : 1685075729:0;fd model -X nvim
-: 1685088065:0;v manage.py
 : 1685088143:0;v env
 : 1685132459:0;md templates
 : 1685132722:0;t base_generic.html
-: 1685132968:0;mkcd static
 : 1685132978:0;mkcd css
 : 1685133351:0;ldf static
 : 1685133363:0;tree static
@@ -9130,12 +9025,9 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1685136398:0;mv images static
 : 1685136752:0;fd -a s.jpg
 : 1685136764:0;fdi -a s.jpg
-: 1685137010:0;fd settings
-: 1685137021:0;fd settings -X nvim
 : 1685137472:0;fd local
 : 1685137495:0;fdi --changed-within=1days
 : 1685137555:0;git add -A 
-: 1685138054:0;printenv  | nvim -
 : 1685138088:0;sqpy
 : 1685140007:0;pyse "bookdet" | nvim -
 : 1685140031:0;pyse "BookDetailView" | nvim -
@@ -9144,8 +9036,6 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1685140966:0;pyse "BookDetai" | nvim -
 : 1685141014:0;pyse "reverse" | nvim -
 : 1685141290:0;pyse "book-det" | nvim -
-: 1685142263:0;type -f p3
-: 1685142356:0;wi python
 : 1685142371:0;/usr/bin/python3.10
 : 1685142390:0;/usr/bin/python3.10 manage shell
 : 1685142544:0;/usr/bin/python3.10 manage.py shell
@@ -9158,29 +9048,21 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1685149574:0;fdi -html
 : 1685149584:0;fdi *.html
 : 1685149607:0;fdi -ehtmlhtml
-: 1685149621:0;fdi -epy
 : 1685149683:0;v templates/book_detail.html
 : 1685149775:0;mv templates/book_detail.html templates/catalog
-: 1685149778:0;fdi -ehtml
-: 1685153615:0;y3
 : 1685153627:0;type -f y3
 : 1685155106:0;git diff urls.py
 : 1685155506:0;p3 manage.py shell
-: 1685156777:0;t myfirst.html
 : 1685157422:0;mkcd DjangoDBV
 : 1685157440:0;git clone git@github.com:veryacademy/YT-Django-CBV-Mini-Series.git .
 : 1685157520:0;cd TemplateView
-: 1685157560:0;fd urls
-: 1685157590:0;pyclean
 : 1685157625:0;fd url
 : 1685157641:0;v cbv/urls.py
 : 1685157666:0;v core/urls.py
-: 1685157854:0;v README.md
 : 1685158358:0;yev
 : 1685158397:0;cd script
 : 1685158411:0;ldf y*
 : 1685158418:0;yvl
-: 1685161229:0;cd mygits
 : 1685161252:0;mkcd veryAcademy
 : 1685161259:0;git clone git@github.com:veryacademy/YT-Django-args-kwargs.git .
 : 1685161279:0;v requirements.txt
@@ -9216,35 +9098,23 @@ fd -I -H -a -epy -E mcoding |xargs rg "$1"\
 : 1685176357:0;fdi -E site-packages -epy --changed-within=2days
 : 1685176414:0;fdi -E site-packages -epy --changed-within=2days | xargs rg 'open'
 : 1685176443:0;v Django/insert.py
-: 1685176731:0;winh
 : 1685176736:0;cd Downloads
 : 1685176774:0;fd 'In.*\d'
 : 1685176801:0;rename "s/InOu.*-.*-//g" *
-: 1685176827:0;fd --changed-within=2days
 : 1685176873:0;fd --changed-within=2days -x mv -t /mnt/c/you/spoken
 : 1685212750:0;fd maggie
 : 1685212785:0;cd sidran
-: 1685213238:0;fd activate
-: 1685213254:0;fdi activate
 : 1685213275:0;sc myMdn/bin/activate
 : 1685213359:0;mv myMdn envMymdn
-: 1685213374:0;deactivate
 : 1685213438:0;p3 manage.py showmigrations
-: 1685213468:0;tree
 : 1685213504:0;fdi index
 : 1685213641:0;cd catalog/templates
-: 1685213650:0;v myfirst.html
 : 1685213724:0;python manage.py runserver 
-: 1685227145:0;cd templates
-: 1685227156:0;fd
 : 1685227310:0;cp book_list.html author_list.html
 : 1685230754:0;v newmyaut
-: 1685231259:0;python manage.py makemigrations
-: 1685231270:0;python manage.py migrate
 : 1685239449:0;pip install music21 
 : 1685239535:0;v myscore.mscx
 : 1685239600:0;file myscore.mscx
-: 1685244696:0;cd music
 : 1685244768:0;cd /mnt/c/projects/music
 : 1685244885:0;from music21 import stream, note, midi\
 \
@@ -9280,24 +9150,17 @@ score.insert(0, part)\
 # Save the score as a MuseScore file\
 file_path = 'myscore.mscx'\
 score.write("midi", "blah.mid")
-: 1685245377:0;git add .
-: 1685253892:0;fd models
 : 1685253900:0;v catalog/models.py
-: 1685253939:0;fd admin
 : 1685253949:0;v catalog/admin.py
 : 1685254759:0;sq db.sqlite3
 : 1685255138:0;git commit -am "good work"
-: 1685255158:0;git ls-files | nvim -
 : 1685255237:0;v wiki.py
 : 1685260474:0;fd battl
 : 1685260483:0;cd battlefield
-: 1685260503:0;space
-: 1685260539:0;fd | nvim -
 : 1685295929:0;fdc | rg 'q'
 : 1685295935:0;cd lquart
 : 1685295942:0;vz
 : 1685296890:0;git show
-: 1685297015:0;git log --oneline | nvim -
 : 1685297046:0;git help show
 : 1685297073:0;git show | nvim -
 : 1685297323:0;git diff HEAD^ HEAD | nvim -
@@ -9318,7 +9181,6 @@ score.write("midi", "blah.mid")
 : 1685297993:0;git diff   HEAD~1 HEAD | nvim -
 : 1685298143:0;cd Django
 : 1685298146:0;fd schema.py
-: 1685298157:0;v schema.py
 : 1685298327:0;fd -d 1 -tf -a db
 : 1685298332:0;fd -d 1 -tf -a db | cls
 : 1685298335:0;fd -d 1 -tf -a db | cl
@@ -9329,15 +9191,10 @@ score.write("midi", "blah.mid")
 : 1685298501:0;fdi -d 1 -tf -a 'sql' | cl
 : 1685303367:0;echo " SELECT name FROM sqlite_schema WHERE type ='table' AND name  LIKE 'catalog%';" | sqlite3 db.sqlite;
 : 1685303728:0;echo ".help" | sqlite3 db.sqlite > help
-: 1685303733:0;v help
 : 1685303809:0;echo " .output out;SELECT name FROM sqlite_schema WHERE type ='table' AND name  LIKE 'catalog%';" | sqlite3 db.sqlite;
-: 1685304028:0;sq3 db.sqlite3
-: 1685304065:0;fun
 : 1685304078:0;awsq
 : 1685304152:0;v out
-: 1685304189:0;v mycmd
 : 1685304206:0;sq3 db.sqlite3 < mycmd
-: 1685304211:0;v tables
 : 1685304362:0;v -O tables dele
 : 1685304441:0;sq3 db.sqlite3 < dele
 : 1685320123:0;cd myMdn/locallibrary/myaut
@@ -9364,7 +9221,6 @@ score.write("midi", "blah.mid")
 : 1685321284:0;v ./blah
 : 1685321288:0;rm blech
 : 1685321307:0;ln -s blah ~/wtf
-: 1685321308:0;cd
 : 1685321315:0;v wtf
 : 1685321331:0;rm wtf
 : 1685321407:0;ln -s blah blah2
@@ -9378,7 +9234,6 @@ score.write("midi", "blah.mid")
 : 1685322053:0;ln -s $(pwd)/insert mdnDjan
 : 1685322074:0;rm insert
 : 1685322085:0;ln -s $(pwd)/insert.py mdnDjan
-: 1685322117:0;v insert.py
 : 1685322444:0;rm insert.py
 : 1685322474:0;trash Minsert.py
 : 1685322506:0;fd -a sqlite
@@ -9389,13 +9244,10 @@ score.write("midi", "blah.mid")
 : 1685322890:0;fd myau
 : 1685322897:0;v myaut
 : 1685322924:0;cp myaut myMdn/locallibrary
-: 1685322950:0;d
 : 1685322959:0;cat myaut
-: 1685326360:0;i3
 : 1685334141:0;fd -td hay
 : 1685334156:0;cd haydn
 : 1685334165:0;rm -rf haydn
-: 1685334505:0;cd junk
 : 1685334514:0;mkcd lns
 : 1685334519:0;t originalFile
 : 1685334538:0;ln originalFile sampleHardLink
@@ -9405,7 +9257,6 @@ score.write("midi", "blah.mid")
 : 1685334635:0;ls -i
 : 1685334640:0;ls -li
 : 1685334810:0;cat sampleSoftLink
-: 1685334834:0;ldf
 : 1685334857:0;ln -s originalFile ../bbbbb
 : 1685334864:0;v bbbbb
 : 1685334892:0;ln -s ./originalFile ../bbbbb
@@ -9425,44 +9276,25 @@ score.write("midi", "blah.mid")
 : 1685336736:0;mv battlefield spoken/battle
 : 1685336752:0;fc
 : 1685336754:0;ldf battlefield
-: 1685336760:0;cd spoken
 : 1685336772:0;ldf battle
-: 1685336777:0;fdc
 : 1685336796:0;cd folkmix
 : 1685336811:0;ex Italian_Medieval_song_7.mp3
 : 1685337034:0;v dates.txt
 : 1685339904:0;cd music/vlc
-: 1685339913:0;v vlc.py
-: 1685339927:0;./vlc.py
-: 1685339934:0;cdy
-: 1685339949:0;v ../all/ps/son.ps1
-: 1685342225:0;axit
-: 1685342229:0;tmux
-: 1685342290:0;lf
 : 1685342336:0;v dele
-: 1685342397:0;ls
-: 1685342407:0;git add -A
 : 1685342432:0;git commit -am "Sunday played with insert"
 : 1685342480:0;pwd
 : 1685342485:0;pwd | cl
 : 1685342493:0;v ../.gitignore
 : 1685342617:0;fd .git
 : 1685342624:0;fdi .git
-: 1685342632:0;v .gitignore
 : 1685344944:0;cd Django/myMdn/locallibrary
-: 1685347462:0;yel
-: 1685348471:0;ye
 : 1685404406:0;cd /mnt/c/projects/Django/myMdn/locallibrary
 : 1685404530:0;fd memberes
 : 1685404533:0;fd member
 : 1685404538:0;fdi membere
 : 1685404643:0;fd form
-: 1685404654:0;fd myfir
-: 1685406909:0;cd catalog
-: 1685406941:0;t forms.py
-: 1685408829:0;pc
 : 1685408837:0;cd /mnt/c/projects/Django/myMdn/locallibrary/catalog
-: 1685408874:0;...
 : 1685408876:0;fd schema
 : 1685408883:0;v schema
 : 1685408945:0;p3 manage.py makemigrations
@@ -9473,32 +9305,18 @@ p3 manage.py runserver\
 
 : 1685409966:0;hi 8
 : 1685409975:0;hi 2
-: 1685409983:0;h3
 : 1685410031:0;git switch -
 : 1685410109:0;git checkout 10b009b
 : 1685410140:0;git checkout ff681a8
-: 1685410161:0;gs
 : 1685410424:0;git checkout -
 : 1685410499:0;git checkout 10b009b #good version
 : 1685410528:0;git checkout ff681a8 #bad version
-: 1685410554:0;gb
 : 1685410563:0;git checkout myMdn
-: 1685410576:0;git log --oneline
 : 1685412929:0;git diff --name-only 10b009b ff681a8
 : 1685412971:0;git diff models.py 10b009b ff681a8 
 : 1685412983:0;git diff  10b009b ff681a8 | nvim -
-: 1685413274:0;cd django
-: 1685413277:0;ld
 : 1685413282:0;cd mdnDjan
 : 1685413301:0;v /mnt/c/projects/django/mdnDjan/catalog/models.py
-: 1685413328:0;mps
-: 1685413333:0;cd myMdn
-: 1685413340:0;cd Django/myMdn
-: 1685413341:0;l
-: 1685413348:0;lt
-: 1685413352:0;sc envMymdn/bin/activate
-: 1685413356:0;cd locallibrary
-: 1685413361:0;p3 manage.py runserver
 : 1685413511:0;git diff models.py 10b009b ff681a8 | nvim -
 : 1685413754:0;git stash list
 : 1685413782:0;git diff 10b009b ff681a8 models.py | nvim -
@@ -9507,45 +9325,972 @@ p3 manage.py runserver\
 : 1685415910:0;fd -a model
 : 1685416159:0;git --rev-parse --show-toplevel
 : 1685416228:0;git rev-parse --abbrev-ref HEAD  --show-toplevel #show repo top show parent
-: 1685416243:0;..
-: 1685416251:0;1
-: 1685416272:0;his
 : 1685416317:0;git diff 10b009b ff681a8 locallibrary/catalog/models.py  | nvim -
 : 1685416464:0;git restore locallibrary/catalog/models.py 
-: 1685416469:0;c
 : 1685416484:0;git stash pop
-: 1685416491:0;gst
-: 1685416501:0;exit
-: 1685416510:0;axit
 : 1685416527:0;sysbench cpu run
-: 1685416612:0;his
 : 1685416640:0;sysbench cpu run > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g')cpu.txt
-: 1685416653:0;l
 : 1685416658:0;v Mon_May_29_22:17:20cpu.txt
-: 1685416679:0;his
-: 1685416690:0;fun
 : 1685416750:0;cputest()\
 {\
   sysbench cpu run > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g')cpu.txt\
 }\
 
 : 1685416768:0;cputest()
-: 1685416771:0;cputest
-: 1685416782:0;l
-: 1685416792:0;gst
-: 1685416813:0;v .gitignore
-: 1685416832:0;gst
-: 1685416846:0;v .gitignore
-: 1685416859:0;gst
-: 1685416880:0;v .gitignore
-: 1685416890:0;c
-: 1685416892:0;gst
 : 1685416908:0;git commit -am "Monday cleanup"
-: 1685416911:0;gst
 : 1685416924:0;ldf j2
 : 1685416933:0;ldf j3
 : 1685416949:0;rm -rf j2 j3
-: 1685416960:0;gst
 : 1685416966:0;rm myscore.mscx
-: 1685416968:0;gst
-: 1685417154:0;git add -A
+: 1685417208:0;git commit --amend -m "amended Monday"
+: 1685417219:0;git log --oneline
+: 1685417226:0;git log --oneline | tac
+: 1685417265:0;git log  | head -n 20
+: 1685417321:0;cd myMdn
+: 1685417351:0;v locallibrary/catalog/models.py
+: 1685417404:0;sc envMymdn/bin/activate
+: 1685417585:0;cd /mnt/c/projects/django/myMdn/locallibrary
+: 1685417657:0;git commit -am "fixed model defstring, added forms"
+: 1685418996:0;ldd
+: 1685419005:0;man ldd
+: 1685422598:0;gs
+: 1685422629:0;git log --oneline | head -n 10
+: 1685422711:0;git diff a568e7c 8f9275a
+: 1685422935:0;git diff  a568e7c 8f9275a -- locallibrary/catalog/views.py
+: 1685422954:0;git diff  a568e7c 8f9275a -- locallibrary/catalog/urls.py
+: 1685422961:0;git diff  a568e7c 8f9275a 
+: 1685423150:0;git diff  a568e7c 8f9275a locallibrary/catalog/views.py
+: 1685423166:0;git diff  a568e7c 8f9275a catalog/views.py
+: 1685423188:0;git diff  a568e7c 8f9275a catalog/views.py | nvim -
+: 1685423321:0;git diff --name-only a568e7c 8f9275a
+: 1685423382:0;git diff  a568e7c 8f9275a  catalog/templates/index.html
+: 1685423444:0;git diff  8f9275a 8f9275a catalog/templates/index.html
+: 1685423477:0;git diff  8f9275a a568e7c catalog/te
+: 1685423501:0;git diff  8f9275a a568e7c catalog/templates/index.html | nvim -
+: 1685423598:0;git diff   10b009b  a568e7c catalog/templates/index.html | nvim -
+: 1685423645:0;git diff   be335dd   a568e7c catalog/templates/index.html | nvim -
+: 1685423719:0;git diff   be335dd   a568e7c catalog/views.py | nvim -
+: 1685423771:0;git log --oneline | nvim -
+: 1685423796:0;git diff   10b009b    a568e7c catalog/views.py | nvim -
+: 1685423835:0;git diff   10b009b    a568e7c catalog/urls.py | nvim -
+: 1685423945:0;fd forms
+: 1685423953:0;fd forms -X nvim
+: 1685424322:0;p3 manage.py runserver
+: 1685425246:0;cd catalog
+: 1685425249:0;v book_renew_librarian.html
+: 1685425758:0;cd Django/mdnDjan
+: 1685425779:0;v locallibrary/urls.py
+: 1685426085:0;cd Django/myMdn
+: 1685426096:0;cd locallibrary
+: 1685426102:0;v catalog/book_renew_librarian.html
+: 1685427348:0;v catalog/urls.py
+: 1685427481:0;sc mdn/bin/activate
+: 1685427486:0;p3 manage.py runserver 7000
+: 1685427591:0;python manage.py runserver 7000
+: 1685428388:0;v -O Tue_May_30_01:32:27cpu.txt Mon_May_29_22:19:31cpu.txt
+: 1685428440:0;md cputest
+: 1685428485:0;cputest()\
+{\
+  sysbench cpu run > ~/cputest/$(date | sed 's/\s/_/g' | sed 's/_CDT.*//g')cpu.txt\
+}\
+
+: 1685428526:0;fd fun
+: 1685428539:0;lt fun*
+: 1685481531:0;virtualenv form
+: 1685481802:0;v -O Tue_May_30_01:34:50cpu.txt Tue_May_30_16:22:29cpu.txt
+: 1685482053:0;mv form envForm
+: 1685482068:0;sc envForm/bin/activate
+: 1685482100:0;pip3 install django~=4.0
+: 1685482158:0;python -m django --version 
+: 1685482378:0;django-admin startproject myform
+: 1685482587:0;python manage.py startapp form1
+: 1685483022:0;pyse "config"
+: 1685483039:0;pyse "Config"
+: 1685483122:0;v /mnt/c/projects/django/form/myform/myform/settings.py 
+: 1685483156:0;git diff myform/myform/settings.py 
+: 1685483198:0;git diff --word-diff myform/myform/settings.py 
+: 1685483418:0;cd myform
+: 1685483481:0;fdi | rg 'apps'
+: 1685483697:0;v /mnt/c/projects/django/form/myform/myform/settings.py
+: 1685483971:0;rm -rf myform
+: 1685484196:0;django-admin startproject myproject
+: 1685484219:0;ll
+: 1685484273:0;python manage.py help
+: 1685484287:0;python manage.py help > help
+: 1685484764:0;gb
+: 1685484781:0;git branch -M master What
+: 1685484790:0;cd myproject
+: 1685485627:0;python manage.py startapp myapp
+: 1685486850:0;tree myapp
+: 1685487016:0;v help
+: 1685498654:0;fd -d 1 28 | -X nvim
+: 1685498662:0;fd -d 1 28  -X nvim
+: 1685498723:0;fdi -epy | xargs rg -i 'breakpoint'
+: 1685498783:0;fdi -epy
+: 1685498827:0;fd -epy
+: 1685498843:0;fd -epy | xargs rg -i 'breakpoint'
+: 1685502808:0;python manage.py startapp contact
+: 1685502829:0;python manage.py startapp home
+: 1685503483:0;fd -epy | xargs rg -i 'contan'
+: 1685503556:0;ldf contacy
+: 1685503560:0;ldf contact
+: 1685503620:0;v myproject/settings.py
+: 1685503641:0;python manage.py
+: 1685507184:0;python manage.py startapp blog
+: 1685507298:0;t blog/urls.py
+: 1685507863:0;cd /mnt/c/projects/django/form/myproject
+: 1685507887:0;v apps.py
+: 1685508669:0;fd -epy | xargs rg -i ''program_category'
+: 1685508675:0;fd -epy | xargs rg -i 'program_category'
+: 1685510141:0;t blog/categories.py
+: 1685511968:0;v .zshrc
+: 1685513741:0;df -Th
+: 1685515908:0;mkcd slug
+: 1685515928:0;p3 -m venv .venv
+: 1685516171:0;htop
+: 1685516206:0;sc .venv/bin/active
+: 1685516275:0;python3 -m pip install django~=4.0.0
+: 1685517374:0;python3 django-admin startproject django_project .
+: 1685517405:0;django-admin startproject django_project .
+: 1685517620:0;python manage.py startapp articles
+: 1685517772:0;python manage.py makemigrations articles
+: 1685517890:0;python manage.py createsuperuser
+: 1685517992:0;python manage.py runserver
+: 1685521421:0;t WaltWhitman.mp3 Linnaeus.mp3
+: 1685521444:0;mv WaltWhitman.mp3 Linnaeus.mp3 intime
+: 1685521458:0;t TheBattleOfCrecy.mp3
+: 1685521470:0;mv TheBattleOfCrecy.mp3 intime
+: 1685521481:0;cd battle
+: 1685521646:0;fdf
+: 1685521701:0;fd wolf
+: 1685521708:0;fd wolf -x touch
+: 1685521769:0;cp The_Wolfs_Lair_Nazi_Hitler_Documentary.mp3 ../intime
+: 1685521795:0;fd | head -n20
+: 1685521807:0;fd | head -n30
+: 1685521908:0;t Hideki_Tojo_Japan_s_Banzai_Warlord_Documentary.mp3
+: 1685521931:0;cp Hideki_Tojo_Japan_s_Banzai_Warlord_Documentary.mp3 ../intime
+: 1685522015:0;cd intime
+: 1685522052:0;ltv
+: 1685561044:0;tmus
+: 1685561293:0;#python3 -m pip install django~=4.0.0
+: 1685561303:0;python3 -m pip install django~=4
+: 1685561421:0;python3 -m pip install django~=4.*
+: 1685561501:0;python3 -m pip install django
+: 1685562109:0;pe
+: 1685562452:0;fdi -d 1 -tf --changed-within=5mins
+: 1685562463:0;fdi -d  -tf --changed-within=5mins
+: 1685562473:0;fdi   -tf --changed-within=5mins
+: 1685562543:0;v .python_history
+: 1685562670:0;phis () {\
+  nvim ~/.python_history -c "normal Gzz"\
+}\
+
+: 1685562724:0;printenv  | nvim -
+: 1685562752:0;v /home/steff007/start.py
+: 1685562847:0;v start.py
+: 1685564164:0;h5
+: 1685564190:0;phis () {\n  nvim ~/.python_history -c "normal Gzz"\n}\n
+: 1685564198:0;phis
+: 1685564236:0;fun
+: 1685564263:0;alias fdd="fd -H -I -d 1"
+: 1685564271:0;fdd his
+: 1685564292:0;v .pdbhistory
+: 1685564316:0;v .calc_history
+: 1685564326:0;fdd sh
+: 1685564348:0;fdd sh | column
+: 1685564646:0;cd ditto
+: 1685564660:0;v x.txt
+: 1685564742:0;v x6
+: 1685567943:0;apps > allApps.txt
+: 1685568033:0;v allApps.txt
+: 1685568108:0;sudo apt update && sudo apt upgrade 
+: 1685568543:0;ls | tee test.txt
+: 1685568572:0;v test.txt
+: 1685568613:0;sc functions.sh
+: 1685568622:0;sc .bash_aliases
+: 1685568624:0;fdd
+: 1685568633:0;fdd as
+: 1685568655:0;fdd gz | -x rm
+: 1685568662:0;fdd gz  -x rm
+: 1685568666:0;fdd gz
+: 1685568688:0;fd May
+: 1685568699:0;fdd may
+: 1685568707:0;fdd may -x rm
+: 1685568733:0;fdd --changed-before=6days
+: 1685568748:0;fdd --changed-within=2days
+: 1685568801:0;git --version
+: 1685568852:0;apps > allAppsAfter.txt 
+: 1685568866:0;fdd all
+: 1685568891:0;vdiff allApps.txt allAppsAfter.txt
+: 1685569018:0;v allAppsAfter.txt
+: 1685570156:0;apps | rg 'build'
+: 1685570174:0;apps | rg 'essential'
+: 1685570299:0;dpkg -l apache2
+: 1685570319:0;dpkg -l
+: 1685570343:0;dpkg -l > dpkg.txt
+: 1685570347:0;v dpkg.txt
+: 1685570495:0;man apt
+: 1685570523:0;apt
+: 1685570537:0;apt search build
+: 1685570703:0;apt show
+: 1685570714:0;apt list --upgradable
+: 1685570771:0;apt full-upgrade 
+: 1685570788:0;sudo apt full-upgrade
+: 1685571409:0;apps
+: 1685571429:0;apps | nvim -
+: 1685571503:0;gcc --version
+: 1685571570:0;type -f p3
+: 1685571577:0;cd bin
+: 1685571607:0;p3
+: 1685573418:0;cd
+: 1685573421:0;sudo apt install build-essential checkinstall 
+: 1685573476:0;sudo apt install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev 
+: 1685573556:0;mkcd p11
+: 1685573570:0;sudo wget https://www.python.org/ftp/python/3.11.3/Python-3.11.3.tgz 
+: 1685573606:0;v Python-3.11.3.tgz
+: 1685573665:0;sudo tar -xvf Python-3.11.3.tgz
+: 1685573736:0;sudo ./configure --enable-optimizations
+: 1685573990:0;sudo make altinstall
+: 1685576179:0;fdc
+: 1685576185:0;cd wed3am
+: 1685576197:0;cd SoundsAlb
+: 1685576285:0;cd music
+: 1685576293:0;cd vlc
+: 1685576299:0;v vlc.py
+: 1685576310:0;(find /mnt/c/you -regex '.*\.mp3' > /mnt/c/projects/music/vlc/allMps.txt 2>/mnt/c/temp/myerr &)
+: 1685576325:0;./vlc.py
+: 1685576353:0;fdd 31
+: 1685576414:0;cputest
+: 1685576429:0;cd cputest
+: 1685576463:0;v -O Wed_May_31_00:45:53cpu.txt Wed_May_31_18:40:14cpu.txt 
+: 1685576671:0;sudo pip3 install s-tui
+: 1685576722:0;sudo apt install python3-pip
+: 1685576761:0;sudo pip install s-tui
+: 1685576776:0;s-tui
+: 1685576850:0;v ../all/ps/son.ps1
+: 1685579610:0;cd /bin
+: 1685579614:0;fdd pyth
+: 1685579634:0;fd python
+: 1685579647:0;cd Python-3.11.3
+: 1685579665:0;./python
+: 1685579710:0;fd -a python
+: 1685579721:0;fd -a "python$"
+: 1685579744:0;/home/steff007/p11/Python-3.11.3/python
+: 1685579811:0;alias p1="/home/steff007/p11/Python-3.11.3/python"
+: 1685580216:0;p1 -m pip uninstall django
+: 1685580287:0;pip uninstall Django
+: 1685581093:0;p1 -m pip install django 
+: 1685581207:0;mem
+: 1685584931:0;cd slug
+: 1685584939:0;cd articles
+: 1685584988:0;t article_list.html
+: 1685585000:0;t article_detail.html
+: 1685585333:0;cp article_list.html ..
+: 1685585411:0;rm article_list.html
+: 1685586926:0;v insert.py
+: 1685586946:0;v schema.py
+: 1685590157:0;mkcd w3
+: 1685590183:0;#p3 -m venv .venv
+: 1685594068:0;p1 pip list
+: 1685594074:0;p1 pip3 list
+: 1685594088:0;p1 -m pip3 list
+: 1685594175:0;django-admin startproject tennis .
+: 1685594242:0;python --version
+: 1685594275:0;p3 manage.py runserver 
+: 1685594357:0;p1 manage.py startapp members
+: 1685594760:0;t myfirst.html
+: 1685595300:0;fd models -x nvim
+: 1685595399:0;fd myfir
+: 1685595492:0;fd temp
+: 1685595532:0;md members/templates
+: 1685595582:0;cp tennis/templates/myfirst.html members/templates/myfirst.html
+: 1685595691:0;cd members
+: 1685595783:0;fd 01
+: 1685595789:0;fd 01 -X nvim
+: 1685595883:0;p1 manage.py 
+: 1685596428:0;ldf members/migrations
+: 1685596473:0;p1 manage.py sqlmigrate 0001
+: 1685596491:0;p1 manage.py sqlmigrate 0001_initial.py 
+: 1685596520:0;p1 manage.py sqlmigrate members 0001 
+: 1685596582:0;p1 manage.py shell
+: 1685598388:0;p1 manage.py makemigrations members
+: 1685600225:0;y3
+: 1685601754:0;cd mygits
+: 1685601788:0;mkcd torrent
+: 1685601792:0;git clone git@github.com:Himanshu495-rada/Torrent_python.git .
+: 1685601802:0;v Torrent_download.py
+: 1685601941:0;sudo apt-get install python3-libtorrent
+: 1685605479:0;winh
+: 1685605483:0;fd -emp3
+: 1685605515:0;fd bleed
+: 1685605526:0;fd ma
+: 1685605555:0;fd 'it.*ma'
+: 1685605574:0;fd 'it.*ma' | nvim -
+: 1685605608:0;fd -td d
+: 1685605616:0;cd Dylan
+: 1685605624:0;fd | nvim -
+: 1685605673:0;g:
+: 1685607194:0;cd w3
+: 1685607220:0;cat proj.txt
+: 1685607255:0;cd tennis
+: 1685607261:0;t forms.py
+: 1685607557:0;fd desola
+: 1685607566:0;fd 61
+: 1685607573:0;cd highway61
+: 1685607617:0;ye
+: 1685643612:0;rm -rf
+: 1685643620:0;rm -rf form
+: 1685643631:0;mkcd form
+: 1685643702:0;#python3 django-admin startproject django_project .
+: 1685643734:0;p1 django-admin startproject project
+: 1685643765:0;p3 django-admin startproject project
+: 1685643783:0;p3 django-admin startproject project .
+: 1685643803:0;django-admin startproject project .
+: 1685643869:0;p1 -m venv .project
+: 1685644039:0;p1 -m pip list
+: 1685644210:0;p1 manage.py startapp app
+: 1685645789:0;fd views -X nvim
+: 1685645905:0;fd -epy | xargs rg -i 'members'
+: 1685645911:0;fd -epy | xargs rg -i 'app'
+: 1685651048:0;fd 000
+: 1685651056:0;fd make
+: 1685651076:0;fdi -td mig
+: 1685651093:0;cd app/migrations
+: 1685651207:0;fd view
+: 1685651323:0;wget https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore -O .gitignore 
+: 1685651332:0;git init
+: 1685651399:0;git commit -am "Initial"
+: 1685651417:0;git branch -M master form
+: 1685651473:0;git rm .project/
+: 1685651482:0;git rm -r .project/
+: 1685651518:0;#git commit --amend -m "amended Monday"
+: 1685651546:0;git commit --amend -m "Initial without env"
+: 1685651569:0;git lon
+: 1685651572:0;git log
+: 1685651580:0;git ls-files | nvim -
+: 1685652304:0;fd -eogg
+: 1685652349:0;ex alb/W._A._Mozart_Don_Giovanni_02._Notte_e_giorno_faticar_Josef_Krips_Wiener_Staatsoper_1955_.ogg
+: 1685658751:0;fd view -X nvim
+: 1685659036:0;fd urls
+: 1685659046:0;v project/urls.py
+: 1685659063:0;v app/urls.py
+: 1685659243:0;v myfirst.html
+: 1685660230:0;v master.html
+: 1685660874:0;fdi -ehtml
+: 1685660899:0;fdi -ehtml | xargs rg "boot" 
+: 1685661028:0;v mdnDjan/catalog/templates/base_generic.html 
+: 1685668276:0;mkcd static
+: 1685668309:0;v myfirst.css
+: 1685669832:0;cd alb
+: 1685669840:0;fd playing
+: 1685669886:0;mv All_Along_The_Watchtower_Bob_Dylan_feat._Warren_Haynes_Playing_For_Change.mp3 All_Along.mp3
+: 1685669960:0;mv Ain_t_No_Sunshine_Bill_Withers_cover_by_Canen_meira_12_y.o..mp3 No_sunshine.mp3
+: 1685677487:0;v app/models.py
+: 1685677674:0;p1 manage.py makemigrations app
+: 1685677846:0;fd mycmd
+: 1685677876:0;fd mycmd -X cat
+: 1685677911:0;cd myMdn/locallibrary/mycmd .
+: 1685677920:0;cp myMdn/locallibrary/mycmd .
+: 1685677995:0;fg
+: 1685678020:0;v mycmd
+: 1685678116:0;v ../mycmd
+: 1685678710:0;p1 manage.py startapp tasks 
+: 1685679023:0;mkcd templates
+: 1685679037:0;mkcd tasks
+: 1685679299:0;...
+: 1685679311:0;git add -A
+: 1685679533:0;cd app
+: 1685679539:0;v urls.py
+: 1685679848:0;i3 manage.py makemigrations
+: 1685679875:0;p1 manage.py makemigrations tasks
+: 1685679916:0;sq3 db.sqlite3 < ../mycmd
+: 1685679920:0;v tables
+: 1685679969:0;cd project
+: 1685679981:0;fd admin
+: 1685680110:0;v admin.py
+: 1685680184:0;p1 manage.py | rg user
+: 1685680448:0;fd -ehtml
+: 1685682142:0;v forms.py
+: 1685682198:0;v views.py
+: 1685682292:0;fd list
+: 1685682461:0;fd list -X nvim
+: 1685682589:0;fd 't.*vie'
+: 1685682608:0;fd views
+: 1685682618:0;v tasks/views.py
+: 1685682779:0;v tasks/templates/tasks/list.html
+: 1685682945:0;mkcd gitExample
+: 1685689329:0;wget https://twit.cachefly.net/audio/twit/twit0920/twit0929.mp3 
+: 1685690776:0;cd ai
+: 1685690799:0;fdh
+: 1685690893:0;rm stuff/tolstoy.mp3
+: 1685690922:0;cd linus
+: 1685690924:0;space
+: 1685690954:0;fd -I -emp3  --size +30m
+: 1685691021:0;1
+: 1685691024:0;fd | rg '\s'
+: 1685691830:0;cd d
+: 1685691842:0;v openai.py
+: 1685693745:0;yel
+: 1685695674:0;fd -I -emp3  --size +40m | nvim -
+: 1685734609:0;i3
+: 1685734727:0;mc
+: 1685734730:0;cd twit
+: 1685735261:0;ex twit929.mp3
+: 1685735288:0;vlc twit929.mp3
+: 1685735598:0;e ~/script/tiny.py
+: 1685735606:0;v ~/script/tiny.py
+: 1685735998:0;ls
+: 1685736155:0;vlc TWT06-02-23_twit5_28.mp3
+: 1685736593:0;ex TWT06-02-23_twit5_28.mp3
+: 1685737243:0;ex TWT06-02-23_TWT06_02_23_mnt_c_twit_TWT06_02_23_twit5_28_mp3.mp3
+: 1685739123:0;tiny.py
+: 1685739175:0;ex TWG06-02-23_Clean_As_a_Whistle.mp3
+: 1685740424:0;gut
+: 1685757362:0;cd django
+: 1685757370:0;fd --changed-within=2days
+: 1685757380:0;fd --changed-within=1=days
+: 1685757390:0;fd --changed-within=1days
+: 1685757469:0;git add . --dry-run | nvim -
+: 1685757487:0;git add .
+: 1685757561:0;git commit -am "Working file version"
+: 1685757677:0;glg
+: 1685757909:0;cd /mnt/c/projects/django/form
+: 1685757911:0;lf
+: 1685766103:0;cd Django/form
+: 1685766140:0;cd templates
+: 1685766150:0;v list.html
+: 1685766367:0;sc .project/bin/activate
+: 1685766405:0;cd .project
+: 1685766491:0;fd activate
+: 1685766505:0;cd form
+: 1685766524:0;fdi activate
+: 1685766680:0;cd gitExample
+: 1685766684:0;gst
+: 1685766779:0;p1 manage.py createsuperuser
+: 1685766970:0;p1 manage.py migrate tasks
+: 1685768051:0;git clone git@github.com:EzzEddin/django-todo.git 
+: 1685768104:0;#p1 -m venv .project
+: 1685768121:0;#p1 -m venv .venv
+: 1685768279:0;df
+: 1685768398:0;p1 -m venv .venv
+: 1685768644:0;sc .venv/bin/activate
+: 1685768697:0;python3 manage.py showmigrations
+: 1685768729:0;p1 migrate
+: 1685768749:0;p1 manage.py
+: 1685768782:0;h3
+: 1685768879:0;pip3 list
+: 1685768940:0;pip3 freeze
+: 1685769014:0;v README.md
+: 1685769077:0;pyclean
+: 1685769931:0;fdi
+: 1685770118:0;fd models -X nvim
+: 1685770138:0;python3 manage.py migrate
+: 1685770207:0;rm -rf .venv
+: 1685770238:0;pipenv graph
+: 1685770493:0;pipenv install django
+: 1685770915:0;pipenv shell
+: 1685771030:0;#Alternatively, run a command inside the virtualenv with pipenv run.
+: 1685771048:0;pipenv run pip list
+: 1685771096:0;axit
+: 1685771525:0;tmux
+: 1685771529:0;yv
+: 1685773829:0;mkcd poet
+: 1685773840:0;poetry init
+: 1685774003:0;v pyproject.toml
+: 1685774021:0;poetry install
+: 1685774088:0;poetry app info
+: 1685774112:0;poetry pyproject info
+: 1685774132:0;pip freeze
+: 1685775382:0;virtualenv --version
+: 1685775393:0;cd junk
+: 1685775455:0;lt
+: 1685775463:0;cd gitTodo
+: 1685775513:0;rm -rf django-todo
+: 1685775590:0;mkcd gitTodo
+: 1685775663:0;wi pip
+: 1685775676:0;wi python
+: 1685775690:0;python
+: 1685775732:0;fd pyv
+: 1685775747:0;fdi pyv
+: 1685775761:0;v venv/pyvenv.cfg
+: 1685777684:0;fd
+: 1685777700:0;v manage.py
+: 1685777776:0;fd manage.py
+: 1685777801:0;python manage.py migrate
+: 1685777836:0;fd 12
+: 1685777867:0;python manage.py makemigrations
+: 1685777880:0;python manage.py showmigrations
+: 1685777894:0;fd 0012
+: 1685777930:0;python manage.py migrage tasks
+: 1685777939:0;python manage.py migrate tasks
+: 1685778235:0;python manage.py makemigrations 
+: 1685778381:0;python -m django --version
+: 1685778505:0;rm -r *
+: 1685778639:0;tree
+: 1685778680:0;cd todo
+: 1685778688:0;v settings.py
+: 1685778795:0;python manage.py startapp tasks2
+: 1685778851:0;fd -td
+: 1685778956:0;cd tasks2
+: 1685779054:0;v .gitignore
+: 1685779094:0;v -O tasks/models.py tasks2/models.py
+: 1685779295:0;cp -r tasks tasks3
+: 1685779326:0;cp -r tasks2 tasks4
+: 1685779520:0;cd tasks4
+: 1685779584:0;fd -epy | xargs rg -i 'tasks2'
+: 1685779673:0;rm -rf tasks4
+: 1685779692:0;fd settings -X nvim
+: 1685781903:0;cdy
+: 1685781907:0;cd spoken
+: 1685781912:0;fd -I -emp3  --size +40m | nvim - 
+: 1685821281:0;mps
+: 1685821287:0;d
+: 1685821294:0;8
+: 1685821543:0;#rm -r * .*
+: 1685821602:0;rm -rf .git
+: 1685821796:0;virtualenv venv
+: 1685821816:0;sc venv/bin/activate
+: 1685821819:0;wi python3
+: 1685821832:0;p1
+: 1685821882:0;p1 -m pip install django
+: 1685821910:0;pip install django
+: 1685821974:0;git clone git@github.com:EzzEddin/django-todo.git .
+: 1685822240:0;v .
+: 1685822338:0;ssh-keyscan github.com >> ~/.ssh/known_hosts 
+: 1685822447:0;v ~/.ssh
+: 1685822470:0;me
+: 1685822490:0;rm -rf me2
+: 1685822502:0;git clone git@github.com:EzzEddin/django-todo.git me2
+: 1685822907:0;rm -r * .*
+: 1685822921:0;rm -rf * 
+: 1685822941:0;git clone git@github.com:EzzEddin/django-todo.git me
+: 1685822946:0;cd me
+: 1685822970:0;pip list
+: 1685823004:0;deactivate
+: 1685823014:0;kldf
+: 1685823027:0;rm -rf * .8
+: 1685823030:0;rm -rf * .*
+: 1685823046:0;rm -rf .*
+: 1685823096:0;rm -rf gitTodo
+: 1685823107:0;mkcd myForm
+: 1685823113:0;c
+: 1685823140:0;git clone git@github.com:EzzEddin/django-todo.git
+: 1685823152:0;cd django-todo
+: 1685823219:0;sq3 db.sqlite3
+: 1685823245:0;fd apps
+: 1685823258:0;v tasks/apps.py
+: 1685823285:0;fd migr
+: 1685823291:0;fdi migra
+: 1685826205:0;cd /home/steff007/myForm/django-todo/blog
+: 1685826219:0;cd tasks
+: 1685826327:0;ldf
+: 1685826392:0;#django-admin startproject project .
+: 1685826435:0;cd ptest
+: 1685826447:0;his
+: 1685826459:0;p1 manage.py startapp blog
+: 1685826480:0;tree | nvim -
+: 1685826507:0;pc
+: 1685826518:0;fd -a
+: 1685826597:0;fd models | nvim -
+: 1685826642:0;cd blog
+: 1685826646:0;v models.py
+: 1685826694:0;p1 manage.py makemigrations
+: 1685826737:0;..
+: 1685826744:0;rm -rf test
+: 1685826747:0;mkcd test
+: 1685826882:0;django-admin startproject ptest .
+: 1685826926:0;p1 manage.py runserver
+: 1685826950:0;p1 manage.py migrate
+: 1685826968:0;p1 manage.py showmigrations
+: 1685827012:0;p1 manage.py startapp articles
+: 1685827017:0;l
+: 1685827063:0;fd settings
+: 1685827067:0;ld
+: 1685827090:0;v ptest/settings.py
+: 1685827152:0;fd models
+: 1685827161:0;v articles/models.py
+: 1685827210:0;p1 manage.py makemigrations articles
+: 1685827251:0;exit
+: 1685827268:0;..
+: 1685827272:0;fd settings
+: 1685827288:0;cd todo
+: 1685827289:0;l
+: 1685827293:0;v settings.py
+: 1685827326:0;p1 manage.py makemigrations tasks
+: 1685827332:0;.
+: 1685827333:0;..
+: 1685827336:0;p1 manage.py makemigrations tasks
+: 1685827351:0;his
+: 1685827365:0;p1 manage.py migrate 
+: 1685827376:0;l
+: 1685827382:0;sq3 db.sqlite3
+: 1685827394:0;p1 manage.py runserver
+: 1685828567:0;..
+: 1685828580:0;rm -rf myForm
+: 1685828583:0;mps
+: 1685828586:0;l
+: 1685828592:0;cd django
+: 1685828594:0;l
+: 1685828623:0;mkcd gitForm
+: 1685828624:0;l
+: 1685828632:0;his
+: 1685828650:0;git clone git@github.com:EzzEddin/django-todo.git .
+: 1685828664:0;l
+: 1685828671:0;his
+: 1685828694:0;p1 manage.py makemigrations tasks 
+: 1685828711:0;his
+: 1685828724:0;p1 manage.py migrate 
+: 1685828736:0;l
+: 1685828742:0;sq3 db.sqlite3
+: 1685828763:0;p1 manage.py showmigrations
+: 1685828778:0;c
+: 1685828786:0;p1 manage.py runserver
+: 1685835320:0;guts
+: 1685843001:0;..
+: 1685843012:0;mkcd newForm
+: 1685843021:0;his
+: 1685843036:0;git clone git@github.com:EzzEddin/django-todo.git . 
+: 1685843043:0;c
+: 1685843049:0;his
+: 1685843065:0;virtualenv .venv
+: 1685843145:0;l
+: 1685843152:0;sc .venv/bin/activate
+: 1685843160:0;pip install django
+: 1685843239:0;mme
+: 1685843240:0;mem
+: 1685844012:0;l
+: 1685844013:0;c
+: 1685844016:0;l
+: 1685844030:0;p1 manage.py migrate 
+: 1685844049:0;fd
+: 1685844056:0;l
+: 1685844061:0;sq3 db.sqlite3
+: 1685844070:0;l
+: 1685844080:0;p1 manage.py makemigrations tasks 
+: 1685844098:0;p1 migrate
+: 1685844111:0;p1 manage.py migrate
+: 1685844126:0;sq3 db.sqlite3
+: 1685848249:0;l
+: 1685848254:0;gst
+: 1685848273:0;git branch -M master newform
+: 1685848277:0;gst
+: 1685848280:0;glg
+: 1685848334:0;deactivate
+: 1685848339:0;h3
+: 1685848638:0;sc .venv/bin/activate
+: 1685848643:0;which python
+: 1685848694:0;manv alias
+: 1685848702:0;man alias
+: 1685848749:0;\which python
+: 1685848764:0;unalias python
+: 1685848770:0;which python
+: 1685848787:0;python --version
+: 1685848904:0;which pip
+: 1685848912:0;pip --version
+: 1685848991:0;pip freeze
+: 1685849213:0;wi deactivate
+: 1685849222:0;type -f deactivate
+: 1685849238:0;deactivate
+: 1685849245:0;..
+: 1685849248:0;l
+: 1685849254:0;cd form
+: 1685849255:0;l
+: 1685849268:0;fd --changed-within=2days
+: 1685849298:0;ld
+: 1685849304:0;rm -rf gitExample
+: 1685849308:0;fd --changed-within=2days
+: 1685849323:0;fd activate
+: 1685849342:0;his
+: 1685849351:0;fdi activate
+: 1685849361:0;gst
+: 1685849393:0;p1 manage.py migrate tasks
+: 1685849413:0;v tasks/models.py
+: 1685849433:0;p1 manage.py migrate tasks
+: 1685849452:0;p1 manage.py makemigrate tasks
+: 1685849458:0;his
+: 1685849477:0;p1 manage.py makemigrations tasks
+: 1685849497:0;p1 manage.py migrate tasks
+: 1685849509:0;fd 002
+: 1685849516:0;fd 002 -X nvim
+: 1685849540:0;sq3 db.sqlite3
+: 1685849569:0;p1 manage.py runserver
+: 1685849645:0;c
+: 1685849651:0;mps
+: 1685849652:0;lt
+: 1685849656:0;cd django
+: 1685849657:0;lt
+: 1685849663:0;cd newForm
+: 1685849666:0;l
+: 1685850009:0;fd list
+: 1685850016:0;fd list -X nvim
+: 1685850134:0;p1 manage.py runserver
+: 1685850207:0;c
+: 1685850213:0;gst
+: 1685850264:0;git diff tasks/models.py
+: 1685850298:0;git restore tasks/models.py
+: 1685850308:0;git diff 
+: 1685850312:0;gst
+: 1685850317:0;c
+: 1685850318:0;gst
+: 1685851506:0;git diff tasks/templates/tasks/list.html
+: 1685851514:0;his
+: 1685851544:0;git diff --word-diff tasks/templates/tasks/list.html
+: 1685851590:0;his
+: 1685851600:0;git diff  tasks/templates/tasks/list.html
+: 1685851643:0;gst
+: 1685851663:0;git commit -am "Working csrf"
+: 1685851667:0;c
+: 1685851676:0;ld
+: 1685851681:0;fd vie
+: 1685851704:0;his
+: 1685851728:0;git diff   HEAD~1 HEAD | nvim -
+: 1685851790:0;git diff   HEAD~2 HEAD tasks/views.py 
+: 1685851833:0;v tasks/templates/tasks/list.html
+: 1685855706:0;mps
+: 1685855709:0;cd django
+: 1685855710:0;l
+: 1685855723:0;cd newForm
+: 1685855724:0;l
+: 1685855731:0;pc
+: 1685855737:0;cd /mnt/c/projects/django/newForm
+: 1685855739:0;..
+: 1685855742:0;cd form
+: 1685855743:0;l
+: 1685857154:0;cd tasks
+: 1685857156:0;l
+: 1685857158:0;c
+: 1685857158:0;l
+: 1685857170:0;cd templates/tasks
+: 1685857171:0;l
+: 1685857181:0;v update.html
+: 1685857548:0;...
+: 1685857551:0;l
+: 1685857553:0;..
+: 1685857554:0;c
+: 1685857562:0;p1 manage.py runserver
+: 1685857702:0;l
+: 1685857709:0;git diff
+: 1685857728:0;fd update
+: 1685857853:0;mps
+: 1685857858:0;cd django
+: 1685857859:0;l
+: 1685857866:0;c
+: 1685857867:0;l
+: 1685857879:0;fd --changed-within=2hours
+: 1685857895:0;fd --changed-within=6hours
+: 1685857910:0;trash gitForm
+: 1685857916:0;cd newForm
+: 1685857918:0;l
+: 1685857924:0;fd view
+: 1685857929:0;fd view -X nvim
+: 1685858163:0;fd list -X nvim
+: 1685858298:0;c
+: 1685858300:0;ld
+: 1685858309:0;p1 manage.py runserver
+: 1685858484:0;fd update
+: 1685858491:0;fd update -X nvim
+: 1685858599:0;fd view -X nvim
+: 1685858673:0;p1 manage.py runserver
+: 1685858867:0;fd urls
+: 1685858881:0;v tasks/urls.py
+: 1685858952:0;p1 manage.py runserver
+: 1685859050:0;l
+: 1685859052:0;gst
+: 1685859067:0;git diff | nvim -
+: 1685859131:0;git add .
+: 1685859133:0;gst
+: 1685859145:0;git commit -am "first update"
+: 1685859159:0;c
+: 1685859217:0;p1 manage.py runserver
+: 1685860719:0;c
+: 1685863209:0;i3
+: 1685863495:0;cdy
+: 1685863498:0;cd spoken
+: 1685863509:0;his
+: 1685863519:0;fd -I -emp3  --size +40m | nvim -
+: 1685904814:0;df
+: 1685904820:0;his
+: 1685904837:0;df -Th
+: 1685904887:0;mc
+: 1685904891:0;cd twit
+: 1685904892:0;l
+: 1685904920:0;axit
+: 1685904923:0;tmux
+: 1685904931:0;mps
+: 1685904949:0;fd -epy | xargs rg -i 'request'
+: 1685904975:0;fd -epy -E p3 | xargs rg -i 'request'
+: 1685904988:0;fdh
+: 1685905021:0;fd -epy -Ep3 | xargs rg -i 'request'
+: 1685905060:0;fd -epy --exclude p3 | xargs rg -i 'request'
+: 1685905064:0;fdh
+: 1685905113:0;fd -epy --changed-within=3days | xargs rg -i 'request'
+: 1685905128:0;fd -epy --changed-within=3days 
+: 1685905153:0;l
+: 1685905164:0;fdi -epy --changed-within=3days 
+: 1685905191:0;fdi -epy --changed-within=3days | xargs rg 'req'
+: 1685905472:0;mc
+: 1685905476:0;cputest
+: 1685905496:0;cd cputest
+: 1685905501:0;cd
+: 1685905504:0;cd cputest
+: 1685905505:0;l
+: 1685905534:0;v -O Wed_May_31_18:40:14cpu.txt Sun_Jun__4_14:04:36cpu.txt
+: 1685905849:0;mc
+: 1685905854:0;cd twit
+: 1685905855:0;l
+: 1685905867:0;v change_title.py
+: 1685905882:0;p1 change_title.py
+: 1685905889:0;v change_title.py
+: 1685905923:0;i3
+: 1685905941:0;l
+: 1685905951:0;p3 change_title.py
+: 1685905971:0;v change_title.py
+: 1685906022:0;ex twit06-1.mp3
+: 1685908874:0;l
+: 1685908880:0;v change_title.py
+: 1685909817:0;mps
+: 1685909819:0;cd script
+: 1685909820:0;l
+: 1685909824:0;l ti
+: 1685909833:0;fd ti
+: 1685909844:0;manv ln
+: 1685909898:0;fd -a tiny
+: 1685909954:0;ln -s /mnt/c/projects/script/tiny.py /mnt/c/twit
+: 1685909959:0;l
+: 1685909965:0;v tiny.py
+: 1685909974:0;l
+: 1685911591:0;fd -a chan
+: 1685911652:0;mv change_title.py /mnt/c/projects/script
+: 1685911749:0;cd
+: 1685911757:0;cd junk
+: 1685911758:0;l
+: 1685911788:0;rm -rf *
+: 1685911796:0;l
+: 1685911798:0;ldf
+: 1685911821:0;mkcd ids
+: 1685911824:0;c
+: 1685911839:0;pc
+: 1685911847:0;cd script
+: 1685911851:0;cd
+: 1685911854:0;cd script
+: 1685911859:0;l
+: 1685911875:0;fd --changed-within=6hours
+: 1685911883:0;fdi -a --changed-within=6hours
+: 1685911897:0;fdi -a --changed-within=1days
+: 1685911935:0;fdi -a
+: 1685911961:0;fdi -a 'cha'
+: 1685911969:0;fdi -a 'cha|tin'
+: 1685912035:0;ln -s /mnt/c/projects/script/change_title.py ~/junk/ids
+: 1685912050:0;..
+: 1685912053:0;cd junk
+: 1685912054:0;l
+: 1685912064:0;cd
+: 1685912067:0;cd junk
+: 1685912068:0;l
+: 1685912071:0;cd ids
+: 1685912071:0;l
+: 1685912075:0;v change_title.py
+: 1685912105:0;fdi -a 'cha|tin'
+: 1685912146:0;ln -s /mnt/c/projects/script/tiny.py .
+: 1685912148:0;l
+: 1685912153:0;v tiny.py
+: 1685912216:0;l
+: 1685912238:0;mc
+: 1685912241:0;cd twit
+: 1685912242:0;l
+: 1685912279:0;cp ww0831.mp3 ~/junk/ids
+: 1685912290:0;cdy
+: 1685912292:0;l
+: 1685912297:0;cd alb
+: 1685912316:0;fd | head
+: 1685912334:0;cp Alfie.mp3 ~/junk/ids
+: 1685912337:0;c
+: 1685912357:0;l
+: 1685912377:0;i3
+: 1685920917:0;ye
+: 1685921100:0;y3
+: 1685921103:0;ye
+: 1685928424:0;sup
+: 1685928496:0;mc
+: 1685928502:0;cd mscore
+: 1685928503:0;l
+: 1685928887:0;df -Th
+: 1685928901:0;l
+: 1685928923:0;pc
+: 1685928928:0;..
+: 1685928931:0;cd music
+: 1685928932:0;l
+: 1685928938:0;cd fingerPick
+: 1685928939:0;l
+: 1685928950:0;cp Let_It_Be.mp3 /mnt/c/mscore 
+: 1685933511:0;mc
+: 1685933514:0;cd twit
+: 1685933516:0;l
+: 1685933527:0;ex ww0830.mp3
+: 1685933538:0;his
+: 1685933549:0;ex ww0831.mp3
+: 1685934958:0;..
+: 1685935006:0;fdd muse
+: 1685935015:0;fdc
+: 1685935021:0;fdd ms
+: 1685935025:0;cd mscore
+: 1685935026:0;l
+: 1685935029:0;d
+: 1685935069:0;cp 1Let_it_beGuit.mp3 ~/junk/ids
+: 1685935183:0;cd 
+: 1685935187:0;cd junk/ids
+: 1685935188:0;l
+: 1685935192:0;ex 1Let_it_beGuit.mp3
+: 1685935504:0;ye
+: 1685937690:0;cdy
+: 1685937696:0;cd alb
+: 1685937698:0;l
+: 1685937714:0;fd | tail
+: 1685937783:0;fd | tail -x cp -t ~/junk/ids
+: 1685937808:0;fd | tail | xargs cp -t ~/junk/ids
+: 1685937814:0;d
+: 1685937825:0;l
+: 1685938140:0;ex weightBand.mp3
+: 1685938252:0;ex whiterShade.mp3
+: 1685938552:0;ipy
+: 1685942505:0;gst
+: 1685942532:0;..
+: 1685942533:0;gst
+: 1685942543:0;cd p11
+: 1685942549:0;ld
+: 1685942551:0;..
+: 1685942556:0;cd p11
+: 1685942557:0;l
+: 1685942568:0;duh
+: 1685942604:0;rm Python-3.11.3.tgz
+: 1685942617:0;duh
+: 1685942625:0;l
+: 1685942629:0;p1
+: 1685942644:0;c
+: 1685942645:0;l
+: 1685942652:0;..
+: 1685942658:0;cd __pycache__
+: 1685942660:0;..
+: 1685942667:0;ld
+: 1685942678:0;gst
+: 1685942682:0;cd p11
+: 1685942683:0;l
+: 1685942687:0;cd Python-3.11.3
+: 1685942688:0;l
+: 1685942697:0;fdh
+: 1685942715:0;fd -tx
+: 1685942730:0;fdd -tx
+: 1685942756:0;..
+: 1685942757:0;gst
+: 1685942767:0;..
+: 1685942768:0;gst
+: 1685942777:0;fd .giti
+: 1685942785:0;v .gitignore
+: 1685942797:0;gst
+: 1685942806:0;cd poet
+: 1685942806:0;l
+: 1685942811:0;..
+: 1685942818:0;gst
+: 1685942831:0;git add .
+: 1685942835:0;gst
+: 1685942853:0;git commit -am "Sun cleanup"

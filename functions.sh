@@ -11,7 +11,7 @@ echo 21972086245722 | cl
 }
 cputest()
 {
-  sysbench cpu run > $(date | sed 's/\s/_/g' | sed 's/_CDT.*//g')cpu.txt
+  sysbench cpu run > ~/cputest/$(date | sed 's/\s/_/g' | sed 's/_CDT.*//g')cpu.txt
 }
 
 f2() {
@@ -146,4 +146,7 @@ hisf () {
 awsq () {
   #awk '!a[$0]++' ~/.sqlite_history > testfile.tmp && mv testfile.tmp ~/.sqlite_history
   nvim ~/.sqlite_history -c "normal Gzz"  
+}
+phis () {
+  nvim ~/.python_history -c "normal Gzz"
 }

@@ -88,6 +88,7 @@ export PYTHONPATH=/mnt/c/projects/p3/modules
 source ~/scripts/zcorrupt.sh
 printf '%s%s%s\n' $(date '+%F - %S')
 printf 'epoch is %s\n' $(date '+%s')
+#cputest
 #change 3-6-23
 function parse_git_branch() {
     git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
