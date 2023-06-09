@@ -15,7 +15,7 @@ PROMPT='%/ %# '
 HISTSIZE=90000
 SAVEHIST=90000
 HISTFILE=/home/steff007/hist/history
-HISTFILE=/mnt/c/projects/history
+HISTFILE=/mnt/c/projects/bhistory
 export PYTHONSTARTUP=~/start.py
 #/.cache/zsh/history
 autoload -U compinit
