@@ -10294,3 +10294,27 @@ p3 manage.py runserver\
 : 1685942831:0;git add .
 : 1685942835:0;gst
 : 1685942853:0;git commit -am "Sun cleanup"
+: 1686272290:0;git log --oneline | nvim -
+: 1686272309:0;git checkout c5a12fc 
+: 1686272312:0;v
+: 1686272351:0;git switch -c Clean_from_vid
+: 1686272358:0;gb
+: 1686272370:0;v
+: 1686272382:0;gst
+: 1686273205:0;c
+: 1686273206:0;gs
+: 1686273208:0;gst
+: 1686273228:0;v
+: 1686273233:0;l
+: 1686273239:0;cd .config
+: 1686273241:0;l
+: 1686273244:0;cd nvim
+: 1686273245:0;l
+: 1686273260:0;v init.vim
+: 1686273306:0;cd
+: 1686273311:0;l
+: 1686273317:0;gst
+: 1686273349:0;git add .
+: 1686273356:0;v init.vim
+: 1686273371:0;gst
+: 1686273395:0;git commit -am "Thursday working on fix"
