@@ -48,7 +48,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+hist/history
 .cache/
 # Logs
 *.bak
