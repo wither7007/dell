@@ -9,6 +9,10 @@ lib()
 {
 echo 21972086245722 | cl
 }
+fzn()
+{
+nvim $(fzf)
+}
 cputest()
 {
   sysbench cpu run > ~/cputest/$(date | sed 's/\s/_/g' | sed 's/_CDT.*//g')cpu.txt

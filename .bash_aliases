@@ -12,6 +12,7 @@ alias cm="cd /mnt/c"
 alias curl="curl -L -s "
 alias cx="chmod +x "
 alias dcount="du -a | cut -d/ -f2 | sort | uniq -c | sort -nr | v -"
+alias dc="(du -a | cut -d/ -f2 | sort | uniq -c | sort -nr > dircount &)"
 alias duh='du -h --max-depth=1'
 alias e='echo $?'
 alias ehis="v $(echo $HISTFILE)"
@@ -127,3 +128,4 @@ alias cdir="cd '/mnt/c/Users/jayst/AppData/Local/Google/Chrome/User Data/Default
 alias sup="v /mnt/c/Users/jayst/OneDrive/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
 alias po="poetry"
 alias p1="/home/steff007/p11/Python-3.11.3/python"
+alias fzc="fzf --preview 'cat {}'"
