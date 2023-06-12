@@ -23,7 +23,7 @@ f2() {
 fd -a -tf --changed-within 2d | more
 }
 wind(){
-fdi -a -d 1 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
+fdi -a -d 2 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
 }
 ltv()
 {

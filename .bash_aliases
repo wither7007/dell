@@ -129,3 +129,5 @@ alias sup="v /mnt/c/Users/jayst/OneDrive/Documents/PowerShell/Microsoft.PowerShe
 alias po="poetry"
 alias p1="/home/steff007/p11/Python-3.11.3/python"
 alias fzc="fzf --preview 'cat {}'"
+alias pf="fzf --preview='less {}' --bind shift-up:preview-page-up,shift-down:preview-page-down"
+alias four="fdi --changed-within=4days --ignore-file ~/.fdignore | sort"
