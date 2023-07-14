@@ -12,13 +12,14 @@ nnoremap <Leader>o <C-w>o
 nnoremap <leader> <Space> :nohlsearch<Bar>:echo<CR>
 nnoremap <leader>a :suspend<cr>
 nnoremap <leader>d ggVGy:q!
-nnoremap <leader>j :exec '!'.getline('.')
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>x :tabclose!<CR>
 nnoremap <leader>z :close!<CR>
 noremap <leader>; vg_y
 noremap <leader>c :let @c=@"<cr>
 noremap <leader>k :call delete(expand('%'))
+"https://vim.fandom.com/wiki/Get_the_name_of_the_current_file#:~:text=In%20command%20mode%20(after%20typing,the%20name%20before%20the%20cursor).
+noremap <leader>p :put =expand('%:p')
 noremap <leader>l ^vg_y
 noremap <leader>q :qa!<cr>
 noremap <leader>w :wa<cr>:qa!
@@ -71,7 +72,7 @@ nnoremap <silent> <C-Down> <c-w>ji
 "delete to blackhole
 set list listchars=tab:\ \ ,trail:·
 " Remap a few keys for Windows behavior
-source $VIMRUNTIME/mswin.vim
+"source $VIMRUNTIME/mswin.vim
 "no what space in vim diff
 set diffopt+=iwhite
 "use system clipboard
@@ -144,8 +145,9 @@ map <silent> <C-t> :NERDTreeFocus<CR>
 "map ctrl c and v to windows
 
 "map ctrl c and v to windows
-vnoremap <C-C> "+y
-map <C-V>      "+gP
+"removed as fix?
+"vnoremap <C-C> "+y
+"map <C-V>      "+gP
 "done
 "select only text from line
 noremap Y vg_y

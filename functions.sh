@@ -1,13 +1,49 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+gitinit()
+{
+k='git init -b main && git add -A && git commit -m "Initial commit"'
+echo $k
+bash -c "$k"
+}
+qm()
+{
+ps -A --sort -rss -o comm,pmem | awk '
+  NR == 1 { print; next }
+  { a[$1] += $2 }
+  END {
+    for (i in a) {
+      printf "%-15s\t%s\n", i, a[i] | "sort -rnk2";
+    }
+  }
+'
+}
+deleteall()
+{
+k='find -mindepth 1 -maxdepth 1 -print0 | xargs -r0 rm -rf'
+echo $k
+bash -c "$k"
+}
 pyse()
 {
 fd -a -epy -E mcoding |xargs rg "$1"
 }
+qht()
+{
+k="wget https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/index.html && wget https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/style.css && wget https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/script.js && wget https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/.gitignore"
+bash -c "$k"
+}
+
 lib()
 {
+
 echo 21972086245722 | cl
+}
+
+rec()
+{
+fdi --changed-within="$1"days --ignore-file ~/.fdignore | sort | awk '{ FS = "\\/" } ; { print $1 }' | uniq
 }
 fzn()
 {
@@ -23,7 +59,7 @@ f2() {
 fd -a -tf --changed-within 2d | more
 }
 wind(){
-fdi -a -d 2 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g'
+fdi --ignore-file ~/.fdignore -a -d 2 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g' |  nvim -
 }
 ltv()
 {
@@ -77,6 +113,7 @@ pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' | v -
 p() { printf '%s\n' "$1"; }
 se () {    history | rg -i "$1"; }
 manv () { man "$1" | v -c 'set nonumber' - ; }
+gith () { git help "$1" | v -c 'set nonumber' - ; }
 #wi () { whereis "$1"}
 ex () { exiftool -j "$1" | v - ;}
 

@@ -7,9 +7,14 @@
 "url
 "file
 "file.*name
-.search
 "out
 "outmpl
 "meta
 "skip
 "outtmp
+"create
+"change
+"depth
+"remove
+.search
+"dele

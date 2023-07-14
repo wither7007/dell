@@ -12,8 +12,8 @@ source $ZSH/oh-my-zsh.sh
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 PROMPT='%/ %# '
-HISTSIZE=90000
-SAVEHIST=90000
+HISTSIZE=900000
+SAVEHIST=900000
 HISTFILE=/home/steff007/hist/history
 HISTFILE=/mnt/c/projects/bhistory
 export PYTHONSTARTUP=~/start.py
@@ -24,6 +24,8 @@ zmodload zsh/complist
 compinit
 bindkey -v
 export KEYTIMEOUT=1
+#setup fzf to use fd
+export FZF_DEFAULT_COMMAND='fd -I --type f  --hidden --follow --ignore-file ~/.fdignore'
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
 bindkey -M menuselect 'l' vi-forward-char

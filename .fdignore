@@ -3,3 +3,6 @@
 *.pyc
 .local/
 node_modules/
+mygits/
+.npm
+*.jpg
