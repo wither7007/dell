@@ -9,9 +9,12 @@ import re
 import inspect
 import pdb
 import io
+import pyperclip
 from contextlib import redirect_stdout
 from datetime import datetime
+import requests
 print('''/mnt/c/projects/p3/modules/start2.py''')
+print('''/home/steff007/.ipython/profile_default/startup/start.py''')
 get_ipython().run_line_magic('alias_magic', 'h history ')
 #get_ipython().run_line_magic('run', 'test.py')
 
@@ -24,6 +27,20 @@ get_ipython().run_line_magic('alias_magic', 'r run')
 get_ipython().run_line_magic('alias_magic', 'l load')
 #%run test.py
 
+def sheet(sh):
+    url = f"https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/{sh}?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
+    r=requests.get(url)
+    ll=r.json()
+    return ll
+
+def cps(a):
+    if type(a) != str:
+        a=str(a)
+        pyperclip.copy(a)
+    else:
+        pyperclip.copy(a)
+
+
 def zdir(z):
     global me
     methods=[a for a in dir(z) if not a.startswith('_')]
@@ -34,24 +51,11 @@ def zdir(z):
 
 #silly page print
           
-def chop(x,l=14):
-    ch=re.split('\s', x)
-    n=0
-    # pdb.set_trace()
-    r=[]
-    fl=len(ch)
-    for a in range(len(ch)):
-        # pdb.set_trace()
-        r.append(' '.join(ch[n:n+l]))
-        n+=l
-        if n>fl:
-             break
-    return r
    
 def d():
     global dd
     dd=sorted([a for a in globals() if not a.startswith('_')])
-    rend(dd)
+    print(dd)
     # return dd
 
 

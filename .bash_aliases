@@ -1,5 +1,4 @@
 #alias v="nvim -c 'so ~/.vimrc' "
-#echo "aaliassssaliassssaliassssliassss"
 alias als=' v ~/.bash_aliases'
 alias apps='sudo apt list --installed'
 alias axit='tmux kill-server'
@@ -135,3 +134,5 @@ alias pf="fzf --preview='less {}' --bind shift-up:preview-page-up,shift-down:pre
 alias pff="fzf --preview='less {}' --bind k:preview-page-up,shift-down:preview-page-down"
 alias fdm="fdi --ignore-file ~/.fdignore"
 alias gignore="wget https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/.gitignore"
+alias mig="p3 /mnt/c/mygits/dll/manage.py "
+alias update="sudo sh -c 'apt-get update && apt-get upgrade && apt-get autoremove'"

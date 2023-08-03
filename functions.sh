@@ -1,8 +1,14 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+pql()
+{
+  echo "PGPASSWORD=stars1  psql -h localhost -p 5432 -U steff007 testdb"
+  PGPASSWORD=stars1  psql -h localhost -p 5432 -U steff007 testdb
+}
 gitinit()
 {
+gignore
 k='git init -b main && git add -A && git commit -m "Initial commit"'
 echo $k
 bash -c "$k"
@@ -190,4 +196,7 @@ awsq () {
 }
 phis () {
   nvim ~/.python_history -c "normal Gzz"
+}
+nh () {
+nvim ~/.node_repl_history
 }

@@ -16,8 +16,7 @@ nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>x :tabclose!<CR>
 nnoremap <leader>z :close!<CR>
 noremap <leader>; vg_y
-noremap <leader>c :let @c=@"<cr>
-noremap <leader>k :call delete(expand('%'))
+noremap <leader>n :%s#\\n#\r#g
 "https://vim.fandom.com/wiki/Get_the_name_of_the_current_file#:~:text=In%20command%20mode%20(after%20typing,the%20name%20before%20the%20cursor).
 noremap <leader>p :put =expand('%:p')
 noremap <leader>l ^vg_y

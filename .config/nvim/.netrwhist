@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/steff007/.ipython/profile_default/startup'
 let g:netrw_dirhist_0='/etc/apt'
 let g:netrw_dirhist_9='/mnt/c/projects/tailDoc/css/input.css'
 let g:netrw_dirhist_8='/mnt/c/projects/p3'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_5='/home/steff007'
 let g:netrw_dirhist_4='/home/steff007/.Trash'
 let g:netrw_dirhist_3='/home/steff007'
 let g:netrw_dirhist_2='/home/steff007/.Trash'
-let g:netrw_dirhist_1='/home/steff007'
