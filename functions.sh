@@ -1,10 +1,28 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+myman ()
+{
+cht.sh "$1" | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | nvim -
+}
+ds ()
+{
+dirs -p >> ~/xd
+}
+dsc () 
+{
+awk '!a[$0]++' ~/xd > ~/testfile.tmp && mv ~/testfile.tmp ~/xd | sed  's/^/cd /g' ~/xd | nvim -
+}
 pql()
 {
-  echo "PGPASSWORD=stars1  psql -h localhost -p 5432 -U steff007 testdb"
-  PGPASSWORD=stars1  psql -h localhost -p 5432 -U steff007 testdb
+  echo "PGPASSWORD=stars1  psql -h localhost -p 5432 -U steff007 tempdb"
+  PGPASSWORD=stars1  psql -L output.txt -h localhost -p 5432 -U steff007 tempdb
+}
+
+pqle()
+{
+  echo "PGPASSWORD=stars1  psql -h localhost -p 5432 -U steff007 tempdb"
+  PGPASSWORD=stars1   psql -L nOutput.txt -E -h localhost -p 5432 -U steff007 tempdb
 }
 gitinit()
 {
@@ -50,6 +68,16 @@ echo 21972086245722 | cl
 rec()
 {
 fdi --changed-within="$1"days --ignore-file ~/.fdignore | sort | awk '{ FS = "\\/" } ; { print $1 }' | uniq
+}
+
+frec()
+{
+fdm --changed-within="$1"hours -x ls -lhr | cut -d' ' -f5-13
+}
+
+recf()
+{
+fdi --changed-within="$1"hours --ignore-file ~/.fdignore -x ls -lhr | cut -d' ' -f5-13
 }
 fzn()
 {
@@ -198,5 +226,5 @@ phis () {
   nvim ~/.python_history -c "normal Gzz"
 }
 nh () {
-nvim ~/.node_repl_history
+tac ~/.node_repl_history | nvim -
 }

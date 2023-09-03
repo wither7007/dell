@@ -36,8 +36,10 @@ alias gcp='git cherry-pick'
 alias gitsall="git status -vv | v -"
 alias gl='git pull'
 alias glg='git log --stat | v  -'
+alias gdiff='git diff | nvim -'
 alias glgg='git log --graph --max-count=5'
 alias gm='git merge'
+alias glog='git log | nvim -'
 alias gp='git push'
 alias gr='grep'
 alias grh='git reset HEAD'
@@ -59,16 +61,17 @@ alias hn='hi | nvim -'
 alias hp="hyperfine "
 alias ht='hi | sort -rn | cut -c 1-7 --complement | nvim -'
 alias i3='ipython'
-alias l="ls -lhrt"
+alias l='exa --long --header --group --sort=mod'
 alias la='ls -A'
 alias ld='ls -la | grep -E "^d|^l"'
+alias ld='lt | rg '^d''
 alias ldr='ls -td -- */ | head -n 20 | column'
 alias left='ls -t -1 | tac'
-alias ldf='exa  -a --group-directories-first'
+alias ldf='exa  -a --group-directories-first -l --sort=mod'
 alias ll='ls -alF'
 alias lln="ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s 's/^\s*\([0-9]*\)\s*\(.*\)/[\1]  \2 [\1]/'g && pwd"
 alias ls='ls --color=auto'
-alias lt='ls -lhrt'
+alias lt='exa --long --header --group --sort=mod'
 alias lta='ls -ahrt'
 alias lts='ls --human-readable --size -1 -S --classify | tac'
 alias mc='cd /mnt/c'
@@ -86,6 +89,7 @@ alias p3='/bin/python3.10'
 alias pc='pwd |tr '\''\n'\'' '\'' '\'' | clip.exe'
 alias pow='powershell.exe'
 alias py="python"
+alias spath="echo $PATH | perl -pe 's/:/\n/g' #! split path"
 alias rgh='rg -help | v -'
 alias sc="source "
 alias ssp="python3 -m http.server"
@@ -136,3 +140,4 @@ alias fdm="fdi --ignore-file ~/.fdignore"
 alias gignore="wget https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/.gitignore"
 alias mig="p3 /mnt/c/mygits/dll/manage.py "
 alias update="sudo sh -c 'apt-get update && apt-get upgrade && apt-get autoremove'"
+alias revparse="git rev-parse --abbrev-ref head --show-toplevel"

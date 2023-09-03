@@ -1,5 +1,3 @@
-1
-find . -type f -name "*.pack" | xargs du -h
 rm -rf ./.git/objects/pack/pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.pack
 find . -type f -name "*.pack" | xargs du -h
 cd
@@ -497,4 +495,6 @@ version=$(curl -s "${LR_URL}" \
  { read v; echo ${v::-2}; })
 exit
 ps h -p $$ -o args=''
+exit
+go version
 exit

@@ -1,4 +1,5 @@
 .git/
+.gitignore
 .cache/
 *.pyc
 .local/
@@ -6,3 +7,4 @@ node_modules/
 mygits/
 .npm
 *.jpg
+bhistory

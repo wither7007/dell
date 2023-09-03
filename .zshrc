@@ -5,6 +5,7 @@ cd ~
 unsetopt BEEP
 export ZSH="/home/steff007/.oh-my-zsh"
 export python="/usr/bin/python3.10"
+export sheet="https://sheets.googleapis.com/v4/spreadsheets/1v0WTX_g0SEHb-EfG9faV3ayFo1WZUmUj8Lhgc2Kw2cA/values/data?alt=json&key=AIzaSyCZ3y8Es42zvNGON7ezA6q4dxe8RNcyQIs"
 ZSH_THEME="robbyrussell"
 plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
