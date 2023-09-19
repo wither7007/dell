@@ -1,0 +1,1 @@
+{"apps":{"http":{"servers":{"example":{"listen":[":2015"],"routes":[{"handle":[{"body":"frumious, world!","handler":"static_response"}]}]}}}}}

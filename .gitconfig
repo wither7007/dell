@@ -16,3 +16,5 @@
   show = false
 [safe]
 	directory = /etc/ssh
+[init]
+	defaultBranch = main

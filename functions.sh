@@ -5,6 +5,10 @@ myman ()
 {
 cht.sh "$1" | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | nvim -
 }
+ppath ()
+{
+echo $PATH | perl -pe 's/:/\n/g' #! split path"
+}
 ds ()
 {
 dirs -p >> ~/xd

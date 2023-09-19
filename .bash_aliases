@@ -37,6 +37,9 @@ alias gitsall="git status -vv | v -"
 alias gl='git pull'
 alias glg='git log --stat | v  -'
 alias gdiff='git diff | nvim -'
+
+alias graph='git log --graph --pretty="%C(yellow) Hash: %h %C(blue)Date: %ad %C(red) Message: %s " --date=human'
+alias grapho='git log --all --decorate --oneline --graph'
 alias glgg='git log --graph --max-count=5'
 alias gm='git merge'
 alias glog='git log | nvim -'
@@ -48,6 +51,7 @@ alias gs='git switch'
 alias gss='git status -s'
 alias gst='git status'
 alias gup='git fetch && git rebase'
+alias gflog='git reflog | nvim -'
 alias glo="git log --oneline | nvim -"
 alias gx='ga . && gc "initial"'
 alias h1='history | tail -n 10'
@@ -89,7 +93,7 @@ alias p3='/bin/python3.10'
 alias pc='pwd |tr '\''\n'\'' '\'' '\'' | clip.exe'
 alias pow='powershell.exe'
 alias py="python"
-alias spath="echo $PATH | perl -pe 's/:/\n/g' #! split path"
+#alias ppath="echo $PATH | perl -pe 's/:/\n/g' #! split path"
 alias rgh='rg -help | v -'
 alias sc="source "
 alias ssp="python3 -m http.server"
@@ -141,3 +145,4 @@ alias gignore="wget https://raw.githubusercontent.com/wither7007/htmlTemplate/ma
 alias mig="p3 /mnt/c/mygits/dll/manage.py "
 alias update="sudo sh -c 'apt-get update && apt-get upgrade && apt-get autoremove'"
 alias revparse="git rev-parse --abbrev-ref head --show-toplevel"
+alias gshit="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"

@@ -86,3 +86,4 @@ sql_hist
 tmp/
 ~/.bash_aliases
 ~/.zcomp*
+go/
