@@ -1,6 +1,10 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+recents ()
+{
+fdm --changed-within="$1"days | xargs ls -lhrt | awk '{ print $9 " " $6 " " $7 " " $8}' | tac | nvim -
+}
 myman ()
 {
 cht.sh "$1" | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | nvim -

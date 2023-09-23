@@ -54,6 +54,7 @@ alias gup='git fetch && git rebase'
 alias gflog='git reflog | nvim -'
 alias glo="git log --oneline | nvim -"
 alias gx='ga . && gc "initial"'
+alias hed="fd -d 1 -tf | xargs head -v -n2 | nvim -"
 alias h1='history | tail -n 10'
 alias h3="history | tail -n 30 | tac | nl | tac"
 alias h5='history | tail -n 50'
