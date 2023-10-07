@@ -88,6 +88,7 @@ alias mp='cd /mnt/c/projects'
 alias mps='cd /mnt/c/projects/'
 alias nb='node --inspect-brk'
 alias no='node'
+alias np='node --inspect'
 alias nv='nvim'
 alias ovim="nvim -u /home/steff007/.config/init.vim"
 alias p3='/bin/python3.10'
@@ -147,3 +148,4 @@ alias mig="p3 /mnt/c/mygits/dll/manage.py "
 alias update="sudo sh -c 'apt-get update && apt-get upgrade && apt-get autoremove'"
 alias revparse="git rev-parse --abbrev-ref head --show-toplevel"
 alias gshit="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
+alias vo="nvim -O"

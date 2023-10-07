@@ -113,6 +113,9 @@ setopt PROMPT_SUBST
 autoload -Uz vcs_info
 precmd() { vcs_info }
 
+export nvm_dir="$home/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 # Format the vcs_info_msg_0_ variable
 zstyle ':vcs_info:git:*' formats '[%b]'
 # Set up the prompt (with git branch name)

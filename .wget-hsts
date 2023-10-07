@@ -2,6 +2,7 @@
 # Edit at your own risk.
 # <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
 ibm.com	0	0	1668228509	3600
+i.imgur.com	0	0	1695715135	300
 github.com	0	1	1669525792	31536000
 www.podchaser.com	0	0	1644973174	15552000
 traffic.megaphone.fm	0	1	1679031601	15724800
@@ -12,16 +13,18 @@ ia903100.us.archive.org	0	0	1678085002	15724800
 archive.org	0	0	1678085001	15724800
 gitlab.com	0	0	1687586892	31536000
 i.picsum.photos	0	0	1674693406	15552000
-picsum.photos	0	0	1694843806	15552000
+picsum.photos	0	0	1695620468	15552000
 dcs.megaphone.fm	0	1	1677097510	15724800
 hn.algolia.com	0	1	1694419039	31536000
-gist.githubusercontent.com	0	0	1693028388	31536000
+gist.githubusercontent.com	0	0	1695448145	31536000
+www.mnlottery.com	0	1	1696222853	31536000
 accounts.google.com	0	1	1661319245	31536000
 ia804603.us.archive.org	0	0	1678083434	15724800
 unsplash.com	0	0	1687924437	31536000
+bench.sh	0	0	1695703982	31536000
 twin-cities.umn.edu	0	0	1668228499	31536000
 www.freecodecamp.org	0	1	1681802262	31536000
 apt.llvm.org	0	0	1688582245	300
 www.ibm.com	0	0	1668228509	31536000
 www.bbc.co.uk	0	0	1679720430	31536000
-raw.githubusercontent.com	0	0	1695278187	31536000
+raw.githubusercontent.com	0	0	1696029761	31536000

@@ -26,3 +26,7 @@ source ~/functions.sh
 #~/script/neo.sh
 #printf '%s/n' "ttttttttttttttttttttttttttttt"
 #export PS1="${cyan}\u@\h ${grey}\w ${cyan}\$ $reset"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

@@ -29,7 +29,7 @@ map gp :bp<cr>
 map gD :bd<cr>
 map gi /diff --git<cr>zz
 "switch line to windows
-map gw :s/\/mnt\/c\//c:\:s/\//\\/g
+map gws :s/\/mnt\/c\//c:\:s/\//\\/g
 "copy file name and path to clip!!!
 map gf :let @+ = expand("%:p")<cr>
 set pastetoggle=<leader>o

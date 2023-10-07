@@ -1,9 +1,21 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+unq()
+{
+awk '!a[$0]++' "$1" > testfile.tmp && mv testfile.tmp "$1"
+}
+tw()
+{
+fdm --changed-within="$1"days | xargs ls -lhrt | awk '{ print $9 ": " $6 " " $7 " " $8}' | sort -k3
+}
 recents ()
 {
 fdm --changed-within="$1"days | xargs ls -lhrt | awk '{ print $9 " " $6 " " $7 " " $8}' | tac | nvim -
+}
+form ()
+{
+fmt -w 120 "$1" | nvim -
 }
 myman ()
 {
