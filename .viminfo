@@ -278,10 +278,20 @@ $
 # Jumplist (newest first):
 -'  390595  0  /mnt/c/twit/twit0912.mp3
 |4,39,390595,0,1675100836,"/mnt/c/twit/twit0912.mp3"
+-'  390595  0  /mnt/c/twit/twit0912.mp3
+|4,39,390595,0,1675100836,"/mnt/c/twit/twit0912.mp3"
 -'  1  0  /etc/crontab
 |4,39,1,0,1671156702,"/etc/crontab"
 -'  1  0  /etc/crontab
 |4,39,1,0,1671156702,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1671156702,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1671156702,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1671156660,"/etc/crontab"
+-'  1  0  /etc/crontab
+|4,39,1,0,1671156660,"/etc/crontab"
 -'  1  0  /etc/crontab
 |4,39,1,0,1671156660,"/etc/crontab"
 -'  1  0  /etc/crontab
@@ -302,6 +312,38 @@ $
 |4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
 -'  12  0  /mnt/c/projects/script/a.sql
 |4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  12  0  /mnt/c/projects/script/a.sql
+|4,39,12,0,1670907584,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
+-'  1  0  /mnt/c/projects/script/a.sql
+|4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
 -'  1  0  /mnt/c/projects/script/a.sql
 |4,39,1,0,1670907576,"/mnt/c/projects/script/a.sql"
 -'  1  0  /mnt/c/projects/script/a.sql
@@ -382,100 +424,56 @@ $
 |4,39,1,0,1667959707,"~/hyper/test.sh"
 -'  1  0  ~/hyper/test.sh
 |4,39,1,0,1667959707,"~/hyper/test.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
--'  8  0  ~/hyper/j.sh
-|4,39,8,0,1667925651,"~/hyper/j.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
+-'  1  0  ~/hyper/test.sh
+|4,39,1,0,1667959707,"~/hyper/test.sh"
 
 # History of marks within files (newest to oldest):
 

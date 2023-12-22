@@ -1,6 +1,69 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+psa()
+{
+printf '%s\n' "ps -a"
+psa='ps -a'
+}
+kills()
+{
+ps aux | awk '{print $11 $12 $13 "     kill -9 " $2 }' | nvim -
+}
+dud()
+{
+( duh > duh7-23.txt 2>&1  & )
+}
+duc()
+{
+  (du -sh -- * | sort -rh > h 2>&1 &)
+}
+function frg {
+      result=$(rg --ignore-case --color=always --line-number --no-heading "$@" |
+        fzf --ansi \
+            --color 'hl:-1:underline,hl+:-1:underline:reverse' \
+            --delimiter ':' \
+            --preview "bat --color=always {1} --theme='Solarized (light)' --highlight-line {2}" \
+            --preview-window 'up,60%,border-bottom,+{2}+3/3,~3')
+      file=${result%%:*}
+      linenumber=$(echo "${result}" | cut -d: -f2)
+      if [[ -n "$file" ]]; then
+              $EDITOR +"${linenumber}" "$file"
+      fi
+    }
+killst()
+{
+pgrep node | xargs kill -9 && ( npm run server > jserver.txt 2>&1  & )
+}
+pkill()
+{
+pgrep "$1" | xargs kill -9
+}
+mcut()
+{
+ffmpeg -ss 30 -i  "$1"  -acodec copy o"$1"
+}
+dpost()
+{
+cat db.json |jq 'del(.posts[] )' > temp && mv temp db.json
+}
+lsd()
+{
+ls -ltr | awk '{ print $9 }'
+}
+html()
+{
+curl "$1" >scratch.html && tidy scratch.html > temp || mv temp scratch.html
+}
+
+pretty()
+{
+npx js-beautify "$1" > temp && mv temp "$1"
+}
+tid()
+{
+  tidy "$1" > temp || mv temp "$1"
+}
 unq()
 {
 awk '!a[$0]++' "$1" > testfile.tmp && mv testfile.tmp "$1"
@@ -9,9 +72,9 @@ tw()
 {
 fdm --changed-within="$1"days | xargs ls -lhrt | awk '{ print $9 ": " $6 " " $7 " " $8}' | sort -k3
 }
-recents ()
+recv ()
 {
-fdm --changed-within="$1"days | xargs ls -lhrt | awk '{ print $9 " " $6 " " $7 " " $8}' | tac | nvim -
+fdm --changed-within="$1"days | xargs ls -lhrt | awk '{ print $9 " " $6 " " $7 " " $8}' | tac | sort | nvim -
 }
 form ()
 {
@@ -246,5 +309,5 @@ phis () {
   nvim ~/.python_history -c "normal Gzz"
 }
 nh () {
-tac ~/.node_repl_history | nvim -
+nvim ~/.node_repl_history 
 }
