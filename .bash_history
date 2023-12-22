@@ -1,12 +1,3 @@
-rm -rf ./.git/objects/pack/pack-4cbf405d92e71f0f69f12bbd8de678d11db5b8a0.pack
-find . -type f -name "*.pack" | xargs du -h
-cd
-lt
-c
-cd all/
-cd bash/
-lt
-v ye.sh 
 bash ye.sh 
 md ../../you/hhf
 v ye.sh 
@@ -497,4 +488,13 @@ exit
 ps h -p $$ -o args=''
 exit
 go version
+exit
+nvm
+nvm cache dir
+wi nvm
+type -f nvm
+nvm
+nvm | nvim -
+exit
+whereis nvm
 exit

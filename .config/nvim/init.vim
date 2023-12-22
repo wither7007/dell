@@ -2,34 +2,41 @@ let @b='this is this is my thing'
 set undodir=~\.config\nvim\undodir
 " set undofile
 "/home/steff007/.config/nvim/init.vim
+"
+"v C:\Users\jayst\.config\nvim\init.vim
+"v /mnt/c/users/jayst/.config/nvim/init.vim
 "handle silly quotes
-
 let mapleader = ","
 let g:user_emmet_leader_key=','
-nnoremap <Leader>f :NERDTreeToggle<Enter>
-nnoremap <Leader>m "Ayy
+nnoremap <Leader>f ijim
 nnoremap <Leader>o <C-w>o
 nnoremap <leader> <Space> :nohlsearch<Bar>:echo<CR>
 nnoremap <leader>a :suspend<cr>
 nnoremap <leader>d ggVGy:q!
-nnoremap <leader>t :tabnew<CR>
+nnoremap <leader>t :w !clip.exe<CR>
+vnoremap <leader>t :w !clip.exe<CR>
 nnoremap <leader>x :tabclose!<CR>
 nnoremap <leader>z :close!<CR>
 noremap <leader>; vg_y
 noremap <leader>n :%s#\\n#\r#g
+noremap <leader>k 0cwkill -9 0v4ey
+nnoremap <leader>0 gg0"ldG
 "https://vim.fandom.com/wiki/Get_the_name_of_the_current_file#:~:text=In%20command%20mode%20(after%20typing,the%20name%20before%20the%20cursor).
 noremap <leader>p :put =expand('%:p')
 noremap <leader>l ^vg_y
 noremap <leader>q :qa!<cr>
 noremap <leader>w :wa<cr>:qa!
-
+"nnoremap <Leader>m :%s/\//g
+nnoremap <leader>m :%s///g<CR>
+"remember ggggggg s!!!
 map gl vg_y
 map gn :bn<cr>
 map gp :bp<cr>
 map gD :bd<cr>
 map gi /diff --git<cr>zz
+map gx :set filetype=txt
 "switch line to windows
-map gws :s/\/mnt\/c\//c:\:s/\//\\/g
+map gws :s/\/mnt\/c\//c:\:s/\//\\/g
 "copy file name and path to clip!!!
 map gf :let @+ = expand("%:p")<cr>
 set pastetoggle=<leader>o
@@ -174,14 +181,6 @@ syntax on
 "some crazy vimbuffer map
 "vmap <C-c> :w! ~/.vimbuffer \| !cat ~/.vimbuffer \| clip.exe <CR><CR>
 set pastetoggle=<F2>
-" WSL yank support
-" let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
-" if executable(s:clip)
-"     augroup WSLYank
-"         autocmd!
-"         autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
-"     augroup END
-" endif
 let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point"
 "autocmd TextYankPost * if v:event.operator ==# 'y' | call system('cat |' . s:clip, @0) | endif
 au GUIEnter * simalt ~x
