@@ -1,10 +1,32 @@
 #!/bin/bash
 
 #Fri Dec  9 17:05:06 CST 2022
+export FZF_DEFAULT_COMMAND='fd . -tf -d 1 '
+fe() {
+local files
+  IFS=$'\n' files=($(fzf-tmux --preview='nvim {}' --query="$1" --multi --select-1 --exit-0))
+  [[ -n "$files" ]] && nvim "${files[@]}"
+}
+fz()
+{
+fzf --multi \
+--height=50% \
+--margin=5%,2%,2%,5% \
+--layout=reverse-list \
+--info=inline \
+--prompt='$>' \
+--header='CTRL-c or ESC to quit' \
+}
+
+revparse()
+{
+printf '%s\n' "git rev-parse --abbrev-ref head --show-toplevel"
+git rev-parse --abbrev-ref head --show-toplevel
+}
 psa()
 {
 printf '%s\n' "ps -a"
-psa='ps -a'
+ps -a
 }
 kills()
 {
@@ -12,11 +34,11 @@ ps aux | awk '{print $11 $12 $13 "     kill -9 " $2 }' | nvim -
 }
 dud()
 {
-( duh > duh7-23.txt 2>&1  & )
+( duh > $(date | sed 's/\s/_/g' | sed 's/_C.*//g').txt 2>&1  & )
 }
 duc()
 {
-  (du -sh -- * | sort -rh > h 2>&1 &)
+  (du -sh -- * | sort -rh > $(date | sed 's/\s/_/g' | sed 's/_C.*//g').txt 2>&1 &)
 }
 function frg {
       result=$(rg --ignore-case --color=always --line-number --no-heading "$@" |
@@ -168,7 +190,7 @@ nvim $(fzf)
 }
 cputest()
 {
-  sysbench cpu run > ~/cputest/$(date | sed 's/\s/_/g' | sed 's/_CDT.*//g')cpu.txt
+  sysbench cpu run > ~/cputest/$(date | sed 's/\s/_/g' | sed 's/_C.*//g')cpu.txt
 }
 
 f2() {

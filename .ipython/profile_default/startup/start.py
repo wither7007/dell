@@ -13,6 +13,7 @@ import pyperclip
 from contextlib import redirect_stdout
 from datetime import datetime
 import requests
+import json
 print('''/mnt/c/projects/p3/modules/start2.py''')
 print('''/home/steff007/.ipython/profile_default/startup/start.py''')
 get_ipython().run_line_magic('alias_magic', 'h history ')
