@@ -18,11 +18,11 @@ alias e='echo $?'
 alias ehis="v $(echo $HISTFILE)"
 alias f1='fd --changed-within 2day'
 alias fda="fd -H --no-ignore-vcs "
-alias fdi="fd  -H -I "
-alias fday="find ~ -mtime -1 -ls"
 alias fdc="fd -H -I -d 1  -td | column"
 alias fdf="fd -H -I -d 1  -tf | column"
 alias fdh='fd --help | v -'
+alias fdi='fd  -H -I '
+alias fdm="fdi --ignore-file ~/.fdignore"
 alias fm='vifm'
 alias fp='find `pwd` -name '
 alias ga='git add'
@@ -147,10 +147,16 @@ alias p1="/home/steff007/p11/Python-3.11.3/python"
 alias fzc="fzf --preview 'cat {}'"
 alias pf="fzf --preview='less {}' --bind shift-up:preview-page-up,shift-down:preview-page-down"
 alias pff="fzf --preview='less {}' --bind k:preview-page-up,shift-down:preview-page-down"
-alias fdm="fdi --ignore-file ~/.fdignore"
 alias gignore="wget https://raw.githubusercontent.com/wither7007/htmlTemplate/main/html/.gitignore"
 alias mig="p3 /mnt/c/mygits/dll/manage.py "
 alias update="sudo sh -c 'apt-get update && apt-get upgrade && apt-get autoremove'"
 alias gshit="git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'"
 alias vo="nvim -O"
 alias bunh="v ~/.bun/.bun_repl_history"
+alias ll='ls -lh'
+alias lsize='ls --human-readable --size -1 -S --classify'
+alias lastMod='ls -t -1'
+alias nowdate='date +"%d-%m-%Y"'
+alias openport='netstat -tulanp'
+alias top10CPU='ps auxf | sort -nr -k 3 | head -10'
+alias top10mem='ps auxf | sort -nr -k 4 | head -10'

@@ -1,0 +1,69 @@
+
+In functions.sh line 7:
+  IFS=$'\n' files=($(fzf-tmux --preview='nvim {}' --query="$1" --multi --select-1 --exit-0))
+                   ^-- SC2207: Prefer mapfile or read -a to split command output (or quote to avoid splitting).
+
+
+In functions.sh line 8:
+  [[ -n "$files" ]] && nvim "${files[@]}"
+         ^----^ SC2128: Expanding an array without an index only gives the first element.
+
+
+In functions.sh line 62:
+cat db.json |jq 'del(.posts[] )' > temp && mv temp db.json
+    ^-----^ SC2002: Useless cat. Consider 'cmd < file | ..' or 'cmd file | ..' instead.
+
+
+In functions.sh line 66:
+ls -ltr | awk '{ print $9 }'
+^-----^ SC2012: Use find instead of ls to better handle non-alphanumeric filenames.
+
+
+In functions.sh line 70:
+curl "$1" >scratch.html && tidy scratch.html > temp || mv temp scratch.html
+                        ^-- SC2015: Note that A && B || C is not if-then-else. C may run when A is true.
+
+
+In functions.sh line 132:
+k='git init -b main && git add -A && git commit -m "Initial commit"'
+  ^-- SC2089: Quotes/backslashes will be treated literally. Use an array.
+
+
+In functions.sh line 133:
+echo $k
+     ^-- SC2090: Quotes/backslashes in this variable will not be respected.
+     ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+Did you mean: 
+echo "$k"
+
+
+In functions.sh line 186:
+  sysbench cpu run > ~/cputest/$(date | sed 's/\s/_/g' | sed 's/_C.*//g')cpu.txt
+                               ^-- SC2046: Quote this to prevent word splitting.
+
+
+In functions.sh line 198:
+ ls -lhrt | awk '{print $9}'  | nvim -
+ ^------^ SC2012: Use find instead of ls to better handle non-alphanumeric filenames.
+
+
+In functions.sh line 206:
+ ls -lhrt | awk '{print $9, "--" $5}'  | nvim -
+ ^------^ SC2012: Use find instead of ls to better handle non-alphanumeric filenames.
+
+
+In functions.sh line 210:
+cat "$1" | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | nvim -
+    ^--^ SC2002: Useless cat. Consider 'cmd < file | ..' or 'cmd file | ..' instead.
+
+
+In functions.sh line 302:
+        grep -v \:\:1 | \
+                ^-- SC1001: This \: will be a regular ':' in this context.
+                  ^-- SC1001: This \: will be a regular ':' in this context.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2046 -- Quote this to prevent word splitt...
+  https://www.shellcheck.net/wiki/SC2089 -- Quotes/backslashes will be treate...
+  https://www.shellcheck.net/wiki/SC2090 -- Quotes/backslashes in this variab...

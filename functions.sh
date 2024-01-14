@@ -2,26 +2,23 @@
 
 #Fri Dec  9 17:05:06 CST 2022
 export FZF_DEFAULT_COMMAND='fd . -tf -d 1 '
+#fdi()
+#{
+#  printf '%s\n' "fd  -H -I "
+#  fd  -H -I 
+#}
 fe() {
 local files
   IFS=$'\n' files=($(fzf-tmux --preview='nvim {}' --query="$1" --multi --select-1 --exit-0))
   [[ -n "$files" ]] && nvim "${files[@]}"
 }
-fz()
-{
-fzf --multi \
---height=50% \
---margin=5%,2%,2%,5% \
---layout=reverse-list \
---info=inline \
---prompt='$>' \
---header='CTRL-c or ESC to quit' \
+big() {
+(fdi --size +10m | xargs ls -lhrt | awk '{ print $5 " :  " $9 }' > big)
 }
-
 revparse()
 {
 printf '%s\n' "git rev-parse --abbrev-ref head --show-toplevel"
-git rev-parse --abbrev-ref head --show-toplevel
+git rev-parse --abbrev-ref HEAD --show-toplevel
 }
 psa()
 {
@@ -34,11 +31,11 @@ ps aux | awk '{print $11 $12 $13 "     kill -9 " $2 }' | nvim -
 }
 dud()
 {
-( duh > $(date | sed 's/\s/_/g' | sed 's/_C.*//g').txt 2>&1  & )
+( duh > "$(date | sed 's/\s/_/g' | sed 's/_C.*//g')".txt 2>&1  & )
 }
 duc()
 {
-  (du -sh -- * | sort -rh > $(date | sed 's/\s/_/g' | sed 's/_C.*//g').txt 2>&1 &)
+  (du -sh -- * | sort -rh > "$(date | sed 's/\s/_/g' | sed 's/_C.*//g')".txt 2>&1 &)
 }
 function frg {
       result=$(rg --ignore-case --color=always --line-number --no-heading "$@" |
@@ -98,6 +95,11 @@ recv ()
 {
 fdm --changed-within="$1"days | xargs ls -lhrt | awk '{ print $9 " " $6 " " $7 " " $8}' | tac | sort | nvim -
 }
+
+recf ()
+{
+fdm --changed-within="$1"days | xargs ls -lhrt | awk '{ print $9 " " $6 " " $7 " " $8}' | tac | sort > /mnt/c/projects/left.txt
+}
 form ()
 {
 fmt -w 120 "$1" | nvim -
@@ -108,7 +110,7 @@ cht.sh "$1" | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | nvim -
 }
 ppath ()
 {
-echo $PATH | perl -pe 's/:/\n/g' #! split path"
+echo "$PATH" | perl -pe 's/:/\n/g' | sort #! split path"
 }
 ds ()
 {
@@ -151,7 +153,7 @@ ps -A --sort -rss -o comm,pmem | awk '
 deleteall()
 {
 k='find -mindepth 1 -maxdepth 1 -print0 | xargs -r0 rm -rf'
-echo $k
+echo "$k"
 bash -c "$k"
 }
 pyse()
@@ -184,13 +186,9 @@ recf()
 {
 fdi --changed-within="$1"hours --ignore-file ~/.fdignore -x ls -lhr | cut -d' ' -f5-13
 }
-fzn()
-{
-nvim $(fzf)
-}
 cputest()
 {
-  sysbench cpu run > ~/cputest/$(date | sed 's/\s/_/g' | sed 's/_C.*//g')cpu.txt
+  sysbench cpu run > ~/cputest/"$(date | sed 's/\s/_/g' | sed 's/_C.*//g')"cpu.txt
 }
 
 f2() {
@@ -215,11 +213,6 @@ ltvs()
 esc()
 {
 cat "$1" | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" | nvim -
-}
-fdmp()
-{
-fileN=$( date +"%m-%d-%H-%M-%S""_mps.txt" )
-( find /mnt/c/ -regex '.*\.\(mp4\|mp3\)' > /mnt/c/temp/$fileN 2>/mnt/c/temp/yy &)
 }
 myst() {
 stat "$1" --format='acc: %x mod: %y  change: %z'
@@ -249,7 +242,6 @@ man "$1" | nvim -
 windir () {
 pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' | v -
 }
-p() { printf '%s\n' "$1"; }
 se () {    history | rg -i "$1"; }
 manv () { man "$1" | v -c 'set nonumber' - ; }
 gith () { git help "$1" | v -c 'set nonumber' - ; }
@@ -259,17 +251,13 @@ ex () { exiftool -j "$1" | v - ;}
 gith(){
 git "$1" --help | nvim - 
 }
-lcd () { 
-  echo  ${FUNCNAME[0]}
-  ls -d */
-}
-take () { mkdir -p -- "$1" && cd -P -- "$1"; } 
-rgg () { rg "$1" /mnt/c/all/gcloud_his $HISTFILE ;}
+take () { mkdir -p -- "$1" && cd -P -- "$1" || exit; } 
+rgg () { rg "$1" /mnt/c/all/gcloud_his "$HISTFILE" ;}
 
 chah()  {
-fd -H -I -tf -L --changed-within=$1hours |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%n   %.19z" | sort | sed -e "s/[0-9]*\:.*00\///g" ; }
+fd -H -I -tf -L --changed-within="$1"hours |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%n   %.19z" | sort | sed -e "s/[0-9]*\:.*00\///g" ; }
 cham() {
-fd -H -I -tf -L --changed-within=$1minutes |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g"; }
+fd -H -I -tf -L --changed-within="$1"minutes |  rg -v "tld|conf|\.git|hyp|cache|\.local" | xargs stat -c "%y/%n" | sort | sed -e "s/[0-9]*\:.*00\///g"; }
 hit() {
   history | tail -n "$1"; 
 }
@@ -296,13 +284,13 @@ vdiff () {
 
 gits () {
   printf '%s\n' "git status -vv | v -"
-  read
+  read -r
   git status -vv | nvim -
 }
 
 glst () {
   printf '%s\n' "git log --stat | vim -"
-  read
+  read -r
   #git log --stat | nvim -
 }
 he() 
@@ -312,7 +300,7 @@ he()
 function myip() {
         curl http://icanhazip.com      
 
-        ip addr | grep inet$IP | \
+        ip addr | grep inet"$IP" | \
         cut -d"/" -f 1 | \
         grep -v 127\.0 | \
         grep -v \:\:1 | \
@@ -331,5 +319,13 @@ phis () {
   nvim ~/.python_history -c "normal Gzz"
 }
 nh () {
-nvim ~/.node_repl_history 
+  nvim ~/.node_repl_history 
+}
+gitshow () {
+printf '%s\n' "git show --stat --oneline HEAD"
+git show --stat --oneline HEAD
+}
+fday () {
+  printf '%s\n' "find ~ -mtime -1 -ls | awk '{ print  \$11 }'"
+  find ~ -mtime -1 -ls | awk '{ print  $11 }'
 }
