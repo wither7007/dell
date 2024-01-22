@@ -7,11 +7,26 @@ export FZF_DEFAULT_COMMAND='fd . -tf -d 1 '
 #  printf '%s\n' "fd  -H -I "
 #  fd  -H -I 
 #}
-fe() {
-local files
-  IFS=$'\n' files=($(fzf-tmux --preview='nvim {}' --query="$1" --multi --select-1 --exit-0))
-  [[ -n "$files" ]] && nvim "${files[@]}"
+wpwd() {
+   printf '%s\n' "' pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'"
+   pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
+  pwd | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' | cl
+
 }
+
+ffm() {
+  printf '%s\n' "ffmpeg -i "$1"  -ss "$2" -to "$3"  -vcodec libx264 -acodec copy x"$1".mp4"
+ffmpeg -i "$1"  -ss "$2" -to "$3"  -vcodec libx264 -acodec copy x"$1".mp4
+}
+gss() {
+  printf '%s\n' 'git status -s'
+  git status -s
+}
+#fe() {
+#local files
+#  IFS=$'\n' files=($(fzf-tmux --preview='nvim {}' --query="$1" --multi --select-1 --exit-0))
+#  [[ -n "$files" ]] && nvim "${files[@]}"
+#}
 big() {
 (fdi --size +10m | xargs ls -lhrt | awk '{ print $5 " :  " $9 }' > big)
 }
@@ -77,7 +92,7 @@ curl "$1" >scratch.html && tidy scratch.html > temp || mv temp scratch.html
 
 pretty()
 {
-npx js-beautify "$1" > temp && mv temp "$1"
+npx js-beautify "$1" > temp && mv temp p"$1"
 }
 tid()
 {
@@ -196,15 +211,24 @@ f2() {
 fd -a -tf --changed-within 2d | more
 }
 wind(){
+#todo
+#fdi --ignore-file ~/.fdignore -a -d 2 | xargs stat -c "%n %y"
+#https://stackoverflow.com/questions/49212650/how-to-sort-files-by-last-modified-time-using-stat-c-ny-bash
+#nvim window format files
 fdi --ignore-file ~/.fdignore -a -d 2 "$1" | sed 's|\/mnt\/c|c\:|' | sed 's|\/|\\|g' |  nvim -
+}
+mywin() {
+#convert linux name win for one arg
+fd -a $1 | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
 }
 ltv()
 {
  ls -lhrt | awk '{print $9}'  | nvim -
 }
-winf()
+winfi()
 {
 fd -a "$1" | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g'
+fd -a "$1" | sed 's.\/mnt\/c.c\:.' | sed 's.\/.\\.g' | cl
 }
 ltvs()
 {
@@ -326,6 +350,6 @@ printf '%s\n' "git show --stat --oneline HEAD"
 git show --stat --oneline HEAD
 }
 fday () {
-  printf '%s\n' "find ~ -mtime -1 -ls | awk '{ print  \$11 }'"
-  find ~ -mtime -1 -ls | awk '{ print  $11 }'
+  printf '%s\n' "find . -mtime -1 -ls | awk '{ print  \$11 }'"
+  find . -mtime -1 -ls | awk '{ print  $11 }'
 }

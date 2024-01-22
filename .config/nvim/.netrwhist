@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/mnt/c/projects/music/gut/script'
 let g:netrw_dirhist_8='/mnt/c/projects/server/wds'
 let g:netrw_dirhist_7='/mnt/c/you/evans'
 let g:netrw_dirhist_6='/mnt/c/mygits/htmlTemplate'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_3='/mnt/c/mygits/React-Todo/src'
 let g:netrw_dirhist_2='/mnt/c/temp/beat.tgz'
 let g:netrw_dirhist_1='/home/steff007/.ipython/profile_default/startup'
 let g:netrw_dirhist_0='/etc/apt'
-let g:netrw_dirhist_9='/mnt/c/projects/tailDoc/css/input.css'

@@ -84,7 +84,8 @@ source ~/.bash_aliases
 #alias cp='cp -i'
 # Prevent rm -f from asking for confirmation on things like `rm -f *.bak`.
 export EDITOR=nvim
-source ~/functions.sh
+#source ~/functions.sh
+source ~/script/functions.sh
 #source ~/path
 #changed 9-3 for go working
 export PATH=/usr/lib:/usr/local/go/bin:/opt/bld:/usr/local/bin:/bin:/home/steff007:/home/steff007/.cargo/bin:/home/steff007/.local/bin:/home/steff007/jq:/home/steff007/script:/sbin:/usr/lib/wsl/lib:/usr/local/bin:/usr/local/games:/usr/local/sbin:/usr/sbin:/mnt/c/projects/p3/work: 
