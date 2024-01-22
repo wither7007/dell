@@ -11,8 +11,8 @@ alias cm="cd /mnt/c"
 alias curl="curl -L -s "
 alias cx="chmod +x "
 alias dcount="du -a | cut -d/ -f2 | sort | uniq -c | sort -nr | v -"
-alias down="cd /mnt/c/Users/jayst/Downloads" 
 alias dc="(du -a | cut -d/ -f2 | sort | uniq -c | sort -nr > dircount &)"
+alias down="cd /mnt/c/Users/jayst/Downloads" 
 alias duh='du -h --max-depth=1'
 alias e='echo $?'
 alias ehis="v $(echo $HISTFILE)"
@@ -49,7 +49,6 @@ alias gr='grep'
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 alias gs='git switch'
-alias gss='git status -s'
 alias gst='git status'
 alias gup='git fetch && git rebase'
 alias gflog='git reflog | nvim -'
@@ -160,3 +159,16 @@ alias nowdate='date +"%d-%m-%Y"'
 alias openport='netstat -tulanp'
 alias top10CPU='ps auxf | sort -nr -k 3 | head -10'
 alias top10mem='ps auxf | sort -nr -k 4 | head -10'
+#from 
+#https://github.com/hyperupcall/dotfiles/blob/31e5992350f81fd6926c6ee19d43777a86940276/os/unix/user/.config/shell/modules/aliases/aliases.sh
+alias aptup='sudo apt update'
+alias aptug='sudo apt upgrade'
+alias aptfug='sudo apt full-upgrade'
+alias apti='sudo apt install'
+alias aptri='sudo apt reinstall'
+alias aptrei='sudo apt reinstall'
+alias aptrem='sudo apt remove'
+alias aptp='sudo apt purge'
+alias aptse='apt search'
+alias aptsh='apt show'
+alias aptl='apt list'

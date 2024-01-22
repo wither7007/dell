@@ -1,0 +1,10 @@
+ 113273 .local
+  35334 .cache
+  32341 .npm
+   4177 temp
+   4155 .git
+   2830 go
+   1740 .bun
+   1560 node_modules
+   1419 .oh-my-zsh
+   1274 .config

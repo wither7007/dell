@@ -6,6 +6,10 @@ set undodir=~\.config\nvim\undodir
 "v C:\Users\jayst\.config\nvim\init.vim
 "v /mnt/c/users/jayst/.config/nvim/init.vim
 "handle silly quotes
+"
+"get current path in insert mode
+inoremap \fp <C-R>=getcwd()<CR>
+inoremap \fn <C-R>=expand("%:p:h")<CR>
 let mapleader = ","
 let g:user_emmet_leader_key=','
 nnoremap <Leader>f ijim
@@ -54,8 +58,6 @@ set expandtab
 set splitright
 set hidden
 "cool vim tip paste work d in insert
-inoremap \fp <C-R>=getcwd()<CR>
-inoremap \fn <C-R>=expand("%:p:h")<CR>
 "Why visually select the line....and why :r!pwd even. Simply !!pwd on a line will replace it with the output of the pwd command. Personally my favorite external command setup is to mark the top of the region with an "a" mark the bottom of the region with a "s" and then :`a,`s !sort or any other command. Even better if you map a key to :`a,`s. E.g.
 
 "map - :`a,`s
