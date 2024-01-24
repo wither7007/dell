@@ -1,0 +1,12 @@
+https://www.pixelite.co.nz/article/finding-and-deleting-large-files-in-a-git-repo/
+git count-objects -vH
+git rev-list --objects --all |
+  git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' |
+  sed -n 's/^blob //p' |
+  sort --numeric-sort --key=2 |
+  cut -c 1-12,41- |
+  $(command -v gnumfmt || echo numfmt) --field=2 --to=iec-i --suffix=B --padding=7 --round=nearest
+
+https://rtyley.github.io/bfg-repo-cleaner/
+https://stackoverflow.com/questions/61769785/warning-no-large-blobs-matching-criteria-found-in-packfiles-does-the-repo-ne
+git gc
