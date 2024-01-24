@@ -10,3 +10,4 @@ git rev-list --objects --all |
 https://rtyley.github.io/bfg-repo-cleaner/
 https://stackoverflow.com/questions/61769785/warning-no-large-blobs-matching-criteria-found-in-packfiles-does-the-repo-ne
 git gc
+https://stackoverflow.com/questions/43231061/how-to-remove-a-protected-commit-using-bfg
